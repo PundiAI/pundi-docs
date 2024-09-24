@@ -34,4 +34,4 @@
 
 * Individuals or organizations that use datasets to train AI models, advancing&#x20;
 
-<figure><img src="../../.gitbook/assets/All_Drawings_Drawing 07.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image13.png" alt=""><figcaption></figcaption></figure>
