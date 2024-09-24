@@ -25,6 +25,8 @@ Meanwhile, large corporations' annual spending on data procurement is rapidly in
 
 Recognizing the importance, potential, and challenges in this domain, the Pundi team believes it can offer the world a decentralized data marketplace. This marketplace will protect workers' long-term interests and continuously improve data quality through market competition.
 
+<figure><img src="../../../.gitbook/assets/image7 (2).png" alt=""><figcaption></figcaption></figure>
+
 Here are some statistics for reference:
 
 `OpenAI has spent hundreds of millions of dollars licensing content from news publishers, stock media libraries, and more to train its AI models — a budget far beyond that of most academic research groups, nonprofits, and startups.`
