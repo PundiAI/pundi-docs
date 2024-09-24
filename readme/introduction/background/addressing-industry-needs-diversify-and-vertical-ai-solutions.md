@@ -1,4 +1,4 @@
-# Addressing Industry Needs: Vertical AI Solutions
+# Addressing Industry Needs: Diversify and Vertical AI Solutions
 
 A significant challenge in the AI industry is the scarcity of vertical datasets—clear, filtered, and up-to-date information specific to particular sectors. Vertical AI solutions are designed to address the unique challenges and opportunities within specific industries. By leveraging domain expertise and industry-specific data, these applications deliver unparalleled results, transforming business operations.
 
@@ -12,6 +12,6 @@ In addition to the continued high demand for text and image data in mainstream l
 
 For a long time, there will be a significant demand for large-scale human-labeled data. This is not only because current AI tools and models lack sufficient accuracy and diversity in automatic labeling, but also because of the unique human understanding of the world and the emotional requirements beyond AI capabilities. These aspects are hard to replace in the short term. In the workflow of large models today, Reinforcement Learning from Human Feedback (RLHF) is crucial for model training and development. Therefore, the manual review of human-labeled data will also be irreplaceable by other tools in the near future.
 
-<figure><img src="../.gitbook/assets/D1-01 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/D1-01 (1).png" alt=""><figcaption></figcaption></figure>
 
 A survey reveals that 69% of respondent organizations rely on unstructured data such as text, images, and audio-visual media to train models. Among them, 35% consider data quality as the biggest challenge. To address this issue, 55% of organizations use internal labeling teams, 50% employ specialized data labeling services, and 29% utilize crowdsourcing for data labeling. Organizations are expanding the scale of their data labeling efforts, with an increasing demand for specialized, vertical domain labeled data.

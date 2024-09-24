@@ -6,6 +6,6 @@
 
 These trends highlight the growing recognition of AI's potential and the increasing commitment to integrating AI into business operations. The significant planned investments and the deployment of multiple models underscore the importance of AI in driving future business success.
 
-<figure><img src="../.gitbook/assets/image7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image7.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image8.png" alt=""><figcaption></figcaption></figure>

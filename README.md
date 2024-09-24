@@ -1,5 +1,5 @@
 ---
-description: A Decentralized AI data LAYER
+description: Democratizing and Tokenizing AI Data
 ---
 
 # Pundi AIFX
