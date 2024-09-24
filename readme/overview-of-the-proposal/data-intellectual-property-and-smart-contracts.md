@@ -4,5 +4,5 @@ Pundi AIFX aims to encourage over 10 million global participants to engage in ta
 
 Each data label's encryption is securely stored within the NFT information. Untagged source data remains stored in the cloud and IPFS. Only when a user initiates a transaction on the blockchain and the contract receives and pays a specified fee, will the data be signed and made accessible. Nodes then process the data, merge it, and provide the user with a download link and method, ensuring decentralized and fair operation of the entire system.
 
-<figure><img src="../.gitbook/assets/D1-03.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/D1-03.png" alt=""><figcaption></figcaption></figure>
 

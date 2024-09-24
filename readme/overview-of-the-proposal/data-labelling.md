@@ -4,4 +4,4 @@ Pundi AIFX will provide comprehensive tools that facilitate the entire process f
 
 As a decentralized open system, any developer can create labeling systems or plugins tailored to Pundi AIFX users, matching different models and functionalities. Developers can also design tools specifically for workflows of different model teams and utilize Pundi AIFX's on-chain data to develop diverse data markets or filtering tools. All efforts aim to efficiently and effectively match data to developers, enhancing the overall ecosystem.
 
-<figure><img src="../.gitbook/assets/D1-04.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/D1-04.png" alt=""><figcaption></figcaption></figure>

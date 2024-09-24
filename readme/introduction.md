@@ -5,5 +5,3 @@ The development and demand in the AI field need no further elaboration. As AI mo
 To accelerate and propel the AI industry forward, Pundi is leveraging its unique strengths to launch an innovative blockchain-based product: the decentralized AI data platform — Pundi AIFX. By deeply integrating with the AI industry's needs and addressing its challenges, we aim to use blockchain technology to build a bridge between real-world data and AI companies.
 
 > Creating AI is a remarkable achievement, but making AI’s work accessible, widely applicable, and involving common people is even greater.
-
-\

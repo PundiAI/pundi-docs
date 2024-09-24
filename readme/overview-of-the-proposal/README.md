@@ -21,4 +21,4 @@ The entire process ensures transparent tracking of data sources, enabling model 
 
 
 
-<figure><img src="../.gitbook/assets/D1-02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/D1-02.png" alt=""><figcaption></figcaption></figure>
