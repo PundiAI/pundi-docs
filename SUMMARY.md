@@ -1,9 +1,9 @@
 # Table of contents
 
 * [Pundi AIFX](README.md)
-  * [Introduction](readme/introduction/README.md)
-    * [Mission](readme/introduction/mission.md)
-    * [Background](readme/introduction/background.md)
+  * [Introduction](readme/introduction.md)
+    * [Mission](readme/mission.md)
+    * [Background](readme/background.md)
   * [Addressing Industry Needs: Vertical AI Solutions](readme/addressing-industry-needs-vertical-ai-solutions.md)
   * [Trend Research](readme/trend-research.md)
   * [Overview of the Proposal](readme/overview-of-the-proposal/README.md)
