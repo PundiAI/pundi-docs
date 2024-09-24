@@ -4,28 +4,21 @@ description: The Crucial Role of Training Data in AI Development
 
 # Background
 
-Pundi AIFX is building an open, transparent, and decentralized AI data platform. Through decentralized and fair incentive mechanisms, we aim to continuously improve the quality and quantity of AI data while ensuring that a higher proportion of the fees paid by data users go directly to data providers. This way, the decentralized and open nature of blockchain can drive the AI revolution.
+According to James Betker, a researcher at OpenAI, the success and complexity of AI systems are increasingly determined by the quality and diversity of their training data rather than their model design, architecture, or other features. His extensive experience in training generative models has led him to a critical realization: `"Model behavior is not determined by architecture, hyperparameters, or optimizer choices. It’s determined by your dataset, nothing else."`
 
-According to James Betker, a researcher at OpenAI, training data (rather than model design, architecture, or any other features) is the key to increasingly complex and powerful AI systems.&#x20;
+Betker's insights underscore that, regardless of the model type—whether diffusion conv-unets or ViT generators—if they are trained on the same dataset, they will eventually produce similar results. This convergence highlights the fact that the dataset's richness and variety are the primary factors influencing the model's capabilities.
 
-`I’ve been at OpenAI for almost a year now. In that time, I’ve trained a lot of generative models. More than anyone really has any right to train. As I’ve spent these hours observing the effects of tweaking various model configurations and hyperparameters, one thing that has struck me is the similarities in between all the training runs.`
+This revelation has significant implications for the AI industry. It shifts the focus from optimizing model architectures to curating and expanding datasets. As Betker notes, `"Sufficiently large diffusion conv-unets produce the same images as ViT generators. AR sampling produces the same images as diffusion."` This uniformity in outcomes across different model types suggests that the dataset's content is the true driver of model performance.
 
-`It’s becoming awfully clear to me that these models are truly approximating their datasets to an incredible degree. What that means is not only that they learn what it means to be a dog or a cat, but the interstitial frequencies between distributions that don’t matter, like what photos humans are likely to take or words humans commonly write down.`
-
-`What this manifests as is – trained on the same dataset for long enough, pretty much every model with enough weights and training time converges to the same point. Sufficiently large diffusion conv-unets produce the same images as ViT generators. AR sampling produces the same images as diffusion.`
-
-`This is a surprising observation! It implies that model behavior is not determined by architecture, hyperparameters, or optimizer choices. It’s determined by your dataset, nothing else. Everything else is a means to an end in efficiently delivery compute to approximating that dataset.`
-
-`Then, when you refer to “Lambda”, “ChatGPT”, “Bard”, or “Claude” then, it’s not the model weights that you are referring to. It’s the dataset.`
-
-[https://nonint.com/2023/06/10/the-it-in-ai-models-is-the-dataset/\
-](https://nonint.com/2023/06/10/the-it-in-ai-models-is-the-dataset/)
+For AI developers and companies, this means that investing in high-quality, diverse datasets is paramount. It also implies that when discussing different AI models like "Lambda," "ChatGPT," "Bard," or "Claude," the real differentiator is not the model weights or configurations but the underlying dataset each model was trained on.
 
 Meanwhile, large corporations' annual spending on data procurement is rapidly increasing from tens of billions to an estimated $300 to $500 billion, or even higher. Scale AI, a leading data provider in the AI industry, recently raised $1 billion with a valuation exceeding $14 billion and is expected to go public soon. In stark contrast to the success and admiration of leading AI companies, data providers like Scale AI often employ teams or subcontractors in developing countries, where workers are hired at extremely low costs and subjected to long hours without any benefits or job security.
 
-Recognizing the importance, potential, and challenges in this domain, the Pundi team believes it can offer the world a decentralized data marketplace. This marketplace will protect workers' long-term interests and continuously improve data quality through market competition.
-
 <figure><img src="../../../.gitbook/assets/image7 (2).png" alt=""><figcaption></figcaption></figure>
+
+In the context of Pundi AIFX, this emphasis on data is particularly relevant. The platform's mission to democratize data contribution and ensure fair compensation for data providers aligns with the understanding that data quality is the cornerstone of AI innovation. By facilitating the contribution of diverse, high-quality datasets, Pundi AIFX can play a pivotal role in advancing AI technology, ensuring that models trained on its platform are as powerful and nuanced as possible.
+
+The AI data marketplace, as envisioned by Pundi AIFX, becomes even more critical when we consider Betker's insights. It highlights the need for decentralized, transparent, and incentivized data ecosystems where contributors are rewarded for the invaluable data they provide, driving the next wave of AI advancements.
 
 Here are some statistics for reference:
 
@@ -35,4 +28,4 @@ Here are some statistics for reference:
 
 `Stock media library Shutterstock has signed deals with AI vendors ranging from $25 million to $50 million.`
 
-`Reddit claims to have made hundreds of millions from licensing data to organizations such as Google and OpenAI.`\
+`Reddit claims to have made hundreds of millions from licensing data to organizations such as Google and OpenAI.`
