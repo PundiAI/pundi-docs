@@ -35,7 +35,7 @@
     * [Delegators FAQ](delegators/delegators-faq.md)
     * [Delegator CLI Guide](delegators/delegator-cli-guide.md)
     * [Delegator Security Notice](delegators/delegator-security-notice.md)
-  * ### FXCORE TUTORIALS
+  * [FXCORE TUTORIALS](fxcore-tutorials/README.md)
     * [f(x)Cored CLI Commands](fxcore-tutorials/fxcored-commands-documentation.md)
     * [Cloud Setup](fxcore-tutorials/cloud-setup.md)
     * [Testnet faucet](fxcore-tutorials/testnet-faucet.md)
