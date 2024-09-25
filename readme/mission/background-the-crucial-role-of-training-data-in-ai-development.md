@@ -2,7 +2,7 @@
 
 According to James Betker, a researcher at OpenAI, the success and complexity of AI systems are increasingly determined by the quality and diversity of their training data rather than their model design, architecture, or other features. His extensive experience in training generative models has led him to a critical realization:
 
-> "Model behavior is not determined by architecture, hyperparameters, or optimizer choices. It’s determined by your dataset, nothing else."
+> **"Model behavior is not determined by architecture, hyperparameters, or optimizer choices. It’s determined by your dataset, nothing else."**
 
 Betker's insights underscore that, regardless of the model type—whether diffusion conv-unets or ViT generators—if they are trained on the same dataset, they will eventually produce similar results. This convergence highlights the fact that the dataset's richness and variety are the primary factors influencing the model's capabilities.
 
@@ -20,10 +20,10 @@ The AI data marketplace, as envisioned by Pundi AIFX, becomes even more critical
 
 Here are some statistics for reference:
 
-> OpenAI has spent hundreds of millions of dollars licensing content from news publishers, stock media libraries, and more to train its AI models — a budget far beyond that of most academic research groups, nonprofits, and startups.
+> **OpenAI has spent hundreds of millions of dollars licensing content from news publishers, stock media libraries, and more to train its AI models — a budget far beyond that of most academic research groups, nonprofits, and startups.**
 >
-> Meta even considered acquiring publisher Simon & Schuster for the rights to e-book excerpts (ultimately, Simon & Schuster sold to private equity firm KKR for $1.62 billion in 2023).
+> **Meta even considered acquiring publisher Simon & Schuster for the rights to e-book excerpts (ultimately, Simon & Schuster sold to private equity firm KKR for $1.62 billion in 2023).**
 >
-> Stock media library Shutterstock has signed deals with AI vendors ranging from $25 million to $50 million.
+> **Stock media library Shutterstock has signed deals with AI vendors ranging from $25 million to $50 million.**
 >
-> Reddit claims to have made hundreds of millions from licensing data to organizations such as Google and OpenAI.
+> **Reddit claims to have made hundreds of millions from licensing data to organizations such as Google and OpenAI.**

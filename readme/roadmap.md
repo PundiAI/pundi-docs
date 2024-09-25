@@ -1,6 +1,6 @@
 # Roadmap
 
-## Phase 1: Inception, Q3 2024
+### Phase 1: Inception, Q3 2024
 
 * Website upgrade
 * Publication of the PUNDI AIFX White Paper
@@ -10,7 +10,7 @@
 * Governance voting
 * Community building
 
-## Phase 2: Perception, Q4 2024
+### Phase 2: Perception, Q4 2024
 
 * AIFX connection to 1-2 L1/L2 networks
 * AI DATA NFT beta launch
@@ -21,7 +21,7 @@
 
 \*Token swap (subject to community and exchange support)
 
-## Phase 3: Intersection, Q1 2025
+### Phase 3: Intersection, Q1 2025
 
 * AI DATA marketplace and referral program launch
 * Data annotation tool (browser and mobile app release)
