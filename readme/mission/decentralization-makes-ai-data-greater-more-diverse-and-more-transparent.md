@@ -2,8 +2,6 @@
 
 ## 1. Diverse Data Sources:
 
-> PUNDI AIFX's mission is to democratize data contribution and production, delivering high-quality, diverse datasets for the next generation of AI and ensuring fair compensation for AI contributors.
-
 * Global Participation: Decentralization allows data to be collected from a wide range of sources around the world, rather than being controlled by a single entity or organization. This broadens the variety of data inputs, encompassing different cultures, environments, and perspectives, leading to richer and more diverse datasets.
 * Inclusion of Marginalized Voices: Decentralized systems can give a voice to underrepresented communities by allowing them to contribute data that might otherwise be overlooked. This reduces biases in AI models and leads to more inclusive and representative outcomes.
 
