@@ -23,7 +23,6 @@
   * [Takeaways About Beta](pundi-aidata/takeaways-about-beta.md)
   * [Tips for Trying Out Pundi AIData Beta](pundi-aidata/tips-for-trying-out-pundi-aidata-beta.md)
   * [Beta Walkthrough](pundi-aidata/beta-walkthrough.md)
-
 * [FXCORE](fxcore/what-is-fxcore.md)
   * [Installation f(x)Core](fxcore/installation.md)
   * [Setup Node](fxcore/setup-node/README.md)
@@ -31,12 +30,10 @@
     * [Full node with Docker](fxcore/setup-node/full-node-with-docker.md)
     * [Snapshot Guide](fxcore/setup-node/use-snapshot.md)
     * [Node Monitoring Device](fxcore/setup-node/node-monitor.md)
-
   * [Delegators]()
     * [Delegators FAQ](delegators/delegators-faq.md)
     * [Delegator CLI Guide](delegators/delegator-cli-guide.md)
     * [Delegator Security Notice](delegators/delegator-security-notice.md)
-
   * [f(x)Core Tutorials]()
     * [f(x)Cored CLI Commands](fxcore-tutorials/fxcored-commands-documentation.md)
     * [Cloud Setup](fxcore-tutorials/cloud-setup.md)
@@ -44,7 +41,6 @@
     * [Ledger Integration for fxcored](fxcore-tutorials/ledger-integration-for-fxcored.md)
     * [Sentry Nodes](fxcore-tutorials/sentry-nodes.md)
     * [Account Migration Guide (CLI)](fxcore-tutorials/account-migration-guide.md)
-
   * [Upgrade Instructions]()
     * [Cosmovisor Upgrade Guide v7.5.x](upgrade-instructions/cosmovisor/README.md)
       * [Cosmovisor Integration - Binaries](upgrade-instructions/cosmovisor/tutorial-binaries.md)
@@ -58,7 +54,6 @@
       * [v4.2.1 Upgrade Instructions](upgrade-instructions/versions/v4.2.1.md)
       * [v5.0.0 Upgrade Instructions](upgrade-instructions/versions/v5.0.0.md)
     * [Upgrade FAQ](upgrade-instructions/upgrade-faq.md)
-
   * [Deploying on f(x)core EVM]()
     * [Products](deploying-on-fxcore-evm/deployed-dapps.md)
     * [MetaMask](deploying-on-fxcore-evm/metamask/README.md)
@@ -75,7 +70,6 @@
     * [Cross-Chain Bridges](deploying-on-fxcore-evm/cross-chain-bridges/README.md)
       * [Bridging Tokens from other networks](deploying-on-fxcore-evm/cross-chain-bridges/bridging-tokens-from-other-networks.md)
       * [f(x)Core Gravity Bridge](deploying-on-fxcore-evm/cross-chain-bridges/fxcore-gravity-bridge.md)
-
   * [DAPPS & INFRASTRUCTURE]()
     * [Margin X Swap](dapps-and-infrastructure/fx-swap.md)
     * [FX Wallet](dapps-and-infrastructure/fx-wallet.md)
@@ -84,7 +78,6 @@
     * [Safe Multisig](dapps-and-infrastructure/safe-multisig.md)
     * [PortfolioX](dapps-and-infrastructure/portfoliox.md)
     * [Token Factory](dapps-and-infrastructure/token-factory.md)
-
   * [Developers]()
     * [f(x)Core Network](developers/network.md)
     * [f(x)Core Modules](developers/modules.md)
@@ -112,7 +105,6 @@
       * [Python SDK](developers/f-x-core-sdks/python-sdk.md)
       * [JavaScript SDK](developers/f-x-core-sdks/javascript-sdk.md)
     * [Contract Monitoring](developers/contract-monitoring.md)
-
   * [Governance]()
     * [Governance Proposal Information](governance/governance-proposal-information/README.md)
       * [EGF Info](governance/governance-proposal-information/egf-info.md)
