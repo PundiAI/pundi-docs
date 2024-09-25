@@ -23,3 +23,11 @@
   * [Takeaways About Beta](pundi-aidata/takeaways-about-beta.md)
   * [Tips for Trying Out Pundi AIData Beta](pundi-aidata/tips-for-trying-out-pundi-aidata-beta.md)
   * [Beta Walkthrough](pundi-aidata/beta-walkthrough.md)
+
+* [Pundi AIFX](fxcore/what-is-fxcore.md)
+  * [Installation f(x)Core](fxcore/installation.md)
+  * [Setup Node](fxcore/setup-node/README.md)
+    * [Full node with Binaries](fxcore/setup-node/full-node-with-binaries.md)
+    * [Full node with Docker](fxcore/setup-node/full-node-with-docker.md)
+    * [Snapshot Guide](fxcore/setup-node/use-snapshot.md)
+    * [Node Monitoring Device](fxcore/setup-node/node-monitor.md)
