@@ -6,12 +6,12 @@ In the current phase of AI development, data and computing power are the fuel an
 
 In addition to the continued high demand for text and image data in mainstream languages, there is a significant and unmet demand for data in other languages, specific content, and audio-visual media in vertical domains. As Jensen Huang mentioned in his conversation with UAE Minister Omar Al Olama, "Sovereign AI brings together your culture, social wisdom, common sense, and history. Your data is unique." This demand for specialized, state-invested data is expected to surge starting in 2024.
 
-> #### Even if you train long enough with enough GPUs, you’ll get similar results with any modern model. It’s not about the model, it’s about the data that it was trained with. The difference between performance is the volume and quality of data, especially human feedback data. You absolutely need it. That will determine your success.&#x20;
+> Even if you train long enough with enough GPUs, you’ll get similar results with any modern model. It’s not about the model, it’s about the data that it was trained with. The difference between performance is the volume and quality of data, especially human feedback data. You absolutely need it. That will determine your success.&#x20;
 >
-> #### - Ashiqur Rahman, Machine Learning Researcher, Kimberly-Clark
+> \- Ashiqur Rahman, Machine Learning Researcher, Kimberly-Clark
 
 For a long time, there will be a significant demand for large-scale human-labeled data. This is not only because current AI tools and models lack sufficient accuracy and diversity in automatic labeling, but also because of the unique human understanding of the world and the emotional requirements beyond AI capabilities. These aspects are hard to replace in the short term. In the workflow of large models today, Reinforcement Learning from Human Feedback (RLHF) is crucial for model training and development. Therefore, the manual review of human-labeled data will also be irreplaceable by other tools in the near future.
 
-<figure><img src="../../../.gitbook/assets/D1-01 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/D1-01 (1).png" alt=""><figcaption></figcaption></figure>
 
 A survey reveals that 69% of respondent organizations rely on unstructured data such as text, images, and audio-visual media to train models. Among them, 35% consider data quality as the biggest challenge. To address this issue, 55% of organizations use internal labeling teams, 50% employ specialized data labeling services, and 29% utilize crowdsourcing for data labeling. Organizations are expanding the scale of their data labeling efforts, with an increasing demand for specialized, vertical domain labeled data.
