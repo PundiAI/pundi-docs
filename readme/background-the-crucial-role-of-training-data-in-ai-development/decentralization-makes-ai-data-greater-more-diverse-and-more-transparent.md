@@ -20,9 +20,6 @@
 ## 4. Resilience and Security:
 
 * Distributed Data Storage: Decentralized systems distribute data across multiple nodes or locations, reducing the risk of data loss or manipulation. This makes the data ecosystem more resilient to attacks or failures compared to centralized systems.
-
-> PUNDI AIFX's mission is to democratize data contribution and production, delivering high-quality, diverse datasets for the next generation of AI and ensuring fair compensation for AI contributors.
-
 * Reduced Single Point of Failure: In centralized systems, a single breach or failure can compromise the entire dataset. Decentralization mitigates this risk by eliminating single points of failure, ensuring that data remains secure and available even if parts of the network are compromised.
 
 ## 5. Ethical Data Use:
@@ -33,5 +30,4 @@
 ## 6. Innovation and Adaptability:
 
 * Crowdsourced Innovation: A decentralized approach encourages a more diverse set of contributors to innovate and develop AI solutions. This can lead to novel approaches and applications that might not emerge in a more centralized, top-down environment.
-
-Adaptability Across Verticals: Decentralized systems can more easily adapt to the specific needs of different industries or verticals, as data from various sectors can be seamlessly integrated into AI models.
+* Adaptability Across Verticals: Decentralized systems can more easily adapt to the specific needs of different industries or verticals, as data from various sectors can be seamlessly integrated into AI models.

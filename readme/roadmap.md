@@ -13,7 +13,7 @@
 ## Phase 2: Perception, Q4 2024
 
 * AIFX connection to 1-2 L1/L2 networks
-* AIDATA NFT beta launch
+* AI DATA NFT beta launch
 * Data annotation professional tools (beta release)
 * Partnerships with AI projects
 * AI DATA marketplace (beta release)

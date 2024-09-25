@@ -1,10 +1,8 @@
----
-description: The Crucial Role of Training Data in AI Development
----
+# Background: The Crucial Role of Training Data in AI Development
 
-# Background
+According to James Betker, a researcher at OpenAI, the success and complexity of AI systems are increasingly determined by the quality and diversity of their training data rather than their model design, architecture, or other features. His extensive experience in training generative models has led him to a critical realization:&#x20;
 
-According to James Betker, a researcher at OpenAI, the success and complexity of AI systems are increasingly determined by the quality and diversity of their training data rather than their model design, architecture, or other features. His extensive experience in training generative models has led him to a critical realization: `"Model behavior is not determined by architecture, hyperparameters, or optimizer choices. It’s determined by your dataset, nothing else."`
+`"Model behavior is not determined by architecture, hyperparameters, or optimizer choices. It’s determined by your dataset, nothing else."`
 
 Betker's insights underscore that, regardless of the model type—whether diffusion conv-unets or ViT generators—if they are trained on the same dataset, they will eventually produce similar results. This convergence highlights the fact that the dataset's richness and variety are the primary factors influencing the model's capabilities.
 
@@ -14,7 +12,7 @@ For AI developers and companies, this means that investing in high-quality, dive
 
 Meanwhile, large corporations' annual spending on data procurement is rapidly increasing from tens of billions to an estimated $300 to $500 billion, or even higher. Scale AI, a leading data provider in the AI industry, recently raised $1 billion with a valuation exceeding $14 billion and is expected to go public soon. In stark contrast to the success and admiration of leading AI companies, data providers like Scale AI often employ teams or subcontractors in developing countries, where workers are hired at extremely low costs and subjected to long hours without any benefits or job security.
 
-<figure><img src="../../../.gitbook/assets/image7 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image7 (2).png" alt=""><figcaption></figcaption></figure>
 
 In the context of Pundi AIFX, this emphasis on data is particularly relevant. The platform's mission to democratize data contribution and ensure fair compensation for data providers aligns with the understanding that data quality is the cornerstone of AI innovation. By facilitating the contribution of diverse, high-quality datasets, Pundi AIFX can play a pivotal role in advancing AI technology, ensuring that models trained on its platform are as powerful and nuanced as possible.
 
