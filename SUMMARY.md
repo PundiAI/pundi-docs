@@ -35,7 +35,7 @@
     * [Delegators FAQ](delegators/delegators-faq.md)
     * [Delegator CLI Guide](delegators/delegator-cli-guide.md)
     * [Delegator Security Notice](delegators/delegator-security-notice.md)
-  * [Delegators]()
+* [Delegators]()
     * [Delegators FAQ](delegators/delegators-faq.md)
     * [Delegator CLI Guide](delegators/delegator-cli-guide.md)
     * [Delegator Security Notice](delegators/delegator-security-notice.md) 
