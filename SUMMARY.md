@@ -23,6 +23,7 @@
   * [Takeaways About Beta](pundi-aidata/takeaways-about-beta.md)
   * [Tips for Trying Out Pundi AIData Beta](pundi-aidata/tips-for-trying-out-pundi-aidata-beta.md)
   * [Beta Walkthrough](pundi-aidata/beta-walkthrough.md)
+
 * [FXCORE](fxcore/what-is-fxcore.md)
   * [Installation f(x)Core](fxcore/installation.md)
   * [Setup Node](fxcore/setup-node/README.md)
@@ -34,7 +35,7 @@
     * [Delegators FAQ](delegators/delegators-faq.md)
     * [Delegator CLI Guide](delegators/delegator-cli-guide.md)
     * [Delegator Security Notice](delegators/delegator-security-notice.md)
-  * [f(x)Core Tutorials]()
+  ### f(x)Core Tutorials
     * [f(x)Cored CLI Commands](fxcore-tutorials/fxcored-commands-documentation.md)
     * [Cloud Setup](fxcore-tutorials/cloud-setup.md)
     * [Testnet faucet](fxcore-tutorials/testnet-faucet.md)
