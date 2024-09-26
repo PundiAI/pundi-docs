@@ -117,7 +117,6 @@
 
 * [PUNDIX](px-docs/getting-started/what-is-pundix.md)
   * [Getting Started](px-docs/getting-started/README.md)
-    * [What is PundiX (Pundi X Chain)](px-docs/getting-started/what-is-pundix.md)
     * [Install PundiX (Pundi X Chain)](px-docs/getting-started/installation-pundix.md)
     * [Setup Node](px-docs/getting-started/setup-node/README.md)
       * [Full node with Binaries](px-docs/getting-started/setup-node/full-node-with-binaries.md)
