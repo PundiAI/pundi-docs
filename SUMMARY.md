@@ -144,7 +144,7 @@
     * [Cosmovisor Integration - Binaries](px-docs/upgrade-instructions/cosmovisor-integration-binaries.md)
     * [Cosmovisor Integration - Docker](px-docs/upgrade-instructions/cosmovisor-integration-docker.md)
     * [Support keplr](px-docs/developers/support-keplr.md)
-  * [DEVELOPERS](px-docs/pundix-tutorials/README.md)
+  * [DEVELOPERS](px-docs/developers/README.md)
     * [PundiX Network](px-docs/developers/pundix-network.md)
     * [PundiX Protobuf](https://github.com/pundix/pundix/tree/main/docs/proto)
     * [PundiX gRPC & REST](https://pundix.github.io/pundix/swagger-ui/)
