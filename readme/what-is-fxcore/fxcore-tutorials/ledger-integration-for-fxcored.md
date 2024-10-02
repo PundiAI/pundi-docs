@@ -20,7 +20,7 @@ Do not lose or share your 24 words with anyone. To prevent theft or loss of fund
 
 ## Cloud + Ledger setup
 
-![Ledger + Cloud Configuration](../../../.gitbook/assets/Ledger%20Guide.drawio.png)
+![Ledger + Cloud Configuration](../.gitbook/assets/Ledger%20Guide.drawio.png)
 
 Before you use a ledger to set up your validator, do make sure you understand this setup. You will need:
 

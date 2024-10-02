@@ -17,10 +17,10 @@ The `TEST` token contract address on the Dhobyghaut-Testnet is `0x9EfB5C66bD1F9a
 5. Click 'Import Tokens', if you already had some quantity of the token it will show up here
 6. You will be navigated back to the home screen and the new token will be displayed in the token list
 
-![Import Tokens page you will be brought to after clicking on 'Import Tokens'](../../../../.gitbook/assets/configtoken1.png)
+![Import Tokens page you will be brought to after clicking on 'Import Tokens'](../../.gitbook/assets/configtoken1.png)
 
-![Paste Token Contract Address into the form, the other fields will automatically populate](../../../../.gitbook/assets/configtoken2.png)
+![Paste Token Contract Address into the form, the other fields will automatically populate](../../.gitbook/assets/configtoken2.png)
 
-![Click 'Import Tokens'](../../../../.gitbook/assets/configtoken3.png)
+![Click 'Import Tokens'](../../.gitbook/assets/configtoken3.png)
 
-![New token added!](../../../../.gitbook/assets/configtoken4.png)
+![New token added!](../../.gitbook/assets/configtoken4.png)

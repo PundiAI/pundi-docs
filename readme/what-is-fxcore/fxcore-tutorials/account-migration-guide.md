@@ -172,7 +172,7 @@ Once you have added `DhobyGhaut Testnet` to the Metamask `Networks`, you can aut
 
 Close the `Settings`, go to `My Accounts` (top right circle) and select `Import Account`. You should see an image like the following one:
 
-![](../../../.gitbook/assets/image%20\(9\)%20\(1\).png)
+![](../.gitbook/assets/image%20\(9\)%20\(1\).png)
 
 In Metamask and select the `Private Key` option. Then **paste the private** key(**hexadecimal**) exported from the command in step 6, to import your new EVM-compatible account in MetaMask.
 

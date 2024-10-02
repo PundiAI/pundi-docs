@@ -8,7 +8,7 @@ Before launching an EGF proposal on-chain, it is important that the proposer adh
 
 To launch an EGF proposal, go to [pundiscan](https://pundiscan.io/) and click on the `Proposals` tab and click on `Make Proposal`. Following which, there will be a prompt to connect to a wallet; and after connecting to a wallet, the proposer can proceed to make the proposal.
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Fill up the fields in the form with adequate and appropriate details.
 
@@ -16,9 +16,9 @@ Fill up the fields in the form with adequate and appropriate details.
 For EGF proposals, it is CRUCIAL that the `Type` of the proposal is selected as: `Ecosystem Genesis Fund (EGF).`
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/Screenshot%202023-02-16%20at%201.54.26%20PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot%202023-02-16%20at%201.54.26%20PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/Screenshot%202023-02-16%20at%201.54.44%20PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot%202023-02-16%20at%201.54.44%20PM.png" alt=""><figcaption></figcaption></figure>
 
 Under the `Details` section, the proposer should include a sufficient summary of what the proposal is about, including links to forum discussion(s) and any Github repositories. For `Recipient Configuration`, the `Address` is the wallet address for receiving the funds, and the `Amount` is the total amount of `FX` requested.
 
@@ -30,4 +30,4 @@ The current EGF deposit status can be found [here](egf-info.md)
 
 When the proposer is ready to submit the EGF proposal, clicking on `Submit Proposal` will launch a prompt for the proposer to sign the transaction on their connected wallet. Once the transaction is signed, the proposal will be launched.
 
-<figure><img src="../../../../.gitbook/assets/Screenshot%202023-02-16%20at%201.55.06%20PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot%202023-02-16%20at%201.55.06%20PM.png" alt=""><figcaption></figcaption></figure>

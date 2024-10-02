@@ -25,21 +25,21 @@ Only connect to websites that you trust. Always check that the URL is correct, a
 9. Click on 'Authorize'
 10. Now, you will see your address of the account at the top right hand corner instead of 'Connect to a wallet'
 
-![Click on 'WalletConnect'](../../../../.gitbook/assets/connectfx1.png)
+![Click on 'WalletConnect'](../../.gitbook/assets/connectfx1.png)
 
-![QR code will appear](../../../../.gitbook/assets/connectfx2.png)
+![QR code will appear](../../.gitbook/assets/connectfx2.png)
 
 {% hint style="info" %}
 Read from left to right.
 {% endhint %}
 
-![Press on the blue button](../../../../.gitbook/assets/connectfx3.png) ![Select 'Scan'](../../../../.gitbook/assets/connectfx4.png)
+![Press on the blue button](../../.gitbook/assets/connectfx3.png) ![Select 'Scan'](../../.gitbook/assets/connectfx4.png)
 
-![Scan the QR code](../../../../.gitbook/assets/connectfx5.png) ![Wait for it to connect](../../../../.gitbook/assets/connectfx6.png)
+![Scan the QR code](../../.gitbook/assets/connectfx5.png) ![Wait for it to connect](../../.gitbook/assets/connectfx6.png)
 
-![Select the address to connect](../../../../.gitbook/assets/connectfx7.png) !['Authorize' the Dapp to connect to your address](../../../../.gitbook/assets/connectfx8.png)
+![Select the address to connect](../../.gitbook/assets/connectfx7.png) !['Authorize' the Dapp to connect to your address](../../.gitbook/assets/connectfx8.png)
 
-![Connected via WalletConnect!](../../../../.gitbook/assets/connectfx9.png)
+![Connected via WalletConnect!](../../.gitbook/assets/connectfx9.png)
 
 ### Disconnect f(x)Wallet account from Dapp
 
@@ -49,7 +49,7 @@ WalletConnect only allows you to connect to one Dapp at a time. You will have to
 2. Click on 'Disconnect'
 3. It will prompt you once more, click on 'Disconnect' again
 
-![Click on the tab](../../../../.gitbook/assets/disconnectfx1.png) ![Click on 'Disconnect'](../../../../.gitbook/assets/disconnectfx2.png) ![Click on 'Disconnect'](../../../../.gitbook/assets/disconnectfx3.png)
+![Click on the tab](../../.gitbook/assets/disconnectfx1.png) ![Click on 'Disconnect'](../../.gitbook/assets/disconnectfx2.png) ![Click on 'Disconnect'](../../.gitbook/assets/disconnectfx3.png)
 
 Your Dapp should now not show your address being connected anymore.
 
