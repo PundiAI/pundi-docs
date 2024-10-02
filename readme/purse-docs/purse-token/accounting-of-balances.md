@@ -7,7 +7,7 @@ PURSE now accounts for 2 types of balances:
 * Total Balance: Refers to the sum of Inactive Balance and Active Balance of an address
   * This also refers to how much PURSE an address still has.
 
-<figure><img src="../../../purse-docs/.gitbook/assets/purse404Balances.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/purse404Balances.png" alt=""><figcaption></figcaption></figure>
 
 An address’s total balance of PURSE at any given point in time would be the sum of its Inactive Balance and Active Balance; and this would also be how much PURSE an address can still transact with. On a granular level, the Inactive Balance of an address accounts for the PURSE tokens that have not been used for minting any PURSE NFTs, and the Active Balance of an address accounts for the ERC20 value of the total number of NFTs an address currently holds.
 

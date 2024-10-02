@@ -12,31 +12,31 @@ Currently, there is no direct bridging from BSC to Ethereum on f(x)Bridge, howev
 2. For the `From` network, please select `BSC` from the dropdown; and for the `To` network, please select `f(x)Core`.
 3. Select `PURSE` from the token dropdown.
 
-<figure><img src="../../../purse-docs/.gitbook/assets/Screenshot%202024-05-20%20at%204.44.51%20PM.png" alt="" width="407"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot%202024-05-20%20at%204.44.51%20PM.png" alt="" width="407"><figcaption></figcaption></figure>
 
 3. Next, connect your wallet (MetaMask, WalletConnect, etc).
 4. After connecting your wallet, you should be able to see your address and the amount of PURSE you have. For example:
 
-<figure><img src="../../../purse-docs/.gitbook/assets/Screenshot%202024-05-20%20at%204.45.29%20PM.png" alt="" width="394"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot%202024-05-20%20at%204.45.29%20PM.png" alt="" width="394"><figcaption></figcaption></figure>
 
 5. In order to allow the bridge contract to move your PURSE tokens, you need to submit an `Approve` transaction first. Click on `Approve` to execute the transaction and confirm the transaction in your wallet.
 6. After the `Approve` transaction has been confirmed, you will be able to enter the amount of PURSE tokens you want to bridge from `BSC` to `f(x)Core`.
 
-<figure><img src="../../../purse-docs/.gitbook/assets/Screenshot%202024-05-20%20at%204.57.26%20PM.png" alt="" width="394"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot%202024-05-20%20at%204.57.26%20PM.png" alt="" width="394"><figcaption></figcaption></figure>
 
 7. Click on `Transfer` to execute the transfer transaction to bridge your PURSE tokens, and confirm the transaction in your wallet.
 
-<figure><img src="../../../purse-docs/.gitbook/assets/Screenshot%202024-05-20%20at%204.47.36%20PM%20(2).png" alt="" width="405"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot%202024-05-20%20at%204.47.36%20PM%20(2).png" alt="" width="405"><figcaption></figcaption></figure>
 
 8. Bridging transactions typically take some time to complete. It is **perfectly normal** for your PURSE tokens (or any other token) to take some time before appearing in your address on the destination network. Your address on the destination network will be the same address as the origin network.
 9. Once you see your bridged PURSE tokens in the same address on `f(x)Core` network, you can now bridge from `f(x)Core` to `Ethereum`. For the `From` network, please select `f(x)Core`; and for the `To` network, please select `Ethereum`.
 10. Enter the amount of PURSE you wish to bridge from `f(x)Core` to `Ethereum`.
 
-<figure><img src="../../../purse-docs/.gitbook/assets/Screenshot%202024-05-20%20at%205.01.22%20PM.png" alt="" width="397"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot%202024-05-20%20at%205.01.22%20PM.png" alt="" width="397"><figcaption></figcaption></figure>
 
 11. Click on `Transfer` to submit the transfer transaction to bridge your PURSE tokens from `f(x)Core` to `Ethereum`. Confirm the transaction in your wallet.
 
-<figure><img src="../../../purse-docs/.gitbook/assets/Screenshot%202024-05-20%20at%205.06.02%20PM.png" alt="" width="407"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot%202024-05-20%20at%205.06.02%20PM.png" alt="" width="407"><figcaption></figcaption></figure>
 
 12. Like before, it will take some time for your PURSE tokens to appear in the same address on the `Ethereum` network. This is a perfectly normal behaviour.
 

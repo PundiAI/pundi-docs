@@ -19,7 +19,7 @@ All the PURSE reward token minted by this Restaking Farm will be pre-burn first 
 
 There will be cap reward token (_Farm's Cap Reward Token_) for Restaking Farm and once the minted reward token amount (_Farm's Minted Reward Token_) reaches the cap, the contract will stop minting any new PURSE reward token. However, we will extend the PURSE Liquidity Mining Program, depending on the response from the community, such that new PURSE reward token can continuously be minted.
 
-<figure><img src="../../../../purse-docs/.gitbook/assets/Screenshot%202024-02-29%20at%204.55.14%20PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot%202024-02-29%20at%204.55.14%20PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Reward Calculations
 
@@ -46,13 +46,13 @@ For example:
 * For each block, Alice receives 200 \* 10 \* (20/100) = 400 PURSE
 * APR = 28000 \* 365 \* 200 \* 10 \* _PURSE Token Price_ \* 100% / _TVL of Farm_
 
-<figure><img src="../../../../purse-docs/.gitbook/assets/Screenshot%202024-02-29%20at%204.56.44%20PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot%202024-02-29%20at%204.56.44%20PM.png" alt=""><figcaption></figcaption></figure>
 
 #### 2. Calculating LP Reward APR
 
 On top of farm reward, farmers receive **LP Reward** for providing liquidity to PancakeSwap liquidity pool. Here is an example of calculating **LP Reward APR**:
 
-<figure><img src="../../../../purse-docs/.gitbook/assets/PancakeSwapTopPool.png" alt=""><figcaption><p>PancakeSwap Top Pool</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/PancakeSwapTopPool.png" alt=""><figcaption><p>PancakeSwap Top Pool</p></figcaption></figure>
 
 As shown in the BTCB/BUSD pair above:
 

@@ -20,7 +20,7 @@ The result of this endeavour is an upgraded version of PURSE that behaves like a
 
 At a very high level, the architecture of PURSE (404) can be illustrated as such:
 
-<figure><img src="../../../purse-docs/.gitbook/assets/purse404ArchitectureSimple.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/purse404ArchitectureSimple.png" alt=""><figcaption></figcaption></figure>
 
 The underlying logic for PURSE as an ERC20 token remains unchanged from before, and logic to enable PURSE to function also as an ERC721 token was added down the inheritance chain to enable PURSE to behave as a dual-natured token.
 
