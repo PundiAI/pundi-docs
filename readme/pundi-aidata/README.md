@@ -1,20 +1,19 @@
-# PUNDI AIDATA
+# Pundi AI Data (platform)
 
-## Overview of the solution
+Pundi AI Data is Pundi AI's Data platform.&#x20;
 
-We categorize contributors in our comprehensive solution as follows:
+It focuses on the production and tokenization of AI data, enabling users to contribute, secure, buy, and sell AI data across different blockchain networks. Pundi AIFX serves as an AI data omnichain infrastructure, providing a platform for individuals and organizations to participate in the AI industry by producing high-quality, verifiable AI data that can be tokenized into on-chain assets.
 
-* Data providers (Content Contributors, data scraper) - represented in white
-* Data processors (Data label, data tagging) - represented in blue
-* Data verifier (Quality Checkers) - represented in red
-* Data users (Data buyers) - represented in yellow
+Key features:
 
-Content contributors are divided into data sources and taggers. They use tools provided by us and community developers to upload or tag textual, image, video, and audio content. This content is sent to contracts for verification and recording in the form of NFTs, where the tag content is encrypted jointly by the uploader and the contract. The source data files are also uploaded to the cloud or IPFS via these tools.
+1\. Decentralization: Pundi AIFX leverages decentralized blockchain technology to ensure that AI data is more transparent, traceable, and diverse.
 
-Therefore, all content is easily indexed on the blockchain and corresponding contracts. We will launch a content marketplace that allows users to search and retrieve desired content efficiently by category, unlocking and downloading it after payment in Pundi AIFX.
+2\. AI Data Tokenization: The platform allows AI data to be tokenized and traded as intellectual property, providing a new way for individuals to generate income from their contributions to AI data sets.
 
-Before downloading, data users need to pay Pundi AIFX, which enters the contract's compensation pool pending payment. The contract distributes funds to content contributors based on content quality and usage. The pool generates additional revenue to incentivize all content contributors.
+3\. "Tag to Earn" Model: Users can earn rewards by tagging or annotating data, which is essential for improving AI datasets used to train accurate AI models.
 
-The entire process ensures transparent tracking of data sources, enabling model developers to provide pre-training feedback or reward model fine-tuning. This can be directly facilitated by contributors of adopted content and tags.
+4\. New Token Economy: The $AIFX token is central to the Pundi AIFX ecosystem, serving as a gas fee for transactions, an AI data processing fee, and a task fee for data buyers. It also supports validator staking.
 
-<figure><img src="../../.gitbook/assets/D1-02.png" alt=""><figcaption></figcaption></figure>
+5\. AI Data Foundry: The platform functions as a foundry for AI data, curating and validating data that can be accessed by organizations or individuals for AI projects.
+
+Overall, Pundi AIFX aims to democratize access to AI by enabling everyday people to contribute to the development of AI technology while earning sustainable rewards, thus fostering a more inclusive AI ecosystem.
