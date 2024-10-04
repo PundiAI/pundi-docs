@@ -14,9 +14,9 @@ Meanwhile, large corporations' annual spending on data procurement is rapidly in
 
 <figure><img src="../../.gitbook/assets/image7 (2).png" alt=""><figcaption></figcaption></figure>
 
-In the context of Pundi AIFX, this emphasis on data is particularly relevant. The platform's mission to democratize data contribution and ensure fair compensation for data providers aligns with the understanding that data quality is the cornerstone of AI innovation. By facilitating the contribution of diverse, high-quality datasets, Pundi AIFX can play a pivotal role in advancing AI technology, ensuring that models trained on its platform are as powerful and nuanced as possible.
+In the context of Pundi AI, this emphasis on data is particularly relevant. The platform's mission to democratize data contribution and ensure fair compensation for data providers aligns with the understanding that data quality is the cornerstone of AI innovation. By facilitating the contribution of diverse, high-quality datasets, Pundi AI suits of tools can play a pivotal role in advancing AI technology, ensuring that models trained on its platform are as powerful and nuanced as possible.
 
-The AI data marketplace, as envisioned by Pundi AIFX, becomes even more critical when we consider Betker's insights. It highlights the need for decentralized, transparent, and incentivized data ecosystems where contributors are rewarded for the invaluable data they provide, driving the next wave of AI advancements.
+The AI data marketplace, as envisioned by Pundi AI, becomes even more critical when we consider Betker's insights. It highlights the need for decentralized, transparent, and incentivized data ecosystems where contributors are rewarded for the invaluable data they provide, driving the next wave of AI advancements.
 
 Here are some statistics for reference:
 

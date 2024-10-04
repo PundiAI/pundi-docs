@@ -1,12 +1,23 @@
 ---
-description: democratizing artificial intelligence and data.
+description: Democratizing artificial intelligence and data.
 ---
 
 # Pundi AI
 
-Pundi AI democratizes artificial intelligence development through a decentralized suite of tools. It offers services ranging from data tagging and annotation to an AI data marketplace.&#x20;
+Pundi AI is created in 2024 by [Pundi X](readme/purse-docs/ibc/pundix-chain.md) the OG web3 project since 2017.
 
-The [Pundi AI Data](readme/pundi-aidata/) platform provides professional data annotation services, ensuring AI data remains open and accessible to all. Powered by the [Pundi AIFX](readme/pundi-aifx/) data layer, Pundi AI securely records activities on-chain and integrates with IPFS and various blockchains, paving the way for a decentralized data exchange. With [PURSE+](readme/purse-docs/) on x.com, users can actively contribute by tagging and annotating data for social AI, fostering a more participatory ecosystem.
+Pundi AI democratizes artificial intelligence development through a decentralized suite of tools. It offers services ranging from an omnichain data layer, data tagging and annotation platform to an AI marketplace for trading of data.&#x20;
+
+Pundi AI suite of tools:
+
+* Pundi AI Data platform
+* Pundi AIFX data layer
+* PURSE+ browser plugin
+* (coming soon) Pundi AI Marketplace.
+
+The [Pundi AI Data](readme/pundi-aidata/) platform provides professional data annotation services, ensuring AI data remains open and accessible to all. Decentralized users can participate in tag-and-earn of data and contribute to the advancement of AI.
+
+Powered by the [Pundi AIFX](readme/pundi-aifx/) data layer, Pundi AI securely records activities on-chain and integrates with IPFS and various blockchains, paving the way for a decentralized data exchange. With [PURSE+](readme/purse-docs/) on x.com, users can actively contribute by tagging and annotating data for social AI, fostering a more participatory ecosystem.
 
 This infrastructure ensures AI development remains transparent and resistant to monopolistic control, allowing broader participation and innovation across the industry. Pundi AI's mission is to create an open AI ecosystem where data and development are accessible to everyone.
 
