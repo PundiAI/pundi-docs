@@ -44,7 +44,7 @@ Address that you will also need:
    \_lpToken\_:\_ 0xfc450e16016aF4e4197f5dB5Ca0d262fF8fD735a _(PURSE-USDT LP Token)_\
    \_amount: **Amount in Wei**
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Withdrawing 5 LP Token from LP Restaking Farm</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Withdrawing 5 LP Token from LP Restaking Farm</p></figcaption></figure>
 
 3\. Click **Write** and confirm the transaction in your wallet.
 

@@ -1,6 +1,6 @@
 # f(x)Core
 
-`f(x)Core` is the name of the Cosmos SDK application for Pundi AIFX.&#x20;
+`f(x)Core` is the name of the Cosmos SDK application for Pundi AIFX omnichain.&#x20;
 
 About the FunctionX Core: The FunctionX Core also known as a Hub is the first Core to be launched on the FunctionX Network. The role of a Core is to facilitate transfers between blockchains. If a blockchain connects to a Core via inter blockchain communication (IBC), it automatically gains access to all the other blockchains that are connected to that Core. The FunctionX Core is a public Proof-of-Stake chain. It's native coin is the FX.
 

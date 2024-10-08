@@ -211,7 +211,7 @@ https://testnet-explorer.functionx.io/evm
 * Select Injected Web3 in the Environment dropdown ensure you have selected the right contract too.
 * Accept the connection request by clicking **Next** in Metamask after choosing the account
 
-![Injected Web3](<../../../.gitbook/assets/image (1) (1).png>)
+![Injected Web3](<../../../.gitbook/assets/image (1) (1) (1).png>)
 
 * Once Metamask is connected to Remix, the ‘Deploy’ transaction would generate another metamask popup that requires transaction confirmation.
 * Click the <mark style="color:blue;">**EDIT**</mark> button (1st picture) and then the <mark style="color:orange;">**Edit suggested gas fee**</mark> (2nd picture) before editing the **Max priority fee** and **Max fee** to 4000 Gwei then click **SAVE**.
@@ -230,7 +230,7 @@ https://testnet-explorer.functionx.io/evm
 
 After deploying the `ERC20.sol`, your Remix should look something like the following:
 
-![ERC20 Remix Page](<../../../.gitbook/assets/image (2).png>)
+![ERC20 Remix Page](<../../../.gitbook/assets/image (2) (1).png>)
 
 Taking a look at the side panel in particular these sets of button functions where you can interact with the contract. By clicking on the drop down for those buttons that have a dropdown will require that you fill in those fields before clicking on the button to query/write the value of the function. For those buttons that do not have a field to fill in, you may just click on the button to read/write.
 

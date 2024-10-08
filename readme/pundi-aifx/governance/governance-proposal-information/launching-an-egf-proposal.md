@@ -8,7 +8,7 @@ Before launching an EGF proposal on-chain, it is important that the proposer adh
 
 To launch an EGF proposal, go to [pundiscan](https://pundiscan.io/) and click on the `Proposals` tab and click on `Make Proposal`. Following which, there will be a prompt to connect to a wallet; and after connecting to a wallet, the proposer can proceed to make the proposal.
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Fill up the fields in the form with adequate and appropriate details.
 
