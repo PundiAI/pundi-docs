@@ -1,6 +1,8 @@
 # Installation f(x)Core
 
-This guide will explain how to install the `fxcored` CLI onto your system. With this installed on a server, you can participate on the mainnet as either a [Full Node](setup-node/) or a [Validator](../../validators/validator-setup.md).
+f(x)Core is the technical name of Pundi AIFX. Pundi AIFX is formerly known as Function X (FX).
+
+This guide will explain how to install the `fxcored` CLI onto your system. With this installed on a server, you can participate on the mainnet as either a [Full Node](setup-node/) or a [Validator](https://github.com/FunctionX-SG/pundiai-docs/blob/main/validators/validator-setup.md).
 
 Additionally, you may refer to this [<mark style="color:red;">**YouTube tutorial video**</mark>](https://www.youtube.com/watch?v=Fz0Y3qKG9og\&ab\_channel=FunctionX) to set up your validator.
 

@@ -22,19 +22,19 @@ Only connect to websites that you trust. Always check that the URL is correct, a
 6. Now, you will see your address of the account at the top right hand corner instead of 'Connect to a wallet'
 7. You can now start using the application! When you open the MetaMask extension, you will see on the top left that it is 'Connected'
 
-![Click on 'Connect Wallet'](../../.gitbook/assets/connectMM1.png)
+![Click on 'Connect Wallet'](../../../../.gitbook/assets/connectMM1.png)
 
-![Select 'MetaMask'](../../.gitbook/assets/connectMM2.png)
+![Select 'MetaMask'](../../../../.gitbook/assets/connectMM2.png)
 
-![Select the account you want to connect, and click 'Next'](../../.gitbook/assets/connectMM3.png)
+![Select the account you want to connect, and click 'Next'](../../../../.gitbook/assets/connectMM3.png)
 
-![Click 'Connect'](../../.gitbook/assets/connectMM4.png)
+![Click 'Connect'](../../../../.gitbook/assets/connectMM4.png)
 
-![Connecting..](../../.gitbook/assets/connectMM5.png)
+![Connecting..](../../../../.gitbook/assets/connectMM5.png)
 
-![Once connected, the address of the account connected will be shown at the top right](../../.gitbook/assets/connectMM6.png)
+![Once connected, the address of the account connected will be shown at the top right](../../../../.gitbook/assets/connectMM6.png)
 
-![The MetaMask extension will show it is 'Connected'](../../.gitbook/assets/connectMM7.png)
+![The MetaMask extension will show it is 'Connected'](../../../../.gitbook/assets/connectMM7.png)
 
 ### View Connected Sites to Account
 
@@ -43,9 +43,9 @@ To view the a list of the sites that you have connected with your account.
 1. Click on the 'three dots' menu icon near the top right corner of the MetaMask extension
 2. Click on 'Connected sites'
 
-![Click on 'three dots' menu icon and click on 'Connected sites'](../../.gitbook/assets/connectedsite1.png)
+![Click on 'three dots' menu icon and click on 'Connected sites'](../../../../.gitbook/assets/connectedsite1.png)
 
-![A list Connected sites your account is connected to will show](../../.gitbook/assets/connectedsite2.png)
+![A list Connected sites your account is connected to will show](../../../../.gitbook/assets/connectedsite2.png)
 
 ### Disconnect MetaMask from Dapp
 
@@ -64,11 +64,11 @@ Once you have navigated to the list of 'Connected sites', instructions can be fo
 1. Click on the 'trash bin' icon by the website url
 2. Click on 'Disconnect'
 
-![Click on the 'three dot' icon and click on 'Connected sites'](../../.gitbook/assets/disconnectMM-B1.png)
+![Click on the 'three dot' icon and click on 'Connected sites'](../../../../.gitbook/assets/disconnectMM-B1.png)
 
-![Click on 'trash bin' icon](../../.gitbook/assets/disconnectMM-B2.png)
+![Click on 'trash bin' icon](../../../../.gitbook/assets/disconnectMM-B2.png)
 
-![Click on 'Disconnect'](../../.gitbook/assets/disconnectMM-B3.png)
+![Click on 'Disconnect'](../../../../.gitbook/assets/disconnectMM-B3.png)
 
 #### While on Website
 
@@ -78,10 +78,10 @@ While you are on the website and have already connected to it, open MetaMask and
 2. Click on the 'three dots' icon
 3. Click on 'Disconnect this account'
 
-![Click on 'Connected'](../../.gitbook/assets/disconnectMM-A1.png)
+![Click on 'Connected'](../../../../.gitbook/assets/disconnectMM-A1.png)
 
-![Click on the 'three dots' icon](../../.gitbook/assets/disconnectMM-A2.png)
+![Click on the 'three dots' icon](../../../../.gitbook/assets/disconnectMM-A2.png)
 
-![Click on 'Disconnect this account'](../../.gitbook/assets/disconnectMM-A3.png)
+![Click on 'Disconnect this account'](../../../../.gitbook/assets/disconnectMM-A3.png)
 
-![The 'Connected' status has changed to 'Not connected'](../../.gitbook/assets/disconnectMM-A4.png)
+![The 'Connected' status has changed to 'Not connected'](../../../../.gitbook/assets/disconnectMM-A4.png)

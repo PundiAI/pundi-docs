@@ -88,10 +88,10 @@ https://testnet.pundiscan.io/evm
 
 3\. Click 'Save'
 
-![Click on Network selection drop down then click on 'Add Network' (browser)](../../.gitbook/assets/addnetwork1.png) ![(extension)](../../.gitbook/assets/addnetwork2.png)
+![Click on Network selection drop down then click on 'Add Network' (browser)](../../../../.gitbook/assets/addnetwork1.png) ![(extension)](../../../../.gitbook/assets/addnetwork2.png)
 
-![Fill in the fields as shown and click 'Save'](../../.gitbook/assets/addnetwork3.png)
+![Fill in the fields as shown and click 'Save'](../../../../.gitbook/assets/addnetwork3.png)
 
-![You have successfully added f(x)Core Dhobyghaut Testnet to your MetaMask!](../../.gitbook/assets/addnetwork4.png)
+![You have successfully added f(x)Core Dhobyghaut Testnet to your MetaMask!](../../../../.gitbook/assets/addnetwork4.png)
 {% endtab %}
 {% endtabs %}

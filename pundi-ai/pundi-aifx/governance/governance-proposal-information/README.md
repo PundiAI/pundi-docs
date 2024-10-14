@@ -14,7 +14,7 @@ Currently there are the following governance proposal types:
 
 ### Process Flow of Governance Proposal
 
-![](../../.gitbook/assets/image%20\(7\).png)
+![](<../../../../.gitbook/assets/image (7).png>)
 
 ### Initiate a Proposal
 
@@ -131,4 +131,4 @@ The validity of a proposal and its results is determined by the following condit
 
 #### Summary
 
-![Graphical summary](../../.gitbook/assets/infrographic%20for%20gov%20proposal%20info%20\(1\).png)
+![Graphical summary](<../../../../.gitbook/assets/infrographic for gov proposal info (1).png>)

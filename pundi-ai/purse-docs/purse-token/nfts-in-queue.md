@@ -2,7 +2,7 @@
 
 PURSE NFTs that are transferred back to the PURSE contract are stored in a queue-like data structure. This queue is a First-In-First-Out (**FIFO**) structure, which means that the first PURSE NFT that is sent to this queue will be the first NFT minted on the next mint transaction. If the queue is empty, then a brand new NFT token id will be minted on the next mint transaction.
 
-<figure><img src="../.gitbook/assets/purse404fifo.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/purse404fifo.png" alt=""><figcaption></figcaption></figure>
 
 ### Example
 

@@ -2,7 +2,7 @@
 
 When it comes to minting NFTs from a 404 token, most 404 tokens that have been deployed would behave in the following way: if an address’s balance reaches the required amount of tokens required to represent 1 NFT, an NFT will be minted to the address automatically. No separate transaction from the address is required to mint an NFT. This is, however, not the case for PURSE.
 
-<figure><img src="../.gitbook/assets/purse404minting.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/purse404minting.png" alt=""><figcaption></figcaption></figure>
 
 In PURSE, the minting of a PURSE NFT must be a transaction that an address voluntarily executes. That is, even if an address successfully accumulates enough PURSE tokens, they must still execute the `mintERC721` function successfully in the PURSE contract in order to mint their PURSE NFT(s). The number of NFTs mintable at once would depend on an address’s Inactive Balance (IB), and whether they have enough **Ether** **(ETH)** to pay for the total minting cost for each mintable NFT. The contract only accepts the **exact** amount of ETH required for the mint transaction; any amount that is not exact will result in a failure to mint the PURSE NFT(s).
 

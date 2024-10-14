@@ -33,14 +33,14 @@ Bridging tokens from other networks (supported by the [f(x)Core Gravity Bridge](
 
 Example:
 
-![](../../.gitbook/assets/Register\_Coin\_Eg.png)
+![](../../../../.gitbook/assets/Register\_Coin\_Eg.png)
 
-![](../../.gitbook/assets/Register\_Coin\_Eg2.png)
+![](../../../../.gitbook/assets/Register\_Coin\_Eg2.png)
 
 1. After the proposal passes, the Ethereum ERC20 address will be added to the Ethereum bridge contract
 2. You will be able to perform cross-chain transactions
 
-> More on[ f(x)Core governance](../../../../governance/)
+> More on[ f(x)Core governance](https://github.com/FunctionX-SG/pundiai-docs/blob/main/governance/README.md)
 
 ### Building the bridge yourself
 

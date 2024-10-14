@@ -10,4 +10,4 @@ This directory houses f(x)Core history major upgrade migration instructions.
 * [**v3.1.0 Upgrade Instructions**](v3.1.0.md)
 * [**v4.2.1 Upgrade Instructions**](v4.2.1.md)
 * [**v5.0.0 Upgrade Instructions**](v5.0.0.md)
-* [**v6.0.0 Upgrade Instructions**](../../../../upgrade-instructions/versions/v6.0.0.md)
+* [**v6.0.0 Upgrade Instructions**](https://github.com/FunctionX-SG/pundiai-docs/blob/main/upgrade-instructions/versions/v6.0.0.md)

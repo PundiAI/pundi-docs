@@ -24,7 +24,7 @@ Address that you will also need:
    spender: 0x439ec8159740a9b9a579f286963ac1c050af31c8 _(LP Restaking Farm address)_\
    value: `-1` _(No need to approve for the subsequent deposit)_
 
-<figure><img src="../../.gitbook/assets/LPContractApprove.png" alt=""><figcaption><p>Approve LP Restaking Farm contract to spend your LP Token</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/LPContractApprove.png" alt=""><figcaption><p>Approve LP Restaking Farm contract to spend your LP Token</p></figcaption></figure>
 
 2\. Go to [LP Restaking Farm](https://bscscan.com/token/0x439ec8159740a9b9a579f286963ac1c050af31c8#writeProxyContract) contract _Write as Proxy_ and under **4.deposit**, enter the following:\
 \_lpToken\_:\_ 0xfc450e16016aF4e4197f5dB5Ca0d262fF8fD735a _(PURSE-USDT LP Token)_\
@@ -32,7 +32,7 @@ Address that you will also need:
 
 > You can convert LP Token to Wei using [BscScan Unit Converter](https://www.bscscan.com/unitconverter)
 
-<figure><img src="../../.gitbook/assets/deposit.jpg" alt=""><figcaption><p>Depositing 5 LP Token to LP Restaking Farm</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/deposit.jpg" alt=""><figcaption><p>Depositing 5 LP Token to LP Restaking Farm</p></figcaption></figure>
 
 3\. Click **Write** and confirm the transaction in your wallet.
 
@@ -44,7 +44,7 @@ Address that you will also need:
    \_lpToken\_:\_ 0xfc450e16016aF4e4197f5dB5Ca0d262fF8fD735a _(PURSE-USDT LP Token)_\
    \_amount: **Amount in Wei**
 
-<figure><img src="../../.gitbook/assets/image%20(1).png" alt=""><figcaption><p>Withdrawing 5 LP Token from LP Restaking Farm</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Withdrawing 5 LP Token from LP Restaking Farm</p></figcaption></figure>
 
 3\. Click **Write** and confirm the transaction in your wallet.
 
@@ -61,7 +61,7 @@ Address that you will also need:
 1. Go to [LP Restaking Farm](https://bscscan.com/token/0x439ec8159740a9b9a579f286963ac1c050af31c8#writeProxyContract) contract _Write as Proxy_ and under 5\*\*.emergenctWithdraw\*\*, enter the following:\
    \_lpToken\_:\_ 0xfc450e16016aF4e4197f5dB5Ca0d262fF8fD735a _(PURSE-USDT LP Token)_\\
 
-![PURSE Rewards will be forfeited if doing Emergency Withdrawal](../../.gitbook/assets/emergency.jpg)
+![PURSE Rewards will be forfeited if doing Emergency Withdrawal](../../../../.gitbook/assets/emergency.jpg)
 
 3\. Click **Write** and confirm the transaction in your wallet.
 

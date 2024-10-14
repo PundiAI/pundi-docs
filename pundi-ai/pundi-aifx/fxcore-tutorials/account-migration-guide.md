@@ -8,9 +8,9 @@ Things to note❗:
 
 a. This guide can be done on f(x)Core Mainnet & Testnet.
 
-b. Ensure the [new Evm upgrade](../../../upgrade-instructions/manual/) is done.
+b. Ensure the [new Evm upgrade](https://github.com/FunctionX-SG/pundiai-docs/blob/main/upgrade-instructions/manual/README.md) is done.
 
-c. Ensure you have f(x)Core [command line interface](../../../fxcore/installation/) installed.
+c. Ensure you have f(x)Core [command line interface](https://github.com/FunctionX-SG/pundiai-docs/blob/main/fxcore/installation/README.md) installed.
 
 d. Your address should not be bonded to any validator (Address should not have a prior successful `create-validator` command).
 
@@ -160,8 +160,8 @@ Here is the **list of fields** that you can use to paste on Metamask:
 
 > For more details, you may refer to below page:
 
-{% content-ref url="../../../deploying-on-fxcore-evm/metamask/add-fxcore-network.md" %}
-[add-fxcore-network.md](../../../deploying-on-fxcore-evm/metamask/add-fxcore-network.md)
+{% content-ref url="https://github.com/FunctionX-SG/pundiai-docs/blob/main/deploying-on-fxcore-evm/metamask/add-fxcore-network.md" %}
+[https://github.com/FunctionX-SG/pundiai-docs/blob/main/deploying-on-fxcore-evm/metamask/add-fxcore-network.md](https://github.com/FunctionX-SG/pundiai-docs/blob/main/deploying-on-fxcore-evm/metamask/add-fxcore-network.md)
 {% endcontent-ref %}
 
 ### **Import Account to Metamask**
@@ -172,7 +172,7 @@ Once you have added `DhobyGhaut Testnet` to the Metamask `Networks`, you can aut
 
 Close the `Settings`, go to `My Accounts` (top right circle) and select `Import Account`. You should see an image like the following one:
 
-![](../.gitbook/assets/image%20\(9\)%20\(1\).png)
+![](<../../../.gitbook/assets/image (9) (1).png>)
 
 In Metamask and select the `Private Key` option. Then **paste the private** key(**hexadecimal**) exported from the command in step 6, to import your new EVM-compatible account in MetaMask.
 

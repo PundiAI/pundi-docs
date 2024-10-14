@@ -1,6 +1,6 @@
 # Full node with Binaries
 
-This guide will explain how to install the `fxcored mainnet` or `fxcored testnet` command line interface (CLI) on your system with `Binaries` option. With these installed on a server, you can participate on the mainnet or testnet as a [Validator](../../../validators/validator-setup.md).
+This guide will explain how to install the `fxcored mainnet` or `fxcored testnet` command line interface (CLI) on your system with `Binaries` option. With these installed on a server, you can participate on the mainnet or testnet as a [Validator](https://github.com/FunctionX-SG/pundiai-docs/blob/main/validators/validator-setup.md).
 
 ## Install f(x)Core
 
@@ -72,7 +72,7 @@ you can optionally download the [address book](https://chain-share.s3.amazonaws.
 {% hint style="info" %}
 \*\* IMPORTANT At this stage \*\*BEFORE \*\*starting the node, please download the latest snapshot, refer to this [link](use-snapshot.md).
 
-Additionally, what is important is that your validator keys that is stored in a .json file for you to do a recovery in the future. For more [information](../../../validators/validator-recovery.md) how to access the files.
+Additionally, what is important is that your validator keys that is stored in a .json file for you to do a recovery in the future. For more [information](https://github.com/FunctionX-SG/pundiai-docs/blob/main/validators/validator-recovery.md) how to access the files.
 
 Also, you can consider generating a new consensus key and [backing it up using a pin](full-node-with-binaries.md#secret-and-updating-consensus-key).
 {% endhint %}

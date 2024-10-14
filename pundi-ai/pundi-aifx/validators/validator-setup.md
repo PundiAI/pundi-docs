@@ -2,7 +2,7 @@
 
 > Information on how to join the mainnet (`genesis.json` file and seeds) is held in our `fxcore` repo.
 
-Before setting up your validator node, make sure you've already gone through the `Full Node Setup` guide either with [Binaries](../fxcore/setup-node/full-node-with-binaries.md) or with [Docker](../fxcore/setup-node/full-node-with-docker.md).
+Before setting up your validator node, make sure you've already gone through the `Full Node Setup` guide either with [Binaries](https://github.com/FunctionX-SG/pundiai-docs/blob/main/pundi-ai/pundi-aifx/fxcore/setup-node/full-node-with-binaries.md) or with [Docker](https://github.com/FunctionX-SG/pundiai-docs/blob/main/pundi-ai/pundi-aifx/fxcore/setup-node/full-node-with-docker.md).
 
 If you plan to use a KMS (key management system), you should go through these steps first.
 
@@ -14,7 +14,7 @@ Before you proceed to the next section, ensure that you have already `set up a f
 
 ## Create Your Validator
 
-> ⚠️ We support ledger for sending transactions, we recommend using ledger as it is more secure, note that such transactions require fxcore to be [installed](../fxcore/installation.md) on both the remote vm and the host vm, which is a bit of a pain but worth doing.
+> ⚠️ We support ledger for sending transactions, we recommend using ledger as it is more secure, note that such transactions require fxcore to be [installed](https://github.com/FunctionX-SG/pundiai-docs/blob/main/pundi-ai/pundi-aifx/fxcore/installation.md) on both the remote vm and the host vm, which is a bit of a pain but worth doing.
 
 1. Create validator's token holding account
 

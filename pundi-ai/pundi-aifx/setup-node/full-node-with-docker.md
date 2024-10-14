@@ -1,6 +1,6 @@
 # Full node with Docker
 
-This guide will explain how to install the `fxcored mainnet` or `fxcored testnet` command line interface (CLI) on your system with `Docker` option. With these installed on a server, you can participate on the mainnet or testnet as a [Validator](../../../validators/validator-setup.md).
+This guide will explain how to install the `fxcored mainnet` or `fxcored testnet` command line interface (CLI) on your system with `Docker` option. With these installed on a server, you can participate on the mainnet or testnet as a [Validator](https://github.com/FunctionX-SG/pundiai-docs/blob/main/validators/validator-setup.md).
 
 ## Install f(x)Core
 
@@ -75,7 +75,7 @@ docker run --rm -v $HOME/.fxcore:/root/.fxcore functionx/fx-core:6.0.0 config co
 {% hint style="info" %}
 \*\* IMPORTANT At this stage \*\*BEFORE \*\*starting the node, please download the latest snapshot, refer to this [link](use-snapshot.md).
 
-And at this stage, what is important is your validator keys that is stored in a json file for you to do a recovery in the future. For more [information](../../../validators/validator-recovery.md) how to access the files.
+And at this stage, what is important is your validator keys that is stored in a json file for you to do a recovery in the future. For more [information](https://github.com/FunctionX-SG/pundiai-docs/blob/main/validators/validator-recovery.md) how to access the files.
 {% endhint %}
 
 * Run docker

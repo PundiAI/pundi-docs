@@ -8,7 +8,7 @@ description: This is work in progress. Mechanisms and values are susceptible to 
 
 ### What is a validator?
 
-[f(x)Core](../fxcore/what-is-fxcore.md) is built on Tendermint, which relies on a set of validators to secure the network. The role of validators is to run a full-node and participate in consensus by broadcasting votes which contain cryptographic signatures signed by their private key. Validators commit new blocks in the blockchain and receive revenue in exchange for their work. They must also participate in governance by voting on proposals. Validators are weighted according to their total stake.
+[f(x)Core](https://github.com/FunctionX-SG/pundiai-docs/blob/main/pundi-ai/pundi-aifx/fxcore/what-is-fxcore.md) is built on Tendermint, which relies on a set of validators to secure the network. The role of validators is to run a full-node and participate in consensus by broadcasting votes which contain cryptographic signatures signed by their private key. Validators commit new blocks in the blockchain and receive revenue in exchange for their work. They must also participate in governance by voting on proposals. Validators are weighted according to their total stake.
 
 ### What is 'staking'?
 
@@ -46,7 +46,7 @@ Any participant in the network can signal that they want to become a validator b
 * **Initial commission rate**: The commission rate on block rewards and fees that will be charged by validators and charged to delegators (more information can be found below).
 * **Maximum commission:** The maximum commission rate which this validator can charge. This parameter cannot be changed after `create-validator` is processed.
 * **Commission max change rate:** The maximum daily increase of the validator commission. This parameter cannot be changed after `create-validator` is processed.
-* **Minimum self-delegation:** Minimum amount of FX the validator needs to have bonded at all time. If the validator's self-delegated stake falls below this limit, their entire staking pool will unbond. You may only increase this later and this makes it a somewhat irreversible change.&#x20;
+* **Minimum self-delegation:** Minimum amount of FX the validator needs to have bonded at all time. If the validator's self-delegated stake falls below this limit, their entire staking pool will unbond. You may only increase this later and this makes it a somewhat irreversible change.
 
 Once a validator is created, FX holders can delegate FX to them, effectively adding stake to their pool. The total stake of an address is the combination of FX bonded by delegators and FX self-bonded by the validator.
 
@@ -135,19 +135,19 @@ You can easily re-allocate your stake from one validator to another without havi
 
 When a user requests to `undelegate` from a validator, the amount of `FX` that was requested for undelegation will be locked in **unbonding** state for 21 days. For simplicity, we call this the **21 day cooldown**. After the 21 day cooldown passes, a user will be able to make transactions with the `FX` that was previously in **unbonding** state. This cooldown also applies to certain scenarios in redelegation. In order to **redelegate a portion of delegated FX from Validator A → Validator B,** there are two options a user could choose from.
 
-#### Option #1 <a href="#9704" id="9704"></a>
+#### Option #1 <a href="#id-9704" id="id-9704"></a>
 
 Undelegate from **Validator A** and wait for the 21 day unbonding period (cooldown) to pass. Then, delegate the ATOM to **Validator B**.
 
 * Taking this path may seem un-wise because you’ll have to wait 21 days to delegate that stake with another validator. This is where the **redelegation** feature comes in handy.
 
-#### Option #2 <a href="#5320" id="5320"></a>
+#### Option #2 <a href="#id-5320" id="id-5320"></a>
 
 Use the redelegation feature to immediately redelegate the ATOM from **Validator A → Validator B.**
 
 * This **redelegation** feature seems wonderful. You no longer have to wait 21 days to unbond and then delegate that stake to another validator. **But there’s a catch.**
 
-#### The 7 Stacks Rule <a href="#39ce" id="39ce"></a>
+#### The 7 Stacks Rule <a href="#id-39ce" id="id-39ce"></a>
 
 Redelegating from **Validator A → Validator B** using the **same wallet.**
 
@@ -166,7 +166,7 @@ Once you redelegate from Validator A → Validator B, **you will not be able to 
 
 In other words, **the validator on the receiving end of redelegation will be on a 21-day redelegation lock** (You will still be able to undelegate from or make some additional delegations to this validator. You just won’t be able to redelegate from the validator.).
 
-_**You can’t consecutively do validator-hopping!**_&#x20;
+_**You can’t consecutively do validator-hopping!**_
 
 Find more information on redelegation [here](https://medium.com/cosmostation/what-you-need-to-know-about-cosmos-atom-redelegation-e45ca7da6fdf).
 

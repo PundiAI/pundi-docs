@@ -43,7 +43,7 @@ ubuntu@ip-192.168.0.100:~$ tree $HOME/.fxcore
 2 directories, 6 files
 ```
 
-The command after `Initializing fxcore` from setting up node with [Full node with Binaries](../fxcore/setup-node/full-node-with-binaries.md) or [Full node with Docker ](../fxcore/setup-node/full-node-with-docker.md)is to override the various files that were initialized earlier:
+The command after `Initializing fxcore` from setting up node with [Full node with Binaries](https://github.com/FunctionX-SG/pundiai-docs/blob/main/pundi-ai/pundi-aifx/fxcore/setup-node/full-node-with-binaries.md) or [Full node with Docker ](https://github.com/FunctionX-SG/pundiai-docs/blob/main/pundi-ai/pundi-aifx/fxcore/setup-node/full-node-with-docker.md)is to override the various files that were initialized earlier:
 
 {% tabs %}
 {% tab title="Binaries" %}
@@ -63,7 +63,7 @@ wget https://raw.githubusercontent.com/FunctionX/fx-core/release/v2.1.x/public/t
 {% endtab %}
 {% endtabs %}
 
-The key file here is `priv_validator_key.json`. After initializing and overriding those files, override the __ `priv_validator_key.json` with your original `priv_validator_key.json` of the validator you want to recover. You may do this by following the command below (if you are in .fxcore/config directory):
+The key file here is `priv_validator_key.json`. After initializing and overriding those files, override the \_\_ `priv_validator_key.json` with your original `priv_validator_key.json` of the validator you want to recover. You may do this by following the command below (if you are in .fxcore/config directory):
 
 ```
 cat > priv_validator_key.json

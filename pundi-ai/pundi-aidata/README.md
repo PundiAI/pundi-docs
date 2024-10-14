@@ -1,20 +1,9 @@
-# PUNDI AIDATA
+# Pundi AI Data (platform)
 
-## Overview of the solution
+Pundi AI Data is Pundi AI's Data platform.&#x20;
 
-We categorize contributors in our comprehensive solution as follows:
+The Pundi AI Data platform is a decentralized, transparent system designed to facilitate the contribution, labeling, and exchange of AI data. It enables participants from around the world to contribute various types of data—such as text, images, and videos—while ensuring that data providers and taggers are fairly compensated through a tokenized reward system.
 
-* Data providers (Content Contributors, data scraper) - represented in white
-* Data processors (Data label, data tagging) - represented in blue
-* Data verifier (Quality Checkers) - represented in red
-* Data users (Data buyers) - represented in yellow
+The platform operates using blockchain technology to track data contributions and transactions, creating a transparent and immutable record. It also includes a marketplace where AI companies and developers can purchase curated, high-quality datasets to train their models. By leveraging decentralized technology, the Pundi AI Data platform promotes inclusivity, fair compensation, and global participation in the growing AI ecosystem.
 
-Content contributors are divided into data sources and taggers. They use tools provided by us and community developers to upload or tag textual, image, video, and audio content. This content is sent to contracts for verification and recording in the form of NFTs, where the tag content is encrypted jointly by the uploader and the contract. The source data files are also uploaded to the cloud or IPFS via these tools.
-
-Therefore, all content is easily indexed on the blockchain and corresponding contracts. We will launch a content marketplace that allows users to search and retrieve desired content efficiently by category, unlocking and downloading it after payment in Pundi AIFX.
-
-Before downloading, data users need to pay Pundi AIFX, which enters the contract's compensation pool pending payment. The contract distributes funds to content contributors based on content quality and usage. The pool generates additional revenue to incentivize all content contributors.
-
-The entire process ensures transparent tracking of data sources, enabling model developers to provide pre-training feedback or reward model fine-tuning. This can be directly facilitated by contributors of adopted content and tags.
-
-<figure><img src="../../.gitbook/assets/D1-02.png" alt=""><figcaption></figcaption></figure>
+\

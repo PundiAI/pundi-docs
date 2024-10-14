@@ -628,7 +628,7 @@ fxcored query block 644696 --node  https://testnet-fx-json.functionx.io:26657   
 
 #### Set up a Validator
 
-Please refer to the [Validator Setup](../../../validators/validator-setup.md) section for a more complete guide on how to set up a validator.
+Please refer to the [Validator Setup](https://github.com/FunctionX-SG/pundiai-docs/blob/main/validators/validator-setup.md) section for a more complete guide on how to set up a validator.
 
 #### Delegate to a Validator
 

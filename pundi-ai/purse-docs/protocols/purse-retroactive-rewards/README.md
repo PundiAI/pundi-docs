@@ -22,28 +22,28 @@ Please note the latest rewards campaign start and end dates and time:
 
 1. Go to [https://pursetoken.com/rewards](https://pursetoken.com/rewards) or click on the _Rewards_ tab. Click on the _Connect_ button and make sure that you are connected to the wallet which you have Retroactive Rewards to claim. Note that you cannot claim on behalf of another address.
 
-<figure><img src="../../.gitbook/assets/RetroactiveConnect.jpg" alt=""><figcaption><p>Connect wallet to claim PURSE</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/RetroactiveConnect.jpg" alt=""><figcaption><p>Connect wallet to claim PURSE</p></figcaption></figure>
 
 2\. If the Retroactive Rewards program has not started, the button will be shown as _Not Started._ If you are eligible for the Retroactive Rewards, there will be PURSE amount shown below. Do visit the site again during the stated period to claim.
 
-<figure><img src="../../.gitbook/assets/RetroactiveNotStarted.jpg" alt=""><figcaption><p>Retroactive Rewards - Not Started</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/RetroactiveNotStarted.jpg" alt=""><figcaption><p>Retroactive Rewards - Not Started</p></figcaption></figure>
 
 3\. If you are not eligible for the Retroactive Rewards, the button will be disabled and shown as _Not Available._ However, you could still check on how much Retroactive Rewards the other addresses are entitled for.
 
-<figure><img src="../../.gitbook/assets/RetroactiveNotAvailable.jpg" alt=""><figcaption><p>Retroactive Rewards - Not Available</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/RetroactiveNotAvailable.jpg" alt=""><figcaption><p>Retroactive Rewards - Not Available</p></figcaption></figure>
 
 4\. Click on the _Claim_ button if you are eligible for the Retroactive Rewards. Click _Confirm_ on Metamask or WalletConnect, the PURSE amount will be transferred to your address shortly after the transaction has confirmed.
 
-<figure><img src="../../.gitbook/assets/RetroactiveClaim.jpg" alt=""><figcaption><p>Retroactive Rewards - Claim</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/RetroactiveClaim.jpg" alt=""><figcaption><p>Retroactive Rewards - Claim</p></figcaption></figure>
 
 5\. Once the user has claimed the Retroactive Rewards, the button will be disabled and shown as _Claimed._ User can then proceed to stake the PURSE Retroactive Rewards in _PURSE Staking_ or provide PURSE-BUSD liquidity to PancakeSwap and get LP tokens to stake in _LP Restaking Farm_.
 
-<figure><img src="../../.gitbook/assets/RetroactiveClaimed.jpg" alt=""><figcaption><p>Retroactive Rewards - Claimed</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/RetroactiveClaimed.jpg" alt=""><figcaption><p>Retroactive Rewards - Claimed</p></figcaption></figure>
 
 6\. Users can check for the Retroactive Rewards the other addresses are entitled for. Make sure you enter a _BEP20 Checksum Address_. The PURSE amount for the specific address will be shown below the _Check_ button.
 
-<figure><img src="../../.gitbook/assets/RetroactiveCheck.jpg" alt=""><figcaption><p>Retroactive Rewards - Check</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/RetroactiveCheck.jpg" alt=""><figcaption><p>Retroactive Rewards - Check</p></figcaption></figure>
 
 7\. Once the Retroactive Rewards claim period is over, the PURSE rewards will be forfeited and users will not be able to claim anymore. Do remember to claim during the stated period below.
 
-<figure><img src="../../.gitbook/assets/RetroactiveEnded.jpg" alt=""><figcaption><p>Retroactive Rewards - Ended</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/RetroactiveEnded.jpg" alt=""><figcaption><p>Retroactive Rewards - Ended</p></figcaption></figure>
