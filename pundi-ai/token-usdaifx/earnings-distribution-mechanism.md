@@ -1,0 +1,2 @@
+# Earnings Distribution Mechanism
+
