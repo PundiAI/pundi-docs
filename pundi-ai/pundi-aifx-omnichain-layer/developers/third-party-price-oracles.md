@@ -1,2 +1,0 @@
-# Third Party Price Oracles
-

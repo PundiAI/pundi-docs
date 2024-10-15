@@ -1,2 +1,0 @@
-# Takeaways About Beta
-

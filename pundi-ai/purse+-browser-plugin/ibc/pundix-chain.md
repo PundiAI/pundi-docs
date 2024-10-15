@@ -1,2 +1,0 @@
-# PUNDIX Chain
-

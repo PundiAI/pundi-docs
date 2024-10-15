@@ -1,2 +1,0 @@
-# Earnings Distribution Timeline
-

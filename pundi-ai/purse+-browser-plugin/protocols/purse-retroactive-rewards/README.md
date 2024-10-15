@@ -1,2 +1,0 @@
-# PURSE Retroactive Rewards
-

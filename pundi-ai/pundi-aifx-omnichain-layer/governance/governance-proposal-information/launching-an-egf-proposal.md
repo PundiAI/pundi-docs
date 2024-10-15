@@ -1,2 +1,0 @@
-# Launching an EGF Proposal
-

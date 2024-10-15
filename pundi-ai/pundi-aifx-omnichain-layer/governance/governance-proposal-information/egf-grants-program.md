@@ -1,2 +1,0 @@
-# EGF Grants Program
-

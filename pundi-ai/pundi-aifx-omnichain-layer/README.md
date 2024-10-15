@@ -1,2 +1,0 @@
-# Pundi AIFX (omnichain layer)
-

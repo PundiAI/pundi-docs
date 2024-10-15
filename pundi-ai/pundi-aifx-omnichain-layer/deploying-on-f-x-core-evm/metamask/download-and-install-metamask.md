@@ -1,2 +1,0 @@
-# Download and Install MetaMask
-

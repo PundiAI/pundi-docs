@@ -1,2 +1,0 @@
-# Docker - Upgrading Your Node
-

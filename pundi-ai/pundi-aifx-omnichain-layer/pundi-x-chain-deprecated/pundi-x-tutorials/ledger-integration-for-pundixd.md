@@ -1,2 +1,0 @@
-# Ledger Integration for pundixd
-

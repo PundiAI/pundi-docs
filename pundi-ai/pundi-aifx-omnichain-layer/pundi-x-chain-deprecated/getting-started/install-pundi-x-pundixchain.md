@@ -1,2 +1,0 @@
-# Install Pundi X (PundiXChain)
-

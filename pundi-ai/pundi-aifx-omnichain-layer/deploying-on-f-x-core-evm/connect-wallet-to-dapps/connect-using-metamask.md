@@ -1,2 +1,0 @@
-# Connect using MetaMask
-

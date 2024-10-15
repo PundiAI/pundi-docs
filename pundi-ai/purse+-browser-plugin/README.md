@@ -1,2 +1,0 @@
-# PURSE+ (browser plugin)
-

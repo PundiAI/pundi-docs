@@ -1,2 +1,0 @@
-# Contract on BscScan
-

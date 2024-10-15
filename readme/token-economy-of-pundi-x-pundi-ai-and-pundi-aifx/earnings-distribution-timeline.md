@@ -1,0 +1,3 @@
+# Earnings Distribution Timeline
+
+AI data contributors do not receive earnings immediately when data users purchase the data. This delay is because data users need time to verify the quality of the data after usage. Pundi AI's solution also includes offering data users the ability to compensate the contributors behind the purchased data for providing human-assisted feedback during the model training phase. After this series of steps concludes, the user's payment and earnings interest will be distributed. However, prior to this, content contributors can track all fund movements on-chain and within contracts, as well as the potential range of earnings they may receive in the future.

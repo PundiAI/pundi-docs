@@ -1,2 +1,0 @@
-# Cosmovisor Integration - Docker
-

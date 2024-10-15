@@ -1,2 +1,0 @@
-# Maintaining PURSE NFT(s)
-

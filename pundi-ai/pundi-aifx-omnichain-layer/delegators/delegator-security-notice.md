@@ -1,2 +1,0 @@
-# Delegator Security Notice
-

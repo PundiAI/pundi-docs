@@ -1,2 +1,0 @@
-# Installation f(x)Core
-

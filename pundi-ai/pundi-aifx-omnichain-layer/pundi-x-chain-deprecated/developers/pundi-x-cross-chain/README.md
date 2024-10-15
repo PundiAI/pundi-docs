@@ -1,2 +1,0 @@
-# Pundi X Cross Chain
-

@@ -1,2 +1,0 @@
-# Minting PURSE NFT(s)
-
