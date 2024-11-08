@@ -12,4 +12,4 @@
 **Pundi AIFX Omnichain Layer** - The Pundi AIFX Omnichain Layer is a Layer 1 blockchain that will support the entire Pundi AI ecosystem, providing a decentralized, blockchain-based infrastructure for data processing and sharing, without users having to interact directly with the complexities of blockchain technology.\
 
 
-**Purse+ SocialAI Browser Plugin** - A tool already being used by 25,000 users to analyze sentiment on social media (specifically Twitter/X) and earn stablecoins for their contributions, the Purse+ Browser Plugin allows users to tag and analyze sentiment data from tweets, this plugin enables companies to gather insights and make data-driven decisions.
+**Purse+ SocialAI Browser Plugin** - A tool already being used by 25,000 users to analyze sentiment on social media (specifically Twitter/X) and earn stablecoins for their contributions, the Purse+ Browser Plugin allows users to tag and analyze sentiment data from tweets. The plugin enables companies to gather insights and make data-driven decisions.
