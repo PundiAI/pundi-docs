@@ -190,3 +190,4 @@
     * [Earnings Distribution Timeline](pundiai/token-economy-of-pundi-x-pundi-ai-and-pundi-aifx/earnings-distribution-timeline.md)
     * [Earnings Distribution Mechanism](pundiai/token-economy-of-pundi-x-pundi-ai-and-pundi-aifx/earnings-distribution-mechanism.md)
   * [Roadmap](pundiai/roadmap.md)
+  * [Glossary](pundiai/glossary.md)
