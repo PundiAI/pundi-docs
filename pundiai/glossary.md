@@ -1,9 +1,9 @@
 # Glossary
 
-**Pundi AI** - Pundi AI is the umbrella brand for Pundi AI Data Platform, Pundi AI Data Marketplace, Pundi AIFX Omnichain Layer, and Purse+ SocialAI Browser Plugin.\
+**Pundi AI** - Pundi AI is the umbrella brand for all the products built by Pundi AI, which includes the Pundi AI Data Platform, Pundi AI Data Marketplace, Pundi AIFX Omnichain Layer, and Purse+ SocialAI Browser Plugin.\
 
 
-**Pundi AI Data Platform** - The Pundi AI Data Platform is a decentralized platform allowing individuals and companies to upload datasets and have them annotated by others, making it an open data ecosystem for AI. Users can contribute data or annotate and analyze existing datasets in exchange for payment. This system aims to resolve the shortage of clean, high-quality data, which is critical for training AI models.\
+**Pundi AI Data Platform** - The Pundi AI Data Platform is a decentralized platform allowing individuals and companies to upload datasets and have them annotated by anyone from around the world, making it an open data ecosystem for AI. Users can contribute data or annotate and analyze existing datasets in exchange for payment. This system aims to resolve the shortage of clean, high-quality data, which is critical for training AI models.\
 
 
 **Pundi AI Data Marketplace** - Slated for a 2025 launch, the Pundi AI Data Marketplace will allow users to buy and sell high-quality, annotated datasets. The platform will ensure compliance with copyright and GDPR regulations, providing a secure environment for data exchange.\
