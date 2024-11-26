@@ -8,10 +8,10 @@ This is a user guide to the alpha version of the Pundi AI Data Platform. We enco
 
 ### Software requirements <a href="#software-requirements" id="software-requirements"></a>
 
-| Type                 | Web application                                                                                          |
-| -------------------- | -------------------------------------------------------------------------------------------------------- |
-| Software requirement | <p>Stable Internet connection</p><p>Recommended web browser: Google Chrome</p>                           |
-| Access link          | [https://testnet-label-pla9o3irjvhaw86g.pundix.com/](https://testnet-label-pla9o3irjvhaw86g.pundix.com/) |
+| Type                 | Web application                                                                |
+| -------------------- | ------------------------------------------------------------------------------ |
+| Software requirement | <p>Stable Internet connection</p><p>Recommended web browser: Google Chrome</p> |
+| Access link          | Available soon                                                                 |
 
 ***
 
@@ -31,7 +31,7 @@ This is a user guide to the alpha version of the Pundi AI Data Platform. We enco
 * Open the application and connect your wallet using metamask or wallet connect.(Add quick picture guide of connecting wallet)
 * Navigate to the Browser Tasks section to begin.
 
-![](https://pundi.gitbook.io/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXdfF8SD4ldZ0j7jttvNt6WpiUdBaNqSbolqjzPPIv-ajyecLxwfgfwb_e1nTWGwsxSwe7JzXzivJO1rbhFNYo6G1PctXASbgV12rAe49mwOb9eKxJo60_eFbnZptZPN3tJpw6TQ%3Fkey%3Da8bNWxiNraXHReGKweoFdC-A\&width=768\&dpr=4\&quality=100\&sign=972ab9c6\&sv=1)
+<figure><img src="https://pundi.gitbook.io/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXdfF8SD4ldZ0j7jttvNt6WpiUdBaNqSbolqjzPPIv-ajyecLxwfgfwb_e1nTWGwsxSwe7JzXzivJO1rbhFNYo6G1PctXASbgV12rAe49mwOb9eKxJo60_eFbnZptZPN3tJpw6TQ%3Fkey%3Da8bNWxiNraXHReGKweoFdC-A&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=972ab9c6&#x26;sv=1" alt=""><figcaption></figcaption></figure>
 
 #### Step 2: Sort Available Tasks <a href="#step-2-sort-available-tasks" id="step-2-sort-available-tasks"></a>
 
@@ -40,7 +40,7 @@ This is a user guide to the alpha version of the Pundi AI Data Platform. We enco
   * Reward Amount
 * Choose the sorting method that best suits your preference.
 
-![](https://pundi.gitbook.io/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXcgSH8bIU17_WAXnlpjRQY93oUN_ww8Z41B71t1KrpLBEWFUPXgJUrr3akHrFZywIA7xbVwoo1po7yPrB1IzFYKrIEQGUdVdLZ3yayL7Crn_6pIDRux9aw4Utsb5DtFiFqk1cwz%3Fkey%3Da8bNWxiNraXHReGKweoFdC-A\&width=768\&dpr=4\&quality=100\&sign=802d379\&sv=1)
+<figure><img src="https://pundi.gitbook.io/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXcgSH8bIU17_WAXnlpjRQY93oUN_ww8Z41B71t1KrpLBEWFUPXgJUrr3akHrFZywIA7xbVwoo1po7yPrB1IzFYKrIEQGUdVdLZ3yayL7Crn_6pIDRux9aw4Utsb5DtFiFqk1cwz%3Fkey%3Da8bNWxiNraXHReGKweoFdC-A&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=802d379&#x26;sv=1" alt=""><figcaption></figcaption></figure>
 
 #### Step 3: Choose Your Task Type <a href="#step-3-choose-your-task-type" id="step-3-choose-your-task-type"></a>
 
@@ -48,7 +48,7 @@ This is a user guide to the alpha version of the Pundi AI Data Platform. We enco
   * Label Data: Directly annotate the given dataset.
   * Review Data: Verify and rate previously labeled tasks to ensure data quality.
 
-![](https://pundi.gitbook.io/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXd_XUiCAZdwtB9LmhNsedtJfsBNftvWvEFpp_TPgBICH1PTV81439NH6pVepS3uo2D6N_R7Az5GPlgBvt-lxa-DyRNX4-FgxsKDhx5_FuzSgVR6vklyUbDjfqS9Afyfs7HpRzsgJw%3Fkey%3Da8bNWxiNraXHReGKweoFdC-A\&width=768\&dpr=4\&quality=100\&sign=eebaf795\&sv=1)
+<figure><img src="https://pundi.gitbook.io/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXd_XUiCAZdwtB9LmhNsedtJfsBNftvWvEFpp_TPgBICH1PTV81439NH6pVepS3uo2D6N_R7Az5GPlgBvt-lxa-DyRNX4-FgxsKDhx5_FuzSgVR6vklyUbDjfqS9Afyfs7HpRzsgJw%3Fkey%3Da8bNWxiNraXHReGKweoFdC-A&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=eebaf795&#x26;sv=1" alt=""><figcaption></figcaption></figure>
 
 #### Step 4: Labeling Data <a href="#step-4-labeling-data" id="step-4-labeling-data"></a>
 
@@ -62,7 +62,7 @@ This is a user guide to the alpha version of the Pundi AI Data Platform. We enco
    * Select the option that best describes the data based on the Annotation Guidelines.
    * Click Submit to save your response.
 
-![](https://pundi.gitbook.io/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXfoS04MXfdGAI0hJsfLrju2kFDxSsWyCJz97stc-5I0xaQPpQUTfX0ZYpnZwgO_aNeWrMhj2egUWnkXtlYnNDEdtZjAYvrck0z9oFEei4pAV2TXcWdvDZ7DdTx9lX58fj-86z7EeQ%3Fkey%3Da8bNWxiNraXHReGKweoFdC-A\&width=768\&dpr=4\&quality=100\&sign=9cd8f374\&sv=1)
+<figure><img src="https://pundi.gitbook.io/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXfoS04MXfdGAI0hJsfLrju2kFDxSsWyCJz97stc-5I0xaQPpQUTfX0ZYpnZwgO_aNeWrMhj2egUWnkXtlYnNDEdtZjAYvrck0z9oFEei4pAV2TXcWdvDZ7DdTx9lX58fj-86z7EeQ%3Fkey%3Da8bNWxiNraXHReGKweoFdC-A&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=9cd8f374&#x26;sv=1" alt=""><figcaption></figcaption></figure>
 
 1. Complete the Task
    * Continue labeling until the entire task is complete.
