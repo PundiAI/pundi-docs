@@ -34,7 +34,7 @@ This is a user guide to the alpha version of the Pundi AI Data Platform. We enco
 
 * Navigate to the Browser Tasks section to begin.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeZwyKX_G7N2rJ1eH11zkjxIY5ORIs5EEgPMal6HsHEXI3Z-_BfqBZkdYpWfQuCBLgkXX7z6HoivUuJYENwcdpmu6DyohssmBnKL_qFn1skFdBvt5sV2YvWcUOJBvSvhXNkPUTRAw?key=a8bNWxiNraXHReGKweoFdC-A" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdw3qsZCtvB422GG3m261FRuHEizfIVYAmDq8juyyPMvSgodwcT1ULCFn2mt8uwbAW2c9YsNINTPAYCmZydxELQu4bG-lfgPTobytznnkaq6ZWdpyKER6Eorp7nqx6joMdaUEhY?key=a8bNWxiNraXHReGKweoFdC-A" alt=""><figcaption></figcaption></figure>
 
 #### Step 2: Sort Available Tasks <a href="#step-2-sort-available-tasks" id="step-2-sort-available-tasks"></a>
 
