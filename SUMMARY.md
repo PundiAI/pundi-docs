@@ -12,6 +12,7 @@
     * [Data Intellectual Property and Smart Contracts](pundiai/pundi-aidata/data-intellectual-property-and-smart-contracts.md)
     * [Benefit and Impacts to Partners](pundiai/pundi-aidata/benefit-and-impacts-to-partners.md)
     * [Decentralization makes AI DATA greater, more diverse and more transparent](pundiai/pundi-aidata/decentralization-makes-ai-data-greater-more-diverse-and-more-transparent.md)
+    * [Pundi AI Data Platform (testnet) - User Guide](pundiai/pundi-aidata/pundi-ai-data-platform-testnet-user-guide.md)
     * [Beta Version](pundiai/pundi-aidata/pundi-aidata/README.md)
       * [Beta overview](pundiai/pundi-aidata/pundi-aidata/overview.md)
       * [Takeaways About Beta](pundiai/pundi-aidata/pundi-aidata/takeaways-about-beta.md)
