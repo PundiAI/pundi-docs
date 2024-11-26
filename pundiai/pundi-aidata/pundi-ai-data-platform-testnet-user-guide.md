@@ -51,25 +51,27 @@ This is a user guide to the alpha version of the Pundi AI Data Platform. We enco
   * Label Data: Directly annotate the given dataset.
   * Review Data: Verify and rate previously labeled tasks to ensure data quality.
 
-<figure><img src="https://pundi.gitbook.io/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXd_XUiCAZdwtB9LmhNsedtJfsBNftvWvEFpp_TPgBICH1PTV81439NH6pVepS3uo2D6N_R7Az5GPlgBvt-lxa-DyRNX4-FgxsKDhx5_FuzSgVR6vklyUbDjfqS9Afyfs7HpRzsgJw%3Fkey%3Da8bNWxiNraXHReGKweoFdC-A&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=eebaf795&#x26;sv=1" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdm2XoX-9c7DiKr-fGK9OUqkFVHOFnyHYDKLN4-NTXJKz0OguPJdWK_74MTuVPdzB6G8ujo3ScGSDndl7CiFtUfTm_Lv2oBKW45So6XNfKkst2GslK6dJUKtdu1QzywvgmltPF7Gg?key=a8bNWxiNraXHReGKweoFdC-A" alt=""><figcaption></figcaption></figure>
 
 #### Step 4: Labeling Data <a href="#step-4-labeling-data" id="step-4-labeling-data"></a>
 
-1. Understand the Task: Notes- Improve picture quality.
-   * Read the task description to get a clear idea of what is expected.
-   * If you need more information, refer to the Annotation Guidelines provided.
+1.  Understand the Task: Notes- Improve picture quality.
 
-![](https://pundi.gitbook.io/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXclu15bHf_NUsmSRFCkPfnEL0uo7K2Qh2IRzsEaBjfrcJaVfQJROENyZZU1MQIF_xV3EmKQKV3czQBbgpbHz2_pVtxkerOplJvj40ymyzsc_DZemUusDxPNxEem1xtfoQxvtMw4%3Fkey%3Da8bNWxiNraXHReGKweoFdC-A\&width=300\&dpr=4\&quality=100\&sign=c377b805\&sv=1)![](https://pundi.gitbook.io/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXeAf-uMVAUg7P2pkRJV6LaIVT2PexL_kTCihvjd22FjdvOhY1dxuPuF087tA-0D5pdZ5ahZ0FugLTlhvRf2rIGtebnv-JHOCENEWUcN9AarAEm3xt2SX70jMbsF-kVB9n0F-O-QiQ%3Fkey%3Da8bNWxiNraXHReGKweoFdC-A\&width=300\&dpr=4\&quality=100\&sign=af802ab4\&sv=1)
+    * Read the task description to get a clear idea of what is expected.
+    * If you need more information, refer to the Annotation Guidelines provided.
 
-1. Annotate the Data
-   * Select the option that best describes the data based on the Annotation Guidelines.
-   * Click Submit to save your response.
+    ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdI_-OvTeWccrdy_lTs1eNot8uT8xW3OVRYov1uQLrCynclGbpFhrsok-jGeLKhnYOjCbIVFYqSuf5Pl_jfsLjb9otZmqyPJ396S34HqamlN0kZDwAIMCSON6hllRd0mkbp0yGc?key=a8bNWxiNraXHReGKweoFdC-A)![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc0OoAN0X80nwNwZG9qMlgZnQE3DzlW42vdyiGNArmUREr-VggH3X7IB5f4WMVoQzkFm3wP1Uy5_k7-NCLeOUbCyjXHOpJmzV6zEwm2CDV-u-h6kTMOqkVruLn6IXHSu3a5fh3HjA?key=a8bNWxiNraXHReGKweoFdC-A)
+2.  Annotate the Data
 
-<figure><img src="https://pundi.gitbook.io/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXfoS04MXfdGAI0hJsfLrju2kFDxSsWyCJz97stc-5I0xaQPpQUTfX0ZYpnZwgO_aNeWrMhj2egUWnkXtlYnNDEdtZjAYvrck0z9oFEei4pAV2TXcWdvDZ7DdTx9lX58fj-86z7EeQ%3Fkey%3Da8bNWxiNraXHReGKweoFdC-A&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=9cd8f374&#x26;sv=1" alt=""><figcaption></figcaption></figure>
+    * Select the option that best describes the data based on the Annotation Guidelines.
+    * Click Submit to save your response.
 
-1. Complete the Task
+
+
+    <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdTzdMfKcBXFWs5o8oiULS9OBOCBGHdrLRuwbTirIzrawSwQD_o1FvgvRtLZnDchW1bMBDJwPJtRcMX4RjWm-XHTlxHHkIipMQVGY_9hcseRoexVESlQYTRYnnvWHSIaWcL0WIx-A?key=a8bNWxiNraXHReGKweoFdC-A" alt=""><figcaption></figcaption></figure>
+3. Complete the Task
    * Continue labeling until the entire task is complete.
-2. Review and Reward
+4. Review and Reward
    * Your labeled work will be reviewed by a team of reviewers.
      * Reviewers will give a rating on a scale of 1 to 5 (1 for Poor and 5 for Excellent) to measure the quality of the annotation (based on by metrics such as the accuracy, precision and completeness).
      * Each accepted labeled data row will be evaluated and rated by 3 Reviewers. Once the sufficient number of Reviewers provide their ratings, the data row will be removed from the review queue and go through the Inter-Reviewer Agreement process automatically.
