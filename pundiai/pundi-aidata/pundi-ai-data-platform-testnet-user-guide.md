@@ -29,9 +29,12 @@ This is a user guide to the alpha version of the Pundi AI Data Platform. We enco
 #### Step 1: Connect Your Wallet <a href="#step-1-connect-your-wallet" id="step-1-connect-your-wallet"></a>
 
 * Open the application and connect your wallet using metamask or wallet connect.(Add quick picture guide of connecting wallet)
+
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeZwyKX_G7N2rJ1eH11zkjxIY5ORIs5EEgPMal6HsHEXI3Z-_BfqBZkdYpWfQuCBLgkXX7z6HoivUuJYENwcdpmu6DyohssmBnKL_qFn1skFdBvt5sV2YvWcUOJBvSvhXNkPUTRAw?key=a8bNWxiNraXHReGKweoFdC-A" alt=""><figcaption></figcaption></figure>
+
 * Navigate to the Browser Tasks section to begin.
 
-<figure><img src="https://pundi.gitbook.io/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXdfF8SD4ldZ0j7jttvNt6WpiUdBaNqSbolqjzPPIv-ajyecLxwfgfwb_e1nTWGwsxSwe7JzXzivJO1rbhFNYo6G1PctXASbgV12rAe49mwOb9eKxJo60_eFbnZptZPN3tJpw6TQ%3Fkey%3Da8bNWxiNraXHReGKweoFdC-A&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=972ab9c6&#x26;sv=1" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeZwyKX_G7N2rJ1eH11zkjxIY5ORIs5EEgPMal6HsHEXI3Z-_BfqBZkdYpWfQuCBLgkXX7z6HoivUuJYENwcdpmu6DyohssmBnKL_qFn1skFdBvt5sV2YvWcUOJBvSvhXNkPUTRAw?key=a8bNWxiNraXHReGKweoFdC-A" alt=""><figcaption></figcaption></figure>
 
 #### Step 2: Sort Available Tasks <a href="#step-2-sort-available-tasks" id="step-2-sort-available-tasks"></a>
 
@@ -40,7 +43,7 @@ This is a user guide to the alpha version of the Pundi AI Data Platform. We enco
   * Reward Amount
 * Choose the sorting method that best suits your preference.
 
-<figure><img src="https://pundi.gitbook.io/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXcgSH8bIU17_WAXnlpjRQY93oUN_ww8Z41B71t1KrpLBEWFUPXgJUrr3akHrFZywIA7xbVwoo1po7yPrB1IzFYKrIEQGUdVdLZ3yayL7Crn_6pIDRux9aw4Utsb5DtFiFqk1cwz%3Fkey%3Da8bNWxiNraXHReGKweoFdC-A&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=802d379&#x26;sv=1" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdTIPCYw9w6h0uzQmVrxPHj_OGR6vsE31DeamsXd9Ekyf-5W4n_8nVOQRNyRXplM5cWi4JBFFWTIvy6kEk9gWx3nRJt0qNpdopNThbLxvfN3FB_tc0Nla7nlCzzR-8IF-UbheQN8w?key=a8bNWxiNraXHReGKweoFdC-A" alt=""><figcaption></figcaption></figure>
 
 #### Step 3: Choose Your Task Type <a href="#step-3-choose-your-task-type" id="step-3-choose-your-task-type"></a>
 
