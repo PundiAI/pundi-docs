@@ -9,4 +9,4 @@ To propel the AI industry forward, Pundi AI leverages blockchain technology to c
 * PURSE+ browser plugin
 * (coming soon) Pundi AI Data Marketplace.
 
-Pundi AI is a bridge between real-world data and AI companies. The platform aims to decentralize data contribution and reward participants, fostering a transparent and equitable AI ecosystem.\\
+Pundi AI is a bridge between real-world data and AI companies. The platform aims to decentralize data contribution and reward participants, fostering a transparent and equitable AI ecosystem.
