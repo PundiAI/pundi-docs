@@ -188,7 +188,7 @@
   * [Pundi AI Data Marketplace (soon)](pundiai/pundi-ai-data-marketplace-soon.md)
   * [Token: $PUNDIAI](pundiai/token-economy-of-pundi-x-pundi-ai-and-pundi-aifx/README.md)
     * [The AI Flywheel: Components and Roles](pundiai/token-economy-of-pundi-x-pundi-ai-and-pundi-aifx/the-ai-flywheel-components-and-roles.md)
-    * [Utilities of $AIFX](pundiai/token-economy-of-pundi-x-pundi-ai-and-pundi-aifx/utilities-of-pundi-aifx-token.md)
+    * [Utilities of $PUNDIAI](pundiai/token-economy-of-pundi-x-pundi-ai-and-pundi-aifx/utilities-of-pundi-aifx-token.md)
     * [Earnings Distribution Timeline](pundiai/token-economy-of-pundi-x-pundi-ai-and-pundi-aifx/earnings-distribution-timeline.md)
     * [Earnings Distribution Mechanism](pundiai/token-economy-of-pundi-x-pundi-ai-and-pundi-aifx/earnings-distribution-mechanism.md)
   * [Roadmap](pundiai/roadmap.md)
