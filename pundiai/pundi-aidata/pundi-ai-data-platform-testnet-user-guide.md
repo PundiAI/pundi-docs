@@ -2,7 +2,7 @@
 
 ### Introduction <a href="#introduction" id="introduction"></a>
 
-This is a user guide to the alpha version of the Pundi AI Data Platform. We encourage everyone to try out the testnet, although do bear in mind that as this is not mainnet, some things are not 100% stable and might break.
+This is a user guide to the Alpha Testnet version of the Pundi AI Data Platform. We encourage everyone to try out the Alpha Testnet, although do bear in mind that as this is not mainnet, some things are not 100% stable and might break.
 
 ***
 
@@ -11,7 +11,7 @@ This is a user guide to the alpha version of the Pundi AI Data Platform. We enco
 | Type                 | Web application                                                                |
 | -------------------- | ------------------------------------------------------------------------------ |
 | Software requirement | <p>Stable Internet connection</p><p>Recommended web browser: Google Chrome</p> |
-| Access link          | Available soon                                                                 |
+| Access link          | [https://data.pundi.ai/testnet/](https://data.pundi.ai/testnet/)               |
 
 ***
 

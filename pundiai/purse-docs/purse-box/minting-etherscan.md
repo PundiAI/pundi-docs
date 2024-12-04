@@ -17,7 +17,7 @@ The following steps describe how to mint PURSE BOX NFTs on Etherscan.
 
 5. In order to mint 1 PURSE404 NFT, you will need **0.01 ETH** and **1,000,000 PURSE** tokens in you `inactiveBalance`. For minting a single NFT, 1,000,000 PURSE will be converted from your `inactiveBalance`.\
    \
-   _Your inputs must be: \`payableAmount = 0.01\` & \`mintUnit\_ = 1\` (for minting 1 NFT)._
+   &#xNAN;_&#x59;our inputs must be: \`payableAmount = 0.01\` & \`mintUnit\_ = 1\` (for minting 1 NFT)._
 
 <figure><img src="https://lh7-us.googleusercontent.com/oG6-Kvi9SBX-OPttCB-gKSzwTGO2p8R7J91gYiwNLXuM37VTvNHDaZvdA9n7jAvP0OwqWqe6orwDPklv0X-cNQOo1tCZyIGjdO4h37SbzRbtCo-kQ_SlEft7U0Wkb9nPGny2w6b5NgzwggxfQq6WLLk" alt="" width="563"><figcaption></figcaption></figure>
 
