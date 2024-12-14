@@ -1,4 +1,4 @@
-# Token: $PUNDIAI (currently $FX)
+# 🥇 Token: $PUNDIAI (formerly $FX)
 
 Introducing the AI Flywheel: Revolutionizing the Token Economy
 
@@ -7,4 +7,6 @@ As we forge ahead into the future, we are excited to unveil our innovative AI fl
 $PUNDIAI is a redenomination from [$FX tokens](https://www.coingecko.com/en/coins/function-x). Redenomination is scheduled across major exchanges and on-chain in Q1 2025. There is an active on [Pundiscan forum](https://forum.pundi.ai/t/temperature-check-upgrade-f-x-core-and-rebrand-function-x-to-pundi-aifx/).
 
 For $PUNDIX token, please visit pundix.com.
+
+
 

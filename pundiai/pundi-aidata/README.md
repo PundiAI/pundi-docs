@@ -1,4 +1,4 @@
-# Pundi AI Data (platform)
+# 🈁 Pundi AI Data (platform)
 
 Pundi AI Data is Pundi AI's Data platform.
 

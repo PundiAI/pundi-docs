@@ -1,5 +1,7 @@
 ---
-description: Summary of the product suits, for details read the respective pages.
+description: >-
+  A simple glossary to help you wade through, for more detailed and precise
+  info, please read the respective pages. :-)
 ---
 
 # Glossary
