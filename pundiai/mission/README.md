@@ -7,6 +7,7 @@ To propel the AI industry forward, Pundi AI leverages blockchain technology to c
 * Pundi AI Data platform
 * Pundi AIFX omnichain layer
 * PURSE+ browser plugin
-* (coming soon) Pundi AI Data Marketplace.
+* (coming soon) Pundi AI Data Marketplace
+* (coming soon) Pundi Fun AI agent launcher
 
 Pundi AI is a bridge between real-world data and AI companies. The platform aims to decentralize data contribution and reward participants, fostering a transparent and equitable AI ecosystem.
