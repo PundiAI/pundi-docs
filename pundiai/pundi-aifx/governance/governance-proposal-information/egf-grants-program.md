@@ -50,9 +50,9 @@ The rest of the voting power would then come from the public delegators and vali
 Before setting up any proposal on-chain, it is strongly recommended to any proposer to proceed the following way:
 
 1. Contact the team with an inquiry form
-   1. The proposer must contact the Function X team by correctly filling in the [inquiry-application-template](https://github.com/FunctionX/FunctionX-EGF/blob/main/applications/inquiry\_proposal\_applicants/inquiry-application-template.md) which is points 1-5 (inclusive) of the EGF proposal form
+   1. The proposer must contact the Function X team by correctly filling in the [inquiry-application-template](https://github.com/FunctionX/FunctionX-EGF/blob/main/applications/inquiry_proposal_applicants/inquiry-application-template.md) which is points 1-5 (inclusive) of the EGF proposal form
       1. [Fork](https://github.com/FunctionX/FunctionX-EGF/fork) the FunctionX-EGF repository
-      2. In the newly created fork, create a copy of the [inquiry-application-template](https://github.com/FunctionX/FunctionX-EGF/blob/main/applications/inquiry\_proposal\_applicants/inquiry-application-template.md). If you're using the GitHub web interface, you will need to create a new file and copy the [contents](https://raw.githubusercontent.com/FunctionX/FunctionX-EGF/main/applications/inquiry\_proposal\_applicants/inquiry-application-template.md) of the template inside the new one. Make sure you **do not modify the template file directly**.
+      2. In the newly created fork, create a copy of the [inquiry-application-template](https://github.com/FunctionX/FunctionX-EGF/blob/main/applications/inquiry_proposal_applicants/inquiry-application-template.md). If you're using the GitHub web interface, you will need to create a new file and copy the [contents](https://raw.githubusercontent.com/FunctionX/FunctionX-EGF/main/applications/inquiry_proposal_applicants/inquiry-application-template.md) of the template inside the new one. Make sure you **do not modify the template file directly**.
       3. Name the new file after your project: `project_name.md`.
       4. Fill out the template with the details of your project. The more information you provide, the faster the review.
       5. Once you're done, create a pull request. The pull request should only contain _one new file_—the Markdown file you created from the template.
@@ -63,7 +63,7 @@ Before setting up any proposal on-chain, it is strongly recommended to any propo
 3. Formal proposal
    1. If identified as requiring financial support
    2. [Fork](https://github.com/FunctionX/FunctionX-EGF/fork) the FunctionX-EGF repository
-   3. In the newly created fork, create a copy of the [formal-application-template](https://github.com/FunctionX/FunctionX-EGF/blob/main/applications/formal\_proposal\_applicants/formal-application-template.md). If you're using the GitHub web interface, you will need to create a new file and copy the [contents](https://raw.githubusercontent.com/FunctionX/FunctionX-EGF/main/applications/formal\_proposal\_applicants/formal-application-template.md) of the template inside the new one. Make sure you **do not modify the template file directly**.
+   3. In the newly created fork, create a copy of the [formal-application-template](https://github.com/FunctionX/FunctionX-EGF/blob/main/applications/formal_proposal_applicants/formal-application-template.md). If you're using the GitHub web interface, you will need to create a new file and copy the [contents](https://raw.githubusercontent.com/FunctionX/FunctionX-EGF/main/applications/formal_proposal_applicants/formal-application-template.md) of the template inside the new one. Make sure you **do not modify the template file directly**.
    4. Name the new file after your project: `project_name.md`.
    5. Fill out the template with the details of your project. The more information you provide, the faster the review.
    6. Once you're done, create a pull request. The pull request should only contain _one new file_—the Markdown file you created from the template.
