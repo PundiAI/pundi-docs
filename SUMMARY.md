@@ -7,7 +7,6 @@
     * [Trend Research](pundiai/mission/trend-research.md)
   * [Pundi AI Data (platform)](pundiai/pundi-aidata/README.md)
     * [Data stakeholders](pundiai/pundi-aidata/data-stakeholders.md)
-    * [Omnichain](pundiai/pundi-aidata/omnichain.md)
     * [Data Labelling](pundiai/pundi-aidata/data-labelling.md)
     * [Data Intellectual Property and Smart Contracts](pundiai/pundi-aidata/data-intellectual-property-and-smart-contracts.md)
     * [Benefit and Impacts to Partners](pundiai/pundi-aidata/benefit-and-impacts-to-partners.md)
