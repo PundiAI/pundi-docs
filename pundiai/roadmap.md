@@ -5,14 +5,14 @@
 * Website upgrade
 * Publication of the PUNDI AI White Paper
 * Data annotation browser extension (alpha release)
-* PUNDI AIFX data layer (chain) upgrade, merge Function X and Pundi X Chain
+* PUNDI AIFX Omni Layer merges with Function X.
 * Block explorer upgrade
 * Governance voting
 * Community building
 
 ### Phase 2: Perception, Q4 2024
 
-* AIFX data layer connects to EVM or Cosmos compatible chain.
+* AIFX data layer connects to or Cosmos compatible chain.
 * AI DATA platform beta launch
 * Data annotation professional tools (beta release)
 * Partnerships with AI projects
