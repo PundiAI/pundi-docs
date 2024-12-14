@@ -1,6 +1,8 @@
-# Utilities of $PUNDIAI
+# $PUNDIAI in Pundi AI Data Platform Salary Pool
 
-The $PUNDIAI Token serves as a bridge between contributors and users of AI training verified data. Users acquire their required data and labels by purchasing them with $PUNDIAI tokens. These payments are directed into the Pundi AI salary pool, managed by smart contracts that ensure fair and transparent distribution of labor compensation.
+The $PUNDIAI Token has a few utility listed under the flywheel.
+
+One of the flywheel is that it serves as a bridge between contributors and users of AI training verified data. Users acquire their required data and labels by purchasing them with $PUNDIAI tokens. These payments are directed into the Pundi AI salary pool, managed by smart contracts that ensure fair and transparent distribution of labor compensation.
 
 Periodically, rewards are distributed to the addresses of AI training verified data contributors based on a publicly disclosed allocation plan. As sales of data and usage of services increase, so does the contribution to AI training verified data, thereby increasing the total compensation that the system can distribute.
 
