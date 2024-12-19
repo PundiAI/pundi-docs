@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Roadmap
 
 ### Phase 1: Inception, Q3 2024

@@ -2,6 +2,7 @@
 description: >-
   A simple glossary to help you wade through, for more detailed and precise
   info, please read the respective pages. :-)
+hidden: true
 ---
 
 # Glossary
