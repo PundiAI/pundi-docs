@@ -17,7 +17,7 @@ The protocol pool includes.
 
 The protocol pool does NOT include.
 
-* Pundi AIFX
+* Pundi AIFX Omni Layer
   * Block reward are not part of the protocol pool, as it is distributed directly to `$PUNDIAI` delegators.
 * Pundi Fun AI Agent Launcher
   * Bribe rewards from `$vePUNDIAI` is not part of the protocol pool, as it is distributed directly to voters.
