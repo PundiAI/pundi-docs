@@ -1,4 +1,4 @@
-# 🛝 Pundi AIFX (omni layer)
+# ⛓️ Pundi AIFX (omni layer)
 
 Pundi AIFX is part of the Pundi AI ecosystem, it is an omni chain decentralized AI data processing layer that was formerly known as Function X (FX).
 
