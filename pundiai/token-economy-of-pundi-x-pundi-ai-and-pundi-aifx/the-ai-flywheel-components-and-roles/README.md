@@ -1,18 +1,27 @@
 # Revenue generation flywheel
 
-* Pundi AI Data Platform
-  * Publishing Fee
-    * A 10% fee is deducted from the total proceeds of data buyers, and goes to [protocol pool](protocol-pool.md).
-    * Rationale: Encourages efficient task posting while rewarding the protocol for maintaining the infrastructure and facilitating task execution.
-* Pundi AIFX Omni Layer
-  * Validator Block Reward
-    * As the governance tokens, staking`$PUNDIAI`allows users to earn block rewards, as of Dec 2024 the apr is \~15%. Details on delegation can be found on [support](https://support.functionx.io/hc/en-us/articles/900004371166-How-to-delegate-FX-to-a-validator).
-    * After staking, users can optionally participate in the flywheel by locking into`$vePUNDIAI`.
-* (coming soon) Pundi AI Marketplace
-  * Trading Fee:&#x20;
-    * The platform takes a 10% commission on every dataset sold in the marketplace,  and goes to [protocol pool](protocol-pool.md).
-    * Rationale: This incentivizes the platform to maintain a high-quality marketplace for data transactions while generating consistent revenue.
-* (coming soon) Pundi Fun AI Agent Launcher
+* `Pundi AI Data Platform`
+  *   Publishing Fee
+
+      * A 10% fee is deducted from the total proceeds of data buyers, and goes to [protocol pool](protocol-pool.md).
+      * Rationale: Encourages efficient task posting while rewarding the protocol for maintaining the infrastructure and facilitating task execution.
+
+
+* `Pundi AIFX Omni Layer`
+  *   Validator Block Reward
+
+      * As the governance tokens, staking`$PUNDIAI`allows users to earn block rewards, as of Dec 2024 the apr is \~15%. Details on delegation can be found on [support](https://support.functionx.io/hc/en-us/articles/900004371166-How-to-delegate-FX-to-a-validator).
+      * After staking, users can optionally participate in the flywheel by locking into`$vePUNDIAI`.
+
+
+* `Pundi AI Marketplace`
+  *   Trading Fee:&#x20;
+
+      * The platform takes a 10% commission on every dataset sold in the marketplace,  and goes to [protocol pool](protocol-pool.md).
+      * Rationale: This incentivizes the platform to maintain a high-quality marketplace for data transactions while generating consistent revenue.
+
+
+* `Pundi Fun AI Agent Launcher`
   * Bribe Fee
     * Bribe for`$vePUNDIAI`Holders: When projects aim to incentivize`$vePUNDIAI`holders to vote for liquidity incentives, the platform takes 10% of the project's incentive tokens,  and goes to [protocol pool](protocol-pool.md).
     * Rationale: Aligns`$vePUNDIAI`governance with project incentives, encouraging participation while generating revenue for the protocol.

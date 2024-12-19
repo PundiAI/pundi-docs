@@ -9,9 +9,9 @@ The protocol pool includes.
 * Pundi AI Marketplace&#x20;
   * `trading fee`
 * Pundi Fun AI Agent Launcher
-  * convincing fee
-  * transaction fee (bonding curve)
-  * LP fee
+  * `convincing fee`
+  * `transaction fee` (bonding curve)
+  * `LP fee`
 
 
 
