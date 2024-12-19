@@ -1,12 +1,13 @@
 # Table of contents
 
 * [Pundi AI](README.md)
+  * [🛍️ Pundi AI Data Marketplace (soon)](pundiai/pundi-ai-data-marketplace-soon.md)
   * [🤖 Pundi AI overview](pundiai/mission.md)
   * [🈁 Pundi AI Data (platform)](pundiai/pundi-aidata/README.md)
     * [Data stakeholders](pundiai/pundi-aidata/data-stakeholders.md)
     * [Data Labelling](pundiai/pundi-aidata/data-labelling.md)
     * [Pundi AI Data Platform (Alpha Testnet) - User Guide](pundiai/pundi-aidata/pundi-ai-data-platform-alpha-testnet-user-guide.md)
-  * [⛓️ Pundi AIFX (Base omni layer)](pundiai/pundi-aifx/README.md)
+  * [🦾 Pundi AIFX (Base omni layer)](pundiai/pundi-aifx/README.md)
     * [f(x)Core](pundiai/pundi-aifx/f-x-core.md)
     * [Installation f(x)Core](pundiai/pundi-aifx/installation.md)
     * [Setup Node](pundiai/pundi-aifx/setup-node/README.md)
@@ -166,7 +167,6 @@
       * [Maintaining PURSE NFT(s)](pundiai/purse-docs/purse-token/maintaining-purse-nft-s.md)
       * [NFTs in Queue](pundiai/purse-docs/purse-token/nfts-in-queue.md)
       * [Token IDs](pundiai/purse-docs/purse-token/token-ids.md)
-  * [🛍️ Pundi AI Data Marketplace (soon)](pundiai/pundi-ai-data-marketplace-soon.md)
   * [🎡 Pundi Fun (AI agent launcher) (soon)](pundiai/pundi-fun-ai-agent-launcher-proposal/README.md)
     * [Background](pundiai/pundi-fun-ai-agent-launcher-proposal/background.md)
     * [Train & Launch (Step 1 & 2)](pundiai/pundi-fun-ai-agent-launcher-proposal/train-and-launch-step-1-and-2.md)
