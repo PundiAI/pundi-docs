@@ -8,6 +8,12 @@ To propel the AI industry forward, Pundi AI leverages blockchain technology to c
 * [Pundi AIFX omni layer](pundi-aifx/)
 * [PURSE+ browser plugin](purse-docs/purse+/)
 * (coming soon) [Pundi AI Data Marketplace](pundi-ai-data-marketplace-soon.md)
-* (coming soon) [Pundi Fun AI agent launcher](pundi-fun-ai-agent-launcher-soon/)
+* (coming soon) [Pundi Fun AI agent launcher](pundi-fun-ai-agent-launcher-proposal/)
 
-Pundi AI's objective is `democratising data for AI`, and our vision is to `create 1 million job opportunities`.
+Pundi AI's objective is `democratising data for AI`, and fulfill the vision of `creating 1 million job opportunities`.
+
+
+
+## `democratising data for AI`
+
+## `creating 1 million job opportunities`
