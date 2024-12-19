@@ -1,10 +1,7 @@
 # Table of contents
 
 * [Pundi AI](README.md)
-  * [🤖 Pundi AI overview](pundiai/mission/README.md)
-    * [Background](pundiai/mission/background-the-crucial-role-of-training-data-in-ai-development.md)
-    * [Addressing needs](pundiai/mission/addressing-industry-needs-diversify-and-vertical-ai-solutions.md)
-    * [Trend Research](pundiai/mission/trend-research.md)
+  * [🤖 Pundi AI overview](pundiai/mission.md)
   * [🈁 Pundi AI Data (platform)](pundiai/pundi-aidata/README.md)
     * [Data stakeholders](pundiai/pundi-aidata/data-stakeholders.md)
     * [Data Labelling](pundiai/pundi-aidata/data-labelling.md)
