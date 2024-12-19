@@ -1,8 +1,8 @@
 # 🤖 Pundi AI overview
 
-The demand for AI is surging across industries, with data emerging as a crucial determinant of a model's success. The market for AI data is rapidly expanding, with projections indicating that global spending on AI is expected to reach $500 billion by 2025. This demand is driven by the need for high-quality, diverse data, which is essential for training AI models effectively.
+Pundi AI's objective is `democratising AI`, and fulfilling the vision of `creating 1 million job opportunities`.
 
-To propel the AI industry forward, Pundi AI leverages blockchain technology to create a suite of tools for AI Data.
+Pundi AI comprises of&#x20;
 
 * [Pundi AI Data platform](pundi-aidata/)
 * [Pundi AIFX omni layer](pundi-aifx/)
@@ -10,10 +10,5 @@ To propel the AI industry forward, Pundi AI leverages blockchain technology to c
 * (coming soon) [Pundi AI Data Marketplace](pundi-ai-data-marketplace-soon.md)
 * (coming soon) [Pundi Fun AI agent launcher](pundi-fun-ai-agent-launcher-proposal/)
 
-Pundi AI's objective is `democratising data for AI`, and fulfill the vision of `creating 1 million job opportunities`.
 
 
-
-## `democratising data for AI`
-
-## `creating 1 million job opportunities`

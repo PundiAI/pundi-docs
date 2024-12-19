@@ -6,7 +6,9 @@ Pundi AI uses two tokens to manage its utility and governance:
 * `$vePUNDIAI` — ERC-721 a form of locked $PUNDIAI in an NFT (non-fungible token) specifically for epoch voting in [Pundi Fun AI Agent Launcher](../pundi-fun-ai-agent-launcher-proposal/), playing a specific governance role for epoch incentives.&#x20;
   * Any `$PUNDIAI` holder that have delegated their tokens to a validator can vote-escrow their delegation proof and receive a `$vePUNDIAI` (also known as Lock or veNFT) in exchange.
 
-`$PUNDIAI` is a redenomination from[`$FX`](https://www.coingecko.com/en/coins/function-x). Redenomination is scheduled across major exchanges and on-chain in Q1 2025. There is an active discussion on [Pundiscan forum](https://forum.pundi.ai/t/temperature-check-upgrade-f-x-core-and-rebrand-function-x-to-pundi-aifx/).
+`$PUNDIAI` is a redenomination from[`$FX`](https://www.coingecko.com/en/coins/function-x). Redenomination is scheduled across major exchanges and on-chain in Q1 2025. There is an active discussion on [Pundiscan forum](https://forum.pundi.ai/t/temperature-check-upgrade-f-x-core-and-rebrand-function-x-to-pundi-aifx/), &#x20;
+
+
 
 
 
@@ -25,5 +27,7 @@ Pundi AI uses two tokens to manage its utility and governance:
 | Public Treasury              | 20%  |
 | Team                         | 15%  |
 | Total ( 378,605,524 at TGE)  | 100% |
+
+For contract addresses refer to [contract address.](../pundi-aifx/developers/contract-deployments.md)
 
 There was no VC and no plans for one.
