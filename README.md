@@ -12,7 +12,7 @@ Pundi AI suite of tools:
 
 * [`Pundi AI Data platform`](pundiai/pundi-aidata/)
 * [`Pundi AIFX omnichain layer`](pundiai/pundi-aifx/)
-* [`PURSE+ browser plugin`](pundiai/purse-docs/purse+/)
+* [`PURSE+ browser plugin`](pundiai/purse-docs/)
 * (coming soon) [`Pundi AI Data Marketplace`](pundiai/pundi-ai-data-marketplace-soon.md)
 * (coming soon) [`Pundi Fun AI agent launcher`](pundiai/pundi-fun-ai-agent-launcher-proposal/)
 
