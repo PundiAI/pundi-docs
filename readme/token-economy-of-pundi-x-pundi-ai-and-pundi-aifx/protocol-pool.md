@@ -12,13 +12,16 @@ The protocol pool includes.
   * `convincing fee`
   * `transaction fee` (bonding curve)
   * `LP fee`
+  * `bribe fee`
 
 
 
 The protocol pool does NOT include.
 
-* Pundi AIFX Omni Layer
-  * Block reward are not part of the protocol pool, as it is distributed directly to `$PUNDIAI` delegators.
-* Pundi Fun AI Agent Launcher
-  * Bribe rewards from `$vePUNDIAI` is not part of the protocol pool, as it is distributed directly to voters.
+* Pundi AIFX Omni Layer block reward
+  * Block reward are not part of the protocol pool, as it is fully distributed directly to `$PUNDIAI` holders when they delegate the tokens.
+
+
+
+
 
