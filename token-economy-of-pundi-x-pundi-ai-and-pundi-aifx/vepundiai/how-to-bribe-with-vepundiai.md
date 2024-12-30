@@ -19,7 +19,7 @@ These are steps to bribe.
     * Rewards to `$vePUNDIAI` Holders
       * Weekly bribes (project tokens).
       * LP fees from incentivized liquidity pools.
-      * A share of protocol rewards (10% of project tokens flow to the [protocol pool](../../../readme/token-economy-of-pundi-x-pundi-ai-and-pundi-aifx/protocol-pool.md)).
+      * A share of protocol rewards (10% of project tokens flow to the [protocol pool](../protocol-pool.md)).
 
 
 
