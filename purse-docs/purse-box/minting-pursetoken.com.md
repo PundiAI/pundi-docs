@@ -1,6 +1,6 @@
 # Minting (Pursetoken.com)
 
-1. Head to [https://pursetoken.com/pursebox](https://pursetoken.com/pursebox). Alternatively, this page can be found from the navbar of [https://pursetoken.com](https://pursetoken.com).
+1. Head to [https://pursetoken.com/#/purseboxnft](https://pursetoken.com/#/purseboxnft). Alternatively, this page can be found from the navbar of [https://pursetoken.com](https://pursetoken.com).
 
 <figure><img src="https://lh7-us.googleusercontent.com/2HsX8LJTmruQJ9tOsmrilanQjtUVxBCVn3ms_WktOgq69t0kcGuWjKGKcDXcCoWqUW4OEosSpxJ0g6iQGIaGa9Rn7PvzPRLZv2z9dqO0-wIugxQ90Pw0dXp7KtHLeQC-cbbneI_zKtO8cjhlK7wF53s" alt=""><figcaption></figcaption></figure>
 
