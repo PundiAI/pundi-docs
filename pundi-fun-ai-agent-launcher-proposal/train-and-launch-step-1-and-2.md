@@ -1,6 +1,6 @@
 # Train & Launch (Step 1 & 2)
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-12-14 at 7.55.43 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ver1.31-B&#x26;W_Drawing 04.png" alt=""><figcaption></figcaption></figure>
 
 *   Step 1: Projects trains AI agents through Pundi AI Data Platform.&#x20;
 
