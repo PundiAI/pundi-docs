@@ -43,7 +43,7 @@
 
 ## Viewing PURSEBOX NFTs through pursetoken.com
 
-1. Head to [https://pursetoken.com/pursebox](https://pursetoken.com/pursebox).
+1. Head to [https://pursetoken.com/#/purseboxnft](https://pursetoken.com/#/purseboxnft).
 2. If you have a PURSEBOX NFT, you should be able to see a list of your owned NFTs under the minting UI:
 
 <figure><img src="https://lh7-us.googleusercontent.com/-Lt1ES6kmDKcpH82etRASFThJ8xodX7VZjo21wTTD85XOXpmwuc4OOXHN1wJ7oDRYhxCxagtDcXby2CvLNT3S-0Z6hMNUO01ZQxlCYJx6aJ8kKpU1jwTEmXAmvnJ5x7rmcK77Fu0Dba0jEsV569-XBg" alt=""><figcaption><p>NFT List UI</p></figcaption></figure>
