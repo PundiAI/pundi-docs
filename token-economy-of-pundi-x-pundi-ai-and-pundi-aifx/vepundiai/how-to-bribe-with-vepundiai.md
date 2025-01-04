@@ -1,6 +1,6 @@
 # how to bribe with vePUNDIAI
 
-$vePUNDI allows bribing on [Pundi Fun AI Agent Launcher](../../pundi-fun-ai-agent-launcher-proposal/)
+$vePUNDI allows bribing on [Pundi AI MM Agent](../../pundi-fun-ai-agent-launcher-proposal/)
 
 These are steps to bribe.
 
