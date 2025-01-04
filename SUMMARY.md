@@ -167,7 +167,7 @@
     * [NFTs in Queue](purse-docs/purse-token/nfts-in-queue.md)
     * [Token IDs](purse-docs/purse-token/token-ids.md)
 * [🎡 Pundi AI MM Agent](pundi-fun-ai-agent-launcher-proposal/README.md)
-  * [Background](pundi-fun-ai-agent-launcher-proposal/background.md)
+  * [Background: Wintermute of AI Agent](pundi-fun-ai-agent-launcher-proposal/background.md)
   * [Why Market Making](pundi-fun-ai-agent-launcher-proposal/why-market-making.md)
   * [Train & Launch (Step 1 & 2)](pundi-fun-ai-agent-launcher-proposal/train-and-launch-step-1-and-2.md)
   * [Flywheel (Step 3)](pundi-fun-ai-agent-launcher-proposal/flywheel-step-3.md)
