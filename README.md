@@ -8,7 +8,7 @@ Pundi AI comprises of&#x20;
 * [Pundi AIFX omni layer](pundi-aifx/)
 * [PURSE+ browser plugin](purse-docs/purse+/)
 * (coming soon) [Pundi AI Data Marketplace](pundi-ai-data-marketplace-soon.md)
-* (coming soon) [Pundi Fun AI agent launcher](pundi-fun-ai-agent-launcher-proposal/)
+* (coming soon) [Pundi Fun AI MM Agent](pundi-fun-ai-agent-launcher-proposal/)
 
 
 

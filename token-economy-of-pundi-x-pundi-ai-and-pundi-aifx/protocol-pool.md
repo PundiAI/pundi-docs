@@ -8,10 +8,10 @@ The protocol pool includes.
   * `publishing fee`
 * Pundi AI Marketplace&#x20;
   * `trading fee`
-* Pundi Fun AI Agent Launcher
+* Pundi Fun AI MM Agent
   * `convincing fee`
   * `transaction fee` (bonding curve)
-  * `LP fee`
+  * `LP fee and`Proceeds from AI MM
   * `bribe fee`
 
 
