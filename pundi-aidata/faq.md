@@ -4,6 +4,32 @@ icon: comments-question-check
 
 # FAQ
 
+#### Q: What do the different types of annotations mean?
+
+A: These are common data annotation tasks used in machine learning, particularly in supervised learning, to prepare labeled datasets for training models.
+
+* **Single-label Text Classification:**
+  * Assigns a single label to a given text input.
+  * Example: Categorizing an email as "Spam" or "Not Spam."
+* **Multi-label Text Classification:**
+  * Allows assigning multiple labels to a single text input.
+  * Example: Tagging a movie review as both "Comedy" and "Romance."
+* **Entity Annotation:**
+  * Involves identifying and labeling specific entities in a text, such as names, dates, or locations.
+  * Example: Marking "John" as a person and "New York" as a location in "John visited New York."
+* **Single-label Image Classification:**
+  * Assigns a single label to an image.
+  * Example: Classifying an image as either "Dog" or "Cat."
+* **Multi-label Image Classification:**
+  * Allows assigning multiple labels to a single image.
+  * Example: Tagging an image as both "Beach" and "Sunset."
+* **Bounding Box Annotation:**
+  * Involves drawing rectangular boxes around objects in an image and labeling them.
+  * Example: Marking a car in a street image with a bounding box labeled "Car."
+* **Image OCR Annotation:**
+  * Focuses on recognizing and extracting text from images.
+  * Example: Extracting the text "Sale 50% Off" from a billboard photo.
+
 #### Q: Do tasks go through multiple iterations of data labelling?
 
 A: Yes, tasks go through multiple iterations of data labeling, where they are reviewed or annotated by several individuals or AI agents, to ensure the highest levels of accuracy and consistency. Typically, tasks are labeled by one or more annotators, enabling the comparison of results and the identification of any discrepancies. This practice of cross-labeling helps to minimize bias and errors that may arise from individual interpretation.
