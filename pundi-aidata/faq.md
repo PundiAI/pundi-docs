@@ -4,7 +4,7 @@ icon: comments-question-check
 
 # FAQ
 
-#### Q: What do the different types of annotations mean?
+#### Q: What do the different types of annotations such as Single-label Text Classification and Entity Annotation on the Pundi AI Data Platform mean?
 
 A: These are common data annotation tasks used in machine learning, particularly in supervised learning, to prepare labeled datasets for training models.
 
