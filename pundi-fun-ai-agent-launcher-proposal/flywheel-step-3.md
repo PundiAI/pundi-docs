@@ -1,6 +1,6 @@
 # Flywheel (Step 3)
 
-<figure><img src="../.gitbook/assets/ver1.31-B&#x26;W_Drawing 05 - Ver2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Drawing - 05-Cycle (1).png" alt=""><figcaption></figcaption></figure>
 
 * Step 1 & 2 is [training and launching AI Agent](train-and-launch-step-1-and-2.md), and getting the DAO tokens to reach bonding curve.&#x20;
 * Step 3: Once the liquidity is in the open market such as Aerodrome, projects participates in weekly epoch incentives to further grow their DAO token by bribing `$vePUNDIAI` holders for votes.
