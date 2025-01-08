@@ -1,6 +1,6 @@
 # vePUNDIAI
 
-The `$vePUNDIAI`(vote-escrowed `$PUNDIAI`) model is designed for [Pundi Fun AI MM Agent](../../pundi-fun-ai-agent-launcher-proposal/) to create long-term value, sustainability, and alignment within the Pundi AI ecosystem by incentivizing holders to lock tokens, participate in governance, and support AI agent development and liquidity.&#x20;
+The `$vePUNDIAI`(vote-escrowed `$PUNDIAI`) model is designed for [Pundi Fun AI MM Agent](../../pundi-ai-mm-agent/) to create long-term value, sustainability, and alignment within the Pundi AI ecosystem by incentivizing holders to lock tokens, participate in governance, and support AI agent development and liquidity.&#x20;
 
 This approach combines mechanics from Pump.fun's AI agent launches with [Aerodrome’s ve3,3](https://aerodrome.finance/docs#tokenomics) voting model, ensuring incentives are prolonged and self-reinforcing. The lock period (also known as vote-escrowed period, hence the _ve_ prefix) can be up to 4 years, following the linear relationship shown below:
 
