@@ -4,4 +4,4 @@
 
 There are many endpoints and methods for REST API. Since f(x)Core is built on cosmos-sdk, some existing cosmos endpoints would be exposed as well. You may find a list of
 
-* [fxCore REST and gRPC Gateway docs](https://functionx.github.io/fx-core/swagger-ui/)
+* [fxCore REST and gRPC Gateway docs](https://pundiai.github.io/fx-core/swagger-ui/)
