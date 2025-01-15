@@ -30,7 +30,7 @@ Seek legal advice if you intend to run a Validator.
 
 Discuss more details on being a validator on our social media platforms:
 
-* [Forum](https://forum.pundix.com/)
+* [Forum](https://forum.pundi.ai/)
 * [Telegram](https://t.me/pundix)
 * [Twitter](https://twitter.com/PundiXLabs)
 * [Reddit](https://www.reddit.com/r/PundiX/)

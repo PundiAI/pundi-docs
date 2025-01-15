@@ -26,7 +26,7 @@ Delegators are PUNDIX holders who want to participate in protocol governance, bu
 
 Because they share revenue with their validators, delegators also share risks. Should a validator misbehave, each of their delegators will be partially slashed in proportion to their delegated stake. This is why delegators should perform their due diligence on validators before delegating, as well as spreading their stake over multiple validators.
 
-Delegators play a critical role in the system, as they are responsible for choosing validators. Being a delegator is not a passive role: Delegators should actively monitor the actions of their validators and participate in governance. For more, read the [delegator's faq](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/validators/broken-reference/README.md).
+Delegators play a critical role in the system, as they are responsible for choosing validators. Being a delegator is not a passive role: Delegators should actively monitor the actions of their validators and participate in governance. For more, read the [delegator's faq](../delegators/delegator-faq.md).
 
 ## Becoming a Validator
 
@@ -58,7 +58,7 @@ We view testnet participation as a great way to signal to the community that you
 
 ### What are the different types of keys?
 
-In short, there are two types of keys ([for more information on keys](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/validators/broken-reference/README.md)):
+In short, there are two types of keys ([for more information on keys](validator-recovery.md)):
 
 * **Operator Key**: This is a unique key used to sign consensus votes.
   * It is associated with a public key {"@type":"/cosmos.crypto.ed25519.PubKey","key":"XXX...="} (To get the public key, run the command `pundixd tendermint show-validator`).

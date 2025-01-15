@@ -2,7 +2,7 @@
 
 Project name: Contract Monitor
 
-Repository: [https://github.com/FunctionX/contract-monitor](https://github.com/FunctionX/contract-monitor)
+Repository: [https://github.com/FunctionX/contract-monitor](https://github.com/PundiAI/contract-monitor)
 
 Is it open source: Yes
 

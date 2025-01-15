@@ -2,7 +2,7 @@
 
 > Information on how to join the mainnet (`genesis.json` file and seeds) is held in our `fxcore` repo.
 
-Before setting up your validator node, make sure you've already gone through the `Full Node Setup` guide either with [Binaries](https://github.com/FunctionX-SG/pundiai-docs/blob/main/pundi-ai/pundi-aifx/fxcore/setup-node/full-node-with-binaries.md) or with [Docker](https://github.com/FunctionX-SG/pundiai-docs/blob/main/pundi-ai/pundi-aifx/fxcore/setup-node/full-node-with-docker.md).
+Before setting up your validator node, make sure you've already gone through the `Full Node Setup` guide either with [Binaries](../setup-node/full-node-with-binaries.md) or with [Docker](../setup-node/full-node-with-docker.md).
 
 If you plan to use a KMS (key management system), you should go through these steps first.
 

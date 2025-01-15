@@ -8,7 +8,7 @@ description: This is work in progress. Mechanisms and values are susceptible to 
 
 ### What is a validator?
 
-[f(x)Core](https://github.com/FunctionX-SG/pundiai-docs/blob/main/pundi-ai/pundi-aifx/fxcore/what-is-fxcore.md) is built on Tendermint, which relies on a set of validators to secure the network. The role of validators is to run a full-node and participate in consensus by broadcasting votes which contain cryptographic signatures signed by their private key. Validators commit new blocks in the blockchain and receive revenue in exchange for their work. They must also participate in governance by voting on proposals. Validators are weighted according to their total stake.
+[f(x)Core](../f-x-core.md) is built on Tendermint, which relies on a set of validators to secure the network. The role of validators is to run a full-node and participate in consensus by broadcasting votes which contain cryptographic signatures signed by their private key. Validators commit new blocks in the blockchain and receive revenue in exchange for their work. They must also participate in governance by voting on proposals. Validators are weighted according to their total stake.
 
 ### What is 'staking'?
 

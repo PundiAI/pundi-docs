@@ -10,7 +10,7 @@
 
 PundiX (Pundi X Chain) delegation is driven by the PundiX community, and much of the documentation in this repo was funded by the community. Delegator discussions happens in a number of places moderated by diverse community members, including:
 
-* [Forum](https://forum.pundix.com/)
+* [Forum](https://forum.pundi.ai)
 * [Telegram](https://t.me/pundix)
 * [Twitter](https://twitter.com/PundiXLabs)
 * [Reddit](https://www.reddit.com/r/PundiX/)

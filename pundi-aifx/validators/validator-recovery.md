@@ -43,7 +43,7 @@ ubuntu@ip-192.168.0.100:~$ tree $HOME/.fxcore
 2 directories, 6 files
 ```
 
-The command after `Initializing fxcore` from setting up node with [Full node with Binaries](https://github.com/FunctionX-SG/pundiai-docs/blob/main/pundi-ai/pundi-aifx/fxcore/setup-node/full-node-with-binaries.md) or [Full node with Docker ](https://github.com/FunctionX-SG/pundiai-docs/blob/main/pundi-ai/pundi-aifx/fxcore/setup-node/full-node-with-docker.md)is to override the various files that were initialized earlier:
+The command after `Initializing fxcore` from setting up node with [Full node with Binaries](../setup-node/full-node-with-binaries.md) or [Full node with Docker ](../setup-node/full-node-with-docker.md)is to override the various files that were initialized earlier:
 
 {% tabs %}
 {% tab title="Binaries" %}

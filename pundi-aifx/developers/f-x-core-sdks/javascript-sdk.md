@@ -1,6 +1,6 @@
 # JavaScript SDK
 
-GitHub: [https://github.com/FunctionX/fx-js-sdk](https://github.com/FunctionX/fx-js-sdk)
+GitHub: [https://github.com/FunctionX/fx-js-sdk](https://github.com/PundiAI/fx-js-sdk)
 
 fxwallet version (minimum): `v2.0`
 

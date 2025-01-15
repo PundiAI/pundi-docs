@@ -2,7 +2,7 @@
 
 ## What is a delegator?
 
-People who cannot or do not want to operate [validator nodes](https://docs.pundix.com/validators/validator-overview) can still participate in the staking process as delegators. Active validators are chosen and ranked based on their total overall PUNDIX staked (this is the sum of their self-delegated stake as well as their delegators' stake). They are by no means solely chosen by their self-delegated stake. This is an important property and acts as a safeguard against validators that are bad actors. In a decentralized ecosystem, if a validator is a bad actor, delegators will undelegate their PUNDIX from them to avoid incurring any slashings of their delegated stake. Good actors will invariably have more PUNDIX delegated to them. Game theory dictates that over time, validators who are bad actors will exit the active validator set whilst good actors will remain or climb higher up the ranks, eventually resulting in a stable and secure ecosystem.
+People who cannot or do not want to operate [validator nodes](../validators/validator-overview.md) can still participate in the staking process as delegators. Active validators are chosen and ranked based on their total overall PUNDIX staked (this is the sum of their self-delegated stake as well as their delegators' stake). They are by no means solely chosen by their self-delegated stake. This is an important property and acts as a safeguard against validators that are bad actors. In a decentralized ecosystem, if a validator is a bad actor, delegators will undelegate their PUNDIX from them to avoid incurring any slashings of their delegated stake. Good actors will invariably have more PUNDIX delegated to them. Game theory dictates that over time, validators who are bad actors will exit the active validator set whilst good actors will remain or climb higher up the ranks, eventually resulting in a stable and secure ecosystem.
 
 **Delegators share the revenue of their validators, but they also share the risks.** In terms of revenue, validators and delegators differ in that validators can apply a commission on the revenue that goes to their delegator before it is distributed. This commission is known to delegators beforehand and can only be changed according to predefined constraints (see [section](delegator-faq.md#choosing-a-validator) below).
 
@@ -74,7 +74,7 @@ There are currently two conditions that can result in slashing of funds for a va
 {% hint style="info" %}
 The portion of PUNDIX that is subjected to slashing conditions is the total delegated PUNDIX. The rewards earned will not be subjected to slashing conditions.
 
-If a validator is jailed, the same rules apply to redelegation and unbonding. For unbonding, you still have to wait 21 days. While for redelegation, you may do so and the [following rules](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/delegators/broken-reference/README.md) will apply.
+If a validator is jailed, the same rules apply to redelegation and unbonding. For unbonding, you still have to wait 21 days. While for redelegation, you may do so and the [following rules](./) will apply.
 {% endhint %}
 
 ### Redelegation

@@ -284,7 +284,7 @@ pundixd tx bank send <from_key_or_address> <to_address> <amount>
 {% hint style="info" %}
 Before you can bond PUNDIX and withdraw rewards, you need to [**set up `pundixd`**](delegator-cli-guide.md#setting-up-pundixd) and [**create an account**](delegator-cli-guide.md#creating-an-account)
 
-Before bonding PUNDIX, please read the [**delegator faq**](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/delegators/delegators-faq.md) to understand the risk and responsibilities involved with delegating.
+Before bonding PUNDIX, please read the [**delegator faq**](delegator-faq.md) to understand the risk and responsibilities involved with delegating.
 {% endhint %}
 
 {% hint style="danger" %}

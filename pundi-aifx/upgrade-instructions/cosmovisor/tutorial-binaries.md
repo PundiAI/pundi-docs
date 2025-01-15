@@ -42,7 +42,7 @@ cosmovisor version
 ## 2. Install the fxcore release
 
 {% hint style="info" %}
-Releases can be found here [https://github.com/FunctionX/fx-core/releases](https://github.com/FunctionX/fx-core/releases)
+Releases can be found here [https://github.com/FunctionX/fx-core/releases](https://github.com/PundiAI/fx-core/releases)
 {% endhint %}
 
 <pre class="language-sh"><code class="lang-sh">git clone https://github.com/functionx/fx-core.git

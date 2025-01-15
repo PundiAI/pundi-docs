@@ -2,9 +2,9 @@
 
 Address: `0x0000000000000000000000000000000000001003`
 
-Interface: [IStaking](https://github.com/FunctionX/fx-core/blob/main/solidity/contracts/staking/IStaking.sol)
+Interface: [IStaking](https://github.com/PundiAI/fx-core/blob/main/solidity/contracts/staking/IStaking.sol)
 
-ABI: [IStaking](https://github.com/FunctionX/fx-core/blob/main/contract/IStaking.go#L32)
+ABI: [IStaking](https://github.com/PundiAI/fx-core/blob/main/contract/istaking.sol.go)
 
 ## Introduction
 

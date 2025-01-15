@@ -1,6 +1,6 @@
 # Installation f(x)Core
 
-This guide will explain how to install the `fxcored` CLI onto your system. With this installed on a server, you can participate on the mainnet as either a [Full Node](setup-node/) or a [Validator](https://github.com/FunctionX-SG/pundiai-docs/blob/main/validators/validator-setup.md).
+This guide will explain how to install the `fxcored` CLI onto your system. With this installed on a server, you can participate on the mainnet as either a [Full Node](setup-node/) or a [Validator](validators/).
 
 Additionally, you may refer to this [<mark style="color:red;">**YouTube tutorial video**</mark>](https://www.youtube.com/watch?v=Fz0Y3qKG9og\&ab_channel=FunctionX) to set up your validator.
 
@@ -200,7 +200,7 @@ cd fx-core
 {% endtabs %}
 
 {% hint style="info" %}
-You may find the latest branches here: [https://github.com/FunctionX/fx-core/branches](https://github.com/FunctionX/fx-core/branches)
+You may find the latest branches here: [https://github.com/pundiai/fx-core/branches](https://github.com/pundiai/fx-core/branches)
 {% endhint %}
 
 {% tabs %}

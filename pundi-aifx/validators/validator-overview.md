@@ -2,7 +2,7 @@
 
 ## Introduction
 
-[f(x)Core](https://github.com/FunctionX-SG/pundiai-docs/blob/main/pundi-ai/pundi-aifx/fxcore/what-is-fxcore.md) is built on Tendermint, which relies on a set of validators that are responsible for committing new blocks in the blockchain. These validators participate in the consensus protocol by broadcasting votes which contain cryptographic signatures signed by each validator's private key.
+[f(x)Core](../f-x-core.md) is built on Tendermint, which relies on a set of validators that are responsible for committing new blocks in the blockchain. These validators participate in the consensus protocol by broadcasting votes which contain cryptographic signatures signed by each validator's private key.
 
 Validators can bond their own FX and have FX "delegated", or staked, with them by token holders. The f(x)Core will have 50 validators, but over time this will increase to 100 validators according to a predefined schedule. Validators are ranked according to the amount of FX staked with them — the top 50 validator candidates with the most stake will become active f(x)Core validators.
 
@@ -31,6 +31,6 @@ Seek legal advice if you intend to run a Validator.
 Discuss more details on being a validator on our social media platforms:
 
 * [Validator Forum](https://forum.pundiscan.io/c/developers/function-x-validators/27)
-* [Telegram](https://t.me/PundiAIFX)
-* [Twitter](https://twitter.com/PundiAIFX)
-* [Gitbook](https://functionx.gitbook.io/)
+* [Telegram](https://t.me/pundiai)
+* [Twitter](https://x.com/pundiai)
+* [Gitbook](https://pundi.gitbook.io/)

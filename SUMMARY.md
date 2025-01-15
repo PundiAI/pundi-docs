@@ -129,7 +129,7 @@
     * [Developers](pundi-aifx/what-is-pundix/developers/README.md)
       * [Pundi X Network](pundi-aifx/what-is-pundix/developers/pundix-network.md)
       * [Pundi X Protobuf](https://github.com/pundix/pundix/tree/main/docs/proto)
-      * [Pundi X gRPC & REST](https://pundix.github.io/pundix/swagger-ui/)
+      * [Pundi X gRPC & REST](https://pundiai.github.io/pundix/swagger-ui/)
       * [Pundi X JSON RPC](pundi-aifx/what-is-pundix/developers/pundix-json-rpc.md)
       * [Pundi X Cross Chain](pundi-aifx/what-is-pundix/developers/cross-chain/README.md)
         * [ibc](pundi-aifx/what-is-pundix/developers/cross-chain/ibc.md)

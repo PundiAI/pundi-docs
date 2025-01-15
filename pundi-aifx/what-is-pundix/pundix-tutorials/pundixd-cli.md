@@ -2,7 +2,7 @@
 
 ## pundixd
 
-`pundixd` is the tool that enables you to interact with the node that runs on the `pundixd`. In order to install it, follow the [installation procedure](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/getting-started/installation-pundix.md).
+`pundixd` is the tool that enables you to interact with the node that runs on the `pundixd`. In order to install it, follow the [installation procedure](../getting-started/installation-pundix.md).
 
 ### Setting Up pundixd
 
@@ -445,7 +445,7 @@ Older versions of `pundixd` used store keys in the user's home directory. If you
 pundixd keys migrate <old_home_dir> [flags]
 ```
 
-The command will prompt for each passphrase. If a passphrase is incorrect, it will skip the respective key. The detail information of keys migration is [here](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/pundix-tutorials/account-migration-guide-cli.md)
+The command will prompt for each passphrase. If a passphrase is incorrect, it will skip the respective key. The detail information of keys migration is [here](./)
 
 ## Fees & Gas
 
@@ -623,11 +623,11 @@ The action tag always equals the message type returned by the `Type()` function 
 {% hint style="info" %}
 You can find a list of available `events` on each of the SDK modules:
 
-* [Staking events](https://github.com/cosmos/cosmos-sdk/blob/master/x/staking/spec/07\_events.md)
-* [Governance events](https://github.com/cosmos/cosmos-sdk/blob/master/x/gov/spec/04\_events.md)
-* [Slashing events](https://github.com/cosmos/cosmos-sdk/blob/master/x/slashing/spec/06\_events.md)
-* [Distribution events](https://github.com/cosmos/cosmos-sdk/blob/master/x/distribution/spec/06\_events.md)
-* [Bank events](https://github.com/cosmos/cosmos-sdk/blob/master/x/bank/spec/04\_events.md)
+* [Staking events](https://github.com/cosmos/cosmos-sdk/blob/master/x/staking/spec/07_events.md)
+* [Governance events](https://github.com/cosmos/cosmos-sdk/blob/master/x/gov/spec/04_events.md)
+* [Slashing events](https://github.com/cosmos/cosmos-sdk/blob/master/x/slashing/spec/06_events.md)
+* [Distribution events](https://github.com/cosmos/cosmos-sdk/blob/master/x/distribution/spec/06_events.md)
+* [Bank events](https://github.com/cosmos/cosmos-sdk/blob/master/x/bank/spec/04_events.md)
 {% endhint %}
 
 ### Matching a Transaction's Hash
@@ -646,11 +646,11 @@ tx hash on the block explorer are preceded with `0x`. Please omit the `0x` from 
 
 ### Set up a Validator
 
-Please refer to the [Validator Setup](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/validators/setting-up-a-validator-for-pundix.md) section for a more complete guide on how to set up a validator.
+Please refer to the [Validator Setup](../validators/validator-cli-guide.md) section for a more complete guide on how to set up a validator.
 
 ### Delegate to a Validator
 
-On the upcoming mainnet, you can delegate `PUNDIX` to a validator. These [delegators](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/delegators/delegators-faq.md) can receive part of the validator's fee revenue. Read more about the [incentives](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/delegators/delegators-faq.md#revenue).
+On the upcoming mainnet, you can delegate `PUNDIX` to a validator. These [delegators](../delegators/delegator-faq.md) can receive part of the validator's fee revenue. Read more about the [incentives](../delegators/delegator-faq.md).
 
 #### Query Validators
 

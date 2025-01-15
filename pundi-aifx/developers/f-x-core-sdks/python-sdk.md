@@ -1,6 +1,6 @@
 # Python SDK
 
-GitHub: [https://github.com/FunctionX/fx-py-sdk](https://github.com/FunctionX/fx-py-sdk)
+GitHub: [https://github.com/FunctionX/fx-py-sdk](https://github.com/PundiAI/fx-py-sdk)
 
 Is it open source: Yes
 
@@ -24,7 +24,7 @@ Developers can leverage Function X’s Python SDK, known as `fx-py-sdk`, to rapi
 
 ### Clear all balances in an account
 
-* [https://github.com/FunctionX/fx-py-sdk/blob/main/examples/clean\_balance.py](https://github.com/FunctionX/fx-py-sdk/blob/main/examples/clean\_balance.py)
+* [https://github.com/FunctionX/fx-py-sdk/blob/main/examples/clean\_balance.py](https://github.com/FunctionX/fx-py-sdk/blob/main/examples/clean_balance.py)
 
 ### Browse blocks
 
@@ -32,7 +32,7 @@ Developers can leverage Function X’s Python SDK, known as `fx-py-sdk`, to rapi
 
 ### Subscribe to events
 
-* [https://github.com/FunctionX/fx-py-sdk/blob/main/examples/subscribe\_event.py](https://github.com/FunctionX/fx-py-sdk/blob/main/examples/subscribe\_event.py)
+* [https://github.com/FunctionX/fx-py-sdk/blob/main/examples/subscribe\_event.py](https://github.com/FunctionX/fx-py-sdk/blob/main/examples/subscribe_event.py)
 
 ## Further Reading
 

@@ -1,7 +1,7 @@
 # Setting Up a Validator for PundiXChain
 
 {% hint style="info" %}
-Before setting up your validator node, make sure you've already gone through the `Full Node Setup` guide either with [Binaries](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/getting-started/setup-node/full-node-with-binaries.md) or with [Docker](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/getting-started/setup-node/full-node-with-docker.md).
+Before setting up your validator node, make sure you've already gone through the `Full Node Setup` guide either with [Binaries](../getting-started/setup-node/full-node-with-binaries.md) or with [Docker](../getting-started/setup-node/full-node-with-docker.md).
 {% endhint %}
 
 Information on how to join the mainnet (`genesis.json` file and seeds) is held in our `PundiX CLI Commands` repo.
@@ -17,7 +17,7 @@ Before you proceed to the next section, ensure that you have already `set up a f
 ## Create Your Validator
 
 {% hint style="danger" %}
-**We support ledger for sending transactions, we recommend using ledger as it is more secure, note that such transactions require PundiX to be** [**installed**](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/getting-started/installation-pundix.md) **on both the remote vm and the host vm, which is a bit of a pain but worth doing.**
+**We support ledger for sending transactions, we recommend using ledger as it is more secure, note that such transactions require PundiX to be** [**installed**](../getting-started/installation-pundix.md) **on both the remote vm and the host vm, which is a bit of a pain but worth doing.**
 {% endhint %}
 
 ### Create validator's token holding account

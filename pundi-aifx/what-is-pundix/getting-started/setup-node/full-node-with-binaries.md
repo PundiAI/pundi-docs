@@ -1,6 +1,6 @@
 # Full node with Binaries
 
-This guide will explain how to install the `pundixd` command line interface (CLI) on your system with `Binaries` option. With these installed on a server, you can participate on the mainnet or testnet as a [Validator](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/validators/setting-up-a-validator-for-pundix.md).
+This guide will explain how to install the `pundixd` command line interface (CLI) on your system with `Binaries` option. With these installed on a server, you can participate on the mainnet or testnet as a [Validator](https://pundi.gitbook.io/pundi/pundi-aifx/what-is-pundix/validators/validator-cli-guide).
 
 ## Install PundiX (Pundi X Chain)
 

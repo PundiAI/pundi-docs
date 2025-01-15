@@ -1,6 +1,6 @@
 # Install Pundi X (PundiXChain)
 
-This guide will explain how to install the `pundixd` CLI onto your system. With this installed on a server, you can participate on the mainnet as either a [Full Node](setup-node/) or a [Validator](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/validators/setting-up-a-validator-for-pundix.md).
+This guide will explain how to install the `pundixd` CLI onto your system. With this installed on a server, you can participate on the mainnet as either a [Full Node](setup-node/) or a [Validator](https://pundi.gitbook.io/pundi/pundi-aifx/what-is-pundix/validators).
 
 ## Hardware Requirements
 

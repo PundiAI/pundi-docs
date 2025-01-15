@@ -2,9 +2,9 @@
 
 Address: `0x0000000000000000000000000000000000001004`
 
-Interface: [ICrossChain](https://github.com/FunctionX/fx-core/blob/main/solidity/contracts/crosschain/ICrossChain.sol)
+Interface: [ICrossChain](cross-chain.md#crosschain)
 
-ABI: [ICrossChain](https://github.com/FunctionX/fx-core/blob/bf74d4a73e3478b03122fe8ddc4c447cb7017634/contract/ICrossChain.go#LL34C11-L34C11)
+ABI: [ICrossChain](https://github.com/PundiAI/fx-core/blob/bf74d4a73e3478b03122fe8ddc4c447cb7017634/contract/ICrossChain.go#LL34C11-L34C11)
 
 Overview: Use crossChain precompiled contract to call some functions of the crossChain module, such as: crossChain, cancelSendToExternal, etc.
 
@@ -16,7 +16,7 @@ Using a simple example, a specific event, say: `CrossChain`, is added to a token
 
 ## Use-case Reference
 
-### Low-level Call ([Sample contract](https://github.com/FunctionX/fx-core/blob/main/solidity/contracts/crosschain/CrossChainCall.sol))
+### Low-level Call ([Sample contract](https://github.com/PundiAI/fx-core/blob/a16fa0bcf02f4bfde9135f7df37478fe76697185/solidity/contracts/bridge/ICrosschain.sol#L12))
 
 ```solidity
 function crossChain(
@@ -37,7 +37,7 @@ function crossChain(
 
 `Encode.crossChain` encodes the `crossChain` method and its parameters using `abi.encodeWithSignature` to create a bytes array that will be sent to the cross-chain precompiled contract to invoke the corresponding `crossChain` method along with the encoded parameters.
 
-### Contract Interface ([Sample Contract](https://github.com/FunctionX/fx-core/blob/main/solidity/contracts/crosschain/ICrossChain.sol))
+### Contract Interface ([Sample Contract](https://github.com/PundiAI/fx-core/blob/a16fa0bcf02f4bfde9135f7df37478fe76697185/solidity/contracts/bridge/ICrosschain.sol#L12))
 
 ```solidity
 interface ICrossChain {
