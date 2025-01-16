@@ -5,7 +5,7 @@ Pundi AI's objective is `democratising AI`, and fulfilling the vision of `creati
 Pundi AI comprises of&#x20;
 
 * [Pundi AI Data platform](pundi-aidata/)
-* [Pundi AIFX omni layer](pundi-aifx/)
+* [Pundi AIFX Omnilayer](pundi-aifx/)
 * [PURSE+ browser plugin](purse-docs/purse+/)
 * (coming soon) [Pundi AI Data Marketplace](pundi-ai-data-marketplace-soon.md)
 * (coming soon) [Pundi Fun AI MM Agent](pundi-ai-mm-agent/)
