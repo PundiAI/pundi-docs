@@ -6,7 +6,7 @@
   * [Data Labelling](pundi-aidata/data-labelling.md)
   * [Pundi AI Data Platform (Alpha Testnet) - User Guide](pundi-aidata/pundi-ai-data-platform-alpha-testnet-user-guide.md)
   * [FAQ](pundi-aidata/faq.md)
-* [🦾 Pundi AIFX (Base omni layer)](pundi-aifx/README.md)
+* [🦾 Pundi AIFX (Base Omnilayer)](pundi-aifx/README.md)
   * [f(x)Core](pundi-aifx/f-x-core.md)
   * [Installation f(x)Core](pundi-aifx/installation.md)
   * [Setup Node](pundi-aifx/setup-node/README.md)
