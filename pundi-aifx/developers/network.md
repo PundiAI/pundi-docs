@@ -33,7 +33,7 @@ description: >-
 |                         |                                                                                                          |
 | ----------------------- | -------------------------------------------------------------------------------------------------------- |
 | ChainId                 | `dhobyghaut`                                                                                             |
-| Native Coin             | `FX`                                                                                                     |
+| Native Coin             | `apundiai`                                                                                               |
 | Block Explorer          | [https://testnet.pundiscan.io](https://testnet.pundiscan.io)                                             |
 | Tm JSON RPC             | [https://testnet-fx-json.functionx.io:26657](https://testnet-fx-json.functionx.io:26657)                 |
 | Tm JSON RPC Websocket   | [wss://testnet-fx-json.functionx.io:26657/websocket](wss://testnet-fx-json.functionx.io:26657/websocket) |
