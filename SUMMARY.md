@@ -187,4 +187,4 @@
     * [Successful Grant Applicants](governance/governance-proposal-information/successful-grant-applicants.md)
     * [Launching an EGF Proposal](governance/governance-proposal-information/launching-an-egf-proposal.md)
 * [Links](links.md)
-* [Pundi AI](readme.md)
+* [Pundi AI](pundi-ai.md)
