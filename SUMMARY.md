@@ -174,6 +174,8 @@
   * [Use Cases](pundi-ai-mm-agent/use-cases.md)
   * [Train & Launch (Step 1 & 2)](pundi-ai-mm-agent/train-and-launch-step-1-and-2.md)
   * [Flywheel (Step 3)](pundi-ai-mm-agent/flywheel-step-3.md)
+  * [How the AI MM Agent Works in Detail](pundi-ai-mm-agent/how-the-ai-mm-agent-works-in-detail.md)
+  * [Why This is Powerful](pundi-ai-mm-agent/why-this-is-powerful.md)
 * [Roadmap](roadmap.md)
 * [Glossary](glossary.md)
 * [🛍️ Pundi AI Data Marketplace (soon)](pundi-ai-data-marketplace-soon.md)
