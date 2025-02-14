@@ -1,8 +1,9 @@
 ---
 description: Why AI Agents Should Be Treated as Public Goods
+hidden: true
 ---
 
-# Background
+# Background: Wintermute of AI Agent
 
 The idea of treating AI agents as public goods is a crucial step in making AI a force for good, benefiting all of humanity, rather than a privileged few.
 
