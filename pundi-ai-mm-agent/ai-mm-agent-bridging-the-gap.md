@@ -6,15 +6,15 @@ The AI MM Agent integrates the adaptability of traditional MMs with the decentra
 
 The AI MM Agent allocates liquidity across multiple sets, such as ±1%, ±2%, and ±5%, dynamically adjusting based on market conditions:
 
-* Stable Markets: Concentrates liquidity narrowly to reduce slippage.
-* Volatile Markets: Spreads liquidity across wider ranges to capture opportunities and mitigate risks.
+* **Stable Markets**: Concentrates liquidity narrowly to reduce slippage.
+* **Volatile Markets**: Spreads liquidity across wider ranges to capture opportunities and mitigate risks.
 
 **2. Adaptive Rebalancing**
 
 The AI MM Agent periodically monitors trading volumes and volatility to rebalance liquidity:
 
-* Low Activity: Keeps liquidity tight around bid/ask prices.
-* High Activity: Adjusts ranges to accommodate large price swings. For instance, during high-volatility events, such as the 2020 "DeFi Summer," trading volume on AMMs surged to over $10 billion daily ([source](https://defipulse.com)).
+* **Low Activity**: Keeps liquidity tight around bid/ask prices.
+* **High Activity**: Adjusts ranges to accommodate large price swings. For instance, during high-volatility events, such as the 2020 "DeFi Summer," trading volume on AMMs surged to over $10 billion daily ([source](https://defipulse.com)).
 
 **3. Enhanced Risk Management**
 
