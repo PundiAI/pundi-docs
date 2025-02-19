@@ -1,15 +1,19 @@
 # BridgeCall Interface Documentation
 
 ## Overview
+
 The `bridgeCall` function is a precompiled contract method that facilitates cross-chain calls. It allows users to send assets and data to a destination chain while specifying execution details.
 
 ## Contract Address
+
 **Precompiled Contract Address:** `0x0000000000000000000000000000000000001004`
 
 ## ABI Reference
+
 [IBridgeCall ABI](https://github.com/PundiAI/fx-core/blob/main/contract/ibridgecall.sol.go#L34)
 
 ## Solidity Interface
+
 [IBridgeCall Solidity](https://github.com/PundiAI/fx-core/blob/main/solidity/contracts/interfaces/IBridgeCall.sol)
 
 ---
@@ -31,9 +35,11 @@ function bridgeCall(
 ```
 
 ### Description
+
 This function initiates a cross-chain transaction by transferring tokens and executing optional calldata on the destination chain.
 
 ### Parameters
+
 - `_dstChain` (`string`): The target blockchain identifier where the transaction should be executed.
 - `_refund` (`address`): The address to receive any refund if the transaction fails.
 - `_tokens` (`address[]`): List of token addresses to be transferred.
@@ -45,9 +51,50 @@ This function initiates a cross-chain transaction by transferring tokens and exe
 - `_memo` (`bytes`): Additional metadata or message for the transaction.
 
 ### Return Value
+
 - `_eventNonce` (`uint256`): A unique event nonce assigned to this transaction, used for tracking purposes.
 
-### Usage Example
+### Obtaining `_quoteId`
+
+The `_quoteId` can be retrieved using the `getQuotesByToken` function from the precompiled contract at `0x0000000000000000000000000000000000001005`.
+
+#### Function: `getQuotesByToken`
+
+```solidity
+function getQuotesByToken(
+    bytes32 _chainName,
+    bytes32 _token
+) external view returns (QuoteInfo[] memory quotes);
+```
+
+#### QuoteInfo Structure
+
+```solidity
+struct QuoteInfo {
+    uint256 id;
+    bytes32 chainName;
+    bytes32 tokenName;
+    address oracle;
+    uint256 amount;
+    uint64 gasLimit;
+    uint64 expiry;
+}
+```
+
+#### Example Usage
+
+```solidity
+QuoteInfo[] memory quotes = IQuoteContract(0x0000000000000000000000000000000000001005).getQuotesByToken(
+    keccak256("chainB"),
+    keccak256("TOKEN_SYMBOL")
+);
+uint256 selectedQuoteId = quotes[0].id;
+```
+
+---
+
+## Usage Example
+
 ```solidity
 IBridgeCall(0x0000000000000000000000000000000000001004).bridgeCall(
     "chainB", // Destination chain
@@ -56,15 +103,16 @@ IBridgeCall(0x0000000000000000000000000000000000001004).bridgeCall(
     [100 * 1e18, 200 * 1e18], // Amounts to transfer
     recipientAddress, // Destination address
     "0x", // No calldata
-    12345, // Quote ID
+    selectedQuoteId, // Quote ID obtained from getQuotesByToken
     500000, // Gas limit
     "0x" // No memo
 );
 ```
 
 ### Notes
+
 - The caller must ensure they have sufficient token balances and approval for the contract to transfer tokens.
-- The `_quoteId` should be obtained beforehand through a quoting mechanism.
+- The `_quoteId` should be obtained beforehand through `getQuotesByToken` from contract `0x0000000000000000000000000000000000001005`.
 - Refunds, if applicable, will be sent to `_refund`.
 - `_gasLimit` should be set appropriately to cover execution costs on the destination chain.
 - The `_eventNonce` can be used for tracking the transaction status.
@@ -72,6 +120,9 @@ IBridgeCall(0x0000000000000000000000000000000000001004).bridgeCall(
 ---
 
 ## Related Links
-- [FxCore GitHub Repository](https://github.com/PundiAI/fx-core)
+
+- [GitHub Repository](https://github.com/PundiAI/fx-core)
 - [IBridgeCall Solidity Interface](https://github.com/PundiAI/fx-core/blob/main/solidity/contracts/interfaces/IBridgeCall.sol)
-- [Precompiled Contract ABI](https://github.com/PundiAI/fx-core/blob/main/contract/ibridgecall.sol.go#L34)
+- [IBridgeFeeQuote Solidity Interface](https://github.com/PundiAI/fx-core/blob/main/solidity/contracts/interfaces/IBridgeFeeQuote.sol)
+- [Contract ABI](https://www.npmjs.com/package/@functionx_io/contracts?activeTab=code)
+
