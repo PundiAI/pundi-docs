@@ -12,16 +12,16 @@ Pundi AI uses two tokens to manage its utility and governance:
 
 
 
-| $PUNDIAI (formerly$FX) |               |
-| ---------------------- | ------------- |
-| Delegated  (Dec 2024)  | 476,767,087   |
-| Circulating (Dec 2024) | 784,305,167   |
-| Max                    | 1,893,022,625 |
+| $PUNDIAI (formerly $FX) |               |
+| ----------------------- | ------------- |
+| Delegated  (Dec 2024)   | 476,767,087   |
+| Circulating (Dec 2024)  | 784,305,167   |
+| Max                     | 1,893,022,625 |
 
 \
 
 
-| $PUNDI TGE                   |      |
+| $PUNDIAI TGE                 |      |
 | ---------------------------- | ---- |
 | Airdrop                      | 65%  |
 | Public Treasury              | 20%  |
