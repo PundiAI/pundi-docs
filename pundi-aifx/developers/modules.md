@@ -1,8 +1,8 @@
 ---
-description: The various parameters of modules in f(x)Core
+description: The various parameters of modules in Pundi AIFX
 ---
 
-# f(x)Core Modules
+# Pundi AIFX Modules
 
 ## Mint module
 
@@ -72,9 +72,9 @@ description: The various parameters of modules in f(x)Core
     The number of newly Mint Token on next block:
 
     132,511,600.04056464 / 6,311,520 = 20.9951960923
-* The currency in f(x)Core is $FX, the initial supply of $FX is 378,604,525.462891.FX has 18 decimal points
+* The currency in Pundi AIFX is $FX, the initial supply of $FX is 378,604,525.462891.FX has 18 decimal points
 * Total circulating supply of $FX = Delegated asset $FX + Non-delegated asset $FX
-  * Delegated asset $FX = Total $FX that delegated in f(x)Core validator node
+  * Delegated asset $FX = Total $FX that delegated in Pundi AIFX validator node
   * Non-delegated asset $FX = Ethereum cross chain locked fund + Unclaimed reward of validator (including commission and transaction fee) + Unclaimed reward of delegator + Wallet balance + Pool of ecosystem and community + Locked fund of Governance
   * Ethereum cross chain locked fund = Total $FX (ERC20) on Ethereum
 

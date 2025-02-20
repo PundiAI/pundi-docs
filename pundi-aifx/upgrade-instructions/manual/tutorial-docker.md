@@ -1,6 +1,6 @@
 # Docker - Upgrading Your Node
 
-### f(x)Core Network Upgrades
+### Pundi AIFX Network Upgrades
 
 > For more information on past upgrades and instructions, refer to [**Upgrade Versions**](../versions/).
 >

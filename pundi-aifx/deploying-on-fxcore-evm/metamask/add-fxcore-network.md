@@ -1,24 +1,24 @@
 ---
 description: >-
-  Steps to add f(x)Core Network to MetaMask, this will be updated when the
+  Steps to add Pundi AIFX Network to MetaMask, this will be updated when the
   EVM-Mainnet launches
 ---
 
-# Add f(x)Core Network
+# Add Pundi AIFX Network
 
-In order to interact with decentralised applications that have been built on the f(x)Core Network, you will need to add the network to MetaMask. At the time of writing, the only available network is the f(x)Core Testnet Network called Dhobyghaut.
+In order to interact with decentralised applications that have been built on the Pundi AIFX Network, you will need to add the network to MetaMask. At the time of writing, the only available network is the Pundi AIFX Testnet Network called Dhobyghaut.
 
 \*\*\*\*[**Get Test Tokens on Dhobyghaut-Testnet**](../../fxcore-tutorials/testnet-faucet.md)
 
 {% tabs %}
-{% tab title="f(x)Core EVM-Mainnet" %}
+{% tab title="Pundi AIFX EVM-Mainnet" %}
 1. Click on the Network selection dropdown and then click on 'Add Network'
 2. Fill in the fields as follow:
 
 Network Name (it is up to you how you want to name it)
 
 ```
-f(x)Core
+Pundi AIFX
 ```
 
 New RPC URL
@@ -47,9 +47,9 @@ https://pundiscan.io/evm
 
 3\. Click 'Save'
 
-You will be directly switched to f(x)Core's Mainnet now in the network dropdown list.
+You will be directly switched to Pundi AIFX's Mainnet now in the network dropdown list.
 
-You have successfully added f(x)Core Mainnet Network to your MetaMask!
+You have successfully added Pundi AIFX Mainnet Network to your MetaMask!
 {% endtab %}
 
 {% tab title="Dhobyghaut-Testnet" %}
@@ -59,7 +59,7 @@ You have successfully added f(x)Core Mainnet Network to your MetaMask!
 Network Name (it is up to you how you want to name it)
 
 ```
-f(x)Core Dhobyghaut
+Pundi AIFX Dhobyghaut
 ```
 
 New RPC URL
@@ -92,6 +92,6 @@ https://testnet.pundiscan.io/evm
 
 ![Fill in the fields as shown and click 'Save'](../../../../.gitbook/assets/addnetwork3.png)
 
-![You have successfully added f(x)Core Dhobyghaut Testnet to your MetaMask!](../../../../.gitbook/assets/addnetwork4.png)
+![You have successfully added Pundi AIFX Dhobyghaut Testnet to your MetaMask!](../../../../.gitbook/assets/addnetwork4.png)
 {% endtab %}
 {% endtabs %}

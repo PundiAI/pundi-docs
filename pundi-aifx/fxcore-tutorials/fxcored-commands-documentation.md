@@ -1,8 +1,8 @@
-# f(x)Cored CLI Commands
+# Pundi AIFX CLI Commands
 
-## f(x)Core Daemon
+## Pundi AIFX Daemon
 
-`fxcored` is the tool that enables you to interact with the node that runs on the `f(x)Core network`. In order to install it, follow the [installation procedure](../installation.md).
+`fxcored` is the tool that enables you to interact with the node that runs on the `Pundi AIFX network`. In order to install it, follow the [installation procedure](../installation.md).
 
 ### Main structure of running fxcored commands
 
@@ -284,7 +284,7 @@ The command will prompt for each passphrase. If a passphrase is incorrect, it wi
 
 You'll need an account with a private and public key pair (a.k.a. `sk, pk` respectively) to be able to receive funds, send txs, bond tx, etc.
 
-To generate an old _secp256k1_ key, follow this [guide](account-migration-guide.md#2.-prepare-the-0x-prefix-address-account-ethereum-format-address). New eth\_secp256k1 will be the default key generation scheme when f(x)Core becomes EVM compatible.
+To generate an old _secp256k1_ key, follow this [guide](account-migration-guide.md#2.-prepare-the-0x-prefix-address-account-ethereum-format-address). New eth\_secp256k1 will be the default key generation scheme when Pundi AIFX becomes EVM compatible.
 
 To generate a new eth\__secp256k1_ key:
 
@@ -650,7 +650,7 @@ fxcored query staking validator <account_fxval>
 
 #### Bond Tokens
 
-On the f(x)Core mainnet, we delegate `FX`. Here's how you can bond tokens to a testnet validator (_i.e._ delegate):
+On the Pundi AIFX mainnet, we delegate `FX`. Here's how you can bond tokens to a testnet validator (_i.e._ delegate):
 
 ```bash
 fxcored tx staking delegate \
@@ -808,7 +808,7 @@ With the `pool` command you will get the values for:
 
 ### Governance
 
-Governance is the process from which users in the f(x)Core can come to consensus on software upgrades, parameters of the mainnet or signaling mechanisms through text proposals. This is done through voting on proposals, which will be submitted by `FX` holders on the mainnet.
+Governance is the process from which users in the Pundi AIFX can come to consensus on software upgrades, parameters of the mainnet or signaling mechanisms through text proposals. This is done through voting on proposals, which will be submitted by `FX` holders on the mainnet.
 
 Some considerations about the voting process:
 

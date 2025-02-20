@@ -8,11 +8,11 @@ description: This is work in progress. Mechanisms and values are susceptible to 
 
 ### What is a validator?
 
-[f(x)Core](../f-x-core.md) is built on Tendermint, which relies on a set of validators to secure the network. The role of validators is to run a full-node and participate in consensus by broadcasting votes which contain cryptographic signatures signed by their private key. Validators commit new blocks in the blockchain and receive revenue in exchange for their work. They must also participate in governance by voting on proposals. Validators are weighted according to their total stake.
+[Pundi AIFX](../f-x-core.md) is built on Tendermint, which relies on a set of validators to secure the network. The role of validators is to run a full-node and participate in consensus by broadcasting votes which contain cryptographic signatures signed by their private key. Validators commit new blocks in the blockchain and receive revenue in exchange for their work. They must also participate in governance by voting on proposals. Validators are weighted according to their total stake.
 
 ### What is 'staking'?
 
-The f(x)Core is a delgated Proof-Of-Stake (DPoS) blockchain, meaning that the weight of validators is determined by the total amount of staking tokens (FX) bonded as collateral. These FX can be self-delegated directly by the validator or delegated to them by other FX holders.
+The Pundi AIFX is a delgated Proof-Of-Stake (DPoS) blockchain, meaning that the weight of validators is determined by the total amount of staking tokens (FX) bonded as collateral. These FX can be self-delegated directly by the validator or delegated to them by other FX holders.
 
 Any user in the system can declare their intention to become a validator by sending a `create-validator` transaction, provided they meet the minimum self-delegated amount of 100FX. From there, they become validator candidates.
 
@@ -117,7 +117,7 @@ Additionally, validators are expected to be active members of the community. The
 
 ### What does 'participating in governance' entail?
 
-Validators and delegators on the f(x)Core can vote on proposals to change operational parameters (such as the block gas limit), coordinate upgrades, or make a decision on any given matter.
+Validators and delegators on the Pundi AIFX can vote on proposals to change operational parameters (such as the block gas limit), coordinate upgrades, or make a decision on any given matter.
 
 Validators play a special role in the governance system. Being the pillars of the system, they are required to vote on every proposal. It is especially important since validators will vote on behalf of the delegators if the delegators do not vote.
 
@@ -186,8 +186,8 @@ The validator that is selected to propose the next block is called a proposer. E
 
 There are essentailly 2 different types of revenue:
 
-* **Block rewards:** Native tokens of applications run by validators (e.g. FX on f(x)Core) are inflated to produce block provisions. These provisions exist to incentivize FX holders to bond their stake, as non-bonded FX will be diluted over time.
-* **Transaction fees:** f(x)Core maintains a whitelist of token that are accepted as fee payment. The initial fee token is the `FX`.
+* **Block rewards:** Native tokens of applications run by validators (e.g. FX on Pundi AIFX) are inflated to produce block provisions. These provisions exist to incentivize FX holders to bond their stake, as non-bonded FX will be diluted over time.
+* **Transaction fees:** Pundi AIFX maintains a whitelist of token that are accepted as fee payment. The initial fee token is the `FX`.
 
 This total revenue is divided among validators' staking pools according to each validator's weight. Then, within each validator's staking pool the revenue is divided among delegators in proportion to each delegator's stake. A commission on delegators' revenue is applied by the validator before it is distributed.
 
@@ -199,7 +199,7 @@ Validators also play a major role in governance. If a delegator does not vote, t
 
 ### What are validators commission?
 
-Revenue received by a validator's pool is split between the validator and their delegators. The validator can apply a commission on the part of the revenue that goes to their delegators. This commission is set as a percentage. Each validator is free to set their initial commission, maximum daily commission change rate and maximum commission. The f(x)Core enforces the parameter that each validator sets. Only the commission rate can change after the validator is created.
+Revenue received by a validator's pool is split between the validator and their delegators. The validator can apply a commission on the part of the revenue that goes to their delegators. This commission is set as a percentage. Each validator is free to set their initial commission, maximum daily commission change rate and maximum commission. The Pundi AIFX enforces the parameter that each validator sets. Only the commission rate can change after the validator is created.
 
 ### How are block rewards distributed?
 
@@ -263,7 +263,7 @@ In order for delegators to have some guarantee about how much skin-in-the-game t
 
 ### How to prevent concentration of stake in the hands of a few top validators?
 
-For now the community is expected to behave in a smart and self-preserving way. For example, when a mining pool in Bitcoin gets too much mining power, the community usually stops contributing to that pool. The f(x)Core will rely on the same effect initially. Other mechanisms are in place to smoothen this process as much as possible:
+For now the community is expected to behave in a smart and self-preserving way. For example, when a mining pool in Bitcoin gets too much mining power, the community usually stops contributing to that pool. The Pundi AIFX will rely on the same effect initially. Other mechanisms are in place to smoothen this process as much as possible:
 
 * **Penalty-free re-delegation:** This is to allow delegators to easily switch from one validator to another, in order to reduce validator stickiness.
 * **UI warning:** Wallets can implement warnings that will be displayed to users if they want to delegate to a validator that already has a significant amount of staking power.
@@ -278,7 +278,7 @@ We expect that a modest level of hardware specifications will be needed initiall
 
 ### What are software requirements?
 
-In addition to running a f(x)Core node, validators should develop monitoring, alerting and management solutions.
+In addition to running a Pundi AIFX node, validators should develop monitoring, alerting and management solutions.
 
 ### What are bandwidth requirements?
 

@@ -6,7 +6,7 @@ Precompiled contracts are specialized smart contracts designed to handle operati
 
 In the Ethereum Virtual Machine (EVM), most precompiled contracts have to be called directly using assembly or through: `precompiledAddress.staticcall(...)` in Solidity; with the `ecRecover` precompile being the only exception. In this instance, the `ecRecover` precompile can be invoked directly using the `ecrecover` keyword thanks to the wrapper function implemented by Solidity which simplifies calling the precompile.
 
-EVM precompiled contracts are also available on f(x)Core; and in addition to those, f(x)Core also features more advanced functionalities such as delegations and cross-chain support through additional precompiled contracts - of which will be explored in this article. Like most precompiles on the EVM, precompiles on f(x)Core can only be called through assembly or the `staticcall` call in Solidity.
+EVM precompiled contracts are also available on Pundi AIFX; and in addition to those, Pundi AIFX also features more advanced functionalities such as delegations and cross-chain support through additional precompiled contracts - of which will be explored in this article. Like most precompiles on the EVM, precompiles on Pundi AIFX can only be called through assembly or the `staticcall` call in Solidity.
 
 ## EVM Precompiled Contracts
 
@@ -41,13 +41,13 @@ function hashWithSha256(uint256 numberToHash) public view returns (bytes32) {
 }
 ```
 
-## f(x)Core Precompiled Contracts
+## Pundi AIFX Precompiled Contracts
 
-To enable contract-based invocation of more advanced functionalities on the f(x)Core chain, such as delegation, cross-chain etc., support for precompiled contracts was added to the EVM module on f(x)Core.
+To enable contract-based invocation of more advanced functionalities on the Pundi AIFX chain, such as delegation, cross-chain etc., support for precompiled contracts was added to the EVM module on Pundi AIFX.
 
-f(x)Core is built based on the cosmos-sdk, and contract data in the EVM module is stored separately. Thus, to implement precompiled contracts, state data must be synchronized between the cosmos-sdk and EVM module.
+Pundi AIFX is built based on the cosmos-sdk, and contract data in the EVM module is stored separately. Thus, to implement precompiled contracts, state data must be synchronized between the cosmos-sdk and EVM module.
 
-The EVM module is a [fork](https://github.com/functionx/ethermint) of the ethermint project from Evmos, and modifications, among others, include changes to ensure compatibility with f(x)Core. Data in the EVM module is completely isolated from other cosmos-sdk modules, and calls to contracts can be directly made within other modules through the EVM module. However, initiating calls to functions from other f(x)Core modules from within a contract are not allowed; hooks must be set in the EVM module and contract to passively invoke advanced functionalities on f(x)Core.
+The EVM module is a [fork](https://github.com/functionx/ethermint) of the ethermint project from Evmos, and modifications, among others, include changes to ensure compatibility with Pundi AIFX. Data in the EVM module is completely isolated from other cosmos-sdk modules, and calls to contracts can be directly made within other modules through the EVM module. However, initiating calls to functions from other Pundi AIFX modules from within a contract are not allowed; hooks must be set in the EVM module and contract to passively invoke advanced functionalities on Pundi AIFX.
 
 After the implementation of the cross-chain precompiled contract, corresponding functions based on the precompiled contract only need to be added to ensure state synchronization. No matter how the call to the precompiled contract is made, atomicity can be guaranteed; and the precompiled contract can be directly called by other contracts or addresses, used in the same way as an ordinary contract.
 

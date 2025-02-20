@@ -1,4 +1,4 @@
-# Installation f(x)Core
+# Installation Pundi AIFX
 
 This guide will explain how to install the `fxcored` CLI onto your system. With this installed on a server, you can participate on the mainnet as either a [Full Node](setup-node/) or a [Validator](validators/).
 
@@ -6,7 +6,7 @@ Additionally, you may refer to this [<mark style="color:red;">**YouTube tutorial
 
 ## Hardware Requirements
 
-We recommend the following for running f(x)Core:
+We recommend the following for running Pundi AIFX:
 
 * 4 or more CPU cores
 * At least 500G of disk storage
@@ -142,7 +142,7 @@ After you have downloaded the package and you may proceed to step 2 of the [offi
 {% endtabs %}
 
 {% hint style="info" %}
-**Go 1.19+** or later is required for the f(x)Core. If you are remoting into a terminal, you may input the following command:
+**Go 1.19+** or later is required for the Pundi AIFX. If you are remoting into a terminal, you may input the following command:
 {% endhint %}
 
 Setting environment variables:
@@ -156,7 +156,7 @@ source ~/.profile
 
 ## Install the binaries
 
-Next, let's install the latest version of f(x)Core. Make sure you have git installed if not you will be prompted to `install git`. Follow the instruction in the terminal.
+Next, let's install the latest version of Pundi AIFX. Make sure you have git installed if not you will be prompted to `install git`. Follow the instruction in the terminal.
 
 {% tabs %}
 {% tab title="Mainnet" %}

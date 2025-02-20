@@ -1,4 +1,4 @@
-# f(x)Core JSON RPC
+# Pundi AIFX JSON RPC
 
 ## Support
 

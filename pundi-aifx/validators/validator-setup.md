@@ -1,4 +1,4 @@
-# Setting Up a Validator for f(x)Core
+# Setting Up a Validator for Pundi AIFX
 
 > Information on how to join the mainnet (`genesis.json` file and seeds) is held in our `fxcore` repo.
 
@@ -266,7 +266,7 @@ Your validator is active if the following command returns anything:
 fxcored query tendermint-validator-set | grep "$(fxcored tendermint show-address)"
 ```
 
-You should now see your validator in one of the f(x)Core explorers. You are looking for the `bech32` encoded `address` in the `~/.fxcore/config/priv_validator.json` file.
+You should now see your validator in one of the Pundi AIFX explorers. You are looking for the `bech32` encoded `address` in the `~/.fxcore/config/priv_validator.json` file.
 
 > To be in the validator set, you need to have more total voting power than the 100th validator.
 
@@ -333,7 +333,7 @@ The default number of files Linux can open (per-process) is `1024`. `fxcored` is
 ```
 # /etc/systemd/system/fxcored.service
 [Unit]
-Description=f(x)Core Node
+Description=Pundi AIFX Node
 After=network.target
 
 [Service]

@@ -1,2 +1,2 @@
-# Deploying on f(x)core EVM
+# Deploying on Pundi AIFX EVM
 

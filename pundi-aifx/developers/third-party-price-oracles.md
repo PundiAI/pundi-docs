@@ -8,4 +8,4 @@ Supra Pull oracle provides low latency on demand price feed updates needed for s
 
 Pull model uses a combination of Web2 and Web3 methods to achieve the ultra low latency from Supra to destination. Web2 methods are used to retrieve data from supra and web3 smart contracts are used for cryptographic verification.
 
-With this integration, applications and developers on f(x)Core can now query live prices for their use.
+With this integration, applications and developers on Pundi AIFX can now query live prices for their use.

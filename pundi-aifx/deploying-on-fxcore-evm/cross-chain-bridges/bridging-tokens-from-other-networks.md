@@ -1,7 +1,7 @@
 ---
 description: >-
   There are 2 main ways of bridging tokens from other networks into
-  f(x)Core-EVM, this document will cover both methods. How a user can use the
+  Pundi AIFX-EVM, this document will cover both methods. How a user can use the
   bridge.
 ---
 
@@ -9,14 +9,14 @@ description: >-
 
 ## For Developers
 
-### Add tokens to the [f(x)Core Gravity Bridge](fxcore-gravity-bridge.md)
+### Add tokens to the [Pundi AIFX Gravity Bridge](fxcore-gravity-bridge.md)
 
-Bridging tokens from other networks (supported by the [f(x)Core Gravity Bridge](fxcore-gravity-bridge.md)) via [f(x)Core Gravity Bridge](fxcore-gravity-bridge.md). This would require the following steps:
+Bridging tokens from other networks (supported by the [Pundi AIFX Gravity Bridge](fxcore-gravity-bridge.md)) via [Pundi AIFX Gravity Bridge](fxcore-gravity-bridge.md). This would require the following steps:
 
 1.  Deploy the token contract to fxcore-evm to support cross-chain
 
     Eg. EURS: https://etherscan.io/address/0xdB25f211AB05b1c97D595516F45794528a807ad8
-2. Create a proposal on [f(x)Core network](https://explorer.functionx.io/fxcore/proposals)
+2. Create a proposal on [Pundi AIFX network](https://explorer.functionx.io/fxcore/proposals)
    1. **Title**: \<Free to decide> eg. Register
    2. **Type**: Register Coin
    3. **Details**: \<Free to decide>
@@ -40,7 +40,7 @@ Example:
 1. After the proposal passes, the Ethereum ERC20 address will be added to the Ethereum bridge contract
 2. You will be able to perform cross-chain transactions
 
-> More on[ f(x)Core governance](../../../governance/)
+> More on[ Pundi AIFX governance](../../../governance/)
 
 ### Building the bridge yourself
 

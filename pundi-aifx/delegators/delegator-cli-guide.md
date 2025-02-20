@@ -1,22 +1,22 @@
 # Delegator CLI Guide
 
-This document contains all the necessary information for delegators to interact with the f(x)Core through the Command-Line Interface (CLI).
+This document contains all the necessary information for delegators to interact with the Pundi AIFX through the Command-Line Interface (CLI).
 
 It also contains instructions on how to manage accounts, restore accounts from the fundraiser and use a ledger nano device.
 
 > **Very Important**: Please ensure that you follow the steps hereinafter carefully, as negligence in this process could result in a loss of your FX. Therefore, do read through the following instructions in their entirety before proceeding and reach out to us in case you need any support.
 
-> Please also note that you are about to interact with the f(x)Core, a blockchain technology containing highly experimental software. While the blockchain has been developed with state of the art technology and audited with utmost care, we may still expect to have issues, updates and bugs. Furthermore, interaction with blockchain technology requires advanced technical skills and always involves risks that are outside our control. By using the software, you confirm that you understand the inherent risks associated with cryptographic software and that the FunctionX team will not be held liable for potential damages arising out of the use of the software. Any use of this open source software released under the Apache 2.0 license is done at your own risk and on an "AS IS" basis, without warranties or conditions of any kind.
+> Please also note that you are about to interact with the Pundi AIFX, a blockchain technology containing highly experimental software. While the blockchain has been developed with state of the art technology and audited with utmost care, we may still expect to have issues, updates and bugs. Furthermore, interaction with blockchain technology requires advanced technical skills and always involves risks that are outside our control. By using the software, you confirm that you understand the inherent risks associated with cryptographic software and that the FunctionX team will not be held liable for potential damages arising out of the use of the software. Any use of this open source software released under the Apache 2.0 license is done at your own risk and on an "AS IS" basis, without warranties or conditions of any kind.
 
 Please exercise extreme caution!
 
 ## Table of Contents
 
 * [Installing `fxcored`](delegator-cli-guide.md#installing-fxcored)
-* [f(x)Core Accounts](delegator-cli-guide.md#f\(x\)Core-Accounts)
+* [Pundi AIFX Accounts](delegator-cli-guide.md#f\(x\)Core-Accounts)
   * [Restoring an Account from the Fundraiser](delegator-cli-guide.md#restoring-an-account-from-the-fundraiser)
   * [Creating an Account](delegator-cli-guide.md#creating-an-account)
-* [Accessing the f(x)Core Network](delegator-cli-guide.md#accessing-the-f\(x\)Core-Network)
+* [Accessing the Pundi AIFX Network](delegator-cli-guide.md#accessing-the-f\(x\)Core-Network)
   * [Running Your Own Full-Node](delegator-cli-guide.md#running-your-own-full-node)
   * [Connecting to a Remote Full-Node](delegator-cli-guide.md#connecting-to-a-remote-full-node)
 * [Setting Up `fxcored`](delegator-cli-guide.md#setting-up-fxcored)
@@ -43,9 +43,9 @@ Please exercise extreme caution!
 * **MacOS**: `Finder` > `Applications` > `Utilities` > `Terminal`
 * **Linux**: `Ctrl` + `Alt` + `T`
 
-## f(x)Core Accounts
+## Pundi AIFX Accounts
 
-At the core of every f(x)Core account, there is a seed, which takes the form of a 12 or 24-words mnemonic. From this mnemonic, it is possible to create multiple f(x)Core accounts, i.e. pairs of private key/public key. This is called an HD wallet (see [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) for more information on the HD wallet specification).
+At the core of every Pundi AIFX account, there is a seed, which takes the form of a 12 or 24-words mnemonic. From this mnemonic, it is possible to create multiple Pundi AIFX accounts, i.e. pairs of private key/public key. This is called an HD wallet (see [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) for more information on the HD wallet specification).
 
 ```
      Account 0                         Account 1                         Account 2
@@ -88,7 +88,7 @@ The address is a public string with a human-readable prefix (e.g. `fx1hs3tfedle3
 
 #### On a Ledger Device
 
-At the core of a ledger device, there is a mnemonic used to generate accounts on multiple blockchains (including the f(x)Core). When you first initialize your ledger device, you will create a new mnemonic. It is possible to import an existing mnemonic into a ledger device instead. Let us go ahead and see how you can import a mnemonic into your ledger device. For more on how to restore from a recovery phrase, refer [here](https://support.ledger.com/hc/en-us/articles/4404382560913-Restore-from-recovery-phrase?support=true).
+At the core of a ledger device, there is a mnemonic used to generate accounts on multiple blockchains (including the Pundi AIFX). When you first initialize your ledger device, you will create a new mnemonic. It is possible to import an existing mnemonic into a ledger device instead. Let us go ahead and see how you can import a mnemonic into your ledger device. For more on how to restore from a recovery phrase, refer [here](https://support.ledger.com/hc/en-us/articles/4404382560913-Restore-from-recovery-phrase?support=true).
 
 > NOTE: To import a mnemonic into a ledger, **it is preferable to use a brand new ledger device.** There can only be one mnemonic per ledger device. If you want to use a ledger that is already initialized with a seed, you can reset it by going into `Control Center`>`Settings`>`Security`>`Reset Device`. More on how to reset your ledger device can be found [here](https://support.ledger.com/hc/en-us/articles/360017582434-Reset-to-factory-settings-?docs=true). **Please note that this will wipe out the seed currently stored on the device. If you have not properly secured the associated mnemonic, you could lose your funds!!!**
 
@@ -142,7 +142,7 @@ To create an account, you just need to have `fxcored` installed. Before creating
 
 > **Only use Ledger devices that you bought brand new or that you know is not compromised**
 
-When you initialize your ledger, a 24-word mnemonic is generated and stored in the device. This mnemonic is compatible with f(x)Core and f(x)Core accounts can be derived from it. All you have to do is make your ledger compatible with `fxcored`. To do so, you need to go through the following steps:
+When you initialize your ledger, a 24-word mnemonic is generated and stored in the device. This mnemonic is compatible with Pundi AIFX and Pundi AIFX accounts can be derived from it. All you have to do is make your ledger compatible with `fxcored`. To do so, you need to go through the following steps:
 
 1. Download the Ledger Live app [here](https://www.ledger.com/pages/ledger-live).
 2. Connect your ledger via USB and update to the latest firmware
@@ -181,7 +181,7 @@ history -c
 rm ~/.bash_history
 ```
 
-## Accessing the f(x)Core Network
+## Accessing the Pundi AIFX Network
 
 In order to query the state and send transactions, you need a way to access the network. To do so, you can either run your own full-node, or connect to an available public node.
 
@@ -201,11 +201,11 @@ In order to connect to a full-node, you will need an address in the form of: `ht
 
 ## Setting Up `fxcored`
 
-> Before setting up `fxcored`, ensure that you have found a way to [**access the f(x)Core network**](delegator-cli-guide.md#accessing-the-f-x-core-network)
+> Before setting up `fxcored`, ensure that you have found a way to [**access the Pundi AIFX network**](delegator-cli-guide.md#accessing-the-f-x-core-network)
 
 > **Please check that you are always using the latest stable release of `fxcored`**
 
-`fxcored` is the tool that enables you to interact with the node that runs on the f(x)Core network.
+`fxcored` is the tool that enables you to interact with the node that runs on the Pundi AIFX network.
 
 In order to set up `fxcored`, use the following command:
 
@@ -285,7 +285,7 @@ For each command, you can use the `-h` or `--help` flag to get more information.
 
 ### A Note on Gas and Fees
 
-Transactions on the f(x)Core network need to include a transaction fee in order to be processed. This fee pays for the gas required to run the transaction. The formula is as such:
+Transactions on the Pundi AIFX network need to include a transaction fee in order to be processed. This fee pays for the gas required to run the transaction. The formula is as such:
 
 ```
 fees = ceil(gas * gasPrices)
@@ -371,7 +371,7 @@ Double check with a block explorer if you interact with the network through a tr
 
 #### Primer on Governance
 
-The f(x)Core has a built-in governance system that lets bonded FX holders vote on proposals. There are three types of proposal:
+The Pundi AIFX has a built-in governance system that lets bonded FX holders vote on proposals. There are three types of proposal:
 
 * `Text Proposals`: These are the most basic type of proposals. They can be used to get the opinion of the network on a given topic.
 * `Parameter Proposals`: These are used to update the value of an existing parameter.

@@ -9,7 +9,7 @@
 4. Once unpacking is complete, you can start the fxcore service again
 {% endhint %}
 
-## Types of f(x)Core Snapshots
+## Types of Pundi AIFX Snapshots
 
 1. A pruned-snapshot, which contains only the most recent day's data
    * Only data for the most recent day, no earlier data

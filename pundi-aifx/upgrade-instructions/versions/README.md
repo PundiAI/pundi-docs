@@ -4,7 +4,7 @@ description: This group of pages will reflect the all the upgrade versions, past
 
 # Upgrade Versions
 
-This directory houses f(x)Core history major upgrade migration instructions.
+This directory houses Pundi AIFX history major upgrade migration instructions.
 
 * [**v2.2.0 Upgrade Instructions**](v2.2.0.md)
 * [**v3.1.0 Upgrade Instructions**](v3.1.0.md)

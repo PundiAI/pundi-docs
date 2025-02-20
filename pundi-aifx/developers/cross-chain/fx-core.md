@@ -1,12 +1,12 @@
-# f(x)Core
+# Pundi AIFX
 
 use cross chain precompiled contract, to realize the cross chain of token
 
-f(x)Core cross chain needs to use cross chain precompiled contract, please check the [Cross Chain](../precompiles/cross-chain.md#crossChain) document first
+Pundi AIFX cross chain needs to use cross chain precompiled contract, please check the [Cross Chain](../precompiles/cross-chain.md#crossChain) document first
 
 ## Tokens
 
-f(x)Core cross chain supports the following tokens:
+Pundi AIFX cross chain supports the following tokens:
 
 {% tabs %}
 {% tab title="Mainnet" %}
@@ -82,7 +82,7 @@ f(x)Core cross chain supports the following tokens:
 
 ## crossChain
 
-f(x)Core token send to other chain, should use [crossChain](../precompiles/cross-chain.md#crosschain) method
+Pundi AIFX token send to other chain, should use [crossChain](../precompiles/cross-chain.md#crosschain) method
 
 ### 1. Approve token
 

@@ -15,7 +15,7 @@ We recommend the following for running a node monitoring device:
 * Have to be setup in a separate environment from validator nodes/sentry nodes
 
 {% hint style="info" %}
-Before setting up a node monitoring device, you may take a look at the [f(x)Core](../)[installation](https://github.com/FunctionX-SG/pundiai-docs/blob/main/fxcore/installation/README.md) setup to setup the f(x)Core CLI.
+Before setting up a node monitoring device, you may take a look at the [Pundi AIFX](../)[installation](https://github.com/FunctionX-SG/pundiai-docs/blob/main/fxcore/installation/README.md) setup to setup the Pundi AIFX CLI.
 {% endhint %}
 
 ## Prometheus metrics

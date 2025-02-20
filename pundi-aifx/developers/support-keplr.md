@@ -13,7 +13,7 @@ Add [Suggest Chain](https://docs.keplr.app/api/suggest-chain.html)
 ```javascript
 await window.keplr.experimentalSuggestChain({
   chainId: "fxcore",
-  chainName: "f(x)Core",
+  chainName: "Pundi AIFX",
   rpc: "https://fx-json.functionx.io:26657",
   rest: "https://fx-rest.functionx.io",
   walletUrl: "https://pundiscan.io/fxcore/validators",
@@ -69,7 +69,7 @@ await window.keplr.experimentalSuggestChain({
 ```javascript
 await window.keplr.experimentalSuggestChain({
   chainId: "fxcore",
-  chainName: "f(x)Core Classic",
+  chainName: "Pundi AIFX Classic",
   rpc: "https://fx-json.functionx.io:26657",
   rest: "https://fx-rest.functionx.io",
   walletUrl: "https://pundiscan.io/fxcore/validators",
@@ -123,7 +123,7 @@ await window.keplr.experimentalSuggestChain({
 ```javascript
 await window.keplr.experimentalSuggestChain({
   chainId: "dhobyghaut",
-  chainName: "f(x)Core Testnet",
+  chainName: "Pundi AIFX Testnet",
   rpc: "https://testnet-fx-json.functionx.io:26657",
   rest: "https://testnet-fx-rest.functionx.io",
   walletUrl: "https://testnet.pundiscan.io/fxcore/validators",
@@ -179,7 +179,7 @@ await window.keplr.experimentalSuggestChain({
 ```javascript
 await window.keplr.experimentalSuggestChain({
   chainId: "dhobyghaut",
-  chainName: "f(x)Core Testnet Classic",
+  chainName: "Pundi AIFX Testnet Classic",
   rpc: "https://testnet-fx-json.functionx.io:26657",
   rest: "https://testnet-fx-rest.functionx.io",
   walletUrl: "https://testnet.pundiscan.io/fxcore/validators",
