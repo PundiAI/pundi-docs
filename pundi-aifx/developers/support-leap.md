@@ -79,28 +79,28 @@ await window.leap.experimentalSuggestChain({
   },
   currencies: [
     {
-      coinDenom: "FX",
-      coinMinimalDenom: "FX",
+      coinDenom: "PUNDIAI",
+      coinMinimalDenom: "apundiai",
       coinDecimals: 18,
       coinGeckoId: "fx-coin",
     },
   ],
   feeCurrencies: [
     {
-      coinDenom: "FX",
-      coinMinimalDenom: "FX",
+      coinDenom: "PUNDIAI",
+      coinMinimalDenom: "apundiai",
       coinDecimals: 18,
       coinGeckoId: "fx-coin",
       gasPriceStep: {
-        low: 4000000000000,
-        average: 4000000000000,
-        high: 4100000000000,
+        low: 5000000000,
+        average: 5000000000,
+        high: 5000000000,
       },
     },
   ],
   stakeCurrency: {
-    coinDenom: "FX",
-    coinMinimalDenom: "FX",
+    coinDenom: "PUNDIAI",
+    coinMinimalDenom: "apundiai",
     coinDecimals: 18,
     coinGeckoId: "fx-coin",
   },
