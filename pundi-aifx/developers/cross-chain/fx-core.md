@@ -2,7 +2,7 @@
 
 use cross chain precompiled contract, to realize the cross chain of token
 
-Pundi AIFX cross chain needs to use cross chain precompiled contract, please check the [Cross Chain](../precompiles/cross-chain.md#crossChain) document first
+Pundi AIFX cross chain needs to use cross chain precompiled contract, please check the [Bridge Call](../precompiles/bridge-call.md) document first
 
 ## Tokens
 
@@ -79,23 +79,3 @@ Pundi AIFX cross chain supports the following tokens:
 | [BAVA](https://testnet.pundiscan.io/evm/token/0xc7e56EEc629D3728fE41baCa2f6BFc502096f94E)   | 0xc7e56EEc629D3728fE41baCa2f6BFc502096f94E |
 {% endtab %}
 {% endtabs %}
-
-## crossChain
-
-Pundi AIFX token send to other chain, should use [crossChain](../precompiles/cross-chain.md#crosschain) method
-
-### 1. Approve token
-
-call `approve` method in token contract, approve `amount + fee` to [CrossChain contract address](../precompiles/cross-chain.md)
-
-{% hint style="info" %}
-if token if original token, not need approve
-{% endhint %}
-
-### 2. CrossChain token
-
-call `crossChain` method in CrossChain contract, pass the corresponding parameters
-
-{% hint style="info" %}
-if token if original token, crossChain \_token is zero address , crossChain msg.value must equal `amount + fee`
-{% endhint %}

@@ -47,10 +47,10 @@ To enable contract-based invocation of more advanced functionalities on the Pund
 
 Pundi AIFX is built based on the cosmos-sdk, and contract data in the EVM module is stored separately. Thus, to implement precompiled contracts, state data must be synchronized between the cosmos-sdk and EVM module.
 
-The EVM module is a [fork](https://github.com/functionx/ethermint) of the ethermint project from Evmos, and modifications, among others, include changes to ensure compatibility with Pundi AIFX. Data in the EVM module is completely isolated from other cosmos-sdk modules, and calls to contracts can be directly made within other modules through the EVM module. However, initiating calls to functions from other Pundi AIFX modules from within a contract are not allowed; hooks must be set in the EVM module and contract to passively invoke advanced functionalities on Pundi AIFX.
+The EVM module is a [fork](https://github.com/pundiai/ethermint) of the ethermint project from Evmos, and modifications, among others, include changes to ensure compatibility with Pundi AIFX. Data in the EVM module is completely isolated from other cosmos-sdk modules, and calls to contracts can be directly made within other modules through the EVM module. However, initiating calls to functions from other Pundi AIFX modules from within a contract are not allowed; hooks must be set in the EVM module and contract to passively invoke advanced functionalities on Pundi AIFX.
 
 After the implementation of the cross-chain precompiled contract, corresponding functions based on the precompiled contract only need to be added to ensure state synchronization. No matter how the call to the precompiled contract is made, atomicity can be guaranteed; and the precompiled contract can be directly called by other contracts or addresses, used in the same way as an ordinary contract.
 
-* [CrossChain Precompile](cross-chain.md)
-* [Staking Precompile](staking.md)
+* [BridgeCall Precompile](bridge-call.md)
 * [Staking V2 Precompile](staking-v2.md)
+* [CrossChain Precompile](cross-chain.md)
