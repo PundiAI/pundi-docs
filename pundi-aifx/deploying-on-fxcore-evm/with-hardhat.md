@@ -50,7 +50,7 @@ The sample project will ask you to install `hardhat-waffle` and `hardhat-ethers`
 
 * After setting up your truffle project, be it cloning a repository or initializing a new hardhat project
 * Open `hardhat-config.js`
-* Edit `hardhat-config.js` with f(x)Core network credentials
+* Edit `hardhat-config.js` with Pundi AIFX network credentials
 * Create a .env file to store your private key of that corresponding wallet address
 
 > The files below are just an example, feel free to rename your variables:
@@ -105,7 +105,7 @@ npm install dotenv
 npx hardhat compile
 ```
 
-### **Deploying on f(x)Core Network**
+### **Deploying on Pundi AIFX Network**
 
 Run this command in root of the project directory:
 
@@ -113,7 +113,7 @@ Run this command in root of the project directory:
 npx hardhat run scripts/sample-script.js --network fxtestnet
 ```
 
-Contract will be deployed on f(x)Core network, it will look something like this:
+Contract will be deployed on Pundi AIFX network, it will look something like this:
 
 ```
 Greeter deployed to: 0x70A8aa0fb6a0B4732b2daaBc3143E4C3d560DD57

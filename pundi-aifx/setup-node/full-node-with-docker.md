@@ -2,9 +2,9 @@
 
 This guide will explain how to install the `fxcored mainnet` or `fxcored testnet` command line interface (CLI) on your system with `Docker` option. With these installed on a server, you can participate on the mainnet or testnet as a [Validator](../validators/).
 
-## Install f(x)Core
+## Install Pundi AIFX
 
-> **You need to** [**install f(x)Core**](../installation.md) **before you go further**
+> **You need to** [**install Pundi AIFX**](../installation.md) **before you go further**
 
 ### Use Docker
 

@@ -1,6 +1,6 @@
 # sendToFx
 
-sendToFx cross chain means that the contract deployed on other chains communicates with f(x)Core through cross chain bridge to realize cross chain with f(x)Core.
+sendToFx cross chain means that the contract deployed on other chains communicates with Pundi AIFX through cross chain bridge to realize cross chain with Pundi AIFX.
 
 supported external chains:
 
@@ -44,7 +44,7 @@ supported external chains:
 
 ### sendToFx
 
-send token from external chain to f(x)Core
+send token from external chain to Pundi AIFX
 
 {% hint style="info" %}
 must be approved before calling this method
@@ -55,13 +55,13 @@ function sendToFx(address _tokenContract, bytes32 _destination, bytes32 _targetI
 ```
 
 * `_tokenContract`: the contract address of the token on the external chain
-* `_destination`: the destination address on the f(x)Core chain or other cosmos chain
-* `_targetIBC`: the target of the token on the f(x)Core chain(more details see [Target](target.md))
-  * \_targetIBC represents cross chain destination, such as `f(x)Core`, `Pundix`, `Marginx`
-  * destination f(x)Core: \_targetIBC is empty
+* `_destination`: the destination address on the Pundi AIFX chain or other cosmos chain
+* `_targetIBC`: the target of the token on the Pundi AIFX chain(more details see [Target](target.md))
+  * \_targetIBC represents cross chain destination, such as `Pundi AIFX`, `Pundix`, `Marginx`
+  * destination Pundi AIFX: \_targetIBC is empty
   * destination erc20 token: \_targetIBC is `erc20`
   * destination other cosmos chain(example Pundix): \_targetIBC is `ibc/{id}/{prefix}`.
-    * `id` is the channel id of the target chain on f(x)Core(examples: Pundix: 0)
+    * `id` is the channel id of the target chain on Pundi AIFX(examples: Pundix: 0)
     * `prefix` is the address prefix of the target chain(examples: Pundix: px)
 * `_amount`: the amount of the token to be cross chain
 

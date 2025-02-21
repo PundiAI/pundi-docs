@@ -13,7 +13,7 @@ Add [Suggest Chain](https://docs.leapwallet.io/cosmos/for-dapps-connect-to-leap/
 ```javascript
 await window.leap.experimentalSuggestChain({
   chainId: "fxcore",
-  chainName: "f(x)Core",
+  chainName: "Pundi AIFX",
   rpc: "https://fx-json.functionx.io:26657",
   rest: "https://fx-rest.functionx.io",
   bip44: {
@@ -63,7 +63,7 @@ await window.leap.experimentalSuggestChain({
 ```javascript
 await window.leap.experimentalSuggestChain({
   chainId: "dhobyghaut",
-  chainName: "f(x)Core Testnet",
+  chainName: "Pundi AIFX Testnet",
   rpc: "https://testnet-fx-json.functionx.io:26657",
   rest: "https://testnet-fx-rest.functionx.io",
   bip44: {
@@ -79,28 +79,28 @@ await window.leap.experimentalSuggestChain({
   },
   currencies: [
     {
-      coinDenom: "FX",
-      coinMinimalDenom: "FX",
+      coinDenom: "PUNDIAI",
+      coinMinimalDenom: "apundiai",
       coinDecimals: 18,
       coinGeckoId: "fx-coin",
     },
   ],
   feeCurrencies: [
     {
-      coinDenom: "FX",
-      coinMinimalDenom: "FX",
+      coinDenom: "PUNDIAI",
+      coinMinimalDenom: "apundiai",
       coinDecimals: 18,
       coinGeckoId: "fx-coin",
       gasPriceStep: {
-        low: 4000000000000,
-        average: 4000000000000,
-        high: 4100000000000,
+        low: 5000000000,
+        average: 5000000000,
+        high: 5000000000,
       },
     },
   ],
   stakeCurrency: {
-    coinDenom: "FX",
-    coinMinimalDenom: "FX",
+    coinDenom: "PUNDIAI",
+    coinMinimalDenom: "apundiai",
     coinDecimals: 18,
     coinGeckoId: "fx-coin",
   },

@@ -10,7 +10,7 @@ Overview: Use cross-chain precompiled contract to call some functions of the cro
 
 ### crossChain (Deprecated)
 
-send token from f(x)Core to other chain, like ethereum, pundix, etc.
+send token from Pundi AIFX to other chain, like ethereum, pundix, etc.
 
 {% hint style="info" %}
 if token is erc20, must be approved before calling this method
@@ -28,7 +28,7 @@ function crossChain(
 ) external payable returns (result bool);
 ```
 
-* `_token`: the token address on the f(x)Core([Tokens](../cross-chain/fx-core.md))
+* `_token`: the token address on the Pundi AIFX([Tokens](../cross-chain/fx-core.md))
   * if token is origin token, \_token address is `0x0000000000000000000000000000000000000000`
 * `_receipt`: the receipt address on the target chain
 * `_amount`: the amount of the token to be cross chain
@@ -38,7 +38,7 @@ function crossChain(
   * \_target represents cross chain destination, such as chain `ethereum`, `pundix`
   * destination ethereum: \_target is `eth`
   * destination other cosmos chain(example Pundix): \_target is `ibc/{id}/{prefix}`.
-    * `id` is the channel id of the target chain on f(x)Core(examples: Pundix: 0)
+    * `id` is the channel id of the target chain on Pundi AIFX(examples: Pundix: 0)
     * `prefix` is the address prefix of the target chain(examples: Pundix: px)
 * `_memo`: the memo of cross chain
 
@@ -62,7 +62,7 @@ event CrossChain(
 ```
 
 * `sender`: the sender address
-* `token`: the erc20 token address on the f(x)Core
+* `token`: the erc20 token address on the Pundi AIFX
 * `denom`: the cross chain token denom
 * `receipt`: the receipt address on the target chain
 * `amount`: the amount of the token to be cross chain

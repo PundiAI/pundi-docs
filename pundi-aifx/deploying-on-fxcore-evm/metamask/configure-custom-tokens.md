@@ -6,7 +6,7 @@ description: Process of configuring/adding custom tokens to MetaMask
 
 This page demonstrates the process of configuring/adding custom tokens to MetaMask. Tokens are created by deploying smart contracts (eg. ERC20 and ERC721), please refer to this [link](../) to learn the various methods of deploying smart contracts.
 
-In this tutorial, we will be adding the `TEST` token (ERC20) to your MetaMask account on the f(x)Core Dhobyghaut-Testnet Network.
+In this tutorial, we will be adding the `TEST` token (ERC20) to your MetaMask account on the Pundi AIFX Dhobyghaut-Testnet Network.
 
 The `TEST` token contract address on the Dhobyghaut-Testnet is `0x9EfB5C66bD1F9a619F57c63AAF62FaEF6fd31C46`.
 

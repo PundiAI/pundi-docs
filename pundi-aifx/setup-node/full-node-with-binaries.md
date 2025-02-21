@@ -2,11 +2,11 @@
 
 This guide will explain how to install the `fxcored mainnet` or `fxcored testnet` command line interface (CLI) on your system with `Binaries` option. With these installed on a server, you can participate on the mainnet or testnet as a [Validator](../validators/).
 
-## Install f(x)Core
+## Install Pundi AIFX
 
-> **You need to** [**install f(x)Core**](../installation.md) **before you go further**
+> **You need to** [**install Pundi AIFX**](../installation.md) **before you go further**
 
-#### Setup f(x)Core
+#### Setup Pundi AIFX
 
 Initializing fxcore:
 
@@ -203,7 +203,7 @@ hit the <mark style="color:red;background-color:blue;">ENTER</mark> button on yo
 {% code title="fxcored.service" %}
 ```
 [Unit]
-Description=f(x)Core Node
+Description=Pundi AIFX Node
 After=network.target
 [Service]
 Type=simple
@@ -227,7 +227,7 @@ run the command:`which fxcored` and replace the ExecStart file path with the ret
 ```
 root@XXXXXXXXXXXXXXX:~# cat > /etc/systemd/system/fxcored.service
 [Unit]
-Description=f(x)Core Node
+Description=Pundi AIFX Node
 After=network.target
 [Service]
 Type=simple
@@ -304,7 +304,7 @@ journalctl -u fxcored -f
 {% endtab %}
 {% endtabs %}
 
-> Concluding tips: It is always better to sync f(x)Core using the Daemon method because this ensures stability and that your syncing is continuously running in the background.
+> Concluding tips: It is always better to sync Pundi AIFX using the Daemon method because this ensures stability and that your syncing is continuously running in the background.
 
 ## Secret and updating consensus key
 

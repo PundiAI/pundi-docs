@@ -164,7 +164,7 @@ For more information on the ERC20 standard and the various variables, you may re
 * Select Compiler Version to 0.8.0
 * Now, `Compile HelloWorld.sol` /`ERC20.sol`
 * After Successful Compilation, it will show ![](<../../../.gitbook/assets/image (24).png>)
-* Now, we have to deploy our smart contract on f(x)Core Network. For that, we have to connect to web3, this can be done by using services like Metamask. We will be using Metamask. Please follow this tutorial to setup a Metamask Account.
+* Now, we have to deploy our smart contract on Pundi AIFX Network. For that, we have to connect to web3, this can be done by using services like Metamask. We will be using Metamask. Please follow this tutorial to setup a Metamask Account.
 * Open Metamask, click the **network dropdown** and then click **'Add Network'.** For more information on MetaMask and how to configure it to your network, you may check out this [Metamask guide](metamask/).
 
 ![](<../../../.gitbook/assets/image (25).png>)
@@ -206,8 +206,8 @@ https://testnet-explorer.functionx.io/evm
 
 ![](<../../../.gitbook/assets/image (27).png>)
 
-* Head over to [faucet](https://dhobyghaut-faucet.functionx.io/) and request test FX - you will need this to pay for gas on f(x)Core. After inputting your wallet address in, select the option **'100 (fxCore) FX / 24h'**.
-* Now, let's Deploy the Smart Contract to the f(x)Core Network
+* Head over to [faucet](https://dhobyghaut-faucet.functionx.io/) and request test FX - you will need this to pay for gas on Pundi AIFX. After inputting your wallet address in, select the option **'100 (fxCore) FX / 24h'**.
+* Now, let's Deploy the Smart Contract to the Pundi AIFX Network
 * Select Injected Web3 in the Environment dropdown ensure you have selected the right contract too.
 * Accept the connection request by clicking **Next** in Metamask after choosing the account
 

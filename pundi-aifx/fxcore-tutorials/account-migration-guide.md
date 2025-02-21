@@ -1,22 +1,22 @@
 # Account Migration Guide (CLI)
 
-### f(x)Core Account Migration Guide --support EVM compatibility
+### Pundi AIFX Account Migration Guide --support EVM compatibility
 
 This upgrade introduces a new address which will enable `ethereum` compatibility.
 
 Things to note❗:
 
-a. This guide can be done on f(x)Core Mainnet & Testnet.
+a. This guide can be done on Pundi AIFX Mainnet & Testnet.
 
 b. Ensure the [new Evm upgrade](../upgrade-instructions/versions/) is done.
 
-c. Ensure you have f(x)Core [command line interface](fxcored-commands-documentation.md) installed.
+c. Ensure you have Pundi AIFX [command line interface](fxcored-commands-documentation.md) installed.
 
 d. Your address should not be bonded to any validator (Address should not have a prior successful `create-validator` command).
 
-**Accounts in f(x)Core**
+**Accounts in Pundi AIFX**
 
-`Accounts in f(x)Core` can be represented in both Bech32 and hex format for Ethereum's Web3 tooling compatibility.
+`Accounts in Pundi AIFX` can be represented in both Bech32 and hex format for Ethereum's Web3 tooling compatibility.
 
 * The Bech32 format is the default format for Cosmos-SDK queries and transactions through CLI and REST clients.
 * Address (Bech32) with the prefix `fx` eg: `fx1xzyws0l8p8alt6v7tztvqlph8r22lhn4femgr7`
@@ -139,7 +139,7 @@ The results returned from the above query should show account balance of <0x-0> 
 fxcored keys export <0x-0_keyName> --unarmored-hex --unsafe
 ```
 
-Now you can **export your private key** from the f(x)Core **terminal** using the following command. Again, make sure to replace <0x-0\_keyName> with the name of the key that you want to export and use the correct `keyring-backend`:
+Now you can **export your private key** from the Pundi AIFX **terminal** using the following command. Again, make sure to replace <0x-0\_keyName> with the name of the key that you want to export and use the correct `keyring-backend`:
 
 ## Recover your FX account in **MetaMask**
 
@@ -176,4 +176,4 @@ Close the `Settings`, go to `My Accounts` (top right circle) and select `Import 
 
 In Metamask and select the `Private Key` option. Then **paste the private** key(**hexadecimal**) exported from the command in step 6, to import your new EVM-compatible account in MetaMask.
 
-Your account balance will show up, as such. If it takes some time to load the balance of the account, change the network to `Main Ethereum Network` and then switch back to `DhobyGhaut Testnet`.Once you have imported your wallet in MetaMask, you can transfer your assets to the EVM-compatible wallet address and spend within Dapps in the f(x)Core ecosystem.
+Your account balance will show up, as such. If it takes some time to load the balance of the account, change the network to `Main Ethereum Network` and then switch back to `DhobyGhaut Testnet`.Once you have imported your wallet in MetaMask, you can transfer your assets to the EVM-compatible wallet address and spend within Dapps in the Pundi AIFX ecosystem.

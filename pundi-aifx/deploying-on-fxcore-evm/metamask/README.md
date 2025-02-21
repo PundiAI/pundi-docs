@@ -1,12 +1,12 @@
 ---
-description: Overview of MetaMask and guide to setup MetaMask for f(x)Core
+description: Overview of MetaMask and guide to setup MetaMask for Pundi AIFX
 ---
 
 # MetaMask
 
 [MetaMask](https://metamask.io/) is a crypto wallet that can be used in a web browser and on mobile devices to interact with any EVM-compatible blockchain. It allows you to run and interact with Dapps (Decentralized Apps) right in your browser without running a blockchain node.
 
-### Guide to Setup MetaMask for f(x)Core
+### Guide to Setup MetaMask for Pundi AIFX
 
 {% content-ref url="download-and-install-metamask.md" %}
 [download-and-install-metamask.md](download-and-install-metamask.md)

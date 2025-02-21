@@ -10,7 +10,7 @@ Currently, the cosmos app on Ledger only supports the path **m/44/118**. By defa
 `Error: failed to generate ledger key: failed to recover pubkey: [APDU_CODE_DATA_INVALID] Referenced data reversibly blocked (invalidated): address rejected for path m/44'/60'/0'/0/102`
 {% endhint %}
 
-Using a hardware wallet to store your keys greatly improves the security of your crypto assets. The Ledger device acts as an enclave of the seed and private keys, and the process of signing transaction takes place within it. No private information ever leaves the Ledger device. The following is a short tutorial on using the Cosmos Ledger app with the f(x)Core CLI.
+Using a hardware wallet to store your keys greatly improves the security of your crypto assets. The Ledger device acts as an enclave of the seed and private keys, and the process of signing transaction takes place within it. No private information ever leaves the Ledger device. The following is a short tutorial on using the Cosmos Ledger app with the Pundi AIFX CLI.
 
 At the core of a Ledger device there is a mnemonic seed phrase that is used to generate private keys. This phrase is generated when you initialize your Ledger. The mnemonic is compatible with Cosmos and can be used to seed new accounts.
 
@@ -25,7 +25,7 @@ Do not lose or share your 24 words with anyone. To prevent theft or loss of fund
 Before you use a ledger to set up your validator, do make sure you understand this setup. You will need:
 
 1. Your ledger to have the Cosmos app installed
-2. f(x)Core CLI installed on your local machine but this does not have to be a full-node or validator-node if you are remoting into a cloud server. (because your ledger is connected to your local machine, you will need f(x)Core installed locally and we will be using this to send commands to the cloud server.)
+2. Pundi AIFX CLI installed on your local machine but this does not have to be a full-node or validator-node if you are remoting into a cloud server. (because your ledger is connected to your local machine, you will need Pundi AIFX installed locally and we will be using this to send commands to the cloud server.)
 3. Your cloud server to be a full-node/validator node.
 4. To run the [ssh port forwarding command](cloud-setup.md#connecting-your-localhost-to-the-cloud-instance-for-a-specific-port)
 5. 2 terminals opened, one to run the ssh port forwarding command.
@@ -33,7 +33,7 @@ Before you use a ledger to set up your validator, do make sure you understand th
 
 ## Install the Cosmos Ledger application
 
-Installing the `Cosmos` application on your ledger device is required before you can use it with our f(x)Core CLI. To do so, you need to:
+Installing the `Cosmos` application on your ledger device is required before you can use it with our Pundi AIFX CLI. To do so, you need to:
 
 ### Before you start
 
@@ -53,15 +53,15 @@ Installing the `Cosmos` application on your ledger device is required before you
 
 > To see the `Cosmos` application when you search for it, you might need to activate the `Developer Mode`, located in the Experimental features tab of the Ledger Live application.
 
-## f(x)Core CLI + Ledger Nano
+## Pundi AIFX CLI + Ledger Nano
 
 **Note: You need to** [**install the Cosmos app**](ledger-integration-for-fxcored.md#install-the-cosmos-ledger-application) **on your Ledger Nano before moving on to this section**
 
-The tool used to generate addresses and transactions on the f(x)Core network is `fxcored`. You will be using fxcored CLI commands for creating transactions and then using your Ledger to sign off before broadcasting the transaction to a specified node using the fxcored CLI.
+The tool used to generate addresses and transactions on the Pundi AIFX network is `fxcored`. You will be using fxcored CLI commands for creating transactions and then using your Ledger to sign off before broadcasting the transaction to a specified node using the fxcored CLI.
 
-### Install f(x)Core
+### Install Pundi AIFX
 
-> **You need to** [**install f(x)Core**](../installation.md) **before you proceed further**
+> **You need to** [**install Pundi AIFX**](../installation.md) **before you proceed further**
 
 ### Add your Ledger key
 
@@ -127,7 +127,7 @@ Confirm that the address displayed on the device matches the address displayed w
 
 ### Connect to a full node
 
-Next, you need to configure fxcored with the URL of a f(x)Core full node and the appropriate `chain_id`. In this example we connect to the public load balanced full node operated by Function X on the `dhobyghaut` chain. But you can point your `fxcored` to any `f(x)Core` full node. Be sure that the `chain-id` is set to the same chain as the full node.
+Next, you need to configure fxcored with the URL of a Pundi AIFX full node and the appropriate `chain_id`. In this example we connect to the public load balanced full node operated by Function X on the `dhobyghaut` chain. But you can point your `fxcored` to any `Pundi AIFX` full node. Be sure that the `chain-id` is set to the same chain as the full node.
 
 ```bash
 # configuring to a full node
@@ -158,7 +158,7 @@ fxcored tx bank send --help # to see all available options.
 {% hint style="info" %}
 Be sure to unlock your device with the PIN and open the Cosmos app before trying to run these commands
 
-Use the `_name` you set for your Ledger key and f(x)Core will connect with the Cosmos Ledger app to then sign your transaction.
+Use the `_name` you set for your Ledger key and Pundi AIFX will connect with the Cosmos Ledger app to then sign your transaction.
 {% endhint %}
 
 ```bash
@@ -233,7 +233,7 @@ Or to print the `tx` (transaction) commands:
 fxcored tx --help
 ```
 
-## The f(x)Core Standard Transaction
+## The Pundi AIFX Standard Transaction
 
 Transactions in fxcore embed the [Standard Transaction type](https://godoc.org/github.com/cosmos/cosmos-sdk/x/auth#StdTx) from the Cosmos SDK. The Ledger device displays a serialized JSON representation of this object for you to review before signing the transaction. Here are the fields and what they mean:
 

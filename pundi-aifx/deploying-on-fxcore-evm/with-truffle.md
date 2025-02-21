@@ -61,7 +61,7 @@ npm init -y
 
 * After setting up your truffle project, be it cloning a repository or initializing a new truffle project
 * Open `truffle-config.js`
-* Edit `truffle-config.js` with f(x)Core network credentials
+* Edit `truffle-config.js` with Pundi AIFX network credentials
 
 > the file below is just a sample:
 
@@ -116,7 +116,7 @@ module.exports = {
 The key fields to note here are:
 
 * networks to include fxtestnet
-* provider to be set to any of our f(x)Core nodes, you may use the company's hosted node https://testnet-fx-json-web3.functionx.io:8545
+* provider to be set to any of our Pundi AIFX nodes, you may use the company's hosted node https://testnet-fx-json-web3.functionx.io:8545
 * gasPrice: 4000000000000
 * network\_id: 90001
 {% endhint %}
@@ -125,7 +125,7 @@ The key fields to note here are:
 Notice, it requires mnemonic to be passed in for fxtestnet Provider, this is the seed phrase for the account you'd like to deploy from. Create a new .secret file in root directory and enter your 12 word mnemonic seed phrase to get started. To get the seed phrase from metamask wallet you can click into the Metamask icon-->Metamask Settings-->Security & Privacy-->Reveal Secret Recovery Phrase.
 {% endhint %}
 
-### **Deploying on f(x)Core Network**
+### **Deploying on Pundi AIFX Network**
 
 To request for Testnet FX click on this [link](https://dhobyghaut-faucet.functionx.io)
 
@@ -135,7 +135,7 @@ Run this command in root of the project directory:
 truffle migrate --network fxtestnet
 ```
 
-Contract will be deployed on f(x)Core Testnet, it will look something like this:
+Contract will be deployed on Pundi AIFX Testnet, it will look something like this:
 
 ```
 2_deploy_contracts.js

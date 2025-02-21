@@ -4,19 +4,19 @@ description: >-
   GRPC endpoints
 ---
 
-# f(x)Core Network
+# Pundi AIFX Network
 
-#### f(x)Core supports different clients in order to support Cosmos and Ethereum/Web3 transactions and queries
+#### Pundi AIFX supports different clients in order to support Cosmos and Ethereum/Web3 transactions and queries
 
 | <p><br></p>                                                | Description                                                                  | Default Port |
 | ---------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------ |
-| **Cosmos gRPC**                                            | Query or send f(x)Core transactions using gRPC                               | `9090`       |
-| **Cosmos restAPI**                                         | Query or send f(x)Core transactions using restAPI                            | `1317`       |
+| **Cosmos gRPC**                                            | Query or send Pundi AIFX transactions using gRPC                               | `9090`       |
+| **Cosmos restAPI**                                         | Query or send Pundi AIFX transactions using restAPI                            | `1317`       |
 | **Web3** [**JSON-RPC**](web3/)                             | Query Web3-formatted transactions and blocks or send Web3 txs using JSON-RPC | `8545`       |
 | **Web3 Websocket**                                         | Subscribe to Web3 logs and events emitted in smart contracts.                | `8546`       |
-| **Tendermint** [**RPC**](jsonrpc-api.md)                   | Subscribe to f(x)Core logs and events emitted in smart contracts.            | `26657`      |
+| **Tendermint** [**RPC**](jsonrpc-api.md)                   | Subscribe to Pundi AIFX logs and events emitted in smart contracts.            | `26657`      |
 | **Tendermint Websocket**                                   | Query transactions, blocks, consensus state, broadcast transactions, etc.    | `26657`      |
-| **Command Line Interface** ([**CLI**](../installation.md)) | Query or send f(x)Core transactions using your Terminal or Console.          | N/A          |
+| **Command Line Interface** ([**CLI**](../installation.md)) | Query or send Pundi AIFX transactions using your Terminal or Console.          | N/A          |
 
 #### Various clients, tools and end points available
 
@@ -25,15 +25,15 @@ description: >-
 {% endhint %}
 
 {% tabs %}
-{% tab title="f(x)Core Mainnet" %}
+{% tab title="Pundi AIFX Mainnet" %}
 <table><thead><tr><th width="288"></th><th></th></tr></thead><tbody><tr><td>ChainId</td><td><code>fxcore</code></td></tr><tr><td>Native Coin</td><td><code>FX</code></td></tr><tr><td>Block Explorer</td><td><a href="https://pundiscan.io">https://pundiscan.io</a></td></tr><tr><td>Tm JSON RPC</td><td><a href="https://fx-json.functionx.io:26657">https://fx-json.functionx.io:26657</a><br>or<br><a href="https://fx-json.functionx.io">https://fx-json.functionx.io</a></td></tr><tr><td>Tm JSON RPC Websocket</td><td><a href="wss://fx-json.functionx.io:26657/websocket">wss://fx-json.functionx.io:26657/websocket</a></td></tr><tr><td>gRPC</td><td><a href="https://fx-grpc.functionx.io:9090">https://fx-grpc.functionx.io:9090</a></td></tr><tr><td>REST API</td><td><a href="https://fx-rest.functionx.io:1317">https://fx-rest.functionx.io:1317</a></td></tr><tr><td>EVM ChainID</td><td>530</td></tr><tr><td>EVM Block Explorer</td><td><a href="https://pundiscan.io/evm">https://pundiscan.io/evm</a></td></tr><tr><td>Web3 JSON RPC</td><td><a href="https://fx-json-web3.functionx.io:8545">https://fx-json-web3.functionx.io:8545</a></td></tr><tr><td>Web3 JSON RPC Websocket</td><td><a href="wss://fx-json-web3.functionx.io:8546">wss://fx-json-web3.functionx.io:8546</a></td></tr></tbody></table>
 {% endtab %}
 
-{% tab title="f(x)Core Testnet" %}
+{% tab title="Pundi AIFX Testnet" %}
 |                         |                                                                                                          |
 | ----------------------- | -------------------------------------------------------------------------------------------------------- |
 | ChainId                 | `dhobyghaut`                                                                                             |
-| Native Coin             | `FX`                                                                                                     |
+| Native Coin             | `apundiai`                                                                                               |
 | Block Explorer          | [https://testnet.pundiscan.io](https://testnet.pundiscan.io)                                             |
 | Tm JSON RPC             | [https://testnet-fx-json.functionx.io:26657](https://testnet-fx-json.functionx.io:26657)                 |
 | Tm JSON RPC Websocket   | [wss://testnet-fx-json.functionx.io:26657/websocket](wss://testnet-fx-json.functionx.io:26657/websocket) |

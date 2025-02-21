@@ -10,7 +10,7 @@ description: A list of deployed Dapps
 {% endtab %}
 
 {% tab title="Infra" %}
-<table><thead><tr><th width="136">Name</th><th>Description</th></tr></thead><tbody><tr><td><a href="../dapps-and-infrastructure/pundiscan.md">PundiScan</a></td><td>Official blockchain explorer. Track addresses, transactions, validators, and more for f(x)Core / Pundi X Chain / Margin X</td></tr><tr><td><a href="../dapps-and-infrastructure/fx-wallet.md">FX Wallet</a></td><td>Native mobile wallet</td></tr><tr><td><a href="https://trade.marginx.io/">Margin X Analytics</a></td><td>DEX Analytics</td></tr></tbody></table>
+<table><thead><tr><th width="136">Name</th><th>Description</th></tr></thead><tbody><tr><td><a href="../dapps-and-infrastructure/pundiscan.md">PundiScan</a></td><td>Official blockchain explorer. Track addresses, transactions, validators, and more for Pundi AIFX / Pundi X Chain / Margin X</td></tr><tr><td><a href="../dapps-and-infrastructure/fx-wallet.md">FX Wallet</a></td><td>Native mobile wallet</td></tr><tr><td><a href="https://trade.marginx.io/">Margin X Analytics</a></td><td>DEX Analytics</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Tools" %}

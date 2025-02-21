@@ -26,7 +26,7 @@ Validator node software upgrade
   * Downtime, affecting user usage
   * Validator fails to update node in a timely manner and leads to jail time
 
-## f(x)Core Upgrade
+## Pundi AIFX Upgrade
 
 * Where is the default installation by make install for fxcored?
   * The default installation will be at $GOPATH/bin/fxcored
@@ -45,7 +45,7 @@ Validator node software upgrade
 
 * What should I do if the "`panic: Failed to start consensus state: found signature from the same key`" appears in log?
   * We should first check whether the `priv_validator_key.json` configured by the node is used by its node, if not, run the command `fxcored config config.toml consensus.double_sign_check_height 0`, to modify the double-sign check, and then restart the node
-* How to determine whether the f(x)core mainnet genesis is correct
+* How to determine whether the Pundi AIFX mainnet genesis is correct
   * `md5sum $HOME/.fxcore/config/genesis.json`
   * `ded64cf0d1e556b7fd4577cfd44cc328`
 * Is there any CLI command to check if a validator node is validating a block without checking the resource manager?
@@ -90,19 +90,19 @@ A social consensus decision to skip the upgrade will be based solely on technica
 
 * How can I generate Cosmos eth\_secp256k1 keys with Ledger?
 
-Ether eth\_secp256k1 keys are not supported on f(x)Core with Ledger. Only Cosmos keys (secp256k1) can be generated with Ledger.
+Ether eth\_secp256k1 keys are not supported on Pundi AIFX with Ledger. Only Cosmos keys (secp256k1) can be generated with Ledger.
 
 * I can’t generate keys using the CLI with fxcored with the --ledger flag
 
 CLI bindings with fxcored binary are not currently supported. In the meantime, you can use the Cosmos Ledger App with EIP712 using evmos.me (opens new window). See the EIP712 Signing section for reference.
 
-* I can’t generate a key for the f(x)Core native multisig using the fxcored CLI and and Ledger
+* I can’t generate a key for the Pundi AIFX native multisig using the fxcored CLI and and Ledger
 
 You can generate a multisig wallet using the fxcored CLI, although the --ledger option is not available at the moment.
 
 * I can’t use Metamask or Keplr with the Cosmos Ledger app
 
-Since f(x)Core only support Cosmos keys and uses the same HD path as Cosmos, the Cosmos Ledger app doesn’t work to sign Ether transactions.
+Since Pundi AIFX only support Cosmos keys and uses the same HD path as Cosmos, the Cosmos Ledger app doesn’t work to sign Ether transactions.
 
 ## Countdown Timer
 

@@ -8,7 +8,7 @@ People who cannot or do not want to operate [validator nodes](../validators/vali
 
 In terms of risks, delegators' FX will be slashed if their validator misbehaves. For more, see [Risks](delegators-faq.md#risks) section.
 
-To become delegators, FX holders need to send a "Delegate transaction" where they specify the amount of FX they want to stake and with which validator. A list of validators will be displayed in f(x)Core explorers ([mainnet](https://explorer.functionx.io/fxcore/validators)/[testnet](https://dhobyghaut-explorer.functionx.io)). Subsequently, if a delegator wants to unbond part or all of their stake, they will need to send an "Unbond transaction". Delegators will have to wait for 3 weeks to retrieve their FX after sending an "Unbond Transaction". Delegators can also send a "Redelegate Transaction" to switch from one validator to another, without having to go through the 3 weeks waiting period.
+To become delegators, FX holders need to send a "Delegate transaction" where they specify the amount of FX they want to stake and with which validator. A list of validators will be displayed in Pundi AIFX explorers ([mainnet](https://explorer.functionx.io/fxcore/validators)/[testnet](https://dhobyghaut-explorer.functionx.io)). Subsequently, if a delegator wants to unbond part or all of their stake, they will need to send an "Unbond transaction". Delegators will have to wait for 3 weeks to retrieve their FX after sending an "Unbond Transaction". Delegators can also send a "Redelegate Transaction" to switch from one validator to another, without having to go through the 3 weeks waiting period.
 
 {% hint style="info" %}
 However,there is a limit to how frequent you can redelegate. For more information on [redelegation](delegators-faq.md#redelegation).
@@ -18,7 +18,7 @@ For a technical guide on how to become a delegator, click [here](delegator-cli-g
 
 ## Choosing a validator
 
-In order to choose their validators, delegators have access to a range of information directly in f(x)Core block explorers ([mainnet](https://explorer.functionx.io/fxcore/validators)/[testnet](https://dhobyghaut-explorer.functionx.io)).
+In order to choose their validators, delegators have access to a range of information directly in Pundi AIFX block explorers ([mainnet](https://explorer.functionx.io/fxcore/validators)/[testnet](https://dhobyghaut-explorer.functionx.io)).
 
 * **Validator's moniker**: Name of the validator.
 * **Validator's description**: Description provided by the validator's operator.
@@ -41,7 +41,7 @@ Being a delegator is not a passive task. Here are the main directives of a deleg
 Validators and delegators earn revenue in exchange for their services. This revenue is given in three forms:
 
 * **Block provisions (FX):** They are paid in newly created FX. Block provisions exist to incentivize FX holders to stake. The yearly inflation rate is calculated to target 2/3 bonded stake. If the total bonded stake in the network is less than 2/3 of the total FX supply, inflation increases until it reaches 41%. If the total bonded stake is more than 2/3 of the FX supply, inflation decreases until it reaches 17%. This means that if total bonded stake stays less than 2/3 of the total FX supply for a prolong period of time, unbonded FX holders can expect their FX value to deflate in value by 41% (compounded) per year.
-* **Transaction fees (various tokens):** Each transfer on the f(x)Core comes with transactions fees. These fees can be paid in any currency that is whitelisted by the FunctionX governance. Fees are distributed to bonded FX delegators in proportion to their stake. The first whitelisted token at launch is FX.
+* **Transaction fees (various tokens):** Each transfer on the Pundi AIFX comes with transactions fees. These fees can be paid in any currency that is whitelisted by the FunctionX governance. Fees are distributed to bonded FX delegators in proportion to their stake. The first whitelisted token at launch is FX.
 
 ## Validator Commission
 
