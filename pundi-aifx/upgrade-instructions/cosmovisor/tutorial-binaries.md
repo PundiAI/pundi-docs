@@ -47,13 +47,13 @@ Releases can be found here [https://github.com/FunctionX/fx-core/releases](https
 
 <pre class="language-sh"><code class="lang-sh">git clone https://github.com/functionx/fx-core.git
 cd fx-core
-<strong>git pull &#x26;&#x26; git checkout release/v7.5.x
+<strong>git pull &#x26;&#x26; git checkout release/v8.5.x
 </strong>make build
 </code></pre>
 
 ```sh
-mkdir -p $HOME/.fxcore/cosmovisor/upgrades/v7.5.x/bin
-cp ./build/bin/fxcored $HOME/.fxcore/cosmovisor/upgrades/v7.5.x/bin/
+mkdir -p $HOME/.fxcore/cosmovisor/upgrades/v8.5.x/bin
+cp ./build/bin/fxcored $HOME/.fxcore/cosmovisor/upgrades/v8.5.x/bin/
 cp ./build/bin/fxcored $(go env GOPATH)/bin/
 ```
 
@@ -67,7 +67,7 @@ cosmovisor version
 ```
 cosmovisor version: v1.4.0
 5:27PM INF running app args=["version"] module=cosmovisor path=/root/.fxcore/cosmovisor/upgrades/v6.1.x/bin/fxcored
-release/v6.1.0
+release/v7.5.0
 ```
 
 In addition, we have added the feature of the `doctor` command in the v4 version, which is used to check whether the environment you are currently running is correct. if you see the warning, please contact our technical support.
