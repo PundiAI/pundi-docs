@@ -42,11 +42,11 @@ git checkout <upgradeable version branch>
 for example:
 
 ```
-git checkout release/v7.5.x
+git checkout release/v8.5.x
 
 or
 
-git checkout tags/v7.5.0
+git checkout tags/v8.5.0
 ```
 
 Update fxcored (ensure that you are in the fx-core folder):
