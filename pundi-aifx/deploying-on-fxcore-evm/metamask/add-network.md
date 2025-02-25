@@ -36,7 +36,7 @@ Chain ID
 Currency Symbol
 
 ```
-FX
+PUNDIAI
 ```
 
 Block Explorer URL
@@ -77,7 +77,7 @@ Chain ID
 Currency Symbol
 
 ```
-FX
+PUNDIAI
 ```
 
 Block Explorer URL

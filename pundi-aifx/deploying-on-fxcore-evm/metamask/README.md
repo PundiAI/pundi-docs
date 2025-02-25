@@ -13,7 +13,7 @@ description: Overview of MetaMask and guide to setup MetaMask for Pundi AIFX
 {% endcontent-ref %}
 
 {% content-ref url="add-fxcore-network.md" %}
-[add-fxcore-network.md](add-fxcore-network.md)
+[add-fxcore-network.md](add-network)
 {% endcontent-ref %}
 
 {% content-ref url="configure-custom-tokens.md" %}

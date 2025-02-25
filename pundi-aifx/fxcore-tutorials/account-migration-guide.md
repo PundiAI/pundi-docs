@@ -161,7 +161,7 @@ Here is the **list of fields** that you can use to paste on Metamask:
 > For more details, you may refer to below page:
 
 {% content-ref url="../deploying-on-fxcore-evm/metamask/add-fxcore-network.md" %}
-[add-fxcore-network.md](../deploying-on-fxcore-evm/metamask/add-fxcore-network.md)
+[add-fxcore-network.md](../deploying-on-fxcore-evm/metamask/add-network)
 {% endcontent-ref %}
 
 ### **Import Account to Metamask**

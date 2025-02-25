@@ -50,7 +50,7 @@
     * [Products](pundi-aifx/deploying-on-fxcore-evm/deployed-dapps.md)
     * [MetaMask](pundi-aifx/deploying-on-fxcore-evm/metamask/README.md)
       * [Download and Install MetaMask](pundi-aifx/deploying-on-fxcore-evm/metamask/download-and-install-metamask.md)
-      * [Add f(x)Core Network](pundi-aifx/deploying-on-fxcore-evm/metamask/add-fxcore-network.md)
+      * [Add f(x)Core Network](pundi-aifx/deploying-on-fxcore-evm/metamask/add-network)
       * [Configure Custom Tokens](pundi-aifx/deploying-on-fxcore-evm/metamask/configure-custom-tokens.md)
       * [Create and Import Accounts](pundi-aifx/deploying-on-fxcore-evm/metamask/create-and-import-accounts.md)
     * [Connect Wallet to Dapps](pundi-aifx/deploying-on-fxcore-evm/connect-wallet-to-dapps/README.md)
