@@ -12,9 +12,9 @@ f(x)Core cross chain supports the following tokens:
 {% tabs %}
 {% tab title="Mainnet" %}
 
-| Token                                                                                    | Address                                    |
-|:-----------------------------------------------------------------------------------------|:-------------------------------------------|
-| [WFX](https://pundiscan.io/evm/token/0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd)          | 0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd |
+| Token                                                                                     | Address                                    |
+|:------------------------------------------------------------------------------------------|:-------------------------------------------|
+| [WPUNDIAI](https://pundiscan.io/evm/token/0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd)     | 0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd |
 | [PUNDIX](https://pundiscan.io/evm/token/0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75)       | 0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75 |
 | [PURSE](https://pundiscan.io/evm/token/0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687)        | 0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687 |
 | [USDT](https://pundiscan.io/evm/token/0xecEEEfCEE421D8062EF8d6b4D814efe4dc898265)         | 0xecEEEfCEE421D8062EF8d6b4D814efe4dc898265 |
