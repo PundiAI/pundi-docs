@@ -7,13 +7,13 @@ description: The various parameters of modules in Pundi AIFX
 ## Mint module
 
 | Variables                  | Description                                                                                                                                                                                                                                                                                                                                                                                                          | Value                   |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |-------------------------|
 | Minter inflation variables |                                                                                                                                                                                                                                                                                                                                                                                                                      |                         |
 | Inflation                  | Initial annual inflation rate (computation on block basis, the inflation rate of each block are different)                                                                                                                                                                                                                                                                                                           | 0.35                    |
 | AnnualProvisions           | Annual provision (computation on block basis, the inflation rate of each block are different)                                                                                                                                                                                                                                                                                                                        | 0                       |
 |                            |                                                                                                                                                                                                                                                                                                                                                                                                                      |                         |
 | Params chain variables     |                                                                                                                                                                                                                                                                                                                                                                                                                      |                         |
-| MintDenom                  | Name of the newly minted token (dependent on sub-chains)                                                                                                                                                                                                                                                                                                                                                             | FX                      |
+| MintDenom                  | Name of the newly minted token (dependent on sub-chains)                                                                                                                                                                                                                                                                                                                                                             | apundiai                |
 | InflationRateChange        | Annual inflation change rate                                                                                                                                                                                                                                                                                                                                                                                         | 0.3 (30%)               |
 | InflationMax               | The maximum annual inflation rate                                                                                                                                                                                                                                                                                                                                                                                    | 0.416762 (41.6762%)     |
 | InflationMin               | The minimum annual inflation rate                                                                                                                                                                                                                                                                                                                                                                                    | 0.17 (17%)              |
@@ -72,11 +72,11 @@ description: The various parameters of modules in Pundi AIFX
     The number of newly Mint Token on next block:
 
     132,511,600.04056464 / 6,311,520 = 20.9951960923
-* The currency in Pundi AIFX is $FX, the initial supply of $FX is 378,604,525.462891.FX has 18 decimal points
-* Total circulating supply of $FX = Delegated asset $FX + Non-delegated asset $FX
-  * Delegated asset $FX = Total $FX that delegated in Pundi AIFX validator node
-  * Non-delegated asset $FX = Ethereum cross chain locked fund + Unclaimed reward of validator (including commission and transaction fee) + Unclaimed reward of delegator + Wallet balance + Pool of ecosystem and community + Locked fund of Governance
-  * Ethereum cross chain locked fund = Total $FX (ERC20) on Ethereum
+* The currency in Pundi AIFX is $apundiai, the initial supply of $apundiai is 378,604,525.462891.apundiai has 18 decimal points
+* Total circulating supply of $apundiai = Delegated asset $apundiai + Non-delegated asset $apundiai
+  * Delegated asset $apundiai = Total $apundiai that delegated in Pundi AIFX validator node
+  * Non-delegated asset $apundiai = Ethereum cross chain locked fund + Unclaimed reward of validator (including commission and transaction fee) + Unclaimed reward of delegator + Wallet balance + Pool of ecosystem and community + Locked fund of Governance
+  * Ethereum cross chain locked fund = Total $apundiai (ERC20) on Ethereum
 
 ## Delegation/bonding module
 
@@ -86,7 +86,7 @@ description: The various parameters of modules in Pundi AIFX
 | max\_validators     | The maximum number of validator node                                                                                                        | 20 (changable through governance voting) |
 | max\_entries        | Maximum number of delegating / undelegating transaction on each block (it can only transact 7 delegate/undelegate transactions concurrently | 7                                        |
 | historical\_entries | The number of snapshot of block that would be stored (each block will store the snapshot of validator node, for IBC module                  | 20000                                    |
-| bond\_denom         | Token that can be delegated                                                                                                                 | FX                                       |
+| bond\_denom         | Token that can be delegated                                                                                                                 | apundiai                                       |
 
 ## Distribution module
 
@@ -105,15 +105,15 @@ Jail / discharge: The validator node that offline or failure to sign <5% of the 
 
     Block reward = Total block verification reward + Transaction fee
 
-    Assume the following: Voting rate is 100% (all valid validator node participates the block verification voting); Total block verification reward per block is 20 FX; and the block reward can be further divided into 3 parts:
+    Assume the following: Voting rate is 100% (all valid validator node participates the block verification voting); Total block verification reward per block is 20 apundiai; and the block reward can be further divided into 3 parts:
 
     *   Part 1: The proposal block reward for block proposer:
 
         Formula: Total block verification reward \* ( base proposal block reward + current block proposer reward \* (current voting power of the proposing validator node / total validator voting power)
 
-        The proposal block reward: 20 \* (0.01 + 0.04 ) \* 1 = 1FX
+        The proposal block reward: 20 \* (0.01 + 0.04 ) \* 1 = 1apundiai
 
-        The remaining balance of block verification reward per block: 20 - 1 = 19FX
+        The remaining balance of block verification reward per block: 20 - 1 = 19apundiai
     *   Part 2: Block verification reward of all valid validator node
 
         The verification block reward that belongs to all validator nodes:
@@ -128,21 +128,21 @@ Jail / discharge: The validator node that offline or failure to sign <5% of the 
 
         Assume the voting power of validator node A is 50%:
 
-        Block verification reward of validator node A: 20 \* 0.55 \* 0.5 =5.5FX
+        Block verification reward of validator node A: 20 \* 0.55 \* 0.5 =5.5apundiai
 
         Assume the voting power of all validator nodse: 100%:
 
-        Block verification reward belongs to all validator nodes: 20 \* 0.55 \* 1 = 11FX
+        Block verification reward belongs to all validator nodes: 20 \* 0.55 \* 1 = 11apundiai
     *   Part 3: Community and ecosystem pool
 
         Formula: Total block verification reward - The proposal block reward (part 1) - Block reward for validator node (part 2)
 
-        Block verification reward belongs to community and ecosystem pool: 20 -1 -11 = 8FX
+        Block verification reward belongs to community and ecosystem pool: 20 -1 -11 = 8apundiai
 *   The distribution of block reward between validator and delegator
 
     Delegators need to pay commission fee (if any) to the validator that he/she delegates token to
 
-    Assume: The remaining balance of block reward available to delegator is 2FX; Commission rate is 1%
+    Assume: The remaining balance of block reward available to delegator is 2apundiai; Commission rate is 1%
 
     *   The commission fee of validator:
 
@@ -164,13 +164,13 @@ Jail / discharge: The validator node that offline or failure to sign <5% of the 
 
 The gov module allows on-chain governance system. A brief explanation of the process flow of submitting a proposal is as follow (for an in-depth explanation and examples, go [here](../../governance/governance-proposal-information/)):
 
-1. To submit a proposal, it requires an _initial deposit_ of at least 1000 FX, there is a deposit period (`max deposit period`) for the `min deposit` to be reached
-2. The `min deposit` is 10000 FX (the _initial deposit_ is counted towards the threshold)
-3. `voting period` starts when the 10000 FX threshold is reached, and will last for 14 days
-4. `quorum` must be reached for the proposal to be valid, which means at least 40% of bonded FX have to participate in voting
-5. If 50% or more of the participants (weighted by FX) voted YES, the proposal has reached the `threshold` and is considered 'PASS'
-6. If 50% or more of the participants (weighted by FX) voted no, the proposal has not reached the `threshold` and is considered 'REJECTED'
-7. If 33.4% (`veto threshold`) or more of the participants (weighted by FX) voted 'NoWithVeto', irregardless of the % of YES, the proposal is considered 'REJECTED'
+1. To submit a proposal, it requires an _initial deposit_ of at least 1000 apundiai, there is a deposit period (`max deposit period`) for the `min deposit` to be reached
+2. The `min deposit` is 10000 apundiai (the _initial deposit_ is counted towards the threshold)
+3. `voting period` starts when the 10000 apundiai threshold is reached, and will last for 14 days
+4. `quorum` must be reached for the proposal to be valid, which means at least 40% of bonded apundiai have to participate in voting
+5. If 50% or more of the participants (weighted by apundiai) voted YES, the proposal has reached the `threshold` and is considered 'PASS'
+6. If 50% or more of the participants (weighted by apundiai) voted no, the proposal has not reached the `threshold` and is considered 'REJECTED'
+7. If 33.4% (`veto threshold`) or more of the participants (weighted by apundiai) voted 'NoWithVeto', irregardless of the % of YES, the proposal is considered 'REJECTED'
 
 The parameters are as follow:
 
@@ -180,5 +180,5 @@ The parameters are as follow:
 | quorum             | Minimum percentage of total staked (bonded) for proposal to be valid       | 0.4                     |
 | threshold          | Minimum proportion of Yes votes for proposal to pass                       | 0.5                     |
 | veto threshold     | Minimum value of Veto votes to total votes ratio for proposal to be vetoed | 0.334                   |
-| min deposit        | Minimum deposit for a proposal to enter voting period (FX, 18 decimals)    | 10000000000000000000000 |
-| max deposit period | Maximum time period for FX holders to deposit on a proposal (nanoseconds)  | 1209600000000000        |
+| min deposit        | Minimum deposit for a proposal to enter voting period (apundiai, 18 decimals)    | 10000000000000000000000 |
+| max deposit period | Maximum time period for apundiai holders to deposit on a proposal (nanoseconds)  | 1209600000000000        |
