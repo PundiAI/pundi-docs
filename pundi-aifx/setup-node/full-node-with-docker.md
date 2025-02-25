@@ -15,13 +15,13 @@ This guide will explain how to install the `fxcored mainnet` or `fxcored testnet
 {% tabs %}
 {% tab title="Mainnet" %}
 ```
-docker pull functionx/fx-core:6.0.0
+docker pull ghcr.io/pundiai/fx-core:8.5.1
 ```
 {% endtab %}
 
 {% tab title="Testnet" %}
 ```
-docker pull functionx/fx-core:6.0.0
+docker pull ghcr.io/pundiai/fx-core:8.5.1
 ```
 {% endtab %}
 {% endtabs %}
@@ -30,11 +30,11 @@ docker pull functionx/fx-core:6.0.0
 
 {% tabs %}
 {% tab title="Mainnet" %}
-docker run --rm -v $HOME/.fxcore:/root/.fxcore functionx/fx-core:6.0.0 init fx-zakir --chain-id fxcore
+docker run --rm -v $HOME/.fxcore:/root/.fxcore ghcr.io/pundiai/fx-core:8.5.1 init fx-zakir --chain-id fxcore
 {% endtab %}
 
 {% tab title="Testnet" %}
-docker run --rm -v $HOME/.fxcore:/root/.fxcore functionx/fx-core:6.0.0 init fx-zakir --chain-id dhobyghaut
+docker run --rm -v $HOME/.fxcore:/root/.fxcore ghcr.io/pundiai/fx-core:8.5.1 init fx-zakir --chain-id dhobyghaut
 {% endtab %}
 {% endtabs %}
 
@@ -43,14 +43,14 @@ docker run --rm -v $HOME/.fxcore:/root/.fxcore functionx/fx-core:6.0.0 init fx-z
 {% tabs %}
 {% tab title="Mainnet" %}
 ```
-wget https://raw.githubusercontent.com/FunctionX/fx-core/release/v6.0.x/public/mainnet/genesis.json -O ~/.fxcore/config/genesis.json
+wget https://raw.githubusercontent.com/pundiAI/fx-core/release/v6.0.x/public/mainnet/genesis.json -O ~/.fxcore/config/genesis.json
 ```
 {% endtab %}
 
 {% tab title="Testnet" %}
 {% code fullWidth="false" %}
 ```
-wget https://raw.githubusercontent.com/FunctionX/fx-core/release/v6.0.x/public/testnet/genesis.json -O ~/.fxcore/config/genesis.json
+wget https://raw.githubusercontent.com/pundiAI/fx-core/release/v6.0.x/public/testnet/genesis.json -O ~/.fxcore/config/genesis.json
 ```
 {% endcode %}
 {% endtab %}
@@ -61,13 +61,13 @@ Upon startup the node will need to connect to peers. you can add peers to the `c
 {% tabs %}
 {% tab title="Mainnet" %}
 ```bash
-docker run --rm -v $HOME/.fxcore:/root/.fxcore functionx/fx-core:6.0.0 config config.toml p2p.seeds "c5877d9d243af1a504caf5b7f7a9c915b3ae94ae@fxcore-mainnet-seed-node-1.functionx.io:26656,b289311ece065c813287e3a25835bb6378999aa5@fxcore-mainnet-seed-node-2.functionx.io:26656,96f04dffc25ffcce11e179581d2a3ab6cb5535d5@fxcore-mainnet-node-1.functionx.io:26656,836ded83bac83a4ac8511826fa1ad4ca2238f960@fxcore-mainnet-node-2.functionx.io:26656,7c7a260eeefda37eac896ae423e78cf345a2ef70@fxcore-mainnet-node-3.functionx.io:26656,0fee38117655b6961319950d6beb929fb194217c@fxcore-mainnet-node-4.functionx.io:26656,6e8818051a2ca9b8be67a6f2ba48c33d8c489d5c@fxcore-mainnet-node-5.functionx.io:26656"
+docker run --rm -v $HOME/.fxcore:/root/.fxcore pundiAI/fx-core:8.5.1 config config.toml p2p.seeds "c5877d9d243af1a504caf5b7f7a9c915b3ae94ae@fxcore-mainnet-seed-node-1.functionx.io:26656,b289311ece065c813287e3a25835bb6378999aa5@fxcore-mainnet-seed-node-2.functionx.io:26656,96f04dffc25ffcce11e179581d2a3ab6cb5535d5@fxcore-mainnet-node-1.functionx.io:26656,836ded83bac83a4ac8511826fa1ad4ca2238f960@fxcore-mainnet-node-2.functionx.io:26656,7c7a260eeefda37eac896ae423e78cf345a2ef70@fxcore-mainnet-node-3.functionx.io:26656,0fee38117655b6961319950d6beb929fb194217c@fxcore-mainnet-node-4.functionx.io:26656,6e8818051a2ca9b8be67a6f2ba48c33d8c489d5c@fxcore-mainnet-node-5.functionx.io:26656"
 ```
 {% endtab %}
 
 {% tab title="Testnet" %}
 ```bash
-docker run --rm -v $HOME/.fxcore:/root/.fxcore functionx/fx-core:6.0.0 config config.toml p2p.seeds "e922b34e660976a64d6024bde495666752141992@dhobyghaut-seed-node-1.functionx.io:26656,a817685c010402703820be2b5a90d9e07bc5c2d3@dhobyghaut-node-1.functionx.io:26656"
+docker run --rm -v $HOME/.fxcore:/root/.fxcore pundiAI/fx-core:8.5.1 config config.toml p2p.seeds "e922b34e660976a64d6024bde495666752141992@dhobyghaut-seed-node-1.functionx.io:26656,a817685c010402703820be2b5a90d9e07bc5c2d3@dhobyghaut-node-1.functionx.io:26656"
 ```
 {% endtab %}
 {% endtabs %}
@@ -81,7 +81,7 @@ And at this stage, what is important is your validator keys that is stored in a 
 * Run docker
 
 ```
-docker run --name fxcore -d --restart=always -p 0.0.0.0:26656:26656 -p 127.0.0.1:26657:26657 -p 127.0.0.1:1317:1317 -p 127.0.0.1:26660:26660 -p 127.0.0.1:8545:8545 -p 127.0.0.1:8546:8546 -v $HOME/.fxcore:/root/.fxcore functionx/fx-core:6.0.0 start
+docker run --name fxcore -d --restart=always -p 0.0.0.0:26656:26656 -p 127.0.0.1:26657:26657 -p 127.0.0.1:1317:1317 -p 127.0.0.1:26660:26660 -p 127.0.0.1:8545:8545 -p 127.0.0.1:8546:8546 -v $HOME/.fxcore:/root/.fxcore ghcr.io/pundiai/fx-core:8.5.1 start
 ```
 
 To check if fxcore is synced:
@@ -106,7 +106,7 @@ Return:
       "id": "123868554adafd679f5dc6367bddea39aa5adb94",
       "listen_addr": "tcp://0.0.0.0:26656",
       "network": "fxcore",
-      "version": "v0.34.9",
+      "version": "0.38.13",
       "channels": "40202122233038606100",
       "moniker": "moniker",
       "other": {
@@ -117,7 +117,7 @@ Return:
     "sync_info": {
       "latest_block_hash": "239609FE5FD475389C1ACFCEF46DCF6B0343F0C04E43A7968677809C2D489F3F",
       "latest_app_hash": "0D2F1299950E0DE86BFF1CDEEEDE3BA57F7899EF1492A6E6809DF3060164046D",
-      "latest_block_height": "810805",
+      "latest_block_height": "19617854",
       "latest_block_time": "2021-09-01T07:56:29.166926257Z",
       "earliest_block_hash": "12B0FB286BD34C077CACF97D3D2757B27C49E63FB81E6262399FF11A3C3C002E",
       "earliest_app_hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",

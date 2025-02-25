@@ -12,7 +12,7 @@ Pundi AIFX cross chain supports the following tokens:
 {% tab title="Mainnet" %}
 | Token                                                                                     | Address                                    |
 | ----------------------------------------------------------------------------------------- | ------------------------------------------ |
-| [WFX](https://pundiscan.io/evm/token/0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd)          | 0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd |
+| [PUNDIAI](https://pundiscan.io/evm/token/0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd)      | 0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd |
 | [PUNDIX](https://pundiscan.io/evm/token/0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75)       | 0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75 |
 | [PURSE](https://pundiscan.io/evm/token/0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687)        | 0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687 |
 | [USDT](https://pundiscan.io/evm/token/0xecEEEfCEE421D8062EF8d6b4D814efe4dc898265)         | 0xecEEEfCEE421D8062EF8d6b4D814efe4dc898265 |
@@ -62,7 +62,7 @@ Pundi AIFX cross chain supports the following tokens:
 {% tab title="Testnet" %}
 | Token                                                                                       | Address                                    |
 | ------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| [WFX](https://testnet.pundiscan.io/evm/token/0x3452e23F9c4cC62c70B7ADAd699B264AF3549C19)    | 0x3452e23F9c4cC62c70B7ADAd699B264AF3549C19 |
+| [PUNDIAI](https://testnet.pundiscan.io/evm/token/0x3452e23F9c4cC62c70B7ADAd699B264AF3549C19)    | 0x3452e23F9c4cC62c70B7ADAd699B264AF3549C19 |
 | [PUNDIX](https://testnet.pundiscan.io/evm/token/0x5db67696C3c088DfBf588d3dd849f44266ff0ffa) | 0x5db67696C3c088DfBf588d3dd849f44266ff0ffa |
 | [PURSE](https://testnet.pundiscan.io/evm/token/0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC)  | 0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC |
 | [USDT](https://testnet.pundiscan.io/evm/token/0x3515F25AB7637adcF1b69F4D384ed5936B83431F)   | 0x3515F25AB7637adcF1b69F4D384ed5936B83431F |

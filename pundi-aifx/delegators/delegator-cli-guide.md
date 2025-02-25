@@ -35,7 +35,7 @@ Please exercise extreme caution!
 
 \[**Download the binaries**]
 
-[**Install from source**](https://github.com/FunctionX/fx-core)
+[**Install from source**](https://github.com/pundiAI/fx-core)
 
 > `fxcored` can be interacted with via a terminal. To open the terminal, follow these steps:
 

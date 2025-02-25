@@ -40,13 +40,13 @@ Fetching genesis file (copy this entire line of code and hit <mark style="color:
 {% tabs %}
 {% tab title="Mainnet" %}
 ```
-wget https://raw.githubusercontent.com/FunctionX/fx-core/main/public/mainnet/genesis.json -O ~/.fxcore/config/genesis.json
+wget https://raw.githubusercontent.com/pundiAI/fx-core/main/public/mainnet/genesis.json -O ~/.fxcore/config/genesis.json
 ```
 {% endtab %}
 
 {% tab title="Testnet" %}
 ```
-wget https://raw.githubusercontent.com/FunctionX/fx-core/main/public/testnet/genesis.json -O ~/.fxcore/config/genesis.json
+wget https://raw.githubusercontent.com/pundiAI/fx-core/main/public/testnet/genesis.json -O ~/.fxcore/config/genesis.json
 ```
 {% endtab %}
 {% endtabs %}
@@ -143,7 +143,7 @@ Return:
       "id": "123868554adafd679f5dc6367bddea39aa5adb94",
       "listen_addr": "tcp://0.0.0.0:26656",
       "network": "fxcore",
-      "version": "v0.34.9",
+      "version": "0.38.13",
       "channels": "40202122233038606100",
       "moniker": "moniker",
       "other": {

@@ -91,7 +91,6 @@
       * [Target](pundi-aifx/developers/cross-chain/target.md)
     * [Precompiled Contracts](pundi-aifx/developers/precompiles/README.md)
       * [CrossChain Precompiled](pundi-aifx/developers/precompiles/cross-chain.md)
-      * [Staking Precompiled](pundi-aifx/developers/precompiles/staking-precompiled.md)
       * [Staking-V2 Precompiled](pundi-aifx/developers/precompiles/staking-v2.md)
     * [Pundi AIFX SDKs](pundi-aifx/developers/f-x-core-sdks/README.md)
       * [Python SDK](pundi-aifx/developers/f-x-core-sdks/python-sdk.md)
