@@ -12,14 +12,14 @@ Additional information on how IBC works can be found [here](https://ibc.cosmos.n
 {% tab title="Mainnet" %}
 | source chain-id | destination | destination chain-id | source to destination channel | destination to source channel |
 | --------------- | ----------- | -------------------- | ----------------------------- | ----------------------------- |
-| PUNDXI          | f(x)Core    | fxcore               | channel-0                     | channel-0                     |
+| PUNDXI          | Pundi AIFX    | fxcore               | channel-0                     | channel-0                     |
 | PUNDXI          | Osmosis     | osmosis-1            | channel-1                     | channel-12618                 |
 {% endtab %}
 
 {% tab title="Testnet" %}
 | source chain-id | destination | destination chain-id | source to destination channel | destination to source channel |
 | --------------- | ----------- | -------------------- | ----------------------------- | ----------------------------- |
-| payalebar       | f(x)Core    | dhobyghaut           | channel-0                     | channel-0                     |
+| payalebar       | Pundi AIFX    | dhobyghaut           | channel-0                     | channel-0                     |
 | payalebar       | Osmosis     | osmo-test-5          | channel-3                     | channel-7744                  |
 {% endtab %}
 {% endtabs %}

@@ -58,7 +58,7 @@ It returns something like this when adding new account and mnemonic is stored in
 }
 ```
 
-if you already have an existing f(x)wallet and would like to import it you may run the following command and follow the prompts:
+if you already have an existing Pundi Wallet and would like to import it you may run the following command and follow the prompts:
 
 ```bash
 pundixd keys add <account_name> --recover

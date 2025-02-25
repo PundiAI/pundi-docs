@@ -44,20 +44,20 @@ When a representation of the token is minted on the Pundi AIFX chain, it will fo
 
 Depositing assets to Gravity Bridge from Ethereum is permissionless and censorship-resistant. Each validator attests to every deposit event as they occur on Ethereum. When an event is attested by more than ⅔ of the validator set, representative tokens are minted. Validators must submit all attestations in order.
 
-1. The user calls the sendToFx method of the bridge contract of an EVM-chain through f(x)wallet to lock the USDT in the bridge contract
+1. The user calls the sendToFx method of the bridge contract of an EVM-chain through Pundi Wallet to lock the USDT in the bridge contract
 2. The validator(s) listens to the sendToFx event in the bridge contract, then signs the event, and then submits the signed event to Pundi AIFX through a transaction. After the Pundi AIFX link is signed by 2/3 of the validators, it will automatically be signed by the user. The corresponding USDT is mint on the account
 
 ### Withdrawals
 
 Gravity Bridge batches withdrawal transactions, placing multiple SendToEth messages together in an individual batch. This works like a rollup on Ethereum: Executing many transactions in a single shared context is far more efficient than doing so individually.
 
-1. Users call the sendToEth transaction of the fxCore chain through f(x)wallet and apply for withdrawal
+1. Users call the sendToEth transaction of the fxCore chain through Pundi Wallet and apply for withdrawal
 2. One of the arbitrage relays will monitor the transactions that apply for withdrawal on the Pundi AIFX chain. When the bridgeFee paid by all withdrawal transactions is enough to offset the transaction fee of sending submitBatch on the Ethereum chain, it will send requestBatch transactions to the Pundi AIFX chain to package all sendToEth transactions
 3. When other relayers listen to the requestBatch transaction on the Pundi AIFX chain, they will sign the packaged transaction, and then the confirmBatch transaction will occur on the Pundi AIFX chain
 4. The arbitrage relay will then collect the withdrawal package signature information of all relays from the Pundi AIFX chain, and call the submitBatch method of the Ethereum contract. The submitBatch method will check the signature information of the relay, and verify that the signatures collected are greater than 2/3. Once verified, the contract will unlock USDT and transfer it to the user account, completing the withdrawal. The remaining bridge fee will be transferred to the arbitrage relay
 
 ### How to Use Gravity Bridge
 
-**For users:** f(x)Wallet will soon be able to support the Gravity Bridge
+**For users:** Pundi Wallet will soon be able to support the Gravity Bridge
 
 **For developers:** You may refer to this document to learn how to add your token to the [Gravity Bridge](bridging-tokens-from-other-networks.md)

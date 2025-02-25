@@ -80,7 +80,7 @@ description: The various parameters of modules in Pundi AIFX
 
 ## Delegation/bonding module
 
-| Variable            | Description                                                                                                                                 | f(x)                                     |
+| Variable            | Description                                                                                                                                 | Pundi AIFX                                     |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
 | unbonding\_time     | Undelegated period / period of withdrawing delegated token                                                                                  | 1814400s ( approx 21 days)               |
 | max\_validators     | The maximum number of validator node                                                                                                        | 20 (changable through governance voting) |
@@ -94,7 +94,7 @@ Undelegation period: 21 days
 
 Jail / discharge: The validator node that offline or failure to sign <5% of the block in the previous 20,000 blocks will be jail; validator node can apply for discharge after 10 minutes
 
-| Variable                | Description                                                                                                                                                                                           | f(x)      |
+| Variable                | Description                                                                                                                                                                                           | Pundi AIFX      |
 | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
 | community\_tax          | Block reward that belongs to the pool of community and ecosystem                                                                                                                                      | 0.4 (40%) |
 | base\_proposer\_reward  | Base proposal block reward for every valid validator node                                                                                                                                             | 0.01 (1%) |
