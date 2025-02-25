@@ -51,4 +51,4 @@ Example:
 
 ## For Users
 
-f(x)Wallet will soon be able to support the Gravity Bridge
+Pundi Wallet will soon be able to support the Gravity Bridge

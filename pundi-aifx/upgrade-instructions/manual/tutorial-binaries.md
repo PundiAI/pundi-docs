@@ -55,7 +55,7 @@ Update fxcored (ensure that you are in the fx-core folder):
 make install
 ```
 
-Cross reference the latest commit hash to the commit in our [official github page](https://github.com/FunctionX/fx-core):
+Cross reference the latest commit hash to the commit in our [official github page](https://github.com/PundiAI/fx-core):
 
 ```
 fxcored version

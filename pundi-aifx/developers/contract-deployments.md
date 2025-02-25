@@ -3,10 +3,11 @@
 ## Tokens
 
 | Contract             | Address                                                                                                                   |
-|----------------------| ------------------------------------------------------------------------------------------------------------------------- |
-| FX Base              | [0x8cecc2360906c812cd7353cd6b10b1dc13bbc777](https://basescan.org/address/0x8cecc2360906c812cd7353cd6b10b1dc13bbc777)     |
-| FX Ethereum          | [0x8c15ef5b4b21951d50e53e4fbda8298ffad25057](https://etherscan.io/address/0x8c15ef5b4b21951d50e53e4fbda8298ffad25057)     |
-| WPUNDIAI FXCore      | [0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd](https://pundiscan.io/evm/address/0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd) |
+|----------------------|---------------------------------------------------------------------------------------------------------------------------|
+| FX (Base)            | [0x8cecc2360906c812cd7353cd6b10b1dc13bbc777](https://basescan.org/address/0x8cecc2360906c812cd7353cd6b10b1dc13bbc777)     |
+| FX (Ethereum)        | [0x8c15ef5b4b21951d50e53e4fbda8298ffad25057](https://etherscan.io/address/0x8c15ef5b4b21951d50e53e4fbda8298ffad25057)     |
+| PUNDIAI (Ethereum)   | [0x075F23b9CdfCE2cC0cA466F4eE6cb4bD29d83bef](https://etherscan.io/address/0x075F23b9CdfCE2cC0cA466F4eE6cb4bD29d83bef)     |
+| WPUNDIAI             | [0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd](https://pundiscan.io/evm/address/0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd) |
 | Cross-chain Tokens   | [Cross-chain Tokens](https://pundi.gitbook.io/pundi/pundiai/pundi-aifx/developers/cross-chain/fx-core)                    |
 | Cross-chain SendToFx | [Cross-chain SendToFx](https://pundi.gitbook.io/pundi/pundiai/pundi-aifx/developers/cross-chain/send-to-fx)               |
 | Precompiles          | [Precompiles](https://pundi.gitbook.io/pundi/pundiai/pundi-aifx/developers/precompiles/cross-chain)                       |

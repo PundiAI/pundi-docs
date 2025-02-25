@@ -22,7 +22,7 @@ for example:
 
 if user call ethereum bridge contract `sendToFx` method, the target is `ibc/0/px`, the token will be transfer to address on pundix chain
 
-if user call f(x)Emv CrossChain contract `crossChain` method, the target is `ibc/0/px`, the token will be transfer to address on pundix chain
+if user call Pundi AIFX CrossChain contract `crossChain` method, the target is `ibc/0/px`, the token will be transfer to address on pundix chain
 
 ### Module Name
 

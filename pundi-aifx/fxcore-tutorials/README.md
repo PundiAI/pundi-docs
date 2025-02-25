@@ -1,2 +1,2 @@
-# f(x)Core Tutorials
+# Pundi AIFX Tutorials
 
