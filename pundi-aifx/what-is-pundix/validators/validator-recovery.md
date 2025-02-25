@@ -42,7 +42,7 @@ tree $HOME/.pundix
 2 directories, 6 files
 ```
 
-The command after `Initializing PundiX` from setting up node with [Full node with Binaries](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/getting-started/setup-node/full-node-with-binaries.md) or [Full node with Docker](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/getting-started/setup-node/full-node-with-docker.md) is to override the various files that were initialized earlier:
+The command after `Initializing PundiX` from setting up node with [Full node with Binaries](https://github.com/PundiAI/pundiai-docs/blob/main/px-docs/getting-started/setup-node/full-node-with-binaries.md) or [Full node with Docker](https://github.com/PundiAI/pundiai-docs/blob/main/px-docs/getting-started/setup-node/full-node-with-docker.md) is to override the various files that were initialized earlier:
 
 {% tabs %}
 {% tab title="Binaries" %}

@@ -1225,7 +1225,7 @@ curl -X POST https://localhost:26657 -d "{\"jsonrpc\":\"2.0\",\"id\":1,\"method\
 
 Query the application for some information.
 
-> [About ABCI Query More](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/developers/json-rcp-abci-query.md)
+> [About ABCI Query More](https://github.com/PundiAI/pundiai-docs/blob/main/px-docs/developers/json-rcp-abci-query.md)
 
 #### Parameters
 

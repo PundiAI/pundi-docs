@@ -2,7 +2,7 @@
 
 ## Introduction
 
-[Pundi AIFX](../f-x-core.md) is built on Tendermint, which relies on a set of validators that are responsible for committing new blocks in the blockchain. These validators participate in the consensus protocol by broadcasting votes which contain cryptographic signatures signed by each validator's private key.
+[Pundi AIFX](../pundi) is built on Tendermint, which relies on a set of validators that are responsible for committing new blocks in the blockchain. These validators participate in the consensus protocol by broadcasting votes which contain cryptographic signatures signed by each validator's private key.
 
 Validators can bond their own FX and have FX "delegated", or staked, with them by token holders. The Pundi AIFX will have 50 validators, but over time this will increase to 100 validators according to a predefined schedule. Validators are ranked according to the amount of FX staked with them — the top 50 validator candidates with the most stake will become active Pundi AIFX validators.
 

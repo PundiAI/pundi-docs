@@ -172,7 +172,7 @@ In order to query the state and send transactions, you need a way to access the 
 
 This is the most secure option, but comes with relatively high resource requirements and costs. In order to run your own full-node, you need good bandwidth and at least 500GB of disk space.
 
-You will find the tutorial on how to install `pundixd` [here](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/getting-started/installation-pundix.md), and the guide to run a full-node [here](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/getting-started/setup-node/README.md).
+You will find the tutorial on how to install `pundixd` [here](https://github.com/PundiAI/pundiai-docs/blob/main/px-docs/getting-started/installation-pundix.md), and the guide to run a full-node [here](https://github.com/PundiAI/pundiai-docs/blob/main/px-docs/getting-started/setup-node/README.md).
 
 ### Connecting to a Remote Full-Node
 
@@ -317,7 +317,7 @@ pundixd tx staking unbond <validatorAddress> <amountToUnbond> --from <delegatorK
 pundixd tx staking unbond pxvaloper1hs3tfedle32zzr5dh38gzzfn9ak2f4a96gg7h6 10 --from px1hs3tfedle32zzr5dh38gzzfn9ak2f4a9je4pf6
 ```
 
-However,there is a limit to how frequent you can redelegate. For more information on [redelegation](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/delegators/delegators-faq.md#redelegation).
+However,there is a limit to how frequent you can redelegate. For more information on [redelegation](https://github.com/PundiAI/pundiai-docs/blob/main/px-docs/delegators/delegators-faq.md#redelegation).
 
 {% hint style="danger" %}
 **If you are using a Ledger, you will be asked to confirm the transaction on the device before it is signed and broadcast to the network. Note that the command will only work while the Ledger is plugged in and unlocked.**

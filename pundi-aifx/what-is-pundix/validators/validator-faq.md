@@ -54,7 +54,7 @@ The active validator set is determined solely by the ranking of the total amount
 
 The Testnet is a great environment to test your validator setup before launch.
 
-We view testnet participation as a great way to signal to the community that you are ready and able to operate a validator. The setup of a testnet is the same as the mainnet with a few minor differences. You can create a testnet validator [here](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/validators/broken-reference/README.md).
+We view testnet participation as a great way to signal to the community that you are ready and able to operate a validator. The setup of a testnet is the same as the mainnet with a few minor differences. You can create a testnet validator [here](https://github.com/PundiAI/pundiai-docs/blob/main/px-docs/validators/broken-reference/README.md).
 
 ### What are the different types of keys?
 
@@ -252,7 +252,7 @@ If a validator misbehaves, their delegated stake will be partially slashed. Ther
 {% hint style="info" %}
 The portion of PUNDIX that is subjected to slashing conditions is the total delegated PUNDIX. The rewards earned will not be subjected to slashing conditions.
 
-If a validator is jailed, the same rules apply to redelegation and unbonding. For unbonding, you still have to wait 21 days. While for redelegation, you may do so and the [following rules](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/validators/broken-reference/README.md) will apply.
+If a validator is jailed, the same rules apply to redelegation and unbonding. For unbonding, you still have to wait 21 days. While for redelegation, you may do so and the [following rules](https://github.com/PundiAI/pundiai-docs/blob/main/px-docs/validators/broken-reference/README.md) will apply.
 {% endhint %}
 
 ### Do validators need to self-delegate PUNDIX?
