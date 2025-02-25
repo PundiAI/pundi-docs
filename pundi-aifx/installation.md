@@ -13,7 +13,7 @@ We recommend the following for running Pundi AIFX:
 * At least 8G of memory
 * At least 10mbps network bandwidth
 
-To see a [quick cloud setup](fxcore-tutorials/cloud-setup.md) on how to setup and deploy it on the cloud.
+To see a [quick cloud setup](tutorials/cloud-setup.md) on how to setup and deploy it on the cloud.
 
 ## Install build requirements
 

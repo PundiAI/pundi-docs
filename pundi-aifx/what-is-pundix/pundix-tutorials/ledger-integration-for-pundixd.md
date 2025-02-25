@@ -24,7 +24,7 @@ At the core of a Ledger device there is a mnemonic seed phrase that is used to g
 
 ## Ledger and Cloud Setup
 
-![Ledger and Cloud Configuration](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/.gitbook/assets/block.drawio.png)
+![Ledger and Cloud Configuration](https://github.com/PundiAI/pundiai-docs/blob/main/px-docs/.gitbook/assets/block.drawio.png)
 
 Before you use a ledger to set up your validator, do make sure you understand this setup. You will need:
 
@@ -68,7 +68,7 @@ The tool used to generate addresses and transactions on the PundiX network is `p
 ### Install PundiX
 
 {% hint style="info" %}
-**You need to** [**install PundiX**](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/getting-started/installation-pundix.md) **before you proceed further**
+**You need to** [**install PundiX**](https://github.com/PundiAI/pundiai-docs/blob/main/px-docs/getting-started/installation-pundix.md) **before you proceed further**
 {% endhint %}
 
 ### Add Ledger key
@@ -172,7 +172,7 @@ Test your connection with a query such as:
 pundixd query staking validators
 ```
 
-**To run your own full node locally read more** [**here**](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/getting-started/setup-node/README.md)**.**
+**To run your own full node locally read more** [**here**](https://github.com/PundiAI/pundiai-docs/blob/main/px-docs/getting-started/setup-node/README.md)**.**
 
 ### Sign a transaction
 

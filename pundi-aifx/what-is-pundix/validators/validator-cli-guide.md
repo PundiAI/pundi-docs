@@ -316,7 +316,7 @@ If you got jailed for downtime, you can get your voting power back to your valid
 pundixd start
 ```
 
-Wait for your full node to catch up to the latest block. Then, you can [unjail your validator](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/validators/setting-up-a-validator-for-pundix.md#unjail-validator)
+Wait for your full node to catch up to the latest block. Then, you can [unjail your validator](https://github.com/PundiAI/pundiai-docs/blob/main/px-docs/validators/setting-up-a-validator-for-pundix.md#unjail-validator)
 
 Lastly, check your validator again to see if your voting power is back.
 

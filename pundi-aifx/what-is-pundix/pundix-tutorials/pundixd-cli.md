@@ -282,7 +282,7 @@ There are three types of key representations that are used:
 
 You'll need an account with a private and public key pair (a.k.a. `sk`,`pk` respectively) to be able to receive funds, send txs, bond tx, etc.
 
-To generate an old **secp256k1** key, follow this [guide](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/pundix-tutorials/account-migration-guide-cli.md#2-prepare-the-0x-prefix-address-account-ethereum-format-address). New **eth\_secp256k1** will be the default key generation scheme when PundiX becomes EVM compatible.
+To generate an old **secp256k1** key, follow this [guide](https://github.com/PundiAI/pundiai-docs/blob/main/px-docs/pundix-tutorials/account-migration-guide-cli.md#2-prepare-the-0x-prefix-address-account-ethereum-format-address). New **eth\_secp256k1** will be the default key generation scheme when PundiX becomes EVM compatible.
 
 To generate a new **eth\_secp256k1** key by default:
 
@@ -435,7 +435,7 @@ pundixd keys show --multisig-threshold 2 a1 a2 a3
 
 The above command will generate a multisig address and print it to the console. But this time the order of the multisig names does matter. For example the command line with `a1 a2 a3` and `a2 a1 a3` will generate two different multisig addresses. With same `--multisig-threshold=2`, the `bk` key is the same as the order `a3 a1 a2` generated.
 
-For more information regarding how to generate, sign and broadcast transactions with a multi signature account see [Multisig Transactions](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/pundix-tutorials/pundixd-cli-commands.md#multisig-transactions).
+For more information regarding how to generate, sign and broadcast transactions with a multi signature account see [Multisig Transactions](https://github.com/PundiAI/pundiai-docs/blob/main/px-docs/pundix-tutorials/pundixd-cli-commands.md#multisig-transactions).
 
 ### Migrate Keys From Legacy On-Disk Keybase To OS Built-in Secret Store
 
@@ -826,7 +826,7 @@ It returns:
 ```
 
 {% hint style="info" %}
-However, there is a limit to how frequent you can redelegate. For more information on [redelegation](https://github.com/FunctionX-SG/pundiai-docs/blob/main/px-docs/delegators/delegators-faq.md#redelegation).
+However, there is a limit to how frequent you can redelegate. For more information on [redelegation](https://github.com/PundiAI/pundiai-docs/blob/main/px-docs/delegators/delegators-faq.md#redelegation).
 {% endhint %}
 
 #### Query Parameters
