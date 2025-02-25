@@ -15,13 +15,13 @@ This guide will explain how to install the `fxcored mainnet` or `fxcored testnet
 {% tabs %}
 {% tab title="Mainnet" %}
 ```
-docker pull ghcr.io/pundiai/fx-core:8.5.1
+docker pull ghcr.io/PundiAI/fx-core:8.5.1
 ```
 {% endtab %}
 
 {% tab title="Testnet" %}
 ```
-docker pull ghcr.io/pundiai/fx-core:8.5.1
+docker pull ghcr.io/PundiAI/fx-core:8.5.1
 ```
 {% endtab %}
 {% endtabs %}
@@ -30,11 +30,11 @@ docker pull ghcr.io/pundiai/fx-core:8.5.1
 
 {% tabs %}
 {% tab title="Mainnet" %}
-docker run --rm -v $HOME/.fxcore:/root/.fxcore ghcr.io/pundiai/fx-core:8.5.1 init fx-zakir --chain-id fxcore
+docker run --rm -v $HOME/.fxcore:/root/.fxcore ghcr.io/PundiAI/fx-core:8.5.1 init fx-zakir --chain-id fxcore
 {% endtab %}
 
 {% tab title="Testnet" %}
-docker run --rm -v $HOME/.fxcore:/root/.fxcore ghcr.io/pundiai/fx-core:8.5.1 init fx-zakir --chain-id dhobyghaut
+docker run --rm -v $HOME/.fxcore:/root/.fxcore ghcr.io/PundiAI/fx-core:8.5.1 init fx-zakir --chain-id dhobyghaut
 {% endtab %}
 {% endtabs %}
 
@@ -43,14 +43,14 @@ docker run --rm -v $HOME/.fxcore:/root/.fxcore ghcr.io/pundiai/fx-core:8.5.1 ini
 {% tabs %}
 {% tab title="Mainnet" %}
 ```
-wget https://raw.githubusercontent.com/pundiAI/fx-core/release/v6.0.x/public/mainnet/genesis.json -O ~/.fxcore/config/genesis.json
+wget https://raw.githubusercontent.com/PundiAI/fx-core/release/v6.0.x/public/mainnet/genesis.json -O ~/.fxcore/config/genesis.json
 ```
 {% endtab %}
 
 {% tab title="Testnet" %}
 {% code fullWidth="false" %}
 ```
-wget https://raw.githubusercontent.com/pundiAI/fx-core/release/v6.0.x/public/testnet/genesis.json -O ~/.fxcore/config/genesis.json
+wget https://raw.githubusercontent.com/PundiAI/fx-core/release/v6.0.x/public/testnet/genesis.json -O ~/.fxcore/config/genesis.json
 ```
 {% endcode %}
 {% endtab %}
@@ -81,7 +81,7 @@ And at this stage, what is important is your validator keys that is stored in a 
 * Run docker
 
 ```
-docker run --name fxcore -d --restart=always -p 0.0.0.0:26656:26656 -p 127.0.0.1:26657:26657 -p 127.0.0.1:1317:1317 -p 127.0.0.1:26660:26660 -p 127.0.0.1:8545:8545 -p 127.0.0.1:8546:8546 -v $HOME/.fxcore:/root/.fxcore ghcr.io/pundiai/fx-core:8.5.1 start
+docker run --name fxcore -d --restart=always -p 0.0.0.0:26656:26656 -p 127.0.0.1:26657:26657 -p 127.0.0.1:1317:1317 -p 127.0.0.1:26660:26660 -p 127.0.0.1:8545:8545 -p 127.0.0.1:8546:8546 -v $HOME/.fxcore:/root/.fxcore ghcr.io/PundiAI/fx-core:8.5.1 start
 ```
 
 To check if fxcore is synced:

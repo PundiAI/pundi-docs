@@ -40,13 +40,13 @@ Fetching genesis file (copy this entire line of code and hit <mark style="color:
 {% tabs %}
 {% tab title="Mainnet" %}
 ```
-wget https://raw.githubusercontent.com/pundiAI/fx-core/main/public/mainnet/genesis.json -O ~/.fxcore/config/genesis.json
+wget https://raw.githubusercontent.com/PundiAI/fx-core/main/public/mainnet/genesis.json -O ~/.fxcore/config/genesis.json
 ```
 {% endtab %}
 
 {% tab title="Testnet" %}
 ```
-wget https://raw.githubusercontent.com/pundiAI/fx-core/main/public/testnet/genesis.json -O ~/.fxcore/config/genesis.json
+wget https://raw.githubusercontent.com/PundiAI/fx-core/main/public/testnet/genesis.json -O ~/.fxcore/config/genesis.json
 ```
 {% endtab %}
 {% endtabs %}

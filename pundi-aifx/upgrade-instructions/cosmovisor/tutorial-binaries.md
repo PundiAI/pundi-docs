@@ -23,7 +23,7 @@ if you have used cosmovisor before, you can skip this step. Or you can use `rm -
 {% endhint %}
 
 ```sh
-git clone https://github.com/pundiAI/fx-core.git
+git clone https://github.com/PundiAI/fx-core.git
 cd fx-core
 
 git checkout release/v7.5.x
@@ -42,10 +42,10 @@ cosmovisor version
 ## 2. Install the fxcore release
 
 {% hint style="info" %}
-Releases can be found here [https://github.com/pundiAI/fx-core/releases](https://github.com/PundiAI/fx-core/releases)
+Releases can be found here [https://github.com/PundiAI/fx-core/releases](https://github.com/PundiAI/fx-core/releases)
 {% endhint %}
 
-<pre class="language-sh"><code class="lang-sh">git clone https://github.com/pundiAI/fx-core.git
+<pre class="language-sh"><code class="lang-sh">git clone https://github.com/PundiAI/fx-core.git
 cd fx-core
 <strong>git pull &#x26;&#x26; git checkout release/v8.5.x
 </strong>make build

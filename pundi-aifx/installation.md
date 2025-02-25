@@ -161,7 +161,7 @@ Next, let's install the latest version of Pundi AIFX. Make sure you have git ins
 {% tabs %}
 {% tab title="Mainnet" %}
 ```
-git clone --branch release/v3.1.x https://github.com/pundiAI/fx-core.git
+git clone --branch release/v3.1.x https://github.com/PundiAI/fx-core.git
 ```
 
 ```
@@ -171,7 +171,7 @@ cd fx-core
 
 {% tab title="Testnet" %}
 ```
-git clone --branch release/v3.1.x https://github.com/pundiAI/fx-core.git
+git clone --branch release/v3.1.x https://github.com/PundiAI/fx-core.git
 ```
 
 ```
@@ -187,7 +187,7 @@ Make sure the name of your folder does not have whitespaces!
 {% endhint %}
 
 ```
-git clone --branch release/v3.1.x https://github.com/pundiAI/fx-core.git
+git clone --branch release/v3.1.x https://github.com/PundiAI/fx-core.git
 ```
 
 ```
@@ -200,7 +200,7 @@ cd fx-core
 {% endtabs %}
 
 {% hint style="info" %}
-You may find the latest branches here: [https://github.com/pundiai/fx-core/branches](https://github.com/pundiai/fx-core/branches)
+You may find the latest branches here: [https://github.com/PundiAI/fx-core/branches](https://github.com/PundiAI/fx-core/branches)
 {% endhint %}
 
 {% tabs %}
