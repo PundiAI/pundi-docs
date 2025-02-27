@@ -5,3 +5,7 @@ The current Automated Market Making (AMM) systems, even with advancements like c
 Traditional Market Makers (MMs) outperform AMMs in terms of flexibility, risk management, and efficiency but remain centralized and resource-intensive. The AI MM Agent aims to combine the strengths of both approaches, delivering a next-generation liquidity solution.
 
 The AI MM Agent revolutionizes liquidity provision by combining the flexibility of traditional MMs with the accessibility of AMMs. It addresses capital inefficiency, adapts to market volatility, and unlocks new revenue streams through MEV. This hybrid model promises to redefine DeFi liquidity, making it more efficient, profitable, and inclusive for all participants. By leveraging AI, the next generation of market-making solutions can meet the demands of a rapidly evolving financial landscape, where decentralized liquidity becomes a cornerstone of global finance.
+
+[Note: internally Pundi AI MM Agent was project named Pundi Fun, hence you might come across both terms and they mean the same thing.](#user-content-fn-1)[^1]
+
+[^1]: 
