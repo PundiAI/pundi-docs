@@ -21,12 +21,12 @@ Pundi AI uses two tokens to manage its utility and governance:
 \
 
 
-| $PUNDIAI TGE                 |      |
-| ---------------------------- | ---- |
-| Airdrop                      | 65%  |
-| Public Treasury              | 20%  |
-| Team                         | 15%  |
-| Total ( 378,605,524 at TGE)  | 100% |
+| $PUNDIAI TGE               |      |
+| -------------------------- | ---- |
+| Airdrop                    | 65%  |
+| Public Treasury            | 20%  |
+| Team                       | 15%  |
+| Total ( 3,786,055 at TGE)  | 100% |
 
 For contract addresses refer to [contract address.](../pundi-aifx/developers/contract-deployments.md)
 
