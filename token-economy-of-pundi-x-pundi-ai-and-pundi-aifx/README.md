@@ -12,11 +12,11 @@ Pundi AI uses two tokens to manage its utility and governance:
 
 
 
-| $PUNDIAI                     |            |
-| ---------------------------- | ---------- |
-| Delegated  (as of Feb 2025)  | 4,792,610  |
-| Circulating (as of Feb 2025) | 8,060,004  |
-| Max                          | 18,930,226 |
+| $PUNDIAI                    |            |
+| --------------------------- | ---------- |
+| Delegated  (as of Feb 2025) | 4,792,610  |
+| Minted (as of Feb 2025)     | 8,060,004  |
+| Max                         | 18,930,226 |
 
 \
 
