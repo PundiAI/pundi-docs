@@ -8,4 +8,4 @@ The AI MM Agent revolutionizes liquidity provision by combining the flexibility 
 
 
 
-> Note: internally Pundi AI MM Agent was project named Pundi Fun, hence you might come across both terms and they mean the same thing.
+> Note: internally Pundi AI MM Agent was project-named as Pundi Fun, hence you might come across both terms and they mean the same thing.
