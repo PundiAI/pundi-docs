@@ -2,7 +2,7 @@
 
 Address: `0x0000000000000000000000000000000000001003`
 
-Interface: [IStaking](https://github.com/PundiAI/fx-core/blob/main/solidity/contracts/staking/IStaking.sol)
+Interface: [IStaking](https://github.com/PundiAI/fx-core/blob/main/solidity/contracts/interfaces/IStaking.sol)
 
 ABI: [IStaking](https://github.com/PundiAI/fx-core/blob/main/contract/istaking.sol.go)
 
@@ -114,3 +114,58 @@ event RedelegateV2(
 * `valDst`: the validator address to be redelegated to
 * `amount`: the amount to redelegate
 * `completionTime`: the completion time of redelegate
+
+### withdraw
+
+withdraw delegate reward
+
+```solidity
+function withdraw(string memory _val) external returns (uint256 _reward);
+```
+
+* `_val`: the validator address to be withdraw
+
+* `_reward`: reward amount
+
+withdraw event
+
+```solidity
+event Withdraw(address indexed sender, string validator, uint256 reward);
+```
+
+* `withdrawer`: the withdraw address
+* `validator`: the validator address to be withdraw
+* `reward`: reward amount
+
+### delegation
+
+query delegation
+
+```solidity
+function delegation(
+    string memory _val,
+    address _del
+) external view returns (uint256 _shares, uint256 _delegateAmount);
+```
+
+* `_val`: the validator address to be query
+* `_del`: the delegator address to be query
+
+* `_shares`: the shares of the delegator in the validator
+* `_delegateAmount`: the amount of the delegator in the validator
+
+### delegationRewards
+
+query delegation rewards
+
+```solidity
+function delegationRewards(
+    string memory _val,
+    address _del
+) external view returns (uint256 _reward);
+```
+
+* `_val`: the validator address to be query
+* `_del`: the delegator address to be query
+
+* `_reward`: the reward of the delegator in the validator
