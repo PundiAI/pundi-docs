@@ -4,7 +4,7 @@
 
 > For more information on past upgrades and instructions, refer to [**Upgrade Versions**](../versions/).
 >
-> You may refer to this [**Countdown Timer**](https://pundiscan.io/fxcore/block/countdown/19616000?chainId=fxcore) which will countdown the time till the upgrade height.
+> You may refer to this [**Countdown Timer**](https://pundiscan.io/pundiaifx/block/countdown/19908000) which will countdown the time till the upgrade height.
 
 ### Upgrade steps
 
@@ -20,19 +20,19 @@ docker rm fxcore
 2\. Pull latest docker images
 
 ```
-docker pull ghcr.io/PundiAI/fx-core:8.5.0
+docker pull ghcr.io/PundiAI/fx-core:8.6.1
 ```
 
 3\. Update config files
 
 ```shell
-docker run --rm -v $HOME/.fxcore:/root/.fxcore ghcr.io/PundiAI/fx-core:8.5.0 config update
+docker run --rm -v $HOME/.fxcore:/root/.fxcore ghcr.io/PundiAI/fx-core:8.6.1 config update
 ```
 
 4\. Restart docker container to start the node:
 
 ```shell
-docker run --name fxcore -d --restart=always -p 0.0.0.0:26656:26656 -p 127.0.0.1:26657:26657 -p 127.0.0.1:1317:1317 -p 127.0.0.1:26660:26660 -p 127.0.0.1:8545:8545 -p 127.0.0.1:8546:8546 -v $HOME/.fxcore:/root/.fxcore ghcr.io/PundiAI/fx-core:8.5.0 start
+docker run --name fxcore -d --restart=always -p 0.0.0.0:26656:26656 -p 127.0.0.1:26657:26657 -p 127.0.0.1:1317:1317 -p 127.0.0.1:26660:26660 -p 127.0.0.1:8545:8545 -p 127.0.0.1:8546:8546 -v $HOME/.fxcore:/root/.fxcore ghcr.io/PundiAI/fx-core:8.6.1 start
 ```
 
 To check if fxcore is synced:
