@@ -13,7 +13,7 @@
 ## 1. Install Cosmovisor
 
 ```sh
-go install cosmossdk.io/tools/cosmovisor/cmd/cosmovisor@latest
+go install cosmossdk.io/tools/cosmovisor/cmd/cosmovisor@v1.6.0
 ```
 
 Set up the Cosmovisor environment variables. Creates the folder structure required for using cosmovisor.
