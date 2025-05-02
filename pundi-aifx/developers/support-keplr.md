@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Support Keplr
 
 Add [Suggest Chain](https://docs.keplr.app/api/suggest-chain.html)
