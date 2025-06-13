@@ -181,21 +181,21 @@ Available Commands:
 following the prompt:
 
 {% hint style="info" %}
-In this case, a transaction fee must be paid! So do remember to add --fees XXXXXFX in your command. If you did not input the --fees flag, you will be prompted to add --fees 1200000000000000000FX in your command.
+In this case, a transaction fee must be paid! So do remember to add --fees XXXXXapundiai in your command. If you did not input the --fees flag, you will be prompted to add --fees 500000000000000apundiai in your command.
 
-The minimum fee for this transaction is 1.2FX which after multiplying by 10^18 is 1200000000000000000FX.
+The minimum fee for this transaction is 0.0005PUNDIAI which after multiplying by 10^18 is 500000000000000apundiai.
 
-Alternatively, a more universal command is --gas=auto --gas-adjustment=1.25 --gas-prices=4000000000000FX. --gas=auto automatically assesses the gas used for that transaction. This depends on the transaction itself and also the state of the blockchain. --gas-adjustment=1.25 means that there will be a 25% buffer added to the automatically assessed gas amount. --gas-prices=4000000000000FX is the gas price you will be paying for. For more details on gas, kindly refer to the section on gas below.
+Alternatively, a more universal command is --gas=auto --gas-adjustment=1.25 --gas-prices=5000000000apundiai. --gas=auto automatically assesses the gas used for that transaction. This depends on the transaction itself and also the state of the blockchain. --gas-adjustment=1.25 means that there will be a 25% buffer added to the automatically assessed gas amount. --gas-prices=5000000000apundiai is the gas price you will be paying for. For more details on gas, kindly refer to the section on gas below.
 {% endhint %}
 
 ```
-fxcored tx gov submit-proposal --title="BLINDGOTCHI" --description="CLAUDIOXBARROS’s pet" --type="Text" --deposit=" 200000000000000000000FX"  --gas=auto --gas-adjustment=1.25 --gas-prices=4000000000000FX --from richard
+fxcored tx gov submit-proposal --title="BLINDGOTCHI" --description="CLAUDIOXBARROS’s pet" --type="Text" --deposit="200000000000000000000apundiai"  --gas=auto --gas-adjustment=1.25 --gas-prices=5000000000apundiai --from richard
 ```
 
 return:
 
 ```
-{"body":{"messages":[{"@type":"/cosmos.gov.v1beta1.MsgSubmitProposal","content":{"@type":"/cosmos.gov.v1beta1.TextProposal","title":"BLINDGOTCHI","description":"CLAUDIOXBARROS’s pet"},"initial_deposit":[{"denom":"FX","amount":"200000000000000000000"}],"proposer":"fx124n6hpxkkn3r9j3tzwzhax2rd5s3crwq7p94fd"}],"memo":"","timeout_height":"0","extension_options":[],"non_critical_extension_options":[]},"auth_info":{"signer_infos":[],"fee":{"amount":[{"denom":"FX","amount":"1200000000000000000"}],"gas_limit":"200000","payer":"","granter":""}},"signatures":[]}
+{"body":{"messages":[{"@type":"/cosmos.gov.v1beta1.MsgSubmitProposal","content":{"@type":"/cosmos.gov.v1beta1.TextProposal","title":"BLINDGOTCHI","description":"CLAUDIOXBARROS’s pet"},"initial_deposit":[{"denom":"apundiai","amount":"2000000000000000000"}],"proposer":"fx124n6hpxkkn3r9j3tzwzhax2rd5s3crwq7p94fd"}],"memo":"","timeout_height":"0","extension_options":[],"non_critical_extension_options":[]},"auth_info":{"signer_infos":[],"fee":{"amount":[{"denom":"apundiai","amount":"12000000000000000"}],"gas_limit":"200000","payer":"","granter":""}},"signatures":[]}
 
 confirm transaction before signing and broadcasting [y/N]:
 ```
@@ -203,7 +203,7 @@ confirm transaction before signing and broadcasting [y/N]:
 after inputting y:
 
 ```
-{"height":"1632790","txhash":"C25C5A00D7EEEE5E3B7B0557320AE7F1D33992C8ADBFB2539C1F369F2B494725","codespace":"","code":0,"data":"0A160A0F7375626D69745F70726F706F73616C120308A001","raw_log":"[{\"events\":[{\"type\":\"message\",\"attributes\":[{\"key\":\"action\",\"value\":\"submit_proposal\"},{\"key\":\"sender\",\"value\":\"fx124n6hpxkkn3r9j3tzwzhax2rd5s3crwq7p94fd\"},{\"key\":\"module\",\"value\":\"governance\"},{\"key\":\"sender\",\"value\":\"fx124n6hpxkkn3r9j3tzwzhax2rd5s3crwq7p94fd\"}]},{\"type\":\"proposal_deposit\",\"attributes\":[{\"key\":\"amount\",\"value\":\"200000000000000000000FX\"},{\"key\":\"proposal_id\",\"value\":\"160\"}]},{\"type\":\"submit_proposal\",\"attributes\":[{\"key\":\"proposal_id\",\"value\":\"160\"},{\"key\":\"proposal_type\",\"value\":\"Text\"}]},{\"type\":\"transfer\",\"attributes\":[{\"key\":\"recipient\",\"value\":\"fx10d07y265gmmuvt4z0w9aw880jnsr700jqjzsmz\"},{\"key\":\"sender\",\"value\":\"fx124n6hpxkkn3r9j3tzwzhax2rd5s3crwq7p94fd\"},{\"key\":\"amount\",\"value\":\"200000000000000000000FX\"}]}]}]","logs":[{"msg_index":0,"log":"","events":[{"type":"message","attributes":[{"key":"action","value":"submit_proposal"},{"key":"sender","value":"fx124n6hpxkkn3r9j3tzwzhax2rd5s3crwq7p94fd"},{"key":"module","value":"governance"},{"key":"sender","value":"fx124n6hpxkkn3r9j3tzwzhax2rd5s3crwq7p94fd"}]},{"type":"proposal_deposit","attributes":[{"key":"amount","value":"200000000000000000000FX"},{"key":"proposal_id","value":"160"}]},{"type":"submit_proposal","attributes":[{"key":"proposal_id","value":"160"},{"key":"proposal_type","value":"Text"}]},{"type":"transfer","attributes":[{"key":"recipient","value":"fx10d07y265gmmuvt4z0w9aw880jnsr700jqjzsmz"},{"key":"sender","value":"fx124n6hpxkkn3r9j3tzwzhax2rd5s3crwq7p94fd"},{"key":"amount","value":"200000000000000000000FX"}]}]}],"info":"","gas_wanted":"200000","gas_used":"91282","tx":null,"timestamp":""}
+{"height":"1632790","txhash":"C25C5A00D7EEEE5E3B7B0557320AE7F1D33992C8ADBFB2539C1F369F2B494725","codespace":"","code":0,"data":"0A160A0F7375626D69745F70726F706F73616C120308A001","raw_log":"[{\"events\":[{\"type\":\"message\",\"attributes\":[{\"key\":\"action\",\"value\":\"submit_proposal\"},{\"key\":\"sender\",\"value\":\"fx124n6hpxkkn3r9j3tzwzhax2rd5s3crwq7p94fd\"},{\"key\":\"module\",\"value\":\"governance\"},{\"key\":\"sender\",\"value\":\"fx124n6hpxkkn3r9j3tzwzhax2rd5s3crwq7p94fd\"}]},{\"type\":\"proposal_deposit\",\"attributes\":[{\"key\":\"amount\",\"value\":\"200000000000000000000apundiai\"},{\"key\":\"proposal_id\",\"value\":\"160\"}]},{\"type\":\"submit_proposal\",\"attributes\":[{\"key\":\"proposal_id\",\"value\":\"160\"},{\"key\":\"proposal_type\",\"value\":\"Text\"}]},{\"type\":\"transfer\",\"attributes\":[{\"key\":\"recipient\",\"value\":\"fx10d07y265gmmuvt4z0w9aw880jnsr700jqjzsmz\"},{\"key\":\"sender\",\"value\":\"fx124n6hpxkkn3r9j3tzwzhax2rd5s3crwq7p94fd\"},{\"key\":\"amount\",\"value\":\"200000000000000000000apundiai\"}]}]}]","logs":[{"msg_index":0,"log":"","events":[{"type":"message","attributes":[{"key":"action","value":"submit_proposal"},{"key":"sender","value":"fx124n6hpxkkn3r9j3tzwzhax2rd5s3crwq7p94fd"},{"key":"module","value":"governance"},{"key":"sender","value":"fx124n6hpxkkn3r9j3tzwzhax2rd5s3crwq7p94fd"}]},{"type":"proposal_deposit","attributes":[{"key":"amount","value":"200000000000000000000apundiai"},{"key":"proposal_id","value":"160"}]},{"type":"submit_proposal","attributes":[{"key":"proposal_id","value":"160"},{"key":"proposal_type","value":"Text"}]},{"type":"transfer","attributes":[{"key":"recipient","value":"fx10d07y265gmmuvt4z0w9aw880jnsr700jqjzsmz"},{"key":"sender","value":"fx124n6hpxkkn3r9j3tzwzhax2rd5s3crwq7p94fd"},{"key":"amount","value":"200000000000000000000apundiai"}]}]}],"info":"","gas_wanted":"200000","gas_used":"91282","tx":null,"timestamp":""}
 ```
 
 ### Setting up fxcored
@@ -404,13 +404,13 @@ Validator's have a minimum gas price (multi-denom) configuration and they use th
 e.g.
 
 ```bash
-fxcored tx bank send ... --fees=4000000000000FX
+fxcored tx bank send ... --fees=5000000000apundiai
 ```
 
 or
 
 ```bash
-fxcored tx bank send ... --gas-prices=4000000000000FX
+fxcored tx bank send ... --gas-prices=5000000000apundiai
 ```
 
 To query the gas price of your current node:
@@ -446,11 +446,11 @@ Note When you query an account balance with zero tokens, you will get this error
 The following command could be used to send coins from one account to another:
 
 ```bash
- fxcored tx bank send <from_key_or_address> <to_address> <amount> --gas auto --gas-adjustment 1.5 --gas-prices "4000000000000FX" --chain-id=<chain-id>
+ fxcored tx bank send <from_key_or_address> <to_address> <amount> --gas auto --gas-adjustment 1.5 --gas-prices "5000000000apundiai" --chain-id=<chain-id>
 ```
 
 {% hint style="info" %}
-Note: The `amount` argument accepts the format `<value|coin_name>.` For example, 10000000000000000000FX which is equivalent to `10FX`
+Note: The `amount` argument accepts the format `<value|coin_name>.` For example, 10000000000000000000apundiai which is equivalent to `10PUNDIAI`
 {% endhint %}
 
 Now, view the updated balances of the origin and destination accounts:
@@ -469,17 +469,17 @@ fxcored query account <account_fx> --height <int>
 You can simulate a transaction without actually broadcasting it by appending the `--dry-run` flag to the command line (this is to return a gas estimate):
 
 ```bash
-fxcored tx bank send <from_key_or_address> <to_address> <amount> --gas auto --gas-adjustment 1.5 --gas-prices "4000000000000FX" --dry-run
+fxcored tx bank send <from_key_or_address> <to_address> <amount> --gas auto --gas-adjustment 1.5 --gas-prices "5000000000apundiai" --dry-run
 ```
 
 Furthermore, you can build a transaction and print its JSON format to STDOUT by appending `--generate-only` to the list of the command line arguments. Running the following command will store build the transaction and store it in a file named "unsignedSendTx.json":
 
 ```bash
-fxcored tx send <sender_address> <recipient_address> 10000000000000000000FX \
+fxcored tx send <sender_address> <recipient_address> 10000000000000000000apundiai \
   --chain-id=<chain_id> \
   --gas=auto \
   --gas-adjustment=1.5 \
-  --gas-prices="4000000000000FX" \
+  --gas-prices="5000000000apundiai" \
   --generate-only > unsignedSendTx.json
 ```
 
@@ -561,7 +561,7 @@ tx hash on the block explorer are preceded with 0x. please omit the 0x from the 
 To unjail your jailed validator
 
 ```bash
-fxcored tx slashing unjail --from <validator-operator-addr> --gas auto --gas-adjustment 1.5 --gas-prices "4000000000000FX"
+fxcored tx slashing unjail --from <validator-operator-addr> --gas auto --gas-adjustment 1.5 --gas-prices "5000000000apundiai"
 ```
 
 #### Signing Info
@@ -632,7 +632,7 @@ Please refer to the [Validator Setup](https://github.com/PundiAI/pundiai-docs/bl
 
 #### Delegate to a Validator
 
-On the upcoming mainnet, you can delegate `FX` to a validator. These [delegators](../delegators/delegators-faq.md) can receive part of the validator's fee revenue. Read more about the [incentives](../delegators/delegators-faq.md#revenue).
+On the upcoming mainnet, you can delegate `PUNDIAI` to a validator. These [delegators](../delegators/delegators-faq.md) can receive part of the validator's fee revenue. Read more about the [incentives](../delegators/delegators-faq.md#revenue).
 
 **Query Validators**
 
@@ -650,7 +650,7 @@ fxcored query staking validator <account_fxval>
 
 #### Bond Tokens
 
-On the Pundi AIFX mainnet, we delegate `FX`. Here's how you can bond tokens to a testnet validator (_i.e._ delegate):
+On the Pundi AIFX mainnet, we delegate `PUNDIAI`. Here's how you can bond tokens to a testnet validator (_i.e._ delegate):
 
 ```bash
 fxcored tx staking delegate \
@@ -659,7 +659,7 @@ fxcored tx staking delegate \
   --from=<key_name> \
   --gas=auto \
   --gas-adjustment=1.5 \
-  --gas-prices="4000000000000FX"
+  --gas-prices="5000000000apundiai"
 ```
 
 `<validator>` is the operator address of the validator to which you intend to delegate. If you are running a local testnet, you can find this with:
@@ -703,11 +703,11 @@ If for any reason the validator misbehaves, or you just want to unbond a certain
 ```bash
 fxcored tx staking unbond \
   <validator_addr> \
-  10FX \
+  10apundiai \
   --from=<key_name> \
   --gas=auto \
   --gas-adjustment=1.5 \
-  --gas-prices="4000000000000FX" \
+  --gas-prices="5000000000apundiai" \
   --chain-id=<chain_id>
 ```
 
@@ -741,11 +741,11 @@ A redelegation is a type delegation that allows you to bond illiquid tokens from
 fxcored tx staking redelegate \
   <src-validator-operator-addr> \
   <dst-validator-operator-addr> \
-  10FX \
+  10apundiai \
   --from=<key_name> \
   --gas=auto \
   --gas-adjustment=1.5 \
-  --gas-prices="4000000000000FX" \
+  --gas-prices="5000000000apundiai" \
   --chain-id=<chain_id>
 ```
 
@@ -808,11 +808,11 @@ With the `pool` command you will get the values for:
 
 ### Governance
 
-Governance is the process from which users in the Pundi AIFX can come to consensus on software upgrades, parameters of the mainnet or signaling mechanisms through text proposals. This is done through voting on proposals, which will be submitted by `FX` holders on the mainnet.
+Governance is the process from which users in the Pundi AIFX can come to consensus on software upgrades, parameters of the mainnet or signaling mechanisms through text proposals. This is done through voting on proposals, which will be submitted by `PUNDIAI` holders on the mainnet.
 
 Some considerations about the voting process:
 
-* Voting is done by bonded `FX` holders on a 100 bonded `FX` 1 vote basis
+* Voting is done by bonded `PUNDIAI` holders on a 1 bonded `PUNDIAI` 1 vote basis
 * Delegators who do not vote will inherit the vote of their validator
 * Votes are tallied at the end of the voting period (2 weeks on mainnet). Addresses can vote multiple times before the end of the voting period to update their `Option` value (incurring transaction fees each time), only the most recently casted vote will count as valid
 * Voters can choose between options `Yes`, `No`, `NoWithVeto` and `Abstain`
@@ -824,7 +824,7 @@ Some considerations about the voting process:
 For more information about the governance process and how it works, please check out the Governance module [specification](https://github.com/cosmos/cosmos-sdk/tree/master/x/gov/spec).
 
 {% hint style="info" %}
-The minimum deposit for a governance proposal is 10,000FX (through the command line, this amounts to 10000000000000000000000FX after multiplying by 10^18).
+The minimum deposit for a governance proposal is 10,000PUNDIAI (through the command line, this amounts to 10000000000000000000000apundiai after multiplying by 10^18).
 {% endhint %}
 
 #### Create a Governance Proposal
@@ -838,11 +838,11 @@ fxcored tx gov submit-proposal \
   --title=<title> \
   --description=<description> \
   --type="Text" \
-  --deposit="1000000FX" \
+  --deposit="1000000PUNDIAI" \
   --from=<name> \
   --gas=auto \
   --gas-adjustment=1.5 \
-  --gas-prices="4000000000000FX" \
+  --gas-prices="5000000000apundiai" \
   --chain-id=<chain_id>
 ```
 
@@ -855,7 +855,7 @@ fxcored tx gov submit-proposal param-change <path/to/proposal.json> \
   --from=<name> \
   --gas=auto \
   --gas-adjustment=1.5 \
-  --gas-prices="4000000000000FX" \
+  --gas-prices="5000000000apundiai" \
   --chain-id=<chain_id>
 ```
 
@@ -913,14 +913,14 @@ fxcored query gov proposer <proposal_id>
 
 #### Increase Deposit
 
-In order for a proposal to be broadcasted to the network, the amount deposited must be above a `minDeposit` value (initial value: `10000000000000000000000FX`). If the proposal you previously created didn't meet this requirement, you can still increase the total amount deposited to activate it. Once the minimum deposit is reached, the proposal enters voting period:
+In order for a proposal to be broadcasted to the network, the amount deposited must be above a `minDeposit` value (initial value: `10000000000000000000000apundiai`). If the proposal you previously created didn't meet this requirement, you can still increase the total amount deposited to activate it. Once the minimum deposit is reached, the proposal enters voting period:
 
 ```bash
-fxcored tx gov deposit <proposal_id> "10000000000000000000000FX" \
+fxcored tx gov deposit <proposal_id> "10000000000000000000000apundiai" \
   --from=<name> \
   --gas=auto \
   --gas-adjustment=1.5 \
-  --gas-prices="4000000000000FX" \
+  --gas-prices="5000000000apundiai" \
   --chain-id=<chain_id>
 ```
 
@@ -942,14 +942,14 @@ fxcored query gov deposit <proposal_id> <depositor_address>
 
 #### Vote on a Proposal
 
-After a proposal's deposit reaches the `MinDeposit` value, the voting period opens. Bonded `FX` holders can then cast vote on it:
+After a proposal's deposit reaches the `MinDeposit` value, the voting period opens. Bonded `PUNDIAI` holders can then cast vote on it:
 
 ```bash
 fxcored tx gov vote <proposal_id> <Yes/No/NoWithVeto/Abstain> \
   --from=<name> \
   --gas=auto \
   --gas-adjustment=1.5 \
-  --gas-prices="4000000000000FX" \
+  --gas-prices="5000000000apundiai" \
   --chain-id=<chain_id>
 ```
 
@@ -1056,13 +1056,13 @@ fxcored query distribution rewards <delegator_address>
 Withdraw rewards from a given delegation address, and optionally withdraw validator commission (by adding in a `--commission` flag, see below) if the delegation address given is a validator operator:
 
 ```
-fxcored tx distribution withdraw-rewards <validator-addr> --from <_name> --gas auto --gas-adjustment 1.5 --gas-prices "4000000000000FX" --chain-id=<chain-id>
+fxcored tx distribution withdraw-rewards <validator-addr> --from <_name> --gas auto --gas-adjustment 1.5 --gas-prices "5000000000apundiai" --chain-id=<chain-id>
 ```
 
 Withdraw the validator's commission in addition to the rewards:
 
 ```
-fxcored tx distribution withdraw-rewards <validator-addr> --from mykey --commission --gas auto --gas-adjustment 1.5 --gas-prices "4000000000000FX" --chain-id=<chain-id>
+fxcored tx distribution withdraw-rewards <validator-addr> --from mykey --commission --gas auto --gas-adjustment 1.5 --gas-prices "5000000000apundiai" --chain-id=<chain-id>
 ```
 
 ### Multisig Transactions
@@ -1105,10 +1105,10 @@ The first step to create a multisig transaction is to initiate it on behalf of t
 > Be sure to note that for multisig accounts, if you were to create any transaction, for example `--from=<multisig_account>` your `<multisig_account>` needs to be the wallet address ie `fx123l3kjltjwlfgjslfg....`. Only for those non-multisig accounts can you use the name of the account ie `--from=heimendinger`.
 
 ```bash
-fxcored tx bank send fx1570v2fq3twt0f0x02vhxpuzc9jc4yl30q2qned fx12u8ekfqdd75r4apyqv2xst6qw0n3wvr2asncf5 1000000000000000000FX \
+fxcored tx bank send fx1570v2fq3twt0f0x02vhxpuzc9jc4yl30q2qned fx12u8ekfqdd75r4apyqv2xst6qw0n3wvr2asncf5 1000000000000000000apundiai \
   --gas="auto" \
   --gas-adjustment=1.5 \
-  --gas-prices="4000000000000FX" \
+  --gas-prices="5000000000apundiai" \
   --generate-only > unsignedTx.json
 ```
 

@@ -55,7 +55,7 @@ if user call Pundi AIFX CrossChain contract `crossChain` method, the target is `
 |       ...      |   erc20  | ibc/0/px | ibc/{channel-id}/{address-prefix} |     ❌    |  ❌  |        ❌       |
 
 {% hint style="info" %}
-FX is the native token, when cross chain to fx-core, no need to convert to ERC20, so the target is `""`, if other token, need to convert to ERC20, so the target is `erc20`
+PUNDIAI is the native token, when cross chain to fx-core, no need to convert to ERC20, so the target is `""`, if other token, need to convert to ERC20, so the target is `erc20`
 {% endhint %}
 
 ### Pundi AIFX cross chain with Target

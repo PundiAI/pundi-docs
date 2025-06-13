@@ -23,7 +23,7 @@ These guidelines are written in order to:
 
 1. Propose best practices for drafting a proposal
 2. Address the issue of reaching quorum for the reasons stated below:
-   1. public validators not controlling enough FX currently, and
+   1. public validators not controlling enough PUNDIAI currently, and
    2. Internal and institutional validators are not voting to maintain neutrality
 3. Allow for the FunctionX team to indirectly exercise their voting power (uniquely from a delegator’s standpoint, and not from a validator’s standpoint) with full knowledge that the proposal was reviewed preliminarily by skilled individuals
 
@@ -80,7 +80,7 @@ Before setting up any proposal on-chain, it is strongly recommended to any propo
 ### Tiered Amounts
 
 {% hint style="info" %}
-**The amounts are in USD. The grants will be paid out in FX, the amount will be calculated based on the exchange rate on** [**CoinMarketCap**](https://coinmarketcap.com) **at the time of payment.**
+**The amounts are in USD. The grants will be paid out in PUNDIAI, the amount will be calculated based on the exchange rate on** [**CoinMarketCap**](https://coinmarketcap.com) **at the time of payment.**
 {% endhint %}
 
 | Levels             | 1 (FaXt Grants)                                                                                                              | 2 (FaXt Grants)           | 3                                          | 4                                                                                         |

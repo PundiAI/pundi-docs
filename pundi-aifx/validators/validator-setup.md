@@ -85,9 +85,9 @@ Now we will bind the node consensus and validator's token holding account, once 
 
 > Using `curl localhost:26657/status` or `fxcored status` to check `"catching_up":false`. If `"catching_up":true`, please continue to wait until entire node has synchronised, this could take up to a day depending on network usage.
 
-* Ensure that your token holding account has enough `FX tokens` before creating a validator. For `Testnet version`, you may obtain `FX tokens` via [FX Faucet](https://dhobyghaut-faucet.functionx.io). For more information on how to obtain `FX tokens` on [Testnet](../tutorials/testnet-faucet.md).
+* Ensure that your token holding account has enough `PUNDIAI tokens` before creating a validator. For `Testnet version`, you may obtain `PUNDIAI tokens` via [PUNDIAI Faucet](https://dhobyghaut-faucet.functionx.io). For more information on how to obtain `PUNDIAI tokens` on [Testnet](../tutorials/testnet-faucet.md).
 
-> A minimum of `100 FX` is needed to create an active validator. You will need more than `100 testnet FX` in your account because some is needed to pay for the creation of your validator. Note: FX has 18 decimal points.
+> A minimum of `100 PUNDIAI` is needed to create an active validator. You will need more than `100 testnet PUNDIAI` in your account because some is needed to pay for the creation of your validator. Note: PUNDIAI has 18 decimal points.
 
 Great! You can now bind the node consensus and validator's token holding account.
 
@@ -96,14 +96,14 @@ The command to run will be `fxcored tx staking create-validator`, copy the entir
 * `chain-id=dhobyghaut` is set as our fxcore testnet chain ie dhobyghaut. for mainnet, set the `chain-id=fxcore`
 * `gas="auto"` automatically assesses the gas used for this `create-validator` transaction
 * `gas-adjustment=1.2` there will be a 20% buffer added to the automatically assessed gas amount
-* `gas-prices="4000000000000FX"` this will be the gas price you will be paying for (you may check the gas price you will need to pay for your node)
+* `gas-prices="5000000000apundiai"` this will be the gas price you will be paying for (you may check the gas price you will need to pay for your node)
 * `from=<_name>` this is the token holding account created above that you will be binding your consensus account to to create a validator
-* `amount=100000000000000000000000FX` this is the amount you will be self-delegating for your validator (currently it is set as `100,000 FX`)
+* `amount=100000000000000000000000apundiai` this is the amount you will be self-delegating for your validator (currently it is set as `100,000 PUNDIAI`)
 * `pubkey=$(fxcored tendermint show-validator)` this is your pubkey of your validator
 * `commission-rate="0.01"` this is the commission you will be charging as a validator
 * `commission-max-rate="0.20"` The maximum commission rate which this validator can charge. This parameter cannot be changed after `create-validator` is processed
 * `commission-max-change-rate="0.01"` The maximum daily increase of the validator commission. This parameter cannot be changed after `create-validator` is processed
-* `min-self-delegation="1000000000000000000"` Minimum amount of FX the validator needs to have bonded at all time. If the validator's self-delegated stake falls below this limit, their entire staking pool will unbond
+* `min-self-delegation="1000000000000000000"` Minimum amount of `apundiai` the validator needs to have bonded at all time. If the validator's self-delegated stake falls below this limit, their entire staking pool will unbond
 * `moniker="choose a moniker"` This will be the name of your validator for easier identification
 * `website="https://functionx.io"` This will be the website for delegators or the public to read more about your validator
 * `details="To infinity and beyond!"` You can add some additional details about your validator
@@ -135,7 +135,7 @@ fxcored tx staking create-validator \
   --chain-id=dhobyghaut \
   --gas="auto" \
   --gas-adjustment=1.2 \
-  --gas-prices="4000000000000FX" \
+  --gas-prices="5000000000apundiai" \
   --from=<_name> \
   --amount=500000000000000000000FX \
   --pubkey=$(fxcored tendermint show-validator) \
@@ -155,7 +155,7 @@ for Mainnet the ChainId should be **fxcore**
 Output:
 
 ```bash
-{"body":{"messages":[{"@type":"/cosmos.staking.v1beta1.MsgCreateValidator","description":{"moniker":"choose a moniker","identity":"","website":"","security_contact":"","details":""},"commission":{"rate":"0.010000000000000000","max_rate":"0.200000000000000000","max_change_rate":"0.010000000000000000"},"min_self_delegation":"1000000000000000000","delegator_address":"fx1egmy0ncxzuur504qlz9z0ykfa5cqdk0ap5tgxz","validator_address":"fxvaloper1egmy0ncxzuur504qlz9z0ykfa5cqdk0af9khcz","pubkey":{"@type":"/cosmos.crypto.ed25519.PubKey","key":"JWar8+3FHVppCQWH7S4w27eMhjkyxXqUYmnbo185B3g="},"value":{"denom":"FX","amount":"500000000000000000000"}}],"memo":"","timeout_height":"0","extension_options":[],"non_critical_extension_options":[]},"auth_info":{"signer_infos":[],"fee":{"amount":[{"denom":"FX","amount":"1020264000000000000"}],"gas_limit":"170044","payer":"","granter":""}},"signatures":[]}
+{"body":{"messages":[{"@type":"/cosmos.staking.v1beta1.MsgCreateValidator","description":{"moniker":"choose a moniker","identity":"","website":"","security_contact":"","details":""},"commission":{"rate":"0.010000000000000000","max_rate":"0.200000000000000000","max_change_rate":"0.010000000000000000"},"min_self_delegation":"1000000000000000000","delegator_address":"fx1egmy0ncxzuur504qlz9z0ykfa5cqdk0ap5tgxz","validator_address":"fxvaloper1egmy0ncxzuur504qlz9z0ykfa5cqdk0af9khcz","pubkey":{"@type":"/cosmos.crypto.ed25519.PubKey","key":"JWar8+3FHVppCQWH7S4w27eMhjkyxXqUYmnbo185B3g="},"value":{"denom":"apundiai","amount":"500000000000000000000"}}],"memo":"","timeout_height":"0","extension_options":[],"non_critical_extension_options":[]},"auth_info":{"signer_infos":[],"fee":{"amount":[{"denom":"apundiai","amount":"1020264000000000000"}],"gas_limit":"170044","payer":"","granter":""}},"signatures":[]}
 
 confirm transaction before signing and broadcasting [y/N]: 
 ```
@@ -172,7 +172,7 @@ Output:
 
 > When specifying commission parameters, the `commission-max-change-rate` is used to measure % _point_ change over the `commission-rate`. E.g. 1% to 2% is a 100% rate increase, but only 1 percentage point.
 
-> `Min-self-delegation` is a stritly positive integer that represents the minimum amount of self-delegated voting power your validator must always have. A `min-self-delegation` of `100000000000000000000` means your validator will never have a self-delegation lower than `100` $FX
+> `Min-self-delegation` is a stritly positive integer that represents the minimum amount of self-delegated voting power your validator must always have. A `min-self-delegation` of `100000000000000000000` means your validator will never have a self-delegation lower than `100` $PUNDIAI
 
 You can confirm that you are in the validator set by using a third party explorer for [Testnet](https://dhobyghaut-explorer.functionx.io/fxcore/validators)/[Mainnet](https://explorer.functionx.io).
 

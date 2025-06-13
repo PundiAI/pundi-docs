@@ -113,7 +113,7 @@ The result fields should display null as <0x-0> is a brand new wallet.
 
 ```bash
 fxcored tx migrate account $(fxcored keys show <0x_key_name> -e) \
---from <fx-0_keyName> --gas-adjustment 1.5 --gas="auto" --gas-prices=4000000000000FX \
+--from <fx-0_keyName> --gas-adjustment 1.5 --gas="auto" --gas-prices=5000000000apundiai \
 --chain-id=<chain-id>
 ```
 
@@ -127,13 +127,13 @@ The following command will move **everything** in the previous old `<fx-0>` addr
 fxcored query migrate account $(fxcored keys show fx-0 -a)
 ```
 
-The results returned from the above query should show the account balance of \<fx-0> address (FX, PUNDIX, PURSE...), delegate, de-delegate, re-delegate, and vote as either null or zero.
+The results returned from the above query should show the account balance of \<fx-0> address (PUNDIAI, PUNDIX, PURSE...), delegate, de-delegate, re-delegate, and vote as either null or zero.
 
 ```bash
 fxcored query migrate account $(fxcored keys show 0x-0 -e)
 ```
 
-The results returned from the above query should show account balance of <0x-0> address (FX, PUNDIX, PURSE...), delegate, de-delegate, re-delegate, and votes.
+The results returned from the above query should show account balance of <0x-0> address (PUNDIAI, PUNDIX, PURSE...), delegate, de-delegate, re-delegate, and votes.
 
 ```
 fxcored keys export <0x-0_keyName> --unarmored-hex --unsafe
@@ -141,7 +141,7 @@ fxcored keys export <0x-0_keyName> --unarmored-hex --unsafe
 
 Now you can **export your private key** from the Pundi AIFX **terminal** using the following command. Again, make sure to replace <0x-0\_keyName> with the name of the key that you want to export and use the correct `keyring-backend`:
 
-## Recover your FX account in **MetaMask**
+## Recover your PUNDIAI account in **MetaMask**
 
 ### **Connect your MetaMask wallet**
 
@@ -156,7 +156,7 @@ Here is the **list of fields** that you can use to paste on Metamask:
 * **Network Name:** `DhobyGhaut Testnet`
 * **New RPC URL:** `https://testnet-fx-json-web3.functionx.io:8545`
 * **Chain ID:** `90001`
-* **Currency Symbol (optional):** `FX`
+* **Currency Symbol (optional):** `PUNDIAI`
 
 > For more details, you may refer to below page:
 

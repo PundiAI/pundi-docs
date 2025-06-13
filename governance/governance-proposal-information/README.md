@@ -29,35 +29,35 @@ For the EGF proposal, please fork the repository [here](https://github.com/Funct
 #### Deposit
 
 {% hint style="info" %}
-As of proposal [#19](https://pundiscan.io/fxcore/proposals/19), the `min deposit (deposit threshold)` has been changed to `3000 FX` and the `voting period` has been changed to `7 days.`
+As of proposal [#19](https://pundiscan.io/fxcore/proposals/19), the `min deposit (deposit threshold)` has been changed to `30 PUNDIAI` and the `voting period` has been changed to `7 days.`
 {% endhint %}
 
 A deposit is required by the proposer to initiate a proposal. It is designed to prevent spam.
 
-To submit a proposal, the proposer can head to the [f(x)Core block explorer](https://explorer.functionx.io/fxcore/proposals/form), connect their address and fill up the form. It requires an `initial deposit` of at least 1,000 FX. The `initial deposit` will be _counted as part of the entire deposit_ of initiating the governance voting.
+To submit a proposal, the proposer can head to the [f(x)Core block explorer](https://explorer.functionx.io/fxcore/proposals/form), connect their address and fill up the form. It requires an `initial deposit` of at least 10 PUNDIAI. The `initial deposit` will be _counted as part of the entire deposit_ of initiating the governance voting.
 
-In order to initiate the governance voting (enter the `voting period`), all proposals are required to have a minimum amount of FX deposit, referred to as the _deposit threshold_ or `min deposit`. The `min deposit` is currently set at 3,000 FX. This parameter can be changed via governance.
+In order to initiate the governance voting (enter the `voting period`), all proposals are required to have a minimum amount of PUNDIAI deposit, referred to as the _deposit threshold_ or `min deposit`. The `min deposit` is currently set at 30 PUNDIAI. This parameter can be changed via governance.
 
-The proposal owners are not required to deposit the full amount on their own. Once a proposal is submitted successfully, the proposal will enter the `max deposit period` or the _deposit period_ where other FX holders can increase the proposal's deposit by sending a Deposit transaction. The `max deposit period` is currently set as 7 days.
+The proposal owners are not required to deposit the full amount on their own. Once a proposal is submitted successfully, the proposal will enter the `max deposit period` or the _deposit period_ where other PUNDIAI holders can increase the proposal's deposit by sending a Deposit transaction. The `max deposit period` is currently set as 7 days.
 
-Once the `min deposit` of 3,000 FX is reached, the proposal will automatically enter the `voting period`.
+Once the `min deposit` of 30 PUNDIAI is reached, the proposal will automatically enter the `voting period`.
 
 #### Examples
 
-Tom initiates a proposal with 1,002 FX, proposal enters `max deposit period`. Dick deposits 1,000 FX to the same proposal 2 days later. The total deposit is now 2,002 FX. Harry then deposits 1,000 FX a few days later. After Harry's deposit, `min deposit` has been reached and the proposal enters the `voting period`.
+Tom initiates a proposal with 1,002 PUNDIAI, proposal enters `max deposit period`. Dick deposits 1,000 PUNDIAI to the same proposal 2 days later. The total deposit is now 2,002 PUNDIAI. Harry then deposits 1,000 PUNDIAI a few days later. After Harry's deposit, `min deposit` has been reached and the proposal enters the `voting period`.
 
-Tommy initiates a proposal with 3,001 FX, proposal immediately enters the `voting period` as the `min deposit` has been reached.
+Tommy initiates a proposal with 3,001 PUNDIAI, proposal immediately enters the `voting period` as the `min deposit` has been reached.
 
 ### Voting Period
 
-The `voting period` is currently set as 7 days. Once a proposal has entered the `voting period`, a qualified FX holder will have the right to vote on the proposal.
+The `voting period` is currently set as 7 days. Once a proposal has entered the `voting period`, a qualified PUNDIAI holder will have the right to vote on the proposal.
 
-A qualified FX holder is as follow:
+A qualified PUNDIAI holder is as follow:
 
 * the person is a Delegator to (at least) one active Validator on f(x)Core before the proposal entered the `voting period`
 * the person is an active Validator on f(x)Core before the proposal entered the `voting period`
 
-The above FX holders are considered to have bonded their FX tokens. Unbonded FX holders and other users do not have the right to participate in governance. However, they can submit and deposit on proposals.
+The above PUNDIAI holders are considered to have bonded their PUNDIAI tokens. Unbonded PUNDIAI holders and other users do not have the right to participate in governance. However, they can submit and deposit on proposals.
 
 > ⚠️ The voting period for testnet will be 2 hours instead.
 
@@ -68,7 +68,7 @@ The above FX holders are considered to have bonded their FX tokens. Unbonded FX 
 `quorum` is set at 40% and is calculated as:
 
 $$
-Voters' bonded FX / Total bonded FX * 100
+Voters' bonded PUNDIAI / Total bonded PUNDIAI * 100
 $$
 
 If a proposal fails to reach quorum, the proposal will be marked as 'Rejected' regardless of the results of the vote.
@@ -81,9 +81,9 @@ As of proposal [#17](https://pundiscan.io/fxcore/proposals/17), the quorum for c
 
 #### Examples
 
-Total bonded FX is 1,000,000 FX, only 390,000 bonded FX participated during the `voting period`. Quorum is 39%. Since it did not reach quorum after 14 days, the proposal will be marked as 'Rejected' and the deposit will be burned.
+Total bonded PUNDIAI is 1,000,000 PUNDIAI, only 390,000 bonded PUNDIAI participated during the `voting period`. Quorum is 39%. Since it did not reach quorum after 14 days, the proposal will be marked as 'Rejected' and the deposit will be burned.
 
-Total bonded FX is 1,000,000 FX, only 400,100 bonded FX participated during the `voting period`. Quorum is 40.01%. Since it reached quorum after 14 days, the proposal is valid and will be marked passed.
+Total bonded PUNDIAI is 1,000,000 PUNDIAI, only 400,100 bonded PUNDIAI participated during the `voting period`. Quorum is 40.01%. Since it reached quorum after 14 days, the proposal is valid and will be marked passed.
 
 #### Voting
 

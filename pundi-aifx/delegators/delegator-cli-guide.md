@@ -4,7 +4,7 @@ This document contains all the necessary information for delegators to interact 
 
 It also contains instructions on how to manage accounts, restore accounts from the fundraiser and use a ledger nano device.
 
-> **Very Important**: Please ensure that you follow the steps hereinafter carefully, as negligence in this process could result in a loss of your FX. Therefore, do read through the following instructions in their entirety before proceeding and reach out to us in case you need any support.
+> **Very Important**: Please ensure that you follow the steps hereinafter carefully, as negligence in this process could result in a loss of your PUNDIAI. Therefore, do read through the following instructions in their entirety before proceeding and reach out to us in case you need any support.
 
 > Please also note that you are about to interact with the Pundi AIFX, a blockchain technology containing highly experimental software. While the blockchain has been developed with state of the art technology and audited with utmost care, we may still expect to have issues, updates and bugs. Furthermore, interaction with blockchain technology requires advanced technical skills and always involves risks that are outside our control. By using the software, you confirm that you understand the inherent risks associated with cryptographic software and that the FunctionX team will not be held liable for potential damages arising out of the use of the software. Any use of this open source software released under the Apache 2.0 license is done at your own risk and on an "AS IS" basis, without warranties or conditions of any kind.
 
@@ -23,7 +23,7 @@ Please exercise extreme caution!
 * [Querying the State](delegator-cli-guide.md#querying-the-state)
 * [Sending Transactions](delegator-cli-guide.md#sending-transactions)
   * [A Note on Gas and Fees](delegator-cli-guide.md#a-note-on-gas-and-fees)
-  * [Bonding FX and Withdrawing Rewards](delegator-cli-guide.md#bonding-FX-and-withdrawing-rewards)
+  * [Bonding PUNDIAI and Withdrawing Rewards](delegator-cli-guide.md#bonding-FX-and-withdrawing-rewards)
   * [Participating in Governance](delegator-cli-guide.md#participating-in-governance)
   * [Signing Transactions from an Offline Computer](delegator-cli-guide.md#signing-transactions-from-an-offline-computer)
 
@@ -240,7 +240,7 @@ fxcored config config.toml chain-id fxcore
 
 ## Querying the State
 
-> Before you can bond FX and withdraw rewards, you need to [**set up `fxcored`**](delegator-cli-guide.md#setting-up-fxcored)
+> Before you can bond PUNDIAI and withdraw rewards, you need to [**set up `fxcored`**](delegator-cli-guide.md#setting-up-fxcored)
 
 `fxcored` lets you query all relevant information from the blockchain, like account balances, amount of bonded tokens, outstanding rewards, governance proposals and more. Next is a list of the most useful commands for delegators.
 
@@ -297,37 +297,37 @@ The `gasPrice` is the price of each unit of `gas`. Each validator sets a `min-ga
 
 Transaction `fees` is the product of `gas` and `gasPrice`. As a user, you can either just fill in the `fees` required or you have to fill in both the `gas` and `gasPrice`. The higher the `gasPrice`/`fees`, the higher the chance that your transaction will be included in a block.
 
-> For mainnet, the recommended `gas-prices` is `4000000000000FX`.
+> For mainnet, the recommended `gas-prices` is `5000000000apundiai`.
 
 ### Sending Tokens
 
-> Before you can bond FX and withdraw rewards, you need to [**set up `fxcored`**](delegator-cli-guide.md#setting-up-fxcored) and [**create an account**](delegator-cli-guide.md#creating-an-account)
+> Before you can bond PUNDIAI and withdraw rewards, you need to [**set up `fxcored`**](delegator-cli-guide.md#setting-up-fxcored) and [**create an account**](delegator-cli-guide.md#creating-an-account)
 
 > **Note: These commands need to run on an online computer. It is more secure to perform these commands using a Ledger device. For the offline procedure, click** [**here**](delegator-cli-guide.md#signing-transactions-from-an-offline-computer)**.**
 
 ```bash
 // Send a certain amount of tokens to an address
-// These are just examples values to input (do not use these values in your tx!!): <to_address>=fx1hs3tfedle32zzr5dh38gzzfn9ak2f4a9je4pf6 <amount>=1000000FX
-// Example value for flags: <gasPrice>=4000000000000FX
+// These are just examples values to input (do not use these values in your tx!!): <to_address>=fx1hs3tfedle32zzr5dh38gzzfn9ak2f4a9je4pf6 <amount>=10000PUNDIAI
+// Example value for flags: <gasPrice>=5000000000apundiai
 
 fxcored tx bank send <from_key_or_address> <to_address> <amount> --gas auto --gas-adjustment 1.5 --gas-prices <gasPrice>
 ```
 
-### Bonding FX and Withdrawing Rewards
+### Bonding PUNDIAI and Withdrawing Rewards
 
-> Before you can bond FX and withdraw rewards, you need to [**set up `fxcored`**](delegator-cli-guide.md#setting-up-fxcored) and [**create an account**](delegator-cli-guide.md#creating-an-account)
+> Before you can bond PUNDIAI and withdraw rewards, you need to [**set up `fxcored`**](delegator-cli-guide.md#setting-up-fxcored) and [**create an account**](delegator-cli-guide.md#creating-an-account)
 
-> **Before bonding FX, please read the** [**delegator faq**](delegators-faq.md) **to understand the risk and responsibilities involved with delegating**
+> **Before bonding PUNDIAI, please read the** [**delegator faq**](delegators-faq.md) **to understand the risk and responsibilities involved with delegating**
 
 > **Note: These commands need to run on an online computer. It is more secure to perform them commands using a ledger device. For the offline procedure, click** [**here**](delegator-cli-guide.md#signing-transactions-from-an-offline-computer)**.**
 
 ```bash
-// Bond a certain amount of FX to a given validator
+// Bond a certain amount of PUNDIAI to a given validator
 
 fxcored tx staking delegate <validatorAddress> <amountToBond> --from <delegatorKeyName> --gas auto --gas-adjustment 1.5 --gas-prices <gasPrice>
 
 
-// Redelegate a certain amount of FX from one validator to another
+// Redelegate a certain amount of PUNDIAI from one validator to another
 // Can only be used if already bonded to a validator
 // Redelegation takes effect immediately, there is no waiting period to redelegate
 // After a redelegation, no other redelegation can be made from the account for the next 3 weeks
@@ -339,8 +339,8 @@ fxcored tx staking redelegate <srcValidatorAddress> <destValidatorAddress> <amou
 fxcored tx distribution withdraw-all-rewards --from <delegatorKeyName> --gas auto --gas-adjustment 1.5 --gas-prices <gasPrice>
 
 
-// Unbond a certain amount of FX from a given validator 
-// You will have to wait 3 weeks before your FX is fully unbonded and transferrable 
+// Unbond a certain amount of PUNDIAI from a given validator 
+// You will have to wait 3 weeks before your PUNDIAI is fully unbonded and transferrable 
 
 fxcored tx staking unbond <validatorAddress> <amountToUnbond> --from <delegatorKeyName> --gas auto --gas-adjustment 1.5 --gas-prices <gasPrice>
 ```
@@ -354,10 +354,10 @@ However,there is a limit to how frequent you can redelegate. For more informatio
 To confirm that your transaction went through, you can use the following queries:
 
 ```bash
-// your balance should change after you bond FX or withdraw rewards
+// your balance should change after you bond PUNDIAI or withdraw rewards
 fxcored query account <account_fx>
 
-// you should have delegations after you bond FX
+// you should have delegations after you bond PUNDIAI
 fxcored query staking delegations <delegatorAddress>
 
 // this returns your tx if it has been included
@@ -371,7 +371,7 @@ Double check with a block explorer if you interact with the network through a tr
 
 #### Primer on Governance
 
-The Pundi AIFX has a built-in governance system that lets bonded FX holders vote on proposals. There are three types of proposal:
+The Pundi AIFX has a built-in governance system that lets bonded PUNDIAI holders vote on proposals. There are three types of proposal:
 
 * `Text Proposals`: These are the most basic type of proposals. They can be used to get the opinion of the network on a given topic.
 * `Parameter Proposals`: These are used to update the value of an existing parameter.
@@ -379,9 +379,9 @@ The Pundi AIFX has a built-in governance system that lets bonded FX holders vote
 * `Cancel-software-upgrade`: These are used to cancel the current software upgrade proposal.
 * `community-pool-spend`: These are used to submit a a community pool spend proposal.
 
-Any FX holder can submit a proposal. In order for the proposal to be open for voting, it needs to come with a `deposit` that is greater than a parameter called `minDeposit`. The `deposit` need not be provided in its entirety by the submitter. If the initial proposer's `deposit` is not sufficient, the proposal enters the `deposit_period` status. Then, any FX holder can increase the deposit by sending a `depositTx`.
+Any PUNDIAI holder can submit a proposal. In order for the proposal to be open for voting, it needs to come with a `deposit` that is greater than a parameter called `minDeposit`. The `deposit` need not be provided in its entirety by the submitter. If the initial proposer's `deposit` is not sufficient, the proposal enters the `deposit_period` status. Then, any PUNDIAI holder can increase the deposit by sending a `depositTx`.
 
-Once the `deposit` reaches `minDeposit`, the proposal enters the `voting_period`, which lasts 2 weeks. Any **bonded** FX holder can then cast a vote on this proposal. The options are `Yes`, `No`, `NoWithVeto` and `Abstain`. The weight of the vote is based on the amount of bonded FX of the sender. If a delegator doesn't vote, they would inherit the vote of their validator. However, delegators can override their validator's vote by sending a vote themselves.
+Once the `deposit` reaches `minDeposit`, the proposal enters the `voting_period`, which lasts 2 weeks. Any **bonded** PUNDIAI holder can then cast a vote on this proposal. The options are `Yes`, `No`, `NoWithVeto` and `Abstain`. The weight of the vote is based on the amount of bonded PUNDIAI of the sender. If a delegator doesn't vote, they would inherit the vote of their validator. However, delegators can override their validator's vote by sending a vote themselves.
 
 At the end of the voting period, the proposal is accepted if there are more than 50% `Yes` votes (excluding `Abstain` votes) and less than 33.33% of `NoWithVeto` votes (excluding `Abstain` votes).
 
@@ -390,13 +390,13 @@ At the end of the voting period, the proposal is accepted if there are more than
 ```bash
 // Submit a Proposal
 // <type>=text/parameter_change/software_upgrade/Cancel-software-upgrade
-// ex value for flag: <gasPrice>=4000000000000FX
+// ex value for flag: <gasPrice>=5000000000apundiai
 
-fxcored tx gov submit-proposal --title "Test Proposal" --description "My awesome proposal" --type <type> --deposit=10000000FX --gas auto --gas-adjustment 1.5 --gas-prices <gasPrice> --from <delegatorKeyName>
+fxcored tx gov submit-proposal --title "Test Proposal" --description "My awesome proposal" --type <type> --deposit=100000PUNDIAI --gas auto --gas-adjustment 1.5 --gas-prices <gasPrice> --from <delegatorKeyName>
 
 // Increase deposit of a proposal
 // Retrieve proposalID from $fxcored query gov proposals --status deposit_period
-// ex value for parameter: <deposit>=10000000FX
+// ex value for parameter: <deposit>=100000PUNDIAI
 
 fxcored tx gov deposit <proposalID> <deposit> --gas auto --gas-adjustment 1.5 --gas-prices <gasPrice> --from <delegatorKeyName>
 
