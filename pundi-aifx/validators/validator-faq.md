@@ -12,9 +12,9 @@ description: This is work in progress. Mechanisms and values are susceptible to 
 
 ### What is 'staking'?
 
-The Pundi AIFX is a delgated Proof-Of-Stake (DPoS) blockchain, meaning that the weight of validators is determined by the total amount of staking tokens (FX) bonded as collateral. These FX can be self-delegated directly by the validator or delegated to them by other FX holders.
+The Pundi AIFX is a delgated Proof-Of-Stake (DPoS) blockchain, meaning that the weight of validators is determined by the total amount of staking tokens (PUNDIAI) bonded as collateral. These PUNDIAI can be self-delegated directly by the validator or delegated to them by other PUNDIAI holders.
 
-Any user in the system can declare their intention to become a validator by sending a `create-validator` transaction, provided they meet the minimum self-delegated amount of 100FX. From there, they become validator candidates.
+Any user in the system can declare their intention to become a validator by sending a `create-validator` transaction, provided they meet the minimum self-delegated amount of 100PUNDIAI. From there, they become validator candidates.
 
 The weight (i.e. voting power) of a validator determines whether or not they are an active validator. Initially, only the top 50 validators with the most voting power will be active validators.
 
@@ -26,7 +26,7 @@ Of course, we encourage users to run full-nodes even if they do not plan to beco
 
 ### What is a delegator?
 
-Delegators are FX holders who want to participate in protocol governance, but don’t want to carry the burden of becoming a validator. In which case they can delegate FX to a validator and obtain a slice of their revenue (as well as risks). (for more detail on how revenue is distributed, see [**What is the incentive to stake?**](validator-faq.md#what-is-the-incentive-to-stake) and [**What are validators commission?**](validator-faq.md#what-are-validators-commission) sections below).
+Delegators are PUNDIAI holders who want to participate in protocol governance, but don’t want to carry the burden of becoming a validator. In which case they can delegate PUNDIAI to a validator and obtain a slice of their revenue (as well as risks). (for more detail on how revenue is distributed, see [**What is the incentive to stake?**](validator-faq.md#what-is-the-incentive-to-stake) and [**What are validators commission?**](validator-faq.md#what-are-validators-commission) sections below).
 
 Because they share revenue with their validators, delegators also share risks. Should a validator misbehave, each of their delegators will be partially slashed in proportion to their delegated stake. This is why delegators should perform their due diligence on validators before delegating, as well as spreading their stake over multiple validators.
 
@@ -46,9 +46,9 @@ Any participant in the network can signal that they want to become a validator b
 * **Initial commission rate**: The commission rate on block rewards and fees that will be charged by validators and charged to delegators (more information can be found below).
 * **Maximum commission:** The maximum commission rate which this validator can charge. This parameter cannot be changed after `create-validator` is processed.
 * **Commission max change rate:** The maximum daily increase of the validator commission. This parameter cannot be changed after `create-validator` is processed.
-* **Minimum self-delegation:** Minimum amount of FX the validator needs to have bonded at all time. If the validator's self-delegated stake falls below this limit, their entire staking pool will unbond. You may only increase this later and this makes it a somewhat irreversible change.
+* **Minimum self-delegation:** Minimum amount of PUNDIAI the validator needs to have bonded at all time. If the validator's self-delegated stake falls below this limit, their entire staking pool will unbond. You may only increase this later and this makes it a somewhat irreversible change.
 
-Once a validator is created, FX holders can delegate FX to them, effectively adding stake to their pool. The total stake of an address is the combination of FX bonded by delegators and FX self-bonded by the validator.
+Once a validator is created, PUNDIAI holders can delegate PUNDIAI to them, effectively adding stake to their pool. The total stake of an address is the combination of PUNDIAI bonded by delegators and PUNDIAI self-bonded by the validator.
 
 The active validator set is determined solely by the ranking of the total amount staked. The 50 validators with the most total staked are the ones who are designated as **active validators**. If a validator's total stake falls below the top 50 then that validator loses their validator privileges: they don't participate in consensus and generate rewards any more. Over time, the maximum number of validators may increase via on-chain governance proposal.
 
@@ -79,13 +79,13 @@ After a validator is created with a `create-validator` transaction, they can be 
 
 * `Active validator set`: Validator in the active set and participates in consensus. Validator is earning rewards and can be slashed for misbehavior.
 * `Jailed`: Validator misbehaved and is in jail, i.e. has been kicked out off the validator set. If the reason for being jailed is due to being offline for too long, the validator can send an `unjail` transaction in order to re-enter the active validator set. If the jailing is due to double signing, the validator cannot unjail.
-* `Inactive`: Validator is not in the active set, and therefore not signing any blocks. Validator cannot be slashed, and does not earn any reward. It is still possible to delegate FX to this validator. Once a validator becomes inactive, all delegators will start unbonding from this validator automatically.
+* `Inactive`: Validator is not in the active set, and therefore not signing any blocks. Validator cannot be slashed, and does not earn any reward. It is still possible to delegate PUNDIAI to this validator. Once a validator becomes inactive, all delegators will start unbonding from this validator automatically.
 
 ### What is 'self-delegation'? How can I increase my 'self-delegation'?
 
-Self-delegation is delegation of FX of a validator from his own account. This amount can be increases by sending a `delegate` transaction from your validator's account.
+Self-delegation is delegation of PUNDIAI of a validator from his own account. This amount can be increases by sending a `delegate` transaction from your validator's account.
 
-### Is there a minimum amount of FX that must be delegated to be an active (=bonded) validator?
+### Is there a minimum amount of PUNDIAI that must be delegated to be an active (=bonded) validator?
 
 The minimum is `100FX`.
 
@@ -93,8 +93,8 @@ The minimum is `100FX`.
 
 Delegators are free to delegate to any validators according to their own criteria. Bottom line is that they must **DO YOUR OWN RESEARCH** and carry out their own due diligence on their chosen validator(s). That being said, the criterion we deem to be important include:
 
-* **Amount of self-delegated FX:** Amount of self-delegated FX a validator has. A validator with a higher amount of self-delegated FX has more skin in the game, making them more accountable for their actions.
-* **Total amount of delegated FX:** Total amount of FX delegated to a validator. The higher the amount of FX delegated to a validator, the higher the voting power of the validator. A higher voting power shows that the community trusts this validator, but it also means that this validator is a bigger target for hackers. Higher weighted validators also decrease the decentralisation of the network.
+* **Amount of self-delegated PUNDIAI:** Amount of self-delegated PUNDIAI a validator has. A validator with a higher amount of self-delegated PUNDIAI has more skin in the game, making them more accountable for their actions.
+* **Total amount of delegated PUNDIAI:** Total amount of PUNDIAI delegated to a validator. The higher the amount of PUNDIAI delegated to a validator, the higher the voting power of the validator. A higher voting power shows that the community trusts this validator, but it also means that this validator is a bigger target for hackers. Higher weighted validators also decrease the decentralisation of the network.
 * **Commission rate:** Commission applied to the revenue of validators before it is distributed to their delegators.
 * **Track record:** Points to note on the track record of a validator inlcudes seniority, past votes on proposals, historical average uptime and how often the node was compromised.
 
@@ -123,9 +123,9 @@ Validators play a special role in the governance system. Being the pillars of th
 
 ### What does staking imply?
 
-Staking FX can be thought of as a safety deposit for validation activities. When a validator or a delegator wants to retrieve part or all of their deposit, they can send an `unbonding` transaction. Delegators to this validator who unbond their delegation must wait the duration of the UnbondingTime, a **3 weeks unbonding period**, during which time they are liable to being slashed for potential misbehaviors committed by the validator before the unbonding process started.
+Staking PUNDIAI can be thought of as a safety deposit for validation activities. When a validator or a delegator wants to retrieve part or all of their deposit, they can send an `unbonding` transaction. Delegators to this validator who unbond their delegation must wait the duration of the UnbondingTime, a **3 weeks unbonding period**, during which time they are liable to being slashed for potential misbehaviors committed by the validator before the unbonding process started.
 
-Validators, and their delegators, receive block rewards, fees, and have the right to participate in governance. If a validator misbehaves, a certain portion of their total stake is slashed. This means that every delegator that bonded their FX with this validator gets penalized in proportion to their bonded stake. Delegators are therefore incentivized to delegate to validators they believe are trustworthy.
+Validators, and their delegators, receive block rewards, fees, and have the right to participate in governance. If a validator misbehaves, a certain portion of their total stake is slashed. This means that every delegator that bonded their PUNDIAI with this validator gets penalized in proportion to their bonded stake. Delegators are therefore incentivized to delegate to validators they believe are trustworthy.
 
 ### Redelegation
 
@@ -133,7 +133,7 @@ You can easily re-allocate your stake from one validator to another without havi
 
 **21 Day Cooldown: Remember this recurring number**
 
-When a user requests to `undelegate` from a validator, the amount of `FX` that was requested for undelegation will be locked in **unbonding** state for 21 days. For simplicity, we call this the **21 day cooldown**. After the 21 day cooldown passes, a user will be able to make transactions with the `FX` that was previously in **unbonding** state. This cooldown also applies to certain scenarios in redelegation. In order to **redelegate a portion of delegated FX from Validator A → Validator B,** there are two options a user could choose from.
+When a user requests to `undelegate` from a validator, the amount of `PUNDIAI` that was requested for undelegation will be locked in **unbonding** state for 21 days. For simplicity, we call this the **21 day cooldown**. After the 21 day cooldown passes, a user will be able to make transactions with the `PUNDIAI` that was previously in **unbonding** state. This cooldown also applies to certain scenarios in redelegation. In order to **redelegate a portion of delegated PUNDIAI from Validator A → Validator B,** there are two options a user could choose from.
 
 #### Option #1 <a href="#id-9704" id="id-9704"></a>
 
@@ -170,15 +170,15 @@ _**You can’t consecutively do validator-hopping!**_
 
 Find more information on redelegation [here](https://medium.com/cosmostation/what-you-need-to-know-about-cosmos-atom-redelegation-e45ca7da6fdf).
 
-### Can a validator run away with their delegators' FX?
+### Can a validator run away with their delegators' PUNDIAI?
 
-In a DPoS blockchain, voting power is associated with the amount of FX one has. By delegating FX to a validator, a user delegates voting power. The more voting power a validator has, the more weight they have in the consensus and governance processes. This does not mean that the validator has custody of their delegators' FX. **By no means can a validator run away with its delegator's funds**.
+In a DPoS blockchain, voting power is associated with the amount of PUNDIAI one has. By delegating PUNDIAI to a validator, a user delegates voting power. The more voting power a validator has, the more weight they have in the consensus and governance processes. This does not mean that the validator has custody of their delegators' PUNDIAI. **By no means can a validator run away with its delegator's funds**.
 
 Even though delegated funds cannot be stolen by their validators, delegators are still liable for their validators' misbehaviour.
 
-### How often will a validator be chosen to propose the next block? Does it go up with the quantity of bonded FX?
+### How often will a validator be chosen to propose the next block? Does it go up with the quantity of bonded PUNDIAI?
 
-The validator that is selected to propose the next block is called a proposer. Each proposer is selected deterministically, and the frequency of being chosen is proportional to the voting power (i.e. amount of bonded FX) of the validator. For example, if the total bonded stake across all validators is 100 FX and a validator's total stake is 10 FX, then this validator will proposer `~10%` of the blocks.
+The validator that is selected to propose the next block is called a proposer. Each proposer is selected deterministically, and the frequency of being chosen is proportional to the voting power (i.e. amount of bonded PUNDIAI) of the validator. For example, if the total bonded stake across all validators is 100 PUNDIAI and a validator's total stake is 10 PUNDIAI, then this validator will proposer `~10%` of the blocks.
 
 ## Incentives
 
@@ -186,8 +186,8 @@ The validator that is selected to propose the next block is called a proposer. E
 
 There are essentailly 2 different types of revenue:
 
-* **Block rewards:** Native tokens of applications run by validators (e.g. FX on Pundi AIFX) are inflated to produce block provisions. These provisions exist to incentivize FX holders to bond their stake, as non-bonded FX will be diluted over time.
-* **Transaction fees:** Pundi AIFX maintains a whitelist of token that are accepted as fee payment. The initial fee token is the `FX`.
+* **Block rewards:** Native tokens of applications run by validators (e.g. PUNDIAI on Pundi AIFX) are inflated to produce block provisions. These provisions exist to incentivize PUNDIAI holders to bond their stake, as non-bonded PUNDIAI will be diluted over time.
+* **Transaction fees:** Pundi AIFX maintains a whitelist of token that are accepted as fee payment. The initial fee token is the `PUNDIAI`.
 
 This total revenue is divided among validators' staking pools according to each validator's weight. Then, within each validator's staking pool the revenue is divided among delegators in proportion to each delegator's stake. A commission on delegators' revenue is applied by the validator before it is distributed.
 
@@ -203,15 +203,15 @@ Revenue received by a validator's pool is split between the validator and their 
 
 ### How are block rewards distributed?
 
-Block rewards are distributed proportionally to all validators relative to their voting power. This means that even though each validator gains FX with each reward, all validators will maintain equal weight over time.
+Block rewards are distributed proportionally to all validators relative to their voting power. This means that even though each validator gains PUNDIAI with each reward, all validators will maintain equal weight over time.
 
-Let us take an example where we have 10 validators with equal voting power and a commission rate of 1%. Let us also assume that the reward for a block is 1000 FX and that each validator has 20% of self-bonded FX. These tokens do not go directly to the proposer. Instead, they are evenly distributed among validators based on their total weight. So now each validator's pool has 100 FX. These 100 FX will be distributed according to each participant's stake:
+Let us take an example where we have 10 validators with equal voting power and a commission rate of 1%. Let us also assume that the reward for a block is 1000 PUNDIAI and that each validator has 20% of self-bonded PUNDIAI. These tokens do not go directly to the proposer. Instead, they are evenly distributed among validators based on their total weight. So now each validator's pool has 100 PUNDIAI. These 100 PUNDIAI will be distributed according to each participant's stake:
 
-* Commission: `100*80%*1% = 0.8 FX`
-* Validator gets: `100*20% + Commission = 20.8 FX`
-* All delegators get: `100*80% - Commission = 79.2 FX`
+* Commission: `100*80%*1% = 0.8 PUNDIAI`
+* Validator gets: `100*20% + Commission = 20.8 PUNDIAI`
+* All delegators get: `100*80% - Commission = 79.2 PUNDIAI`
 
-Then, each delegator can claim their part of the 79.2 FX in proportion to their stake in the validator's staking pool.
+Then, each delegator can claim their part of the 79.2 PUNDIAI in proportion to their stake in the validator's staking pool.
 
 ### How are fees distributed?
 
@@ -219,28 +219,28 @@ Fees are similarly distributed with the exception that the block proposer can ge
 
 When a validator is selected to propose the next block, they must include at least 2/3 precommits of the previous block. However, there is an incentive to include more than 2/3 precommits in the form of a bonus. The bonus is linear: it ranges from 1% if the proposer includes 2/3rd precommits (minimum for the block to be valid) to 5% if the proposer includes 100% precommits. Of course the proposer should not wait too long or other validators may timeout and move on to the next proposer. As such, validators have to find a balance between the waiting time to get the most signatures and the risk of losing out on proposing the next block. This mechanism aims to incentivize non-empty block proposals, better networking between validators as well as to mitigate censorship.
 
-Let's take a concrete example to illustrate the aforementioned concept. In this example, there are 10 validators with equal stake. Each of them applies a 1% commission rate and has 20% of self-delegated FX. Now comes a successful block that collects a total of 1675 FX in fees.
+Let's take a concrete example to illustrate the aforementioned concept. In this example, there are 10 validators with equal stake. Each of them applies a 1% commission rate and has 20% of self-delegated PUNDIAI. Now comes a successful block that collects a total of 1675 PUNDIAI in fees.
 
-First, a 40% tax is applied. The corresponding FX goes to the reserve pool. Reserve pool's funds can be allocated through governance to fund bounties and upgrades.
+First, a 40% tax is applied. The corresponding PUNDIAI goes to the reserve pool. Reserve pool's funds can be allocated through governance to fund bounties and upgrades.
 
-* `40% * 1675 = 670` FX goes to the reserve pool.
+* `40% * 1675 = 670` PUNDIAI goes to the reserve pool.
 
-1005 FX now remain. Let's assume that the proposer included 100% of the signatures in its block. It thus obtains the full bonus of 5%.
+1005 PUNDIAI now remain. Let's assume that the proposer included 100% of the signatures in its block. It thus obtains the full bonus of 5%.
 
 We have to solve this simple equation to find the reward R for each validator:
 
 `9*R + (R + R*5%) = 1005 ⇔ R = 1005/10.05 = 100`
 
 * For the proposer validator:
-  * The pool obtains `R + R * 5%`: 105 FX
-  * Commission: `105 * 80% * 1%` = 0.84 FX
-  * Validator's reward: `105 * 20% + Commission` = 21.84 FX
-  * Delegators' rewards: `105 * 80% - Commission` = 83.16 FX (each delegator will be able to claim its portion of these rewards in proportion to their stake)
+  * The pool obtains `R + R * 5%`: 105 PUNDIAI
+  * Commission: `105 * 80% * 1%` = 0.84 PUNDIAI
+  * Validator's reward: `105 * 20% + Commission` = 21.84 PUNDIAI
+  * Delegators' rewards: `105 * 80% - Commission` = 83.16 PUNDIAI (each delegator will be able to claim its portion of these rewards in proportion to their stake)
 * For each non-proposer validator:
-  * The pool obtains R: 100 FX
-  * Commission: `100 * 80% * 1%` = 0.8 FX
-  * Validator's reward: `100 * 20% + Commission` = 20.8 FX
-  * Delegators' rewards: `100 * 80% - Commission` = 79.2 FX (each delegator will be able to claim their portion of these rewards in proportion to their stake)
+  * The pool obtains R: 100 PUNDIAI
+  * Commission: `100 * 80% * 1%` = 0.8 PUNDIAI
+  * Validator's reward: `100 * 20% + Commission` = 20.8 PUNDIAI
+  * Delegators' rewards: `100 * 80% - Commission` = 79.2 PUNDIAI (each delegator will be able to claim their portion of these rewards in proportion to their stake)
 
 ### What are the slashing conditions?
 
@@ -250,16 +250,16 @@ If a validator misbehaves, their delegated stake will be partially slashed. Ther
 * **Downtime:** If a validator misses more than 95% of the last 20000 blocks (\~27.7hours), they will get slashed by 0.1%. Validators may `unjail` their validators after a 600s (10minute) window.
 
 {% hint style="info" %}
-The portion of FX that is subjected to slashing conditions is the total delegated FX. The rewards earned will not be subjected to slashing conditions.
+The portion of PUNDIAI that is subjected to slashing conditions is the total delegated PUNDIAI. The rewards earned will not be subjected to slashing conditions.
 
 If a validator is jailed, the same rules apply to redelegation and unbonding. For unbonding, you still have to wait 21 days. While for redelegation, you may do so and the [following rules](validator-faq.md#redelegation) will apply.
 {% endhint %}
 
-### Do validators need to self-delegate FX?
+### Do validators need to self-delegate PUNDIAI?
 
-Yes, they do need to self-delegate at least `100FX`. Even though there is no obligation for validators to self-delegate more than `100FX`, delegators should want their validator to have more self-delegated FX in their staking pool. In other words, validators should have skin in the game.
+Yes, they do need to self-delegate at least `100FX`. Even though there is no obligation for validators to self-delegate more than `100FX`, delegators should want their validator to have more self-delegated PUNDIAI in their staking pool. In other words, validators should have skin in the game.
 
-In order for delegators to have some guarantee about how much skin-in-the-game their validator has, the latter can signal a minimum amount of self-delegated FX. If a validator's self-delegation goes below the limit that it predefined, this validator and all of its delegators will unbond.
+In order for delegators to have some guarantee about how much skin-in-the-game their validator has, the latter can signal a minimum amount of self-delegated PUNDIAI. If a validator's self-delegation goes below the limit that it predefined, this validator and all of its delegators will unbond.
 
 ### How to prevent concentration of stake in the hands of a few top validators?
 

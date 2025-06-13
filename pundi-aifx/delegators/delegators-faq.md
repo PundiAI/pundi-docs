@@ -2,13 +2,13 @@
 
 ## What is a delegator?
 
-People who cannot or do not want to operate [validator nodes](../validators/validator-overview.md) can still participate in the staking process as delegators. Active validators are chosen and ranked based on their total overall FX staked (this is the sum of their self-delegated stake as well as their delegators' stake). They are by no means solely chosen by their self-delegated stake. This is an important property and acts as a safeguard against validators that are bad actors. In a decentralized ecosystem, if a validator is a bad actor, delegators will undelegate their FX from them to avoid incurring any slashings of their delegated stake. Good actors will invariably have more FX delegated to them. Game theory dictates that over time, validators who are bad actors will exit the active validator set whilst good actors will remain or climb higher up the ranks, eventually resulting in a stable and secure ecosystem.
+People who cannot or do not want to operate [validator nodes](../validators/validator-overview.md) can still participate in the staking process as delegators. Active validators are chosen and ranked based on their total overall PUNDIAI staked (this is the sum of their self-delegated stake as well as their delegators' stake). They are by no means solely chosen by their self-delegated stake. This is an important property and acts as a safeguard against validators that are bad actors. In a decentralized ecosystem, if a validator is a bad actor, delegators will undelegate their PUNDIAI from them to avoid incurring any slashings of their delegated stake. Good actors will invariably have more PUNDIAI delegated to them. Game theory dictates that over time, validators who are bad actors will exit the active validator set whilst good actors will remain or climb higher up the ranks, eventually resulting in a stable and secure ecosystem.
 
 **Delegators share the revenue of their validators, but they also share the risks.** In terms of revenue, validators and delegators differ in that validators can apply a commission on the revenue that goes to their delegator before it is distributed. This commission is known to delegators beforehand and can only be changed according to predefined constraints (see [section](delegators-faq.md#choosing-a-validator) below).
 
-In terms of risks, delegators' FX will be slashed if their validator misbehaves. For more, see [Risks](delegators-faq.md#risks) section.
+In terms of risks, delegators' PUNDIAI will be slashed if their validator misbehaves. For more, see [Risks](delegators-faq.md#risks) section.
 
-To become delegators, FX holders need to send a "Delegate transaction" where they specify the amount of FX they want to stake and with which validator. A list of validators will be displayed in Pundi AIFX explorers ([mainnet](https://explorer.functionx.io/fxcore/validators)/[testnet](https://dhobyghaut-explorer.functionx.io)). Subsequently, if a delegator wants to unbond part or all of their stake, they will need to send an "Unbond transaction". Delegators will have to wait for 3 weeks to retrieve their FX after sending an "Unbond Transaction". Delegators can also send a "Redelegate Transaction" to switch from one validator to another, without having to go through the 3 weeks waiting period.
+To become delegators, PUNDIAI holders need to send a "Delegate transaction" where they specify the amount of PUNDIAI they want to stake and with which validator. A list of validators will be displayed in Pundi AIFX explorers ([mainnet](https://explorer.functionx.io/fxcore/validators)/[testnet](https://dhobyghaut-explorer.functionx.io)). Subsequently, if a delegator wants to unbond part or all of their stake, they will need to send an "Unbond transaction". Delegators will have to wait for 3 weeks to retrieve their PUNDIAI after sending an "Unbond Transaction". Delegators can also send a "Redelegate Transaction" to switch from one validator to another, without having to go through the 3 weeks waiting period.
 
 {% hint style="info" %}
 However,there is a limit to how frequent you can redelegate. For more information on [redelegation](delegators-faq.md#redelegation).
@@ -26,7 +26,7 @@ In order to choose their validators, delegators have access to a range of inform
 * **Initial commission rate**: The commission rate on revenue charged to any delegator by the validator (see below for more detail).
 * **Commission max change rate:** The maximum daily increase of the validator's commission. This parameter cannot be changed by the validator operator.
 * **Maximum commission:** The maximum commission rate this validator candidate can charge. This parameter cannot be changed by the validator operator.
-* **Minimum self-bond amount**: Minimum amount of FX the validator candidate need to have bonded at all time. If the validator's self-bonded stake falls below this limit, their entire staking pool (i.e. all its delegators) will unbond. This parameter exists as a safeguard for delegators. Indeed, when a validator misbehaves, part of their total stake gets slashed. This included the validator's self-delegateds stake as well as their delegators' stake. Thus, a validator with a high amount of self-delegated FX has more skin-in-the-game than a validator with a low amount. The minimum self-bonded parameter guarantees delegators that a validator will never fall below a certain amount of self-bonded stake, thereby ensuring a minimum level of skin-in-the-game. This parameter can only be increased by the validator operator.
+* **Minimum self-bond amount**: Minimum amount of PUNDIAI the validator candidate need to have bonded at all time. If the validator's self-bonded stake falls below this limit, their entire staking pool (i.e. all its delegators) will unbond. This parameter exists as a safeguard for delegators. Indeed, when a validator misbehaves, part of their total stake gets slashed. This included the validator's self-delegateds stake as well as their delegators' stake. Thus, a validator with a high amount of self-delegated PUNDIAI has more skin-in-the-game than a validator with a low amount. The minimum self-bonded parameter guarantees delegators that a validator will never fall below a certain amount of self-bonded stake, thereby ensuring a minimum level of skin-in-the-game. This parameter can only be increased by the validator operator.
 
 ## Directives of delegators
 
@@ -40,8 +40,8 @@ Being a delegator is not a passive task. Here are the main directives of a deleg
 
 Validators and delegators earn revenue in exchange for their services. This revenue is given in three forms:
 
-* **Block provisions (FX):** They are paid in newly created FX. Block provisions exist to incentivize FX holders to stake. The yearly inflation rate is calculated to target 2/3 bonded stake. If the total bonded stake in the network is less than 2/3 of the total FX supply, inflation increases until it reaches 41%. If the total bonded stake is more than 2/3 of the FX supply, inflation decreases until it reaches 17%. This means that if total bonded stake stays less than 2/3 of the total FX supply for a prolong period of time, unbonded FX holders can expect their FX value to deflate in value by 41% (compounded) per year.
-* **Transaction fees (various tokens):** Each transfer on the Pundi AIFX comes with transactions fees. These fees can be paid in any currency that is whitelisted by the FunctionX governance. Fees are distributed to bonded FX delegators in proportion to their stake. The first whitelisted token at launch is FX.
+* **Block provisions (PUNDIAI):** They are paid in newly created PUNDIAI. Block provisions exist to incentivize PUNDIAI holders to stake. The yearly inflation rate is calculated to target 2/3 bonded stake. If the total bonded stake in the network is less than 2/3 of the total PUNDIAI supply, inflation increases until it reaches 41%. If the total bonded stake is more than 2/3 of the PUNDIAI supply, inflation decreases until it reaches 17%. This means that if total bonded stake stays less than 2/3 of the total PUNDIAI supply for a prolong period of time, unbonded PUNDIAI holders can expect their PUNDIAI value to deflate in value by 41% (compounded) per year.
+* **Transaction fees (various tokens):** Each transfer on the Pundi AIFX comes with transactions fees. These fees can be paid in any currency that is whitelisted by the FunctionX governance. Fees are distributed to bonded PUNDIAI delegators in proportion to their stake. The first whitelisted token at launch is PUNDIAI.
 
 ## Validator Commission
 
@@ -49,22 +49,22 @@ Each validator receives revenue based on their total stake. Before this revenue 
 
 We consider a scenario where there are 10 validators in the ecosystem and all have an equal weight. So any one validator's proportion of total stake in the entire ecosystem (i.e. self-delegated stake + delegated stake) is 10%. Take an example of one particular validator that has 20% self-delegated stake and applies a commission of 10%. Now let us consider a block with the following revenue:
 
-* 990 FX in block provisions
-* 10 FX in transaction fees.
+* 990 PUNDIAI in block provisions
+* 10 PUNDIAI in transaction fees.
 
-This amounts to a total of 1000 FX to be distributed among all staking pools. Each validator's staking pool will receive 10% of this total amount which amounts to 100FX.
+This amounts to a total of 1000 PUNDIAI to be distributed among all staking pools. Each validator's staking pool will receive 10% of this total amount which amounts to 100FX.
 
 Now let us look at the internal distribution of revenue:
 
-* Commission = `10% * 80% * 100` FX = 8 FX
-* Validator's revenue = `20% * 100` FX + Commission = 28 FX
-* Delegators' total revenue = `80% * 100` FX - Commission = 72 FX
+* Commission = `10% * 80% * 100` PUNDIAI = 8 PUNDIAI
+* Validator's revenue = `20% * 100` PUNDIAI + Commission = 28 PUNDIAI
+* Delegators' total revenue = `80% * 100` PUNDIAI - Commission = 72 PUNDIAI
 
 Then, each delegator in the staking pool can claim their portion of the delegators' total revenue.
 
 ## Risks
 
-Staking FX is not a risk-free activity. First, staked FX are locked up, and retrieving them requires a 3 week waiting period called unbonding period. Additionally, if a validator misbehaves, a portion of their total stake can be slashed. This includes the stake of their delegators.
+Staking PUNDIAI is not a risk-free activity. First, staked PUNDIAI are locked up, and retrieving them requires a 3 week waiting period called unbonding period. Additionally, if a validator misbehaves, a portion of their total stake can be slashed. This includes the stake of their delegators.
 
 There are currently two conditions that can result in slashing of funds for a validator and their delegators:
 
@@ -72,7 +72,7 @@ There are currently two conditions that can result in slashing of funds for a va
 * **Downtime:** If a validator misses more than 95% of the last 20000 blocks (\~27.7hours), they will get slashed by 0.1%. Validators may `unjail` their validators after a 600s (10minute) window.
 
 {% hint style="info" %}
-The portion of FX that is subjected to slashing conditions is the total delegated FX. The rewards earned will not be subjected to slashing conditions.
+The portion of PUNDIAI that is subjected to slashing conditions is the total delegated PUNDIAI. The rewards earned will not be subjected to slashing conditions.
 
 If a validator is jailed, the same rules apply to redelegation and unbonding. For unbonding, you still have to wait 21 days. While for redelegation, you may do so and the [following rules](delegators-faq.md#redelegation) will apply.
 {% endhint %}
@@ -83,7 +83,7 @@ You can easily re-allocate your stake from one validator to another without havi
 
 **21 Day Cooldown: Remember this recurring number**
 
-When a user requests to `undelegate` from a validator, the amount of `FX` that was requested for undelegation will be locked in **unbonding** state for 21 days. For simplicity, we call this the **21 day cooldown**. After the 21 day cooldown passes, a user will be able to make transactions with the `FX` that was previously in **unbonding** state. This cooldown also applies to certain scenarios in redelegation. In order to **redelegate a portion of delegated FX from Validator A → Validator B,** there are two options a user could choose from.
+When a user requests to `undelegate` from a validator, the amount of `PUNDIAI` that was requested for undelegation will be locked in **unbonding** state for 21 days. For simplicity, we call this the **21 day cooldown**. After the 21 day cooldown passes, a user will be able to make transactions with the `PUNDIAI` that was previously in **unbonding** state. This cooldown also applies to certain scenarios in redelegation. In order to **redelegate a portion of delegated PUNDIAI from Validator A → Validator B,** there are two options a user could choose from.
 
 {% hint style="info" %}
 Do note that during the unboding state, users will cease to earn rewards but will be subjected to slashing conditions if their validators misbehave.
@@ -91,13 +91,13 @@ Do note that during the unboding state, users will cease to earn rewards but wil
 
 #### Option #1 <a href="#id-9704" id="id-9704"></a>
 
-Undelegate from **Validator A** and wait for the 21 day unbonding period (cooldown) to pass. Then, delegate the FX to **Validator B**.
+Undelegate from **Validator A** and wait for the 21 day unbonding period (cooldown) to pass. Then, delegate the PUNDIAI to **Validator B**.
 
 * Taking this path may seem un-wise because you’ll have to wait 21 days to delegate that stake with another validator. This is where the **redelegation** feature comes in handy.
 
 #### Option #2 <a href="#id-5320" id="id-5320"></a>
 
-Use the redelegation feature to immediately redelegate the FX from **Validator A → Validator B.**
+Use the redelegation feature to immediately redelegate the PUNDIAI from **Validator A → Validator B.**
 
 * This **redelegation** feature seems wonderful. You no longer have to wait 21 days to unbond and then delegate that stake to another validator. **But there’s a catch.**
 
@@ -105,7 +105,7 @@ Use the redelegation feature to immediately redelegate the FX from **Validator A
 
 Redelegating from **Validator A → Validator B** using the **same wallet.**
 
-Let’s say you want to **redelegate** your FX from Validator A → Validator B using Wallet #1. With the same wallet address, you are only able to **redelegate from Validator A → Validator B up to 7 times in a 21 day period.**
+Let’s say you want to **redelegate** your PUNDIAI from Validator A → Validator B using Wallet #1. With the same wallet address, you are only able to **redelegate from Validator A → Validator B up to 7 times in a 21 day period.**
 
 #### Serial Redelegation (Validator Hopping) <a href="#cc75" id="cc75"></a>
 

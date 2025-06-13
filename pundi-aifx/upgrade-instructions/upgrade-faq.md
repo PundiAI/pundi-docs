@@ -75,11 +75,11 @@ A social consensus decision to skip the upgrade will be based solely on technica
 ## fxCore Gravity cross-chain
 
 * How are cross-chain tokens converted on different chains?
-  * FX Token is a native token on the fxCore chain (FX is generated from the fxCore chain), so FX ERC20 is burn in the Ethereum contract and unlock in fxCore;
+  * PUNDIAI Token is a native token on the fxCore chain (PUNDIAI is generated from the fxCore chain), so PUNDIAI ERC20 is burn in the Ethereum contract and unlock in fxCore;
   * PURSE Token is a native token on the Pundix chain (PURSE is generated in the Pundix chain), so PURSE is burn in the BSC contract and unlock on the pundix chain
   * Other non-native tokens are locked in the contract on the counterparty chain and mint on the fxCore chain
-* Can users choose to cross-chain ERC20 FX Token to fx-native or WFX?
-  * Yes, users can choose to cross-chain the FX token of Ethereum to the FX-native token on the fxCore chain or the WFX in the fxCore EVM contract. The WFX here is the same as the WETH of Ethereum. It is to convert the native token into conforming to the ERC20 token specification, in order to be more convenient to apply in defi scenarios such as uniswap
+* Can users choose to cross-chain ERC20 PUNDIAI Token to fx-native or WPUNDIAI?
+  * Yes, users can choose to cross-chain the PUNDIAI token of Ethereum to the PUNDIAI-native token on the fxCore chain or the WPUNDIAI in the fxCore EVM contract. The WPUNDIAI here is the same as the WETH of Ethereum. It is to convert the native token into conforming to the ERC20 token specification, in order to be more convenient to apply in defi scenarios such as uniswap
 
 ## Evm
 

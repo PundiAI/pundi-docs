@@ -20,9 +20,9 @@ For EGF proposals, it is CRUCIAL that the `Type` of the proposal is selected as:
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2023-02-16 at 1.54.44 PM.png" alt=""><figcaption></figcaption></figure>
 
-Under the `Details` section, the proposer should include a sufficient summary of what the proposal is about, including links to forum discussion(s) and any Github repositories. For `Recipient Configuration`, the `Address` is the wallet address for receiving the funds, and the `Amount` is the total amount of `FX` requested.
+Under the `Details` section, the proposer should include a sufficient summary of what the proposal is about, including links to forum discussion(s) and any Github repositories. For `Recipient Configuration`, the `Address` is the wallet address for receiving the funds, and the `Amount` is the total amount of `PUNDIAI` requested.
 
-It is important for the proposer to note that the `Initial Deposit` required for an EGF proposal (and any other proposal) is at least `1000 FX` and this will be required to move the proposal into the `Deposit Period`. Once the `min deposit` or the deposit threshold is reached, the proposal will automatically enter the `voting period`. Do note that for EGF proposals, the total deposit amount must be followed according to the current EGF deposit status.
+It is important for the proposer to note that the `Initial Deposit` required for an EGF proposal (and any other proposal) is at least `10 PUNDIAI` and this will be required to move the proposal into the `Deposit Period`. Once the `min deposit` or the deposit threshold is reached, the proposal will automatically enter the `voting period`. Do note that for EGF proposals, the total deposit amount must be followed according to the current EGF deposit status.
 
 {% hint style="info" %}
 The current EGF deposit status can be found [here](egf-info.md)

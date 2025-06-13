@@ -172,10 +172,10 @@ If you are not running a node, be sure to add in the `--node` flag to specify wh
 {% endhint %}
 
 ```
-fxcored tx bank send robstark fx10pcel8r4jt6l6p8rff6nwz3ghq4f7z0jc8qhtg 1000000000000000000FX \
+fxcored tx bank send robstark fx10pcel8r4jt6l6p8rff6nwz3ghq4f7z0jc8qhtg 1PUNDIAI \
   --gas="auto" \
   --gas-adjustment=1.5 \
-  --gas-prices="4000000000000FX" \
+  --gas-prices="5000000000apundiai" \
   --node tcp://47.111.20.171:26657 \
   --ledger \
   --keyring-backend file
@@ -192,7 +192,7 @@ Once inputted the correct passphrase:
 ```
 Default sign-mode 'direct' not supported by Ledger, using sign-mode 'amino-json'.
 gas estimate: 79288
-{"body":{"messages":[{"@type":"/cosmos.bank.v1beta1.MsgSend","from_address":"fx18pcel8r1jt6l6p8rff6nwz3ghq2f7z0jc8qhtg","to_address":"fx10pcel8r4jt6l6p8rff6nwz3ghq4f7z0jc8qhtg","amount":[{"denom":"FX","amount":"1000000000000000000"}]}],"memo":"","timeout_height":"0","extension_options":[],"non_critical_extension_options":[]},"auth_info":{"signer_infos":[],"fee":{"amount":[{"denom":"FX","amount":"317152000000000000"}],"gas_limit":"79288","payer":"","granter":""}},"signatures":[]}
+{"body":{"messages":[{"@type":"/cosmos.bank.v1beta1.MsgSend","from_address":"fx18pcel8r1jt6l6p8rff6nwz3ghq2f7z0jc8qhtg","to_address":"fx10pcel8r4jt6l6p8rff6nwz3ghq4f7z0jc8qhtg","amount":[{"denom":"apundiai","amount":"1000000000000000000"}]}],"memo":"","timeout_height":"0","extension_options":[],"non_critical_extension_options":[]},"auth_info":{"signer_infos":[],"fee":{"amount":[{"denom":"PUNDIAI","amount":"317152000000000000"}],"gas_limit":"79288","payer":"","granter":""}},"signatures":[]}
 
 confirm transaction before signing and broadcasting [y/N]:
 ```

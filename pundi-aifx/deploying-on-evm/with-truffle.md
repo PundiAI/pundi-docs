@@ -127,7 +127,7 @@ Notice, it requires mnemonic to be passed in for fxtestnet Provider, this is the
 
 ### **Deploying on Pundi AIFX Network**
 
-To request for Testnet FX click on this [link](https://dhobyghaut-faucet.functionx.io)
+To request for Testnet PUNDIAI click on this [link](https://dhobyghaut-faucet.functionx.io)
 
 Run this command in root of the project directory:
 

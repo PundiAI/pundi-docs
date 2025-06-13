@@ -190,7 +190,7 @@ https://testnet-fx-json-web3.functionx.io:8545
 * (Optional Field) Currency Symbol (just an example):
 
 ```
-FX
+PUNDIAI
 ```
 
 * (Optional Field) Block Explorer URL:
@@ -206,7 +206,7 @@ https://testnet-explorer.functionx.io/evm
 
 ![](<../../../.gitbook/assets/image (27).png>)
 
-* Head over to [faucet](https://dhobyghaut-faucet.functionx.io/) and request test FX - you will need this to pay for gas on Pundi AIFX. After inputting your wallet address in, select the option **'100 (fxCore) FX / 24h'**.
+* Head over to [faucet](https://dhobyghaut-faucet.functionx.io/) and request test PUNDIAI - you will need this to pay for gas on Pundi AIFX. After inputting your wallet address in, select the option **'100 (fxCore) PUNDIAI / 24h'**.
 * Now, let's Deploy the Smart Contract to the Pundi AIFX Network
 * Select Injected Web3 in the Environment dropdown ensure you have selected the right contract too.
 * Accept the connection request by clicking **Next** in Metamask after choosing the account

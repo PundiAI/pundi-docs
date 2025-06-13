@@ -72,7 +72,7 @@ fxcored tx authz grant <new-key> generic --msg-type=/cosmos.bank.v1beta1.MsgSend
 
 #--------------2. Execute Authorize MsgSend Transaction--------------
 fxcored tx authz exec grant_bank_send.json --from <new-key> --gas="auto" 
---gas-adjustment=1.5 --gas-prices="4000000000000FX" --keyring-backend test 
+--gas-adjustment=1.5 --gas-prices="5000000000apundiai" --keyring-backend test 
 --chain-id dhobyghaut
 ```
 
@@ -80,11 +80,11 @@ fxcored tx authz exec grant_bank_send.json --from <new-key> --gas="auto"
 
 ```Bash
 #------------1. Construct the MsgSend transaction------------
-fxcored tx bank send <val-addr> <new-addr> 1FX --chain-id dhobyghaut 
+fxcored tx bank send <val-addr> <new-addr> 1PUNDIAI --chain-id dhobyghaut 
 --generate-only > bank_send.json
 
 #------------2. Execute the MsgSend transaction------------
 fxcored tx authz exec bank_send.json --from <new-addr>--gas="auto" 
---gas-adjustment=1.5 --gas-prices="4000000000000FX" --keyring-backend test 
+--gas-adjustment=1.5 --gas-prices="5000000000apundiai" --keyring-backend test 
 --chain-id dhobyghaut
 ```
