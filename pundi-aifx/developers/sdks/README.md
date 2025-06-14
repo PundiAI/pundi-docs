@@ -2,5 +2,5 @@
 
 Pundi AIFX currently provides the following SDKs to support building on top of the Pundi AIFX network:
 
-* [`fx-py-sdk`](python-sdk.md)
-* [`fx-js-sdk`](javascript-sdk.md)
+* [`fx-py-sdk`](broken-reference)
+* [`fx-js-sdk`](broken-reference)
