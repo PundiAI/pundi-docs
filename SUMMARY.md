@@ -189,6 +189,7 @@
   * [vePUNDIAI](token-economy-of-pundi-x-pundi-ai-and-pundi-aifx/vepundiai/README.md)
     * [how to bribe with vePUNDIAI](token-economy-of-pundi-x-pundi-ai-and-pundi-aifx/vepundiai/how-to-bribe-with-vepundiai.md)
   * [Protocol pool](token-economy-of-pundi-x-pundi-ai-and-pundi-aifx/protocol-pool.md)
+  * [Revenue generation flywheel (MM agent)](token-economy-of-pundi-x-pundi-ai-and-pundi-aifx/revenue-generation-flywheel-mm-agent.md)
 * [Governance](governance/README.md)
   * [Governance Proposal Information](governance/governance-proposal-information/README.md)
     * [EGF Info](governance/governance-proposal-information/egf-info.md)
