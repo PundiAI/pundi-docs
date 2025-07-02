@@ -4,7 +4,7 @@ hidden: true
 
 # Roadmap
 
-### Phase 1: Inception, Q3 2024
+### Phase 1: Inception, Q1 2025
 
 * Website upgrade
 * Publication of the PUNDI AI White Paper
@@ -14,9 +14,9 @@ hidden: true
 * Governance voting
 * Community building
 
-### Phase 2: Perception, Q4 2024
+### Phase 2: Perception, Q2 2025
 
-* AIFX data layer connects to or Cosmos compatible chain.
+* AIFX data layer connects to or evm compatible chain.
 * AI DATA platform beta launch
 * Data annotation professional tools (beta release)
 * Partnerships with AI projects
@@ -24,7 +24,7 @@ hidden: true
 * Introduction of the Tag-to-Earn model
 * Token swap (subject to community and exchange support)
 
-### Phase 3: Intersection, Q1 2025
+### Phase 3: Intersection, Q3 2025
 
 * AI Marketplace and referral program launch
 * Data annotation tool (browser and mobile app release)

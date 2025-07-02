@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # vePUNDIAI
 
 The `$vePUNDIAI`(vote-escrowed `$PUNDIAI`) model is designed for [Pundi AI MM Agent](../../pundi-ai-mm-agent/) to create long-term value, sustainability, and alignment within the Pundi AI ecosystem by incentivizing holders to lock tokens, participate in governance, and support AI agent development and liquidity.&#x20;

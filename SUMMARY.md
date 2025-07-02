@@ -177,7 +177,7 @@
   * [Traditional MM vs. AMM](pundi-ai-mm-agent/traditional-mm-vs.-amm.md)
   * [AI MM Agent: Bridging the Gap](pundi-ai-mm-agent/ai-mm-agent-bridging-the-gap.md)
   * [Use Cases](pundi-ai-mm-agent/use-cases.md)
-  * [Train & Launch (Step 1 & 2)](pundi-ai-mm-agent/train-and-launch-step-1-and-2.md)
+  * [Train & Launch](pundi-ai-mm-agent/train-and-launch-step-1-and-2.md)
   * [Flywheel (Step 3)](pundi-ai-mm-agent/flywheel-step-3.md)
   * [How the AI MM Agent Works in Detail](pundi-ai-mm-agent/how-the-ai-mm-agent-works-in-detail.md)
   * [Why This is Powerful](pundi-ai-mm-agent/why-this-is-powerful.md)

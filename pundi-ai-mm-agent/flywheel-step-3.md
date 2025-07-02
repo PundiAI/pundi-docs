@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Flywheel (Step 3)
 
 <figure><img src="../.gitbook/assets/Drawing - 05-Cycle.png" alt=""><figcaption></figcaption></figure>
