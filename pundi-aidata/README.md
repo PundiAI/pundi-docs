@@ -1,4 +1,4 @@
-# 🈁 Pundi AI Data (platform)
+# Pundi AI Data Platform
 
 The demand for AI is surging across industries, with data emerging as a crucial determinant of a model's success. The market for data is rapidly expanding, with projections indicating that global spending on AI is expected to reach $500 billion by 2025. This demand is driven by the need for high-quality, diverse data, which is essential for training AI models effectively.
 

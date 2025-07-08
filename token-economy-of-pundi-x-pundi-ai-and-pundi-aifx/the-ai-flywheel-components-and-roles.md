@@ -11,6 +11,7 @@
   *   Validator Block Reward
 
       * As the governance tokens, staking`$PUNDIAI`allows users to earn block rewards, as of Dec 2024 the apr is \~15%. Details on delegation can be found on [support](https://support.functionx.io/hc/en-us/articles/900004371166-How-to-delegate-FX-to-a-validator).
+      * After staking, users can optionally participate in the flywheel by locking into`$vePUNDIAI`.
 
 
 * `Pundi AI Marketplace`

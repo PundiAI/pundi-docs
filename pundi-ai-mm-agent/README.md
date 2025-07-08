@@ -1,4 +1,4 @@
-# 🎡 Pundi AI MM Agent
+# Pundi AI MM Agent
 
 The current Automated Market Making (AMM) systems, even with advancements like concentrated liquidity pools, suffer from significant limitations. They fail to fully utilize capital and capture market opportunities effectively, especially under volatile conditions.&#x20;
 

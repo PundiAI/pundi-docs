@@ -1,4 +1,4 @@
-# 🦾 Pundi AIFX (Base omni layer)
+# Pundi AIFX Omnilayer
 
 Pundi AIFX omni layer is part of the Pundi AI ecosystem, it is an omni chain build for decentralized data processing layer, optimized for AI dapps and its data.
 

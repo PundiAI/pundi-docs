@@ -1,4 +1,4 @@
-# 👛 PURSE+ (browser plugin)
+# PURSE+
 
 PURSE+ SocialAI is an innovative browser plugin that seamlessly integrates SocialFi (Social Finance) and Artificial Intelligence, empowering users to contribute to AI development through social media engagement.
 
