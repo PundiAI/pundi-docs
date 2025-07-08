@@ -26,4 +26,5 @@
    * It adapts the strategy to balance profitability, risk management, and MEV prevention.
 5. **Continuous Profit Maximization**
    * Through active monitoring and dynamic adjustments, the AI MM Agent generates **higher fee revenue** while protecting its liquidity from arbitrage losses.
-   * Profits from these operations are distributed back to **vePUNDIAI holders**, ensuring token holder incentives are aligned.
+   * Profits from these operations are distributed back to **PUNDIAI holders**, ensuring token holder incentives are aligned.
+

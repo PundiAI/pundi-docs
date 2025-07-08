@@ -3,7 +3,8 @@
 Pundi AI uses two tokens to manage its utility and governance:
 
 * `$PUNDIAI` — ERC-20 utility and governance token of the protocol for [Pundi AI Data Platform](../pundi-aidata/), [Pundi AI Marketplace](../pundi-ai-data-marketplace-soon.md), [Pundi AIFX Omni Layer](../pundi-aifx/) and [Pundi AI MM Agent](../pundi-ai-mm-agent/).
-* Any `$PUNDIAI` holder that have delegated their tokens to a validator can vote-escrow their delegation proof and receive a `$vePUNDIAI` (also known as Lock or veNFT) in exchange.
+
+
 
 | $PUNDIAI                    |            |
 | --------------------------- | ---------- |

@@ -1,6 +1,6 @@
 # Protocol pool
 
-Protocol pool are the main revenue pool of Pundi AI ecosystem, these revenues are used for public good, including the possibility of redistribution to `$PUNDIAI` or `$vePUNDIAI` holders.
+Protocol pool are the main revenue pool of Pundi AI ecosystem, these revenues are used for public good, including the possibility of redistribution to `$PUNDIAI` holders.
 
 The protocol pool includes.
 
