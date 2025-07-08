@@ -2,7 +2,7 @@
 
 Pundi AI uses two tokens to manage its utility and governance:
 
-* `$PUNDIAI` — ERC-20 utility and governance token of the protocol for [Pundi AI Data Platform](../pundi-aidata/), [Pundi AI Marketplace](../pundi-ai-data-marketplace-soon/), [Pundi AIFX Omni Layer](../pundi-aifx/) and [Pundi AI MM Agent](../pundi-ai-mm-agent/).
+* `$PUNDIAI` — ERC-20 utility and governance token of the protocol for [Pundi AI Data Platform](../pundi-aidata/), [Pundi AI Marketplace](../pundi-ai-data-marketplace/), [Pundi AIFX Omni Layer](../pundi-aifx/) and [Pundi AI MM Agent](../pundi-ai-mm-agent/).
 
 
 
