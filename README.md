@@ -4,10 +4,12 @@ Pundi AI's objective is `democratising AI`, and fulfilling the vision of `creati
 
 Pundi AI comprises of&#x20;
 
-* [Pundi AI Data platform](pundi-aidata/)
-* [Pundi AIFX Omnilayer](pundi-aifx/)
-* [PURSE+ browser plugin](purse-docs/purse+/)
+* [Pundi AI Data Platform](pundi-aidata/)
+* [Pundi AI Data Pump](pundi-ai-data-pump/)
 * [Pundi AI Data Marketplace](pundi-ai-data-marketplace/)
+* [Pundi AIFX Omnilayer](pundi-aifx/)
+* [Pundi AI Points (Alpha)](pundi-ai-points-alpha/)
+* [PURSE+ browser plugin](purse-docs/purse+/)
 * [Pundi AI MM Agent](pundi-ai-mm-agent/)
 
 
