@@ -7,7 +7,8 @@
 | FX (Base)             | [0x8cecc2360906c812cd7353cd6b10b1dc13bbc777](https://basescan.org/address/0x8cecc2360906c812cd7353cd6b10b1dc13bbc777)     |
 | FX (Ethereum)         | [0x8c15ef5b4b21951d50e53e4fbda8298ffad25057](https://etherscan.io/address/0x8c15ef5b4b21951d50e53e4fbda8298ffad25057)     |
 | PUNDIAI (Ethereum)    | [0x075F23b9CdfCE2cC0cA466F4eE6cb4bD29d83bef](https://etherscan.io/address/0x075F23b9CdfCE2cC0cA466F4eE6cb4bD29d83bef)     |
-| PUNDIAI (Base)        | [0x67AA700Ab0110Cc52bf7F308fe25068E87a0f581](https://basescan.org/address/0x67AA700Ab0110Cc52bf7F308fe25068E87a0f581)     |
+| PUNDIAI (BNBChain)    | [0x7a986ba67227acfab86385ff33436a80e2bb4cc5](https://bscscan.com/address/0x7a986ba67227acfab86385ff33436a80e2bb4cc5)      |
+| PUNDIAI (Base)        | [0x44e2A17aD6830C440afb96a89823d09066512452](https://basescan.org/token/0x44e2a17ad6830c440afb96a89823d09066512452)       |
 | WPUNDIAI (Pundi AIFX) | [0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd](https://pundiscan.io/evm/address/0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd) |
 | Cross-chain Tokens    | [Cross-chain Tokens](https://pundi.gitbook.io/pundi/pundiai/pundi-aifx/developers/cross-chain/fx-core)                    |
 | Cross-chain SendToFx  | [Cross-chain SendToFx](https://pundi.gitbook.io/pundi/pundiai/pundi-aifx/developers/cross-chain/send-to-fx)               |
