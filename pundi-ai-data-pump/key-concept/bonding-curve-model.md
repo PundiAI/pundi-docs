@@ -1,6 +1,6 @@
 # Bonding Curve Model
 
-Data Pump uses a fully on-chain bonding curve, similar to [pump.fun](https://pump.fun/), to automate token pricing during and after seeding.
+Data Pump uses a fully on-chain bonding curve, to automate token pricing during and after seeding.
 
 A bonding curve is a mathematical formula that sets token prices based on circulating supply. As tokens are purchased and minted, the price increases. This creates an automatic price discovery process that rewards early supporters and reflects real-time demand.
 
