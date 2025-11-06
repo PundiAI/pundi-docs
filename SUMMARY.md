@@ -22,6 +22,7 @@
     * [Launch to Decentralized Exchange](pundi-ai-data-pump/step-by-step-guide/launch-to-decentralized-exchange.md)
     * [Manage and Monitor](pundi-ai-data-pump/step-by-step-guide/manage-and-monitor.md)
   * [Participation and Trading](pundi-ai-data-pump/participation-and-trading.md)
+  * [Fees](pundi-ai-data-pump/fees.md)
   * [Frequently Asked Questions (FAQ)](pundi-ai-data-pump/frequently-asked-questions-faq.md)
 * [Pundi AI Data Marketplace](pundi-ai-data-marketplace/README.md)
   * [Introduction](pundi-ai-data-marketplace/introduction.md)
